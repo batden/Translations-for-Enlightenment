@@ -1,2 +1,2 @@
 # Translations-for-Enlightenment
-French translations for the Enlightenment project (2020)
+French translations for the Enlightenment project.
