@@ -18,7 +18,7 @@ msgstr ""
 "Project-Id-Version: Enlightenment DR23\n"
 "Report-Msgid-Bugs-To: enlightenment-intl@lists.sourceforge.net\n"
 "POT-Creation-Date: 2019-08-23 16:18+0100\n"
-"PO-Revision-Date: 2020-02-25 17:15+0100\n"
+"PO-Revision-Date: 2020-03-11 10:29+0100\n"
 "Last-Translator: Philippe Jean Guillaumie <similar@orange.fr>\n"
 "Language-Team: French\n"
 "Language: fr\n"
@@ -387,7 +387,7 @@ msgstr "Afficher le rayon"
 
 #: src/bin/e_actions.c:3423
 msgid "Flip Desktop To..."
-msgstr "Aller au bureau…"
+msgstr "Basculer vers le bureau…"
 
 #: src/bin/e_actions.c:3428
 msgid "Switch Desktop To... On Screen..."
@@ -471,7 +471,7 @@ msgstr "Se déplacer de… bureaux (tous les écrans)"
 
 #: src/bin/e_actions.c:3484
 msgid "Flip Desktop To... (All Screens)"
-msgstr "Aller au bureau… (tous les écrans)"
+msgstr "Basculer vers le bureau… (tous les écrans)"
 
 #: src/bin/e_actions.c:3490
 msgid "Flip Desktop Linearly... (All Screens)"
@@ -548,7 +548,7 @@ msgstr "Basculer vers la fenêtre…"
 
 #: src/bin/e_actions.c:3535
 msgid "Jump to window... or start..."
-msgstr "Basculer vers la fenêtre… ou au début…"
+msgstr "Basculer vers la fenêtre de… ou circuler parmi…"
 
 #: src/bin/e_actions.c:3540 src/bin/e_actions.c:3542 src/bin/e_actions.c:3544
 #: src/bin/e_actions.c:3550 src/bin/e_actions.c:3552 src/bin/e_actions.c:3554
@@ -890,7 +890,7 @@ msgstr "Erreur du client !"
 #: src/bin/e_client.c:4832
 msgid "Something has attempted to set a border when it shouldn't! Report this!"
 msgstr ""
-"La tentative de définir une bordure est non conforme. Reportez ce bogue !"
+"La tentative de définir une bordure est non conforme. Signalez ce bogue !"
 
 #: src/bin/e_color_dialog.c:25
 msgid "Color Selector"
@@ -3568,7 +3568,7 @@ msgstr "Supprimer un rayon"
 #: src/bin/e_int_shelf_config.c:46
 #: src/modules/conf_shelves/e_int_config_shelf.c:55
 msgid "Shelf Settings"
-msgstr "Paramètres du rayon (shelf)"
+msgstr "Paramètres du rayon (Shelf)"
 
 #: src/bin/e_int_shelf_config.c:157
 msgid "Above Everything"
@@ -7521,11 +7521,11 @@ msgstr "Cliquer pour focaliser"
 
 #: src/modules/conf_window_manipulation/e_int_config_focus.c:236
 msgid "Window under the Mouse"
-msgstr "Fenêtre sous le curseur"
+msgstr "Fenêtre sous le pointeur"
 
 #: src/modules/conf_window_manipulation/e_int_config_focus.c:238
 msgid "Most recent Window under the Mouse"
-msgstr "Fenêtre la plus récente sous le curseur"
+msgstr "Fenêtre la plus récente sous le pointeur"
 
 #: src/modules/conf_window_manipulation/e_int_config_focus.c:241
 #: src/modules/conf_window_manipulation/e_int_config_focus.c:289
@@ -10204,7 +10204,7 @@ msgstr "Teamwork"
 
 #: src/modules/teamwork/e_mod_main.c:14
 msgid "Toggle Popup Visibility"
-msgstr "(Dés)activer la visibilité du pop-up"
+msgstr "(Dés)Activer la visibilité du pop-up"
 
 #: src/modules/temperature/e_mod_config.c:100
 msgid "Temperature Settings"
@@ -10288,7 +10288,7 @@ msgstr "Aide"
 
 #: src/modules/tiling/e_mod_config.c:321
 msgid "Tiling Configuration"
-msgstr "Configuration du pavage (tiling)"
+msgstr "Configuration du pavage (Tiling)"
 
 #: src/modules/tiling/e_mod_tiling.c:873
 #, c-format
@@ -10368,11 +10368,11 @@ msgstr "Restaurer"
 
 #: src/modules/winlist/e_int_config_winlist.c:214
 msgid "Warp mouse while selecting"
-msgstr "Déplacer le curseur lors de la sélection"
+msgstr "Déplacer le pointeur lors de la sélection"
 
 #: src/modules/winlist/e_int_config_winlist.c:218
 msgid "Warp mouse at end"
-msgstr "Déplacer le curseur à la fin"
+msgstr "Déplacer le pointeur à la fin"
 
 #: src/modules/winlist/e_int_config_winlist.c:222
 msgid "Disable mouse warp on directional focus change"
