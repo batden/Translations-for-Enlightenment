@@ -13,12 +13,13 @@
 # Raoul Hecky <raoul.hecky@gmail.com>, 2012.
 # Eliovir <eliovir@gmail.com>, 2013.
 # similar <similar@orange.fr>, 2019, 2020.
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: Enlightenment DR23\n"
 "Report-Msgid-Bugs-To: enlightenment-intl@lists.sourceforge.net\n"
 "POT-Creation-Date: 2019-08-23 16:18+0100\n"
-"PO-Revision-Date: 2020-03-11 10:29+0100\n"
+"PO-Revision-Date: 2020-03-29 09:51+0200\n"
 "Last-Translator: Philippe Jean Guillaumie <similar@orange.fr>\n"
 "Language-Team: French\n"
 "Language: fr\n"
@@ -27,7 +28,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
 "X-Launchpad-Export-Date: 2014-09-07 06:08+0000\n"
-"X-Generator: Poedit 2.2.4\n"
+"X-Generator: Poedit 2.3\n"
 "X-Poedit-SourceCharset: utf-8\n"
 
 #: src/bin/e_about.c:17
@@ -152,11 +153,11 @@ msgstr "Voulez-vous vraiment mettre en veille votre ordinateur ?"
 #: src/bin/e_actions.c:2484 src/bin/e_actions.c:3781
 #: src/modules/conf_bindings/e_int_config_acpibindings.c:379
 msgid "Hibernate"
-msgstr "Mettre en hibernation"
+msgstr "En hibernation"
 
 #: src/bin/e_actions.c:2485
 msgid "Are you sure you want to hibernate your computer?"
-msgstr "Voulez-vous vraiment mettre en hibernation votre ordinateur ?"
+msgstr "Voulez-vous vraiment mettre votre ordinateur en hibernation ?"
 
 #: src/bin/e_actions.c:3108
 msgid "Error: window_focus action"
@@ -4611,7 +4612,7 @@ msgstr "La mise en veille a échoué."
 
 #: src/bin/e_sys.c:1042
 msgid "Hibernate failed."
-msgstr "La mise en veille sur disque a échoué."
+msgstr "La mise en hibernation a échoué."
 
 #: src/bin/e_theme.c:14
 msgid "Set As Theme"
@@ -9203,7 +9204,7 @@ msgstr "Mettre en pause la lecture quand l'écran est verrouillé"
 
 #: src/modules/music-control/ui.c:250
 msgid "Music control Settings"
-msgstr "Paramètre du contrôle musical"
+msgstr "Paramètres du contrôle musical"
 
 #: src/modules/notification/e_mod_config.c:51
 msgid "Notification Settings"
@@ -10563,9 +10564,9 @@ msgstr[0] ""
 "Enlightenment définit des raccourcis souris par défaut pour les objets.<ps/"
 ">Ces raccourcis fournissent trois opérations pour le clic :<ps/>* "
 "<b>Déplacer</b> (bouton gauche)<ps/>* <b>Redimensionner</b> (bouton du "
-"milieu / molette )<ps/>* <b>Afficher le menu</b> (bouton droit)<ps/>La "
-"touche par défaut qu'il faut maintenir pour activer ces raccourcis<ps/>est « "
-"%s ». Configurez les modificateurs si nécessaire."
+"milieu / molette)<ps/>* <b>Afficher le menu</b> (bouton droit)<ps/>La touche "
+"par défaut qu'il faut maintenir pour activer ces raccourcis<ps/>est « %s ». "
+"Configurez les modificateurs si nécessaire."
 msgstr[1] ""
 "Enlightenment définit des raccourcis souris par défaut pour les objets.<ps/"
 ">Ces raccourcis fournissent trois opérations pour le clic :<ps/>* "
