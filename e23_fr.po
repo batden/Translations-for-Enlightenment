@@ -1,4 +1,4 @@
-# French translation for Enlightenment DR 0.23 series.
+# French translation for Enlightenment.
 # This file is put in the public domain.
 #
 # Vincent 'Caro' Torri <vtorri at univ-evry dot fr>, 2005.
@@ -19,7 +19,7 @@ msgstr ""
 "Project-Id-Version: Enlightenment DR23\n"
 "Report-Msgid-Bugs-To: enlightenment-intl@lists.sourceforge.net\n"
 "POT-Creation-Date: 2019-08-23 16:18+0100\n"
-"PO-Revision-Date: 2020-03-29 09:51+0200\n"
+"PO-Revision-Date: 2020-04-11 07:31+0200\n"
 "Last-Translator: Philippe Jean Guillaumie <similar@orange.fr>\n"
 "Language-Team: French\n"
 "Language: fr\n"
@@ -63,7 +63,7 @@ msgid ""
 msgstr ""
 "<title>Copyright &copy; 2000-2019, par l'équipe de développement "
 "d'Enlightenment</><ps/><ps/>Nous espérons que vous aurez autant de plaisir à "
-"utiliser ce logiciel que nous en avons eu pour l'écrire.<ps/><ps/>Pour nous "
+"utiliser ce logiciel que nous en avons eu à l'écrire.<ps/><ps/>Pour nous "
 "contacter, veuillez visiter :<ps/><hilight>http://www.enlightenment.org</"
 "><ps/><ps/>"
 
@@ -773,7 +773,7 @@ msgstr "Relancer"
 
 #: src/bin/e_actions.c:3726
 msgid "Exit Now"
-msgstr "Quitter de suite"
+msgstr "Quitter directement"
 
 #: src/bin/e_actions.c:3730 src/bin/e_actions.c:3735
 msgid "Enlightenment : Mode"
@@ -826,7 +826,7 @@ msgstr "Fermer la session"
 
 #: src/bin/e_actions.c:3757
 msgid "Power Off Now"
-msgstr "Éteindre immédiatement"
+msgstr "Éteindre directement"
 
 #: src/bin/e_actions.c:3761
 msgid "Power Off"
@@ -1082,7 +1082,7 @@ msgstr ""
 
 #: src/bin/e_config.c:2023 src/bin/e_config.c:2674
 msgid "Enlightenment Settings Write Problems"
-msgstr "Problèmes d'écriture de la configuration d`Enlightenment"
+msgstr "Problèmes d'écriture de la configuration d'Enlightenment"
 
 #: src/bin/e_config.c:2026
 #, c-format
@@ -1214,7 +1214,7 @@ msgstr ""
 "Une erreur s'est produite au niveau du fichier<ps/>de configuration dans "
 "lequel Enlightenment<ps/>était en train d'écrire.<ps/>%s<ps/><ps/>Le fichier "
 "incriminé était :<ps/>%s<ps/><ps/>Ce fichier a été supprimé pour éviter la "
-"corruption des données.<ps>"
+"corruption des données.<ps/>"
 
 #: src/bin/e_config_dialog.c:222 src/modules/battery/e_mod_main.c:786
 #: src/modules/conf/e_mod_main.c:284 src/modules/conf_bindings/e_mod_main.c:37
@@ -1398,7 +1398,7 @@ msgstr "Options"
 #: src/bin/e_desktop_editor.c:856
 #, c-format
 msgid "Select an Icon for '%s'"
-msgstr "Choisir une icône pour '%s'"
+msgstr "Choisir une icône pour « %s »"
 
 #: src/bin/e_desktop_editor.c:922
 msgid "Select an Executable"
@@ -2135,7 +2135,7 @@ msgid ""
 "A previous instance of Enlightenment is still active\n"
 "on this screen. Aborting startup.\n"
 msgstr ""
-"Une instance précédente d`Enlightenment est encore\n"
+"Une instance précédente d'Enlightenment est encore\n"
 "active sur cet écran. Abandon du démarrage.\n"
 
 #: src/bin/e_import_config_dialog.c:293
@@ -3719,7 +3719,7 @@ msgstr ""
 
 #: src/bin/e_main.c:429
 msgid "Enlightenment cannot initialize Ecore_File!\n"
-msgstr "Enlightenment ne parvient pas à initialiser Ecore_File!\n"
+msgstr "Enlightenment ne parvient pas à initialiser Ecore_File !\n"
 
 #: src/bin/e_main.c:438
 msgid "Enlightenment cannot initialize Ecore_Con!\n"
@@ -3760,8 +3760,8 @@ msgid ""
 msgstr ""
 "Enlightenment a détecté que ecore_evas ne contient pas le support\n"
 "de rendu graphique logiciel X11 de Evas. Veuillez vérifier vos\n"
-"installations de Evas et Ecore, et que ces bibliothèques\n"
-"supportent le moteur de rendu logiciel X11."
+"installations de Evas et Ecore, et qu'elles supportent\n"
+"le moteur de rendu logiciel X11."
 
 #: src/bin/e_main.c:509
 msgid ""
@@ -3988,7 +3988,7 @@ msgstr "Configuration des périphériques d'entrée"
 msgid "Enlightenment cannot set up its grab input handling system.\n"
 msgstr ""
 "Enlightenment ne parvient pas à initialiser son système de périphériques "
-"d'entrées.\n"
+"d'entrée.\n"
 
 #: src/bin/e_main.c:898
 msgid "Setup Modules"
@@ -4202,8 +4202,8 @@ msgid ""
 "Enlightenment cannot access test image for '%s' filetype. Check your install "
 "for setup issues.\n"
 msgstr ""
-"Enlightenment ne peut accéder à l'image de test pour le type «%s». Vérifier "
-"votre installation pour des erreurs de configuration.\n"
+"Enlightenment ne peut accéder à l'image de test pour le type « %s ». "
+"Vérifier votre installation pour des erreurs de configuration.\n"
 
 #: src/bin/e_main.c:1606
 #, c-format
@@ -4335,7 +4335,7 @@ msgstr ""
 #: src/bin/e_module.c:442
 #, c-format
 msgid "Enlightenment %s Module"
-msgstr "Module %s d`Enlightenment"
+msgstr "Module %s d'Enlightenment"
 
 #: src/bin/e_module.c:803
 msgid "What action should be taken with this module?<ps/>"
@@ -4356,12 +4356,12 @@ msgid ""
 msgstr ""
 "Les modules suivants ne sont pas conformes au standard de<ps/>Enlightenment "
 "et pourraient entraîner des bogues ou des plantages.<ps>Veuillez les "
-"supprimer avant de reporter un bogue.<ps/><ps/>La liste des modules est la "
+"supprimer avant de signaler un bogue.<ps/><ps/>La liste des modules est la "
 "suivante :<ps/><ps/>"
 
 #: src/bin/e_module.c:975
 msgid "Unstable module tainting"
-msgstr "Corruption de module instable"
+msgstr "Module instable détecté"
 
 #: src/bin/e_module.c:979
 msgid "I know"
@@ -4530,7 +4530,7 @@ msgid ""
 "first?<ps/><ps/>Auto logout in %d seconds."
 msgstr ""
 "La fermeture de la session est trop longue.<ps/>Certaines applications "
-"refusent de se terminer.ps/r>Voulez-vous forcer la fin de cette session<ps/"
+"refusent de se terminer.<ps/>Voulez-vous forcer la fin de cette session<ps/"
 ">sans attendre la fermeture des applications ?<ps/><ps/>Fermeture "
 "automatique dans %d secondes."
 
@@ -5123,7 +5123,7 @@ msgstr "Afficher le code PIN"
 #: src/modules/bluez4/agent.c:200
 #, c-format
 msgid "%06d is the passkey presented in %s?"
-msgstr "%06d est-il le mot de passe présenté dans %s?"
+msgstr "%06d est-il le mot de passe présenté dans %s ?"
 
 #: src/modules/bluez4/agent.c:203
 msgid "Confirm Request"
@@ -5421,7 +5421,7 @@ msgstr "Ne lancer que des instances uniques"
 
 #: src/modules/conf_applications/e_int_config_deskenv.c:148
 msgid "X11 Basics"
-msgstr "Options basiques X11"
+msgstr "Options X11 basiques"
 
 #: src/modules/conf_applications/e_int_config_deskenv.c:149
 msgid "Load X Resources"
@@ -6613,11 +6613,11 @@ msgstr "Paramètres du menu"
 
 #: src/modules/conf_menus/e_int_config_menus.c:175
 msgid "Enlightenment Default"
-msgstr "Enlightenment (par défaut)"
+msgstr "Enlightenment (prédéfini)"
 
 #: src/modules/conf_menus/e_int_config_menus.c:183
 msgid "Personal Default"
-msgstr "Personnel (par défaut)"
+msgstr "Personnel (prédéfini)"
 
 #: src/modules/conf_menus/e_int_config_menus.c:259
 msgid "Main Menu"
@@ -8260,7 +8260,7 @@ msgstr "Afficher au premier niveau"
 
 #: src/modules/everything/evry_config.c:401
 msgid "Minimum characters for search"
-msgstr "Nombre minimal de caractères pour la recherche"
+msgstr "Nombre min. de caractères pour la recherche"
 
 #: src/modules/everything/evry_config.c:410
 msgid "Plugin Trigger"
@@ -8831,7 +8831,7 @@ msgstr "Taille de fichier maximum des vignettes"
 #: src/modules/fileman/e_mod_config.c:416
 #, c-format
 msgid "%1.0f MiB"
-msgstr "%1.0f MO"
+msgstr "%1.0f Mo"
 
 #: src/modules/fileman/e_mod_config.c:420
 msgid "Spring Delay"
@@ -9404,7 +9404,7 @@ msgstr "Mise à jour ordinaire"
 
 #: src/modules/packagekit/e_mod_packagekit.c:86
 msgid "Bugfix update"
-msgstr "Mise à jour corrective de bogue"
+msgstr "Mise à jour corrective de bogues"
 
 #: src/modules/packagekit/e_mod_packagekit.c:88
 msgid "High priority update"
@@ -9825,7 +9825,7 @@ msgstr ""
 "masquage</hilight> — masque la fenêtre lorsqu'elle perd le focus<ps/"
 "><hilight>Masquer au lieu d'élever</hilight> — masque la fenêtre si elle est "
 "activée sans prendre le focus<ps/><hilight>Mode saut</hilight> — bascule "
-"vers le bureau de la fenêtre au lieu d'afficher/masquer<ps/"
+"vers le bureau de la fenêtre au lieu d'afficher / masquer<ps/"
 "><hilight>Relancer en cas de fermeture</hilight> — exécute à nouveau la "
 "commande de l'entrée quand la fenêtre se ferme<ps/><hilight>Transitoire</"
 "hilight> — prend uniquement en compte cette instance de la fenêtre "
@@ -9880,7 +9880,7 @@ msgstr "Tutoriel des accès rapides"
 #: src/modules/quickaccess/e_mod_quickaccess.c:1246
 msgid "This is a demo dialog used in the Quickaccess tutorial"
 msgstr ""
-"C'est le dialogue de démonstration utilisée pour le tuto des accès rapides"
+"C'est le dialogue de démonstration utilisé pour le tuto des accès rapides"
 
 #: src/modules/quickaccess/e_mod_quickaccess.c:1268
 msgid ""
@@ -9966,7 +9966,7 @@ msgstr "Erreur : impossible de créer le fichier"
 #: src/modules/shot/e_mod_main.c:453
 #, c-format
 msgid "Cannot create temporary file '%s': %s"
-msgstr "Impossible de créer le fichier temporaire '%s': %s"
+msgstr "Impossible de créer le fichier temporaire « %s »: %s"
 
 #: src/modules/shot/e_mod_main.c:463
 msgid "Error - Can't open file"
@@ -9975,7 +9975,7 @@ msgstr "Erreur : impossible d'ouvrir le fichier"
 #: src/modules/shot/e_mod_main.c:464
 #, c-format
 msgid "Cannot open temporary file '%s': %s"
-msgstr "Impossible d'ouvrir le fichier temporaire '%s': %s"
+msgstr "Impossible d'ouvrir le fichier temporaire « %s »: %s"
 
 #: src/modules/shot/e_mod_main.c:472
 msgid "Error - Bad size"
@@ -9984,16 +9984,16 @@ msgstr "Erreur : taille erronée"
 #: src/modules/shot/e_mod_main.c:473
 #, c-format
 msgid "Cannot get size of file '%s'"
-msgstr "Impossible d'obtenir la taille du fichier '%s'"
+msgstr "Impossible d'obtenir la taille du fichier « %s »"
 
 #: src/modules/shot/e_mod_main.c:483
 msgid "Error - Can't allocate memory"
-msgstr "Erreur : impossible d'allouer la mémoire"
+msgstr "Erreur : impossible d'allouer de la mémoire"
 
 #: src/modules/shot/e_mod_main.c:484
 #, c-format
 msgid "Cannot allocate memory for picture: %s"
-msgstr "Impossible d'allouer de la mémoire pour l'image: %s"
+msgstr "Impossible d'allouer de la mémoire pour l'image : %s"
 
 #: src/modules/shot/e_mod_main.c:491
 msgid "Error - Can't read picture"
@@ -10571,7 +10571,7 @@ msgstr[1] ""
 "Enlightenment définit des raccourcis souris par défaut pour les objets.<ps/"
 ">Ces raccourcis fournissent trois opérations pour le clic :<ps/>* "
 "<b>Déplacer</b> (bouton gauche)<ps/>* <b>Redimensionner</b> (bouton du "
-"milieu / molette )<ps/>* <b>Afficher le menu</b> (bouton droit)<ps/>Les "
+"milieu / molette)<ps/>* <b>Afficher le menu</b> (bouton droit)<ps/>Les "
 "touches par défaut qu'il faut maintenir pour activer ces raccourcis<ps/>sont "
 "« %s ». Configurez les modificateurs si nécessaire."
 
@@ -10698,7 +10698,7 @@ msgstr "Troisième niveau"
 
 #: src/modules/xkbswitch/e_mod_config.c:749
 msgid "Switch layout"
-msgstr "Changer d'agenncement"
+msgstr "Changer d'agencement"
 
 #: src/modules/xkbswitch/e_mod_config.c:783
 #: src/modules/xkbswitch/e_mod_config.c:1069
