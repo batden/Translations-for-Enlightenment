@@ -1,2 +1,2 @@
 # Translations-for-Enlightenment
-French translations for the Enlightenment project.
+French translations (latest versions will appear here) for the Enlightenment project.
