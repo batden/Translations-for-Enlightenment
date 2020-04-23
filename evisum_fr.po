@@ -1,0 +1,243 @@
+# French translation for Evisum.
+# Copyright (C) 2020 Alastair "netstar" Poole
+# This file is distributed under the same license as the evisum package.
+# Alastair Poole <netstar@gmail.com>, 2020.
+# similar <similar@orange.fr>, 2020.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-04-23 12:26+0100\n"
+"PO-Revision-Date: 2020-04-23 17:24+0200\n"
+"Last-Translator: Philippe Jean Guillaumie <similar@orange.fr>\n"
+"Language-Team: French <traduc@traduc.org>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 2.3\n"
+
+#: src/bin/ui.c:2048
+msgid " Shared memory:"
+msgstr " Mémoire partagée :"
+
+#: src/bin/ui.c:2033
+msgid " Total memory :"
+msgstr " Mémoire totale :"
+
+#: src/bin/ui.c:2063
+msgid " Virtual memory:"
+msgstr "Mémoire virtuelle :"
+
+#: src/bin/ui.c:180
+msgid "(plugged in)"
+msgstr "(branchée)"
+
+#: src/bin/ui.c:233
+msgid "<bigger>Network Incoming</bigger>"
+msgstr "<bigger>Réseau entrant</bigger>"
+
+#: src/bin/ui.c:235
+msgid "<bigger>Network Outgoing</bigger>"
+msgstr "<bigger>Réseau sortant</bigger>"
+
+#: src/bin/ui.c:479
+#, c-format
+msgid "<header>Core at (%d °C)</header>"
+msgstr "<header>Cœur à (%d °C)</header>"
+
+#: src/bin/ui.c:346
+#, c-format
+msgid ""
+"<subtitle>%s</subtitle><br><bigger>mounted at %s</bigger><br>%1.1f%c of %1.1f"
+"%c"
+msgstr ""
+"<subtitle>%s</subtitle><br><bigger>point de montage %s</bigger><br>%1.1f%c "
+"of %1.1f%c"
+
+#: src/bin/ui.c:2317
+#, c-format
+msgid "<subtitle>CPUs</subtitle><br><bigger>Total of %d CPUs</bigger>"
+msgstr "<subtitle>Processeurs</subtitle><br><bigger> %d CPUs au total</bigger>"
+
+#: src/bin/ui.c:2412
+msgid "<subtitle>Memory</subtitle>"
+msgstr "<subtitle>Mémoire</subtitle>"
+
+#: src/bin/ui.c:416
+#, c-format
+msgid ""
+"<subtitle>Memory</subtitle><br><bigger>Physical %s</bigger><br><br>Swap %s"
+msgstr ""
+"<subtitle>Mémoire</subtitle><br><bigger>Physique %s</bigger><br><br>Espace "
+"d'échange %s"
+
+#: src/bin/ui.c:2451
+msgid "Buffered"
+msgstr "Tamponnée"
+
+#: src/bin/ui.c:2677
+msgid "CPU"
+msgstr "CPU"
+
+#: src/bin/ui.c:2002
+msgid "CPU #:"
+msgstr "CPU n° :"
+
+#: src/bin/ui.c:1835
+msgid "CPU %"
+msgstr "CPU %"
+
+#: src/bin/ui.c:2123
+msgid "CPU %:"
+msgstr "CPU % :"
+
+#: src/bin/ui.c:2440
+msgid "Cached"
+msgstr "Cachée"
+
+#: src/bin/ui.c:1617
+msgid "Cancel"
+msgstr "Annuler"
+
+#: src/bin/ui.c:2777
+msgid "Close"
+msgstr "Fermer"
+
+#: src/bin/ui.c:1805
+msgid "Command"
+msgstr "Commande"
+
+#: src/bin/ui.c:1939
+msgid "Command line:"
+msgstr "Ligne de commande :"
+
+#: src/bin/ui.c:1924
+msgid "Command:"
+msgstr "Commande :"
+
+#: src/bin/ui.c:1586
+msgid "Decrease"
+msgstr "Diminuer"
+
+#: src/bin/main.c:32
+msgid "Evisum: System Monitor"
+msgstr "Evisum : moniteur système"
+
+#: src/bin/ui.c:1585
+msgid "Increase"
+msgstr "Augmenter"
+
+#: src/bin/ui.c:2183
+msgid "Kill"
+msgstr "Tuer"
+
+#: src/bin/ui.c:2693
+msgid "Memory"
+msgstr "Mémoire"
+
+#: src/bin/ui.c:2725
+msgid "Misc"
+msgstr "Divers"
+
+#: src/bin/ui.c:2078
+msgid "Nice:"
+msgstr "Nice :"
+
+#: src/bin/ui.c:2640
+msgid "Options"
+msgstr "Options"
+
+#: src/bin/ui.c:1745
+msgid "PID"
+msgstr "PID"
+
+#: src/bin/ui.c:1954
+msgid "PID:"
+msgstr "PID :"
+
+#: src/bin/ui.c:1607
+msgid "Priority"
+msgstr "Priorité"
+
+#: src/bin/ui.c:2093
+msgid "Priority:"
+msgstr "Priorité :"
+
+#: src/bin/ui.c:1905
+msgid "Process Statistics"
+msgstr "Statistiques des processus"
+
+#: src/bin/ui.c:2661
+msgid "Processes"
+msgstr "Processus"
+
+#: src/bin/ui.c:1790
+msgid "Res"
+msgstr "Rés."
+
+#: src/bin/ui.c:2462
+msgid "Shared"
+msgstr "Partagée"
+
+#: src/bin/ui.c:1775
+msgid "Size"
+msgstr "Taille"
+
+#: src/bin/ui.c:1611 src/bin/ui.c:2168
+msgid "Start"
+msgstr "Commencer"
+
+#: src/bin/ui.c:1820
+msgid "State"
+msgstr "État"
+
+#: src/bin/ui.c:2108
+msgid "State:"
+msgstr "État :"
+
+#: src/bin/ui.c:1613 src/bin/ui.c:2153
+msgid "Stop"
+msgstr "Arrêter"
+
+#: src/bin/ui.c:2709
+msgid "Storage"
+msgstr "Espace de stockage"
+
+#: src/bin/ui.c:2472
+msgid "Swapped"
+msgstr "Échangée"
+
+#: src/bin/ui.c:1703
+msgid "System CPU"
+msgstr "CPU du système"
+
+#: src/bin/ui.c:1718
+msgid "System Memory"
+msgstr "Mémoire du système"
+
+#: src/bin/ui.c:2018
+msgid "Threads:"
+msgstr "Fils d'exécution :"
+
+#: src/bin/ui.c:1760
+msgid "UID"
+msgstr "UID"
+
+#: src/bin/ui.c:1984
+msgid "UID:"
+msgstr "UID :"
+
+#: src/bin/ui.c:2429
+msgid "Used"
+msgstr "Utilisée"
+
+#: src/bin/ui.c:1969
+msgid "Username:"
+msgstr "Utilisateur :"
+
+#: src/bin/ui.c:2000
+msgid "WQ #:"
+msgstr "WQ n° :"
