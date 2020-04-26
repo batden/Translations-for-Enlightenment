@@ -19,7 +19,7 @@ msgstr ""
 "Project-Id-Version: Enlightenment\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-04-19 16:15+0200\n"
-"PO-Revision-Date: 2020-04-25 15:57+0200\n"
+"PO-Revision-Date: 2020-04-26 13:50+0200\n"
 "Last-Translator: Philippe Jean Guillaumie <similar@orange.fr>\n"
 "Language-Team: French\n"
 "Language: fr\n"
@@ -271,7 +271,7 @@ msgstr "Saisir PIN"
 #: src/modules/bluez5/e_mod_agent.c:93 src/modules/bluez5/e_mod_agent.c:111
 #, c-format
 msgid "Pair? PIN: <hilight>%06u</hilight>"
-msgstr "Appairer ? PIN: <hilight>%06u</hilight>"
+msgstr "Appairer ? PIN : <hilight>%06u</hilight>"
 
 #: src/modules/bluez5/e_mod_agent.c:127
 msgid "Connect?"
@@ -330,7 +330,7 @@ msgid ""
 "%s<br>"
 msgstr ""
 "Addresse : %s (%s)<br>Services : %s%s%s%s%s%s%s%s%s<br>De confiance : "
-"%s<br>Bloqué : %s<br>"
+"%s<br>Bloqués : %s<br>"
 
 #: src/modules/bluez5/e_mod_popup.c:536 src/modules/bluez5/e_mod_popup.c:537
 #: src/modules/bluez5/e_mod_util.c:261
@@ -489,9 +489,9 @@ msgid ""
 "and groups there to be sure."
 msgstr ""
 "Échec de la tentative de déblocage de l'adaptateur.<br>rfkill est-il "
-"installé ? Vérifier le fichier sysactions.conf pour vous<br>assurer que la "
+"installé ? Vérifiez le fichier sysactions.conf pour vous<br>assurer que la "
 "commande est correcte et que votre utilisateur<br>est autorisé à utiliser "
-"rfkill pour le déblocage.<br>Vérifiez les utilisateurs et groupes dans ce "
+"rfkill pour le déblocage.<br>Vérifiez les utilisateurs et groupes pour ce "
 "fichier."
 
 #: src/modules/bluez5/bz_agent.c:115 src/modules/bluez5/bz_agent.c:131
@@ -2220,7 +2220,7 @@ msgstr "%'.1f GHz"
 
 #: src/modules/sysinfo/thermal/thermal_config.c:155
 msgid "Thermal Configuration"
-msgstr "Configuration de Température"
+msgstr "Configuration de Thermal"
 
 #: src/modules/sysinfo/thermal/thermal_config.c:160
 msgid "Temperature Units"
@@ -4064,7 +4064,7 @@ msgstr "Bouton de veille"
 
 #: src/modules/conf_bindings/e_int_config_acpibindings.c:373
 msgid "Thermal"
-msgstr "Température"
+msgstr "Zone thermique"
 
 #: src/modules/conf_bindings/e_int_config_acpibindings.c:375
 msgid "Video"
@@ -5281,7 +5281,7 @@ msgstr "Copier le chemin"
 
 #: src/modules/fileman/e_fwin.c:2251
 msgid "Run"
-msgstr "Executer"
+msgstr "Exécuter"
 
 #: src/modules/fileman/e_fwin.c:2258 src/modules/fileman/e_fwin.c:2637
 msgid "Open"
@@ -6321,7 +6321,7 @@ msgstr "Puissance maximale plafond"
 
 #: src/modules/cpufreq/e_mod_main.c:137
 msgid "Cpufreq"
-msgstr "FréqCPU"
+msgstr "Cpufreq"
 
 #: src/modules/cpufreq/e_mod_main.c:388
 msgid "Time Between Updates"
@@ -8268,7 +8268,7 @@ msgid ""
 msgstr ""
 "La configuration a dû être mise à jour. Votre ancienne configuration<ps/>a "
 "été supprimée et de nouveaux paramètres par défaut sont en place.<ps/>Cela "
-"risque d'arriver en phase de développement, ainsi il est inutile<ps/>de "
+"risque d'arriver en phase de développement, alors il est inutile<ps/>de "
 "faire un rapport de bogue. Cela signifie simplement que le module a "
 "besoin<ps/>de cette mise à niveau pour être à nouveau fonctionnel.<ps/>Vous "
 "pouvez maintenant tout reconfigurer selon votre goût.<ps/>Désolé pour la "
@@ -8321,7 +8321,7 @@ msgstr[1] "%li mois"
 msgid "One week"
 msgid_plural "%li Weeks"
 msgstr[0] "Une semaine"
-msgstr[1] "%li semaine"
+msgstr[1] "%li semaines"
 
 #: src/bin/e_utils.c:1003
 #, c-format
@@ -8864,7 +8864,8 @@ msgstr ""
 #: src/bin/e_main.c:1045
 msgid "Enlightenment cannot set up its order file system.\n"
 msgstr ""
-"Enlightenment ne parvient pas à initialiser son classement de fichiers.\n"
+"Enlightenment ne parvient pas à initialiser son système de classement de "
+"fichiers.\n"
 
 #: src/bin/e_main.c:1234
 #, c-format
@@ -9000,7 +9001,7 @@ msgstr ""
 "Enlightenment a planté en phase d'initialisation et a été redémarré.<ps/"
 ">Tous les modules ont été désactivés et ne seront pas chargés pour vous<ps/"
 ">aider à supprimer les modules problématiques de votre configuration.<ps/"
-"><ps/>Le dialogue de configuration des modules vous permettra<ps>de "
+"><ps/>Le dialogue de configuration des modules vous permettra<ps/>de "
 "recharger vos modules."
 
 #: src/bin/e_gadget_runner.c:250
@@ -9404,7 +9405,7 @@ msgstr "Erreur : Rayon"
 
 #: src/bin/e_shelf.c:1124
 msgid "A shelf with that name already exists!"
-msgstr "Il existe déjà un rayon avec ce nom !"
+msgstr "Il existe déjà un rayon de ce nom !"
 
 #: src/bin/e_shelf.c:1610 src/bin/e_shelf.c:2415
 msgid "Stop Moving Gadgets"
@@ -9428,7 +9429,7 @@ msgstr ""
 
 #: src/bin/e_shelf.c:2272
 msgid "A shelf with that name and id already exists!"
-msgstr "Un rayon avec ce nom et ID existe déjà !"
+msgstr "Un rayon avec ces nom et ID existe déjà !"
 
 #: src/bin/e_shelf.c:2291
 msgid "Rename Shelf"
@@ -9484,7 +9485,7 @@ msgstr "Barre de gadgets"
 
 #: src/bin/e_bryce.c:807
 msgid "Autosize"
-msgstr "Taille automaique"
+msgstr "Taille automatique"
 
 #: src/bin/e_bryce.c:819
 msgid "Bar Settings"
@@ -11185,7 +11186,7 @@ msgstr "Non utilisé"
 
 #: src/bin/e_int_config_comp_match.c:81 src/bin/e_int_config_comp_match.c:416
 msgid "Combo"
-msgstr "Combiné"
+msgstr "Combo"
 
 #: src/bin/e_int_config_comp_match.c:85 src/bin/e_int_config_comp_match.c:420
 #: src/bin/e_int_config_comp_match.c:487
@@ -11484,7 +11485,7 @@ msgstr "Enrouler"
 
 #: src/bin/e_int_client_menu.c:232
 msgid "Unredirected"
-msgstr "Non redirigée"
+msgstr "Non redirigé"
 
 #: src/bin/e_int_client_menu.c:496
 msgid "Unmaximize"
