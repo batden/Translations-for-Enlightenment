@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Link
+Name=Sysinfo
+Comment=A gadget to visualize your system info
+Comment[fr]=Un gadget pour visualer les infos système
+Icon=e-module-sysinfo
+X-Enlightenment-ModuleType=system
