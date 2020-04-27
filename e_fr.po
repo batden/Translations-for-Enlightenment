@@ -19,7 +19,7 @@ msgstr ""
 "Project-Id-Version: Enlightenment\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-04-19 16:15+0200\n"
-"PO-Revision-Date: 2020-04-26 13:50+0200\n"
+"PO-Revision-Date: 2020-04-27 10:25+0200\n"
 "Last-Translator: Philippe Jean Guillaumie <similar@orange.fr>\n"
 "Language-Team: French\n"
 "Language: fr\n"
@@ -1668,7 +1668,7 @@ msgstr "Ignorer"
 #: src/modules/conf_randr/e_int_config_randr2.c:755
 #: src/modules/conf_randr/e_int_config_randr2.c:1116
 msgid "Extend"
-msgstr "étendre"
+msgstr "Étendre"
 
 #: src/modules/conf_randr/e_int_config_randr2.c:757
 #: src/modules/conf_randr/e_int_config_randr2.c:1117
@@ -2042,7 +2042,7 @@ msgstr "Délai avant atténuation sur batterie"
 
 #: src/modules/conf_display/e_int_config_dpms.c:172
 msgid "Fade Time"
-msgstr "Délai avant atténuation"
+msgstr "Durée de l'atténuation"
 
 #: src/modules/conf_display/e_int_config_dpms.c:174
 #, c-format
@@ -4641,11 +4641,11 @@ msgstr "Supprimer des objets"
 
 #: src/modules/shot/e_mod_edit.c:1956
 msgid "Single arrow line"
-msgstr "Ligne à flèche unique"
+msgstr "Ligne à flèche directionnelle"
 
 #: src/modules/shot/e_mod_edit.c:1957
 msgid "Double arrow line"
-msgstr "Ligne à flèche double"
+msgstr "Ligne à flèche bidirectionnelle"
 
 #: src/modules/shot/e_mod_edit.c:1958
 msgid "Plain line"
@@ -5129,7 +5129,7 @@ msgstr "%1.1f"
 
 #: src/modules/fileman/e_mod_config.c:479
 msgid "Tooltip size (Screen percentage)"
-msgstr "Taille de l'infobulle (en pourcentage de l'écran)"
+msgstr "Taille de l'infobulle"
 
 #: src/modules/fileman/e_mod_config.c:481
 #, c-format
@@ -5204,7 +5204,7 @@ msgstr "Lancer"
 
 #: src/modules/fileman/e_mod_main.c:68
 msgid "Show Dir"
-msgstr "Afficher répertoire"
+msgstr "Afficher un dossier"
 
 #: src/modules/fileman/e_mod_main.c:71
 msgid "Navigate"
@@ -9538,7 +9538,7 @@ msgid ""
 "hilight>"
 msgstr ""
 "Le raccourci actuel pour déplacer des gadgets et cette boîte de dialogue est "
-"%s+<hilight>Souris%d</hilight>"
+"%s+<hilight>Souris %d</hilight>"
 
 #: src/bin/e_gadget.c:3431
 msgid ""
