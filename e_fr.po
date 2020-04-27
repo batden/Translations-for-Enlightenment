@@ -19,7 +19,7 @@ msgstr ""
 "Project-Id-Version: Enlightenment\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-04-19 16:15+0200\n"
-"PO-Revision-Date: 2020-04-27 12:25+0200\n"
+"PO-Revision-Date: 2020-04-27 21:41+0200\n"
 "Last-Translator: Philippe Jean Guillaumie <similar@orange.fr>\n"
 "Language-Team: French\n"
 "Language: fr\n"
@@ -2042,7 +2042,7 @@ msgstr "Délai avant atténuation sur batterie"
 
 #: src/modules/conf_display/e_int_config_dpms.c:172
 msgid "Fade Time"
-msgstr "Durée de l'atténuation"
+msgstr "Durée de la transition"
 
 #: src/modules/conf_display/e_int_config_dpms.c:174
 #, c-format
@@ -2584,7 +2584,7 @@ msgstr "Déplacer le pointeur à la fin"
 
 #: src/modules/winlist/e_int_config_winlist.c:222
 msgid "Disable mouse warp on directional focus change"
-msgstr "Pas de déplacement en cas de changement de focus directionnel"
+msgstr "Pas de déplacement en cas de changement de focus F"
 
 #: src/modules/winlist/e_int_config_winlist.c:226
 msgid "Jump to desk"
