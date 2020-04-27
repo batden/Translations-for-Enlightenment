@@ -19,7 +19,7 @@ msgstr ""
 "Project-Id-Version: Enlightenment\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-04-19 16:15+0200\n"
-"PO-Revision-Date: 2020-04-27 10:25+0200\n"
+"PO-Revision-Date: 2020-04-27 12:25+0200\n"
 "Last-Translator: Philippe Jean Guillaumie <similar@orange.fr>\n"
 "Language-Team: French\n"
 "Language: fr\n"
@@ -329,8 +329,8 @@ msgid ""
 "Address: %s (%s)<br>Services: %s%s%s%s%s%s%s%s%s<br>Trusted: %s<br>Blocked: "
 "%s<br>"
 msgstr ""
-"Addresse : %s (%s)<br>Services : %s%s%s%s%s%s%s%s%s<br>De confiance : "
-"%s<br>Bloqués : %s<br>"
+"Adresse : %s (%s)<br>Services : %s%s%s%s%s%s%s%s%s<br>De confiance : "
+"%s<br>Bloqué : %s<br>"
 
 #: src/modules/bluez5/e_mod_popup.c:536 src/modules/bluez5/e_mod_popup.c:537
 #: src/modules/bluez5/e_mod_util.c:261
@@ -362,7 +362,7 @@ msgstr "Réseau "
 
 #: src/modules/bluez5/e_mod_popup.c:541
 msgid "Rendering "
-msgstr "Rendering "
+msgstr "Rendu "
 
 #: src/modules/bluez5/e_mod_popup.c:542
 msgid "Capture "
