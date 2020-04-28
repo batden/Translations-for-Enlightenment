@@ -19,7 +19,7 @@ msgstr ""
 "Project-Id-Version: Enlightenment\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-04-19 16:15+0200\n"
-"PO-Revision-Date: 2020-04-27 21:41+0200\n"
+"PO-Revision-Date: 2020-04-28 10:09+0200\n"
 "Last-Translator: Philippe Jean Guillaumie <similar@orange.fr>\n"
 "Language-Team: French\n"
 "Language: fr\n"
@@ -408,8 +408,7 @@ msgstr "Oublier le déverrouillage du périphérique"
 
 #: src/modules/bluez5/e_mod_popup.c:578
 msgid "Make this auto unlock when detected (and lock when not)"
-msgstr ""
-"Déverrouillage auto. à la détection (verrouillage dans le cas contraire)"
+msgstr "Déverrouillage auto. à la détection (sinon verrouillage)"
 
 #: src/modules/bluez5/e_mod_popup.c:588
 msgid "Stop this device from being forcefully connected"
@@ -2584,7 +2583,7 @@ msgstr "Déplacer le pointeur à la fin"
 
 #: src/modules/winlist/e_int_config_winlist.c:222
 msgid "Disable mouse warp on directional focus change"
-msgstr "Pas de déplacement en cas de changement de focus F"
+msgstr "Pas de déplacement en cas de changement de focus directionnel"
 
 #: src/modules/winlist/e_int_config_winlist.c:226
 msgid "Jump to desk"
@@ -4742,7 +4741,7 @@ msgstr "Impossible d'initialiser le réseau"
 
 #: src/modules/shot/e_mod_main.c:358
 msgid "Take Screenshot with Delay"
-msgstr "Capture d'écran avec délai"
+msgstr "Capture d'écran en différé"
 
 #: src/modules/shot/e_mod_main.c:366 src/bin/e_actions.c:3263
 #: src/bin/e_actions.c:3274 src/bin/e_actions.c:3293 src/bin/e_actions.c:3298
@@ -4755,7 +4754,7 @@ msgstr "Fenêtres : actions"
 
 #: src/modules/shot/e_mod_preview.c:58 src/modules/shot/e_mod_delay.c:47
 msgid "Select action to take with screenshot"
-msgstr "Choix de l'action associée à la capture"
+msgstr "Choisir l'action à appliquer à la capture"
 
 #: src/modules/shot/e_mod_preview.c:71
 msgid "Quality"
