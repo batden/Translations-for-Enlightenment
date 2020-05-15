@@ -19,7 +19,7 @@ msgstr ""
 "Project-Id-Version: Enlightenment\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-04-19 16:15+0200\n"
-"PO-Revision-Date: 2020-04-29 10:50+0200\n"
+"PO-Revision-Date: 2020-05-15 11:08+0200\n"
 "Last-Translator: Philippe Jean Guillaumie <similar@orange.fr>\n"
 "Language-Team: French\n"
 "Language: fr\n"
@@ -6972,7 +6972,7 @@ msgstr "Ne pas afficher dans la miniature des bureaux"
 
 #: src/modules/quickaccess/e_mod_config.c:569
 msgid "Quickaccess Settings"
-msgstr "Paramètres d'Accès rapide"
+msgstr "Paramètres d'Accès rapide (Quickaccess)"
 
 #: src/modules/quickaccess/e_mod_main.c:53
 #: src/modules/quickaccess/e_mod_main.c:63
@@ -7478,7 +7478,7 @@ msgstr "Miniature des bureaux"
 
 #: src/modules/pager/e_mod_main.c:904
 msgid "All desktop settings"
-msgstr "Paramétrage d'ensemble pour les bureaux"
+msgstr "Paramétrage pour l'ensemble des bureaux"
 
 #: src/modules/pager/e_mod_main.c:915
 msgid "This desktop name and wallpaper settings"
@@ -9210,12 +9210,12 @@ msgstr "À propos d’Enlightenment"
 
 #: src/bin/e_about.c:26
 msgid ""
-"<title>Copyright &copy; 2000-2019, by the Enlightenment Development Team</"
+"<title>Copyright &copy; 2000-2020, by the Enlightenment Development Team</"
 "><ps/><ps/>We hope you enjoy using this software as much as we enjoyed "
 "writing it.<ps/><ps/>To contact us please visit:<ps/><hilight>http://www."
 "enlightenment.org</><ps/><ps/>"
 msgstr ""
-"<title>Copyright &copy; 2000-2019, par l'équipe de développement "
+"<title>Copyright &copy; 2000-2020, par l'équipe de développement "
 "d'Enlightenment</><ps/><ps/>Nous espérons que vous aurez autant de plaisir à "
 "utiliser ce logiciel que nous en avons eu à l'écrire.<ps/><ps/>Pour nous "
 "contacter, veuillez visiter :<ps/><hilight>http://www.enlightenment.org</"
