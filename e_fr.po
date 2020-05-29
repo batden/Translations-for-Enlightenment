@@ -17,9 +17,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Enlightenment\n"
-"Report-Msgid-Bugs-To: \n"
+"Report-Msgid-Bugs-To: enlightenment-devel@lists.sourceforge.net\n"
 "POT-Creation-Date: 2020-04-19 16:15+0200\n"
-"PO-Revision-Date: 2020-05-15 11:08+0200\n"
+"PO-Revision-Date: 2020-05-29 08:13+0200\n"
 "Last-Translator: Philippe Jean Guillaumie <similar@orange.fr>\n"
 "Language-Team: French\n"
 "Language: fr\n"
@@ -1598,7 +1598,7 @@ msgstr "Thème des applications"
 
 #: src/modules/conf_theme/e_int_config_xsettings.c:477
 msgid "Match Enlightenment theme if possible"
-msgstr "Établir des correspondances avec le thème de E"
+msgstr "Suivre les spécifications du thème actuel de E"
 
 #: src/modules/conf_theme/e_int_config_xsettings.c:487
 msgid "Enable X Application Settings"
@@ -8069,7 +8069,7 @@ msgstr "Type de la fenêtre"
 
 #: src/bin/e_int_client_remember.c:741
 msgid "wildcard matches are allowed"
-msgstr "caractères jokers autorisés"
+msgstr "Les métacaractères sont autorisés"
 
 #: src/bin/e_int_client_remember.c:743
 msgid "Transience"
@@ -8393,7 +8393,7 @@ msgstr ""
 
 #: src/bin/e_int_config_comp.c:209
 msgid "Edit window matches"
-msgstr "Correspondances de la fenêtre"
+msgstr "Modifications spécifiques"
 
 #: src/bin/e_int_config_comp.c:212 src/bin/e_int_config_comp.c:500
 msgid "Select default style"
@@ -11284,7 +11284,7 @@ msgstr "Objets"
 
 #: src/bin/e_int_config_comp_match.c:945
 msgid "Composite Match Settings"
-msgstr "Paramètres de correspondance composite"
+msgstr "Paramètres des modificateurs composites"
 
 #: src/bin/e_client.c:4868
 msgid "Client Error!"
