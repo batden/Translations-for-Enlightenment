@@ -19,7 +19,7 @@ msgstr ""
 "Project-Id-Version: Enlightenment\n"
 "Report-Msgid-Bugs-To: enlightenment-devel@lists.sourceforge.net\n"
 "POT-Creation-Date: 2020-04-19 16:15+0200\n"
-"PO-Revision-Date: 2020-05-29 08:13+0200\n"
+"PO-Revision-Date: 2020-07-12 09:30+0200\n"
 "Last-Translator: Philippe Jean Guillaumie <similar@orange.fr>\n"
 "Language-Team: French\n"
 "Language: fr\n"
@@ -1335,9 +1335,9 @@ msgid ""
 "exist.<ps/>Please install <b>extra</b> application.<ps/>https://git."
 "enlightenment.org/apps/extra.git/"
 msgstr ""
-"Ce module veut exécuter une application<ps/>externe qui n'existe pas.<ps/"
-">Veuillez installer l'application <b>Extra.</b>https://git.enlightenment.org/"
-"apps/extra.git/"
+"Ce module veut exécuter une application externe<ps/>qui n'existe pas.<ps/>Il "
+"faudrait installer l'application <b>Extra</b>. Voir :<ps/>https://git."
+"enlightenment.org/apps/extra.git/"
 
 #: src/modules/conf_theme/e_int_config_theme.c:611
 msgid "Theme File Error"
@@ -4177,8 +4177,8 @@ msgid ""
 "Please trigger the ACPI event you wish to bind to, <ps/><ps/>or "
 "<hilight>Escape</hilight> to abort."
 msgstr ""
-"Veuillez composer votre séquence au clavier,<ps/><ps/>ou <hilight>Échap</"
-"hilight> pour annuler."
+"Composez votre séquence au clavier, <ps/><ps/>ou <hilight>Échap</hilight> "
+"pour annuler."
 
 #: src/modules/conf_bindings/e_int_config_edgebindings.c:5
 msgid ""
@@ -4186,9 +4186,9 @@ msgid ""
 "><ps/>You can either specify a delay of this<ps/> action using the slider, "
 "or make it<ps/>respond to edge clicks:"
 msgstr ""
-"Veuillez choisir un bord,<ps/>ou cliquez sur <hilight>Fermer</hilight> pour "
-"annuler.<ps/><ps/>Vous avez le choix entre spécifier un délai<ps/>pour cette "
-"action en utilisant le curseur,<ps/>ou l'activer par un clic :"
+"Choisissez un bord,<ps/>ou cliquez sur <hilight>Fermer</hilight> pour "
+"annuler.<ps/><ps/>Vous avez le choix entre spécifier un délai<ps/> pour "
+"cette action en utilisant le curseur,<ps/>ou l'activer par un clic :"
 
 #: src/modules/conf_bindings/e_int_config_edgebindings.c:106
 msgid "Edge Bindings Settings"
@@ -4272,7 +4272,7 @@ msgid ""
 "action.<ps/>Please choose another edge to bind."
 msgstr ""
 "La séquence de raccourci que vous avez choisie est déjà utilisée<ps/>par "
-"l'action <hilight>%s</hilight>.<ps/>Veuillez choisir un autre bord auquel "
+"l'action <hilight>%s</hilight>.<ps/>Choisissez un autre bord auquel "
 "attribuer un raccourci."
 
 #: src/modules/conf_bindings/e_int_config_edgebindings.c:1371
@@ -4477,8 +4477,8 @@ msgid ""
 "The signal and source that you entered are already used by<ps/><hilight>%s</"
 "hilight> action.<ps/>"
 msgstr ""
-"Le signal et la source que vous avez choisis sont déjà utilisés par l'action "
-"<ps/><hilight>%s</hilight>.<ps/>"
+"Le signal et la source que vous avez choisis sont déjà utilisés par "
+"l'action<ps/><hilight>%s</hilight>.<ps/>"
 
 #: src/modules/conf_bindings/e_int_config_signalbindings.c:621
 msgid "Add Signal Binding"
@@ -4511,7 +4511,7 @@ msgid ""
 "%s</hilight> action.<ps/>Please choose another binding key combination."
 msgstr ""
 "La séquence de raccourci que vous avez choisie est déjà utilisée<ps/>par "
-"l'action <hilight>%s</hilight>.<ps/>Veuillez choisir une autre séquence de "
+"l'action <hilight>%s</hilight>.<ps/>Choisissez une autre séquence de "
 "raccourci clavier."
 
 #: src/modules/conf_bindings/e_int_config_keybindings.c:1120
@@ -5396,7 +5396,7 @@ msgstr "%2.2f s"
 
 #: src/modules/polkit/auth_ui.c:88
 msgid "Please enter password"
-msgstr "Veuillez saisir le mot de passe"
+msgstr "Saisissez le mot de passe"
 
 #: src/modules/wizard/page_011.c:189 src/modules/wizard/page_020.c:115
 #: src/modules/wizard/page_010.c:216
@@ -6650,11 +6650,11 @@ msgstr "Le mot de passe entré est invalide. Réessayez."
 
 #: src/modules/lokker/lokker.c:223
 msgid "Please enter your PIN"
-msgstr "Veuillez saisir votre code PIN"
+msgstr "Saisissez votre code PIN"
 
 #: src/modules/lokker/lokker.c:314
 msgid "Please enter your unlock password"
-msgstr "Veuillez saisir le mot de passe de déverrouillage"
+msgstr "Saisissez le mot de passe de déverrouillage"
 
 #: src/modules/lokker/lokker.c:317 src/modules/lokker/lokker.c:752
 #: src/modules/lokker/lokker.c:770
@@ -6673,8 +6673,8 @@ msgid ""
 "happening. Please report this bug."
 msgstr ""
 "L'authentification via PAM a rencontré une erreur lors de<ps/>la session "
-"d'authentification. Le code de l'erreur est <hilight>%i</hilight>.<ps/>Cette "
-"erreur ne devrait pas se produire.<ps/>Merci de faire un rapport de bogue."
+"d'authentification. Le code de l'erreur est <hilight>%i</hilight>.<ps/>Cela "
+"ne devrait pas se produire. Veuillez signaler ce bogue."
 
 #: src/modules/conf_interaction/e_int_config_mouse.c:47
 msgid "Mouse Settings"
@@ -6783,7 +6783,7 @@ msgid ""
 "exist.<ps/>Please install <b>EConnMan</b> application."
 msgstr ""
 "Ce module veut exécuter l'application externe EConnMan qui n'existe pas.<ps/"
-">Veuillez installer l'application <b>EConnMan</b>."
+">Il faudrait installer l'application <b>EConnMan</b>."
 
 #: src/modules/connman/e_mod_main.c:282
 msgid "Wifi On"
@@ -7023,7 +7023,7 @@ msgstr ""
 "fermeture,<ps/>à l'instar des terminaux déroulants de type Quake.<ps/>Soit "
 "l'application sélectionnée n'est pas un terminal, soit<ps/>l'option de la "
 "commande permettant de changer le nom de la fenêtre est inconnue.<ps/"
-">N'hésitez pas à soumettre un rapport de bogue si le terminal en question<ps/"
+">N'hésitez pas à faire un rapport de bogue si le terminal en question<ps/"
 ">offre bien la possibilité de changer le nom de sa fenêtre. <ps/>Ou alors, "
 "vous pouvez ajouter un data.item à %s/e-module-quickaccess.edj<ps/>Comme "
 "ceci :<ps/>data.item: \"%s\" \"--OPT\";"
@@ -7061,7 +7061,7 @@ msgstr ""
 "La fenêtre sélectionnée créée avec le nom :<ps/>%s<ps/>et la classe :<ps/>"
 "%s<ps/> est introuvable dans la base de données des<ps/>applications pour "
 "les accès rapides.<ps/> Cela signifie que l'application est soit inconnue,"
-"<ps/>soit inutilisable dans ce cas de figure.<ps/> Veuillez choisir une "
+"<ps/>soit inutilisable dans ce cas de figure.<ps/>Veuillez choisir une "
 "action à appliquer :"
 
 #: src/modules/quickaccess/e_mod_quickaccess.c:394
@@ -7671,9 +7671,9 @@ msgid ""
 "your input<ps/>method configuration is correct and<ps/>that your "
 "configuration's<ps/>executable is in your PATH<ps/>"
 msgstr ""
-"Erreur lors du démarrage du système de saisie.<ps/><ps/>Veuillez vérifier "
-"que la configuration du système<ps/>de saisie est correcte et que "
-"l'exécutable est<ps/>dans votre PATH.<ps/>"
+"Erreur lors du démarrage du système de saisie.<ps/><ps/>Vérifiez que la "
+"configuration du système<ps/>de saisie est correcte et que l'exécutable "
+"est<ps/>dans votre PATH.<ps/>"
 
 #: src/bin/e_update.c:72
 msgid "Bother me later"
@@ -7695,9 +7695,9 @@ msgid ""
 "org<ps/>or update your system packages<ps/>to get a new version."
 msgstr ""
 "Votre version d'Enlightenment<ps/>n'est pas la toute dernière publiée.<ps/"
-">La dernière version est :<ps/><ps/>%s<ps/><ps/>Veuillez visiter www."
-"enlightenment.org<ps/>ou mettre à jour vos paquets système<ps/>afin "
-"d'obtenir la nouvelle version."
+">La dernière version est :<ps/><ps/>%s<ps/><ps/>Visitez www.enlightenment."
+"org<ps/>ou mettez à jour vos paquets système<ps/>afin d'obtenir la nouvelle "
+"version."
 
 #: src/bin/e_int_toolbar_config.c:28 src/bin/e_toolbar.c:354
 msgid "Toolbar Settings"
@@ -7873,8 +7873,7 @@ msgstr ""
 
 #: src/bin/e_config.c:2627
 msgid "Memory ran out while preparing the write.<ps/>Please free up memory."
-msgstr ""
-"Mémoire insuffisante pour l'écriture.<ps/>Veuillez libérer de la mémoire."
+msgstr "Mémoire insuffisante pour l'écriture.<ps/>Libérez de la mémoire."
 
 #: src/bin/e_config.c:2631
 msgid "This is a generic error."
@@ -8622,10 +8621,9 @@ msgid ""
 "rendering in Evas. Please check your installation of Evas and\n"
 "Ecore and check they support the Wayland SHM rendering engine."
 msgstr ""
-"Enlightenment a détecté que ecore_evas ne prend pas en charge\n"
-"le rendu Wayland SHM dans Evas. Veuillez vérifier vos\n"
-"installations de Evas et Ecore , et qu'elles supportent\n"
-"le moteur de rendu Wayland SHM."
+"Enlightenment a détecté que ecore_evas ne prend pas en charge le\n"
+"rendu Wayland SHM dans Evas. Vérifiez vos installations de Evas\n"
+"et Ecore , et qu'elles supportent le moteur de rendu Wayland SHM."
 
 #: src/bin/e_main.c:521
 msgid ""
@@ -8633,10 +8631,9 @@ msgid ""
 "rendering in Evas. Please check your installation of Evas and\n"
 "Ecore and check they support the Software X11 rendering engine."
 msgstr ""
-"Enlightenment a détecté que ecore_evas ne contient pas le support\n"
-"de rendu graphique logiciel X11 de Evas. Veuillez vérifier vos\n"
-"installations de Evas et Ecore, et qu'elles supportent\n"
-"le moteur de rendu logiciel X11."
+"Enlightenment a détecté que ecore_evas ne prend pas en charge le\n"
+"rendu logiciel X11 dans Evas. Vérifiez vos installations de Evas\n"
+"et Ecore, et qu'elles supportent le moteur de rendu logiciel X11."
 
 #: src/bin/e_main.c:530
 msgid ""
@@ -8644,10 +8641,9 @@ msgid ""
 "rendering in Evas. Please check your installation of Evas and\n"
 "Ecore and check they support the Software Buffer rendering engine."
 msgstr ""
-"Enlightenment a détecté que ecore_evas ne supporte pas le moteur de\n"
-"rendu graphique logiciel en mémoire dans Evas. Veuillez vérifier vos\n"
-"installations de Evas et Ecore et vous assurer qu'elles supportent le\n"
-"moteur de rendu logiciel en mémoire."
+"Enlightenment a détecté que ecore_evas ne prend pas en charge le rendu\n"
+"logiciel en mémoire dans Evas. Vérifiez vos installations de Evas et\n"
+"Ecore et qu'elles supportent le moteur de rendu logiciel en mémoire."
 
 #: src/bin/e_main.c:544
 msgid "Enlightenment cannot initialize E_Intl!\n"
@@ -8959,7 +8955,7 @@ msgid ""
 ">and will not be loaded."
 msgstr ""
 "Enlightenment a planté en phase d'initialisation et<ps/> a été relancé. Le "
-"module %s qui est à l'origine de<ps/> l'erreur a été désactivé. Il ne sera "
+"module %s qui est à l'origine de<ps/>l'erreur a été désactivé. Il ne sera "
 "pas rechargé."
 
 #: src/bin/e_main.c:1701 src/bin/e_main.c:1717
@@ -9271,7 +9267,7 @@ msgid ""
 "shutdown has been started."
 msgstr ""
 "Extinction en cours.<ps/>Vous ne pouvez pas effectuer d'autres actions "
-"système<ps>pendant cette phase."
+"système<ps/>pendant cette phase."
 
 #: src/bin/e_sys.c:888
 msgid ""
@@ -10063,9 +10059,8 @@ msgid ""
 "><ps/>The module list is as follows:<ps/><ps/>"
 msgstr ""
 "Les modules suivants ne sont pas conformes au standard de<ps/>Enlightenment "
-"et pourraient entraîner des bogues ou des plantages.<ps>Veuillez les "
-"supprimer avant de signaler un bogue.<ps/><ps/>La liste des modules est la "
-"suivante :<ps/><ps/>"
+"et peuvent provoquer bogues et plantages.<ps/>Désactivez-les avant tout "
+"rapport de bogue.<ps/><ps/>La liste des modules est la suivante :<ps/><ps/>"
 
 #: src/bin/e_module.c:704
 msgid "Unstable module tainting"
