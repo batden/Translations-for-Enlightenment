@@ -16,10 +16,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Enlightenment\n"
+"Project-Id-Version: enlightenment\n"
 "Report-Msgid-Bugs-To: enlightenment-devel@lists.sourceforge.net\n"
 "POT-Creation-Date: 2020-04-19 16:15+0200\n"
-"PO-Revision-Date: 2020-07-12 09:30+0200\n"
+"PO-Revision-Date: 2020-07-20 09:02+0200\n"
 "Last-Translator: Philippe Jean Guillaumie <similar@orange.fr>\n"
 "Language-Team: French\n"
 "Language: fr\n"
@@ -28,7 +28,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
 "X-Launchpad-Export-Date: 2014-09-07 06:08+0000\n"
-"X-Generator: Poedit 2.3\n"
+"X-Generator: Poedit 2.4\n"
 "X-Poedit-SourceCharset: utf-8\n"
 
 #: src/modules/conf_paths/e_int_config_paths.c:59
@@ -7332,7 +7332,7 @@ msgstr "Tâches"
 
 #: src/modules/music-control/ui.c:167
 msgid "Music Player"
-msgstr "Lecteur de musique"
+msgstr "Lecteur"
 
 #: src/modules/music-control/ui.c:177
 msgid "* Your player must be configured to export the DBus interface MPRIS2."
@@ -7345,11 +7345,11 @@ msgstr "Mettre en pause la lecture quand l'écran est verrouillé"
 
 #: src/modules/music-control/ui.c:249
 msgid "Music control Settings"
-msgstr "Paramètres du contrôle musical"
+msgstr "Paramètres du contrôleur média"
 
 #: src/modules/music-control/e_mod_main.c:7
 msgid "Music controller"
-msgstr "Contrôle de la musique"
+msgstr "Lecture multimédia"
 
 #: src/modules/conf/e_mod_config.c:35 src/modules/conf/e_mod_main.c:284
 #: src/modules/conf/e_mod_main.c:298
