@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Link
+Name=Gesture Recognition
+Name[fr]=Reconnaissance des gestes
+Comment=Gesture recognition using libinput.
+Comment[fr]=Reconnaissance des gestes utilisant libinput.
+Icon=e-module-gesture_recognition
+X-Enlightenment-ModuleType=utils
