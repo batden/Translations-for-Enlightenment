@@ -19,7 +19,7 @@ msgstr ""
 "Project-Id-Version: enlightenment\n"
 "Report-Msgid-Bugs-To: enlightenment-devel@lists.sourceforge.net\n"
 "POT-Creation-Date: 2020-04-19 16:15+0200\n"
-"PO-Revision-Date: 2020-07-20 09:02+0200\n"
+"PO-Revision-Date: 2020-07-26 09:03+0200\n"
 "Last-Translator: Philippe Jean Guillaumie <similar@orange.fr>\n"
 "Language-Team: French\n"
 "Language: fr\n"
@@ -9230,7 +9230,7 @@ msgid ""
 msgstr ""
 "La fermeture de la session est trop longue.<ps/>Certaines applications "
 "refusent de se terminer.<ps/>Voulez-vous forcer la fin de cette session<ps/"
-">sans attendre la fermeture des applications ?<ps/><ps/>Fermeture "
+">sans attendre la fermeture des applications ?<ps/><ps/>Déconnexion "
 "automatique dans %d secondes."
 
 #: src/bin/e_sys.c:791
@@ -9979,8 +9979,8 @@ msgid ""
 "Are you sure you want to delete<ps/><hilight>all</hilight> the %d files "
 "in<ps/><hilight>%s</hilight>?"
 msgstr ""
-"Voulez-vous vraiment supprimer<ps/><hilight>tous</hilight> les %d fichiers "
-"dans<ps/><hilight>%s</hilight> ?"
+"Voulez-vous vraiment supprimer<ps/><hilight>%d fichiers</hilight><ps/"
+">dans<hilight>%s</hilight> ?"
 
 #: src/bin/e_fm.c:11076
 #, c-format
@@ -9991,7 +9991,7 @@ msgid_plural ""
 "Are you sure you want to delete<ps/>the %d selected files in<ps/><hilight>"
 "%s</hilight>?"
 msgstr[0] ""
-"Voulez-vous vraiment supprimer<ps/>le %d fichier sélectionné dans :<ps/"
+"Voulez-vous vraiment supprimer<ps/>%d fichier sélectionné dans :<ps/"
 "><hilight>%s</hilight> ?"
 msgstr[1] ""
 "Voulez-vous vraiment supprimer<ps/>les %d fichiers sélectionnés dans :<ps/"
@@ -10501,7 +10501,7 @@ msgstr "Voulez-vous vraiment quitter Enlightenment ?"
 
 #: src/bin/e_actions.c:2216
 msgid "Logout"
-msgstr "Fermer la session"
+msgstr "Déconnexion"
 
 #: src/bin/e_actions.c:2217
 msgid "Are you sure you want to logout?"
@@ -11093,7 +11093,7 @@ msgstr "(Dés)Activer le module nommé"
 
 #: src/bin/e_actions.c:3766
 msgid "Log Out"
-msgstr "Fermer la session"
+msgstr "Déconnexion"
 
 #: src/bin/e_actions.c:3770
 msgid "Power Off Now"
