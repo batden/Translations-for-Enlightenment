@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: terminology 0.6.99\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-09-15 20:44+0200\n"
-"PO-Revision-Date: 2020-09-16 17:08+0200\n"
+"PO-Revision-Date: 2020-09-17 07:55+0200\n"
 "Last-Translator: Philippe Jean Guillaumie <similar@orange.fr>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/terminology/"
 "terminology/fr/>\n"
@@ -106,7 +106,7 @@ msgstr "Fermer le terminal"
 #: src/bin/gravatar.c:121 src/bin/main.c:876 src/bin/miniview.c:41
 #, c-format
 msgid "Could not create logging domain '%s'"
-msgstr "Impossible de créer le domaine de connexion « %s »"
+msgstr "Impossible de créer le domaine de journalisation « %s »"
 
 #: src/bin/keyin.c:655
 msgid "Scrolling"
@@ -658,9 +658,9 @@ msgid ""
 "Set the time of the animation that<br>takes places on tab switches,<br>be "
 "them by key binding, mouse<br>wheel or tabs panel mouse move"
 msgstr ""
-"Définit la durée de l'animation qui se produit<br>lors du passage d'un "
-"onglet à l'autre, que ce soit<br>par raccourci clavier, molette de la souris "
-"ou<br>déplacement du pointeur dans le panneau des onglets"
+"Définit la durée de l'animation qui se produit lors<br>du passage d'un "
+"onglet à l'autre, que ce soit<br>par raccourci clavier ou par la molette "
+"de<br>la souris sur le panneau des onglets"
 
 #: src/bin/options_behavior.c:526
 msgid "Tab zoom/switch animation time:"
