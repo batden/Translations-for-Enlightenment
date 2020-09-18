@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: terminology 0.6.99\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-09-15 20:44+0200\n"
-"PO-Revision-Date: 2020-09-17 07:55+0200\n"
+"POT-Creation-Date: 2020-09-17 21:46+0200\n"
+"PO-Revision-Date: 2020-09-18 17:46+0200\n"
 "Last-Translator: Philippe Jean Guillaumie <similar@orange.fr>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/terminology/"
 "terminology/fr/>\n"
@@ -308,7 +308,8 @@ msgstr "© 2012-%d Carsten Haitzler et coll."
 #: src/bin/main.c:443
 msgid "Terminal emulator written with Enlightenment Foundation Libraries"
 msgstr ""
-"Émulateur de terminal écrit avec les Enlightenment Foundation Libraries"
+"Émulateur de terminal écrit avec les bibliothèques Enlightenment Foundation "
+"Libraries"
 
 #: src/bin/main.c:447
 msgid "Command to execute. Defaults to $SHELL (or passwd shell or /bin/sh)"
@@ -347,7 +348,7 @@ msgid "Set icon name"
 msgstr "Définir le nom de l'icône"
 
 #: src/bin/main.c:465
-msgid "Set font (NAME/SIZE for scalable, NAME for bitmap"
+msgid "Set font (NAME/SIZE for scalable, NAME for bitmap)"
 msgstr "Définir la police (NOM / TAILLE si variable, NOM pour bitmap)"
 
 #: src/bin/main.c:467
@@ -532,7 +533,7 @@ msgstr "%'d lignes"
 #: src/bin/options_behavior.c:79
 #, c-format
 msgid "Scrollback (current memory usage: %'.2f%cB):"
-msgstr "Lignes d'historique (utilisation mémoire en ce moment : %'.2f%cO) :"
+msgstr "Lignes d'historique (utilisation mémoire en ce moment : %'.2f%cB) :"
 
 #: src/bin/options_behavior.c:217
 msgid "Default cursor:"
@@ -655,16 +656,16 @@ msgstr "Hauteur :"
 
 #: src/bin/options_behavior.c:521
 msgid ""
-"Set the time of the animation that<br>takes places on tab switches,<br>be "
-"them by key binding, mouse<br>wheel or tabs panel mouse move"
+"Set the time of the animation that<br>takes places during tab switches,"
+"<br>be those done due to key bindings or <br>mouse wheel over the tabs panel"
 msgstr ""
 "Définit la durée de l'animation qui se produit lors<br>du passage d'un "
-"onglet à l'autre, que ce soit<br>par raccourci clavier ou par la molette "
-"de<br>la souris sur le panneau des onglets"
+"onglet à l'autre, que ce soit<br>par raccourci clavier ou par la molette de "
+"la souris<br>sur le panneau des onglets"
 
 #: src/bin/options_behavior.c:526
 msgid "Tab zoom/switch animation time:"
-msgstr "Durée de l'animation du zoom / basculement :"
+msgstr "Durée de l'animation du zoom / basculement :"
 
 #: src/bin/options_behavior.c:534 src/bin/options_behavior.c:535
 #: src/bin/options_mouse.c:186 src/bin/options_mouse.c:187
@@ -1037,12 +1038,12 @@ msgstr ""
 #: src/bin/theme.c:82 src/bin/theme.c:117
 #, c-format
 msgid "Could not load any theme for group=%s: %s"
-msgstr "Impossible de charger un thème pour le groupe=%s : %s"
+msgstr "Impossible de charger un thème pour group=%s : %s"
 
 #: src/bin/theme.c:138
 #, c-format
 msgid "Could not load default theme for group=%s: %s"
-msgstr "Impossible de charger le thème par défaut pour le groupe=%s : %s"
+msgstr "Impossible de charger le thème par défaut pour group=%s : %s"
 
 #: src/bin/win.c:423
 msgid "Done"
