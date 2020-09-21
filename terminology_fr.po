@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: terminology 0.6.99\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-09-17 21:46+0200\n"
-"PO-Revision-Date: 2020-09-21 07:52+0200\n"
+"PO-Revision-Date: 2020-09-21 07:58+0200\n"
 "Last-Translator: Philippe Jean Guillaumie <similar@orange.fr>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/terminology/"
 "terminology/fr/>\n"
@@ -891,7 +891,7 @@ msgstr "Pour les couleurs"
 
 #: src/bin/options_mouse.c:212
 msgid "Based on escape codes"
-msgstr "Basé sur séquences d'échappement"
+msgstr "Basé sur les séquences d'échappement"
 
 #: src/bin/options_mouse.c:213
 msgid "Gravatar integration"
