@@ -19,7 +19,7 @@ msgstr ""
 "Project-Id-Version: enlightenment\n"
 "Report-Msgid-Bugs-To: enlightenment-devel@lists.sourceforge.net\n"
 "POT-Creation-Date: 2020-04-19 16:15+0200\n"
-"PO-Revision-Date: 2020-07-26 09:03+0200\n"
+"PO-Revision-Date: 2020-09-23 08:16+0200\n"
 "Last-Translator: Philippe Jean Guillaumie <similar@orange.fr>\n"
 "Language-Team: French\n"
 "Language: fr\n"
@@ -28,7 +28,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
 "X-Launchpad-Export-Date: 2014-09-07 06:08+0000\n"
-"X-Generator: Poedit 2.4\n"
+"X-Generator: Poedit 2.4.1\n"
 "X-Poedit-SourceCharset: utf-8\n"
 
 #: src/modules/conf_paths/e_int_config_paths.c:59
@@ -961,7 +961,7 @@ msgstr "Moyen(ne)"
 #: src/modules/conf_performance/e_int_config_powermanagement.c:364
 #, c-format
 msgid "%.0f s"
-msgstr "%.0f sec"
+msgstr "%.0f s"
 
 #: src/modules/conf_performance/e_int_config_powermanagement.c:317
 msgid "High"
@@ -8440,7 +8440,7 @@ msgstr "Utiliser pixmap pour la texture"
 
 #: src/bin/e_int_config_comp.c:259
 msgid "Assume swapping method:"
-msgstr "Méthode d'inversion préférée :"
+msgstr "Méthode d'inversion préférée (swapping) :"
 
 #: src/bin/e_int_config_comp.c:269
 msgid "Invalidate (full redraw)"
@@ -8546,8 +8546,7 @@ msgstr "Enlightenment ne parvient pas à initialiser Eina !\n"
 
 #: src/bin/e_main.c:318
 msgid "Enlightenment could not create a logging domain!\n"
-msgstr ""
-"Enlightenment n'a pu créer le moindre domaine pour les journaux système !\n"
+msgstr "Enlightenment est incapable de créer un domaine de journalisation !\n"
 
 #: src/bin/e_main.c:378
 msgid "Enlightenment cannot initialize Eet!\n"
