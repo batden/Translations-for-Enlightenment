@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Link
+Name=Virtual Keyboard
+Name[fr]=Clavier virtuel
+Name[it]=Tastiera virtuale
+Comment=Shows a virtual keyboard.
+Comment[fr]=Affiche un clavier virtuel.
+Icon=e-module-vkbd
+X-Enlightenment-ModuleType=mobile
