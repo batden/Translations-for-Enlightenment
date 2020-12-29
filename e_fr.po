@@ -19,7 +19,7 @@ msgstr ""
 "Project-Id-Version: enlightenment\n"
 "Report-Msgid-Bugs-To: enlightenment-devel@lists.sourceforge.net\n"
 "POT-Creation-Date: 2020-04-19 16:15+0200\n"
-"PO-Revision-Date: 2020-09-29 07:09+0200\n"
+"PO-Revision-Date: 2020-12-29 09:20+0100\n"
 "Last-Translator: Philippe Jean Guillaumie <similar@orange.fr>\n"
 "Language-Team: French\n"
 "Language: fr\n"
@@ -27,7 +27,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Poedit 2.4.1\n"
+"X-Generator: Poedit 2.4.2\n"
 "X-Poedit-SourceCharset: utf-8\n"
 
 #: src/modules/conf_paths/e_int_config_paths.c:59
@@ -5153,7 +5153,7 @@ msgstr "Types de fichiers"
 
 #: src/modules/fileman/e_mod_menu.c:274
 msgid "No listable items"
-msgstr "Afficher"
+msgstr "Voir"
 
 #: src/modules/fileman/e_mod_menu.c:382
 msgid "GTK Bookmarks"
@@ -5571,7 +5571,7 @@ msgstr "Activer la vérification des mises à jour"
 
 #: src/modules/wizard/page_060.c:29
 msgid "Focus:"
-msgstr "Focus :"
+msgstr "Focus"
 
 #: src/modules/wizard/page_060.c:38
 msgid "Whenever a window is clicked"
