@@ -12,14 +12,14 @@
 # rustyBSD <rustyBSD@gmx.fr>, 2012.
 # Raoul Hecky <raoul.hecky@gmail.com>, 2012.
 # Eliovir <eliovir@gmail.com>, 2013.
-# similar <similar@orange.fr>, 2019, 2020.
+# similar <similar@orange.fr>, 2019, 2020, 2021.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: enlightenment\n"
 "Report-Msgid-Bugs-To: enlightenment-devel@lists.sourceforge.net\n"
 "POT-Creation-Date: 2020-04-19 16:15+0200\n"
-"PO-Revision-Date: 2020-12-29 09:20+0100\n"
+"PO-Revision-Date: 2021-02-19 17:52+0100\n"
 "Last-Translator: Philippe Jean Guillaumie <similar@orange.fr>\n"
 "Language-Team: French\n"
 "Language: fr\n"
@@ -252,7 +252,7 @@ msgstr "Gestionnaire de fichiers inactif"
 
 #: src/modules/fileman_opinfo/e_mod_main.c:435
 msgid "EFM Operation Info"
-msgstr "Informations EFM"
+msgstr "Infos d'opération EFM"
 
 #: src/modules/bluez5/e_mod_agent.c:43
 msgid "Supply PIN"
@@ -1992,7 +1992,7 @@ msgstr "Fond d'écran actuel"
 #: src/modules/conf_display/e_int_config_desklock.c:408
 #: src/modules/time/config.c:11 src/bin/e_fm_prop.c:549
 msgid "Custom"
-msgstr "Personnalisé"
+msgstr "Personnalisé(e)"
 
 #: src/modules/conf_display/e_int_config_desklock_fsel.c:36
 msgid "Select a Background..."
@@ -5222,7 +5222,7 @@ msgstr "Icône du fichier"
 
 #: src/modules/fileman/e_int_config_mime_edit.c:134
 msgid "Basic Info"
-msgstr "Info basique"
+msgstr "Info de base"
 
 #: src/modules/fileman/e_int_config_mime_edit.c:135
 msgid "Mime:"
@@ -6645,7 +6645,7 @@ msgstr "Authentification…"
 
 #: src/modules/lokker/lokker.c:65
 msgid "The password you entered is invalid. Try again."
-msgstr "Le mot de passe entré est invalide. Réessayez."
+msgstr "Le mot de passe n'est pas valide. Réessayez."
 
 #: src/modules/lokker/lokker.c:223
 msgid "Please enter your PIN"
@@ -7227,7 +7227,7 @@ msgstr "nom / identifiant de l'accès rapide"
 
 #: src/modules/mixer/e_mod_config.c:430
 msgid "Notify on volume change"
-msgstr "Notification en cas de changement de volume"
+msgstr "Notifier tout changement de volume"
 
 #: src/modules/mixer/e_mod_config.c:433
 msgid "Mute on lock"
@@ -7774,7 +7774,7 @@ msgstr "Utiliser cette icône pour tous les fichiers de ce type"
 
 #: src/bin/e_fm_prop.c:567
 msgid "Link Information"
-msgstr "Information sur le lien"
+msgstr "Informations sur le lien"
 
 #: src/bin/e_fm_prop.c:574
 msgid "This link is broken."
@@ -10227,11 +10227,11 @@ msgstr "Ce journal d'erreur va être enregistré dans %s/%s.log"
 
 #: src/bin/e_exec.c:1072
 msgid "Error Information"
-msgstr "Information sur l'erreur"
+msgstr "Informations sur l'erreur"
 
 #: src/bin/e_exec.c:1080
 msgid "Error Signal Information"
-msgstr "Information sur le signal d'erreur"
+msgstr "Informations sur le signal d'erreur"
 
 #: src/bin/e_exec.c:1090 src/bin/e_exec.c:1097
 msgid "Output Data"
