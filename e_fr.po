@@ -19,7 +19,7 @@ msgstr ""
 "Project-Id-Version: enlightenment\n"
 "Report-Msgid-Bugs-To: enlightenment-devel@lists.sourceforge.net\n"
 "POT-Creation-Date: 2020-04-19 16:15+0200\n"
-"PO-Revision-Date: 2021-02-19 17:52+0100\n"
+"PO-Revision-Date: 2021-03-01 12:12+0100\n"
 "Last-Translator: Philippe Jean Guillaumie <similar@orange.fr>\n"
 "Language-Team: French\n"
 "Language: fr\n"
@@ -72,7 +72,7 @@ msgstr "Messages"
 
 #: src/modules/conf_paths/e_int_config_paths.c:164
 msgid "Enlightenment Paths"
-msgstr "Chemins de E"
+msgstr "Chemins de Enlightenment"
 
 #: src/modules/conf_paths/e_int_config_paths.c:195
 msgid "Default Directories"
@@ -518,7 +518,7 @@ msgstr "Fond"
 
 #: src/modules/gadman/e_mod_config.c:22
 msgid "Overlay (Action Toggle)"
-msgstr "Incrustation (sur activation)"
+msgstr "Incrustation (avec action pour déclencher)"
 
 #: src/modules/gadman/e_mod_config.c:79 src/modules/gadman/e_mod_config.c:156
 #: src/modules/gadman/e_mod_main.c:162
@@ -6858,7 +6858,7 @@ msgstr "Lanceur autres"
 
 #: src/modules/conf_applications/e_int_config_defapps.c:297
 msgid "Custom Browser Command"
-msgstr "Commande du navigateur personnalisée"
+msgstr "Commande du navigateur préféré"
 
 #: src/modules/conf_applications/e_int_config_defapps.c:310
 msgid "Browser"
@@ -7039,7 +7039,7 @@ msgstr ""
 #: src/modules/quickaccess/e_mod_quickaccess.c:1288
 #: src/modules/quickaccess/e_mod_quickaccess.c:1305
 msgid "Quickaccess Help"
-msgstr "Aide sur les accès rapides"
+msgstr "Aide sur les accès rapides (Quickaccess)"
 
 #: src/modules/quickaccess/e_mod_quickaccess.c:358
 msgid "Cannot set relaunch for window without name and class!"
@@ -8570,7 +8570,7 @@ msgid ""
 msgstr ""
 "Enlightenment ne parvient pas à initialiser le gestionnaire de signal de "
 "sortie.\n"
-"Peut-être êtes-vous à court de mémoire ?"
+"Êtes-vous à court de mémoire ?"
 
 #: src/bin/e_main.c:434
 msgid ""
@@ -8578,7 +8578,7 @@ msgid ""
 "Perhaps you are out of memory?"
 msgstr ""
 "Enlightenment ne parvient pas à initialiser le gestionnaire de signal HUP.\n"
-"Peut-être êtes-vous à court de mémoire ?"
+"Êtes-vous à court de mémoire ?"
 
 #: src/bin/e_main.c:441
 msgid ""
@@ -8587,7 +8587,7 @@ msgid ""
 msgstr ""
 "Enlightenment ne parvient pas à initialiser le gestionnaire de signal "
 "UTILISATEUR.\n"
-"Peut-être êtes-vous à court de mémoire ?"
+"Êtes-vous à court de mémoire ?"
 
 #: src/bin/e_main.c:450
 msgid "Enlightenment cannot initialize Ecore_File!\n"
@@ -8686,7 +8686,7 @@ msgid ""
 msgstr ""
 "Enlightenment ne parvient pas à configurer les chemins de recherche des "
 "fichiers.\n"
-"Peut-être êtes-vous à court de mémoire ?"
+"Êtes-vous à court de mémoire ?"
 
 #: src/bin/e_main.c:694
 msgid "Enlightenment cannot set up its font system.\n"
@@ -8716,7 +8716,7 @@ msgid ""
 msgstr ""
 "Enlightenment ne parvient pas à initialiser le système de menus FDO.\n"
 "Peut-être vous manque-t-il certaines permissions sur ~/.cache/efreet\n"
-"ou bien le système est-il à court de mémoire ou d'espace disque ?"
+"ou bien le système est à court de mémoire ou d'espace disque ?"
 
 #: src/bin/e_main.c:747
 msgid "Enlightenment cannot set up its intl system.\n"
