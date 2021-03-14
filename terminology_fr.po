@@ -1,17 +1,18 @@
 # French translation for Terminology.
-# Copyright (C) 2012-2020 Terminology development team
+# Copyright (C) 2014 Terminology development team
 # This file is distributed under the same license as the terminology package.
-#  <boris@fau.re>, 2014.
-#  similar <similar@orange.fr>, 2019, 2020, 2021.
-#
+# <boris@fau.re>, 2014.
+# similar <similar@orange.fr>, 2019, 2020.
+# Philippe Jean Guillaumie <similar@orange.fr>, 2021.
 msgid ""
 msgstr ""
 "Project-Id-Version: terminology\n"
 "Report-Msgid-Bugs-To: enlightenment-devel@lists.sourceforge.net\n"
-"POT-Creation-Date: 2021-03-06 10:57+0100\n"
-"PO-Revision-Date: 2021-03-06 16:38+0100\n"
+"POT-Creation-Date: 2021-03-14 15:20+0100\n"
+"PO-Revision-Date: 2021-03-14 17:39+0100\n"
 "Last-Translator: Philippe Jean Guillaumie <similar@orange.fr>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/terminology/"
+"terminology/fr/>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -392,15 +393,15 @@ msgid "Start iconified"
 msgstr "Lancer minimisé"
 
 #: src/bin/main.c:499
-msgid "Become a borderless managed window"
-msgstr "Transformer en fenêtre gérée sans bordure"
+msgid "Start borderless"
+msgstr "Lancer sans bordure"
 
 #: src/bin/main.c:501
-msgid "Become an override-redirect window"
-msgstr "Transformer la fenêtre avec l'attribut override-redirect"
+msgid "Start as a override-redirect window"
+msgstr "Lancer la fenêtre avec override-redirect positionné"
 
 #: src/bin/main.c:503
-msgid "Become maximized from the start"
+msgid "Start maximized"
 msgstr "Lancer maximisé"
 
 #: src/bin/main.c:505
@@ -1030,6 +1031,12 @@ msgid "Couldn't find terminology theme! Forgot 'ninja install'?"
 msgstr ""
 "Impossible de trouver le thème de Terminology ! Avez-vous exécuté la "
 "commande « ninja install » ?"
+
+#~ msgid "Become a borderless managed window"
+#~ msgstr "Transformer en fenêtre gérée sans bordure"
+
+#~ msgid "Become maximized from the start"
+#~ msgstr "Lancer maximisé"
 
 #~ msgid "Go into an iconic state from the start"
 #~ msgstr "Lancer en mode iconifié"
