@@ -19,7 +19,7 @@ msgstr ""
 "Project-Id-Version: enlightenment\n"
 "Report-Msgid-Bugs-To: enlightenment-devel@lists.sourceforge.net\n"
 "POT-Creation-Date: 2020-04-19 16:15+0200\n"
-"PO-Revision-Date: 2021-03-01 12:12+0100\n"
+"PO-Revision-Date: 2021-03-15 08:50+0100\n"
 "Last-Translator: Philippe Jean Guillaumie <similar@orange.fr>\n"
 "Language-Team: French\n"
 "Language: fr\n"
@@ -518,7 +518,7 @@ msgstr "Fond"
 
 #: src/modules/gadman/e_mod_config.c:22
 msgid "Overlay (Action Toggle)"
-msgstr "Incrustation (avec action pour déclencher)"
+msgstr "Incrustation (action d'activation)"
 
 #: src/modules/gadman/e_mod_config.c:79 src/modules/gadman/e_mod_config.c:156
 #: src/modules/gadman/e_mod_main.c:162
@@ -5615,11 +5615,11 @@ msgstr "Afficher le menu"
 
 #: src/modules/syscon/e_mod_main.c:31 src/modules/syscon/e_mod_main.c:37
 msgid "System Controls"
-msgstr "Contrôles du système"
+msgstr "Commandes système"
 
 #: src/modules/syscon/e_int_config_syscon.c:43
 msgid "System Controls Settings"
-msgstr "Configuration des contrôles du système"
+msgstr "Paramètres des commandes système"
 
 #: src/modules/syscon/e_int_config_syscon.c:153
 #: src/modules/mixer/gadget/backend.c:1046 src/bin/e_int_menus.c:154
@@ -8779,7 +8779,7 @@ msgstr ""
 #: src/bin/e_main.c:894
 msgid "Enlightenment cannot initialize the System Command system.\n"
 msgstr ""
-"Enlightenment ne parvient pas à initialiser son gestionnaire de commandes "
+"Enlightenment ne parvient pas à initialiser son système de commande "
 "système.\n"
 
 #: src/bin/e_main.c:903
