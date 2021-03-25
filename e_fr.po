@@ -19,7 +19,7 @@ msgstr ""
 "Project-Id-Version: enlightenment\n"
 "Report-Msgid-Bugs-To: enlightenment-devel@lists.sourceforge.net\n"
 "POT-Creation-Date: 2020-04-19 16:15+0200\n"
-"PO-Revision-Date: 2021-03-15 08:50+0100\n"
+"PO-Revision-Date: 2021-03-25 14:44+0100\n"
 "Last-Translator: Philippe Jean Guillaumie <similar@orange.fr>\n"
 "Language-Team: French\n"
 "Language: fr\n"
@@ -897,7 +897,7 @@ msgstr "Niveaux autorisés"
 
 #: src/modules/conf_performance/e_int_config_powermanagement.c:133
 msgid "Time to defer power-hungry tasks"
-msgstr "Reporter les tâches consommatrices en énergie"
+msgstr "Quand différer les tâches énergivores"
 
 #: src/modules/conf_performance/e_int_config_powermanagement.c:144
 msgid "Min"
@@ -913,7 +913,7 @@ msgstr "Niveau"
 
 #: src/modules/conf_performance/e_int_config_powermanagement.c:170
 msgid "e.g. Saving to disk"
-msgstr "p. ex. enregistrement sur le disque"
+msgstr "p. ex. enregistrement sur disque"
 
 #: src/modules/conf_performance/e_int_config_powermanagement.c:200
 #: src/modules/conf_theme/e_int_config_fonts.c:742
@@ -1207,15 +1207,15 @@ msgstr "Grand(e)"
 
 #: src/modules/conf_theme/e_int_config_fonts.c:102
 msgid "Small Styled"
-msgstr "Style petit"
+msgstr "Petite stylée"
 
 #: src/modules/conf_theme/e_int_config_fonts.c:103
 msgid "Normal Styled"
-msgstr "Style normal"
+msgstr "Normale stylée"
 
 #: src/modules/conf_theme/e_int_config_fonts.c:104
 msgid "Large Styled"
-msgstr "Style grand"
+msgstr "Grande stylée"
 
 #: src/modules/conf_theme/e_int_config_fonts.c:167
 msgid "Font Settings"
@@ -8779,8 +8779,7 @@ msgstr ""
 #: src/bin/e_main.c:894
 msgid "Enlightenment cannot initialize the System Command system.\n"
 msgstr ""
-"Enlightenment ne parvient pas à initialiser son système de commande "
-"système.\n"
+"Enlightenment ne parvient pas à initialiser le système System Command.\n"
 
 #: src/bin/e_main.c:903
 msgid "Enlightenment cannot set up its exec system.\n"
@@ -10391,7 +10390,7 @@ msgstr "Afficher sur les bureaux spécifiés"
 
 #: src/bin/e_int_gadcon_config.c:701
 msgid "Loaded Gadgets"
-msgstr "Gadgets chargés"
+msgstr "Gadgets activés"
 
 #: src/bin/e_int_gadcon_config.c:721
 msgid "Available Gadgets"
@@ -10957,7 +10956,7 @@ msgstr "Déplacer aux coordonnées…"
 
 #: src/bin/e_actions.c:3632
 msgid "Move By Coordinate Offset..."
-msgstr "Déplacer selon le décalage…"
+msgstr "Déplacer selon coordonnées de décalage…"
 
 #: src/bin/e_actions.c:3638
 msgid "Resize By..."
