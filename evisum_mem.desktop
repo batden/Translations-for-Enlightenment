@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Memory Usage
+Name[fr]=Utilisation de la mémoire
+Exec=evisum -m
+Icon=evisum_mem
+Categories=System;Monitor;
+StartupWMClass=evisum

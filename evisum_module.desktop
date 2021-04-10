@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Name=Evisum
+GenericName=Process Explorer
+GenericName[fr]=Activité des processus
+GenericName[it]=Attività del sistema
+GenericName[ru]=Системная активность
+Exec=evisum
+Icon=evisum
+Categories=System;Monitor;
+StartupWMClass=evisum
