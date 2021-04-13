@@ -2,14 +2,14 @@
 # Copyright (C) 2020 Alastair "netstar" Poole
 # This file is distributed under the same license as the evisum package.
 # Alastair Poole <netstar@gmail.com>, 2020.
-# similar <similar@orange.fr>, 2020.
+# similar <similar@orange.fr>, 2020, 2021.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: evisum\n"
 "Report-Msgid-Bugs-To: enlightenment-devel@lists.sourceforge.net\n"
-"POT-Creation-Date: 2020-07-01 14:13+0100\n"
-"PO-Revision-Date: 2020-07-13 08:38+0200\n"
+"POT-Creation-Date: 2021-04-02 13:16+0200\n"
+"PO-Revision-Date: 2021-04-13 18:05+0200\n"
 "Last-Translator: Philippe Jean Guillaumie <similar@orange.fr>\n"
 "Language-Team: French\n"
 "Language: fr\n"
@@ -17,280 +17,664 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Poedit 2.3\n"
+"X-Generator: Poedit 2.4.2\n"
 
-#: src/bin/ui/ui_process_view.c:544
-msgid " Memory :"
-msgstr " Mémoire :"
+#: src/bin/system/process.c:76 src/bin/ui/ui_process_list.c:927
+msgid "dsleep"
+msgstr "dsleep"
 
-#: src/bin/ui/ui_process_view.c:554
-msgid " Resident memory:"
-msgstr " Mémoire résidente :"
+#: src/bin/system/process.c:77 src/bin/system/process.c:84
+#: src/bin/ui/ui_process_list.c:921
+msgid "idle"
+msgstr "inactif"
 
-#: src/bin/ui/ui_process_view.c:549
-msgid " Shared memory:"
-msgstr " Mémoire partagée :"
+#: src/bin/system/process.c:78 src/bin/system/process.c:85
+#: src/bin/system/process.c:96 src/bin/ui/ui_process_list.c:915
+msgid "running"
+msgstr "fonctionnel"
 
-#: src/bin/ui/ui_process_view.c:559
-msgid " Virtual memory:"
-msgstr " Mémoire virtuelle :"
+#: src/bin/system/process.c:79 src/bin/system/process.c:86
+#: src/bin/ui/ui_process_list.c:917
+msgid "sleeping"
+msgstr "dormant"
 
-#: src/bin/ui/ui_misc.c:35
+#: src/bin/system/process.c:80 src/bin/system/process.c:87
+#: src/bin/ui/ui_process_list.c:919
+msgid "stopped"
+msgstr "arrêté"
+
+#: src/bin/system/process.c:81 src/bin/ui/ui_process_list.c:925
+msgid "dead"
+msgstr "mort"
+
+#: src/bin/system/process.c:82 src/bin/system/process.c:92
+#: src/bin/system/process.c:95 src/bin/ui/ui_process_list.c:923
+msgid "zombie"
+msgstr "zombie"
+
+#: src/bin/system/process.c:90
+msgid "wait"
+msgstr "attente"
+
+#: src/bin/system/process.c:91
+msgid "lock"
+msgstr "verrou"
+
+#: src/bin/ui/evisum_ui.c:308 src/bin/ui/evisum_ui.c:541
 #, c-format
-msgid "%s"
-msgstr "%s"
+msgid "%1.0f secs"
+msgstr "%1.0f secondes"
 
-#: src/bin/ui/ui_process_view.c:360
+#: src/bin/ui/evisum_ui.c:310
 #, c-format
-msgid "%s (%d) - Not running"
-msgstr "%s (%d) - Pas en exécution"
+msgid "%1.0f sec"
+msgstr "%1.0f seconde"
 
-#: src/bin/ui/ui_misc.c:33
-#, c-format
-msgid "%s (plugged in)"
-msgstr "%s (sur secteur)"
-
-#: src/bin/ui/ui.c:1556
-msgid "About"
-msgstr "À propos"
-
-#: src/bin/ui/ui.c:939
+#: src/bin/ui/evisum_ui.c:420 src/bin/ui/ui_process_list.c:1384
 msgid "Actions"
 msgstr "Actions"
 
-#: src/bin/ui/ui_memory.c:160
-msgid "Buffered"
-msgstr "Tamponnée"
+#: src/bin/ui/evisum_ui.c:437
+msgid "Processes"
+msgstr "Processus"
 
-#: src/bin/ui/ui.c:1548
+#: src/bin/ui/evisum_ui.c:444
 msgid "CPU"
 msgstr "CPU"
 
-#: src/bin/ui/ui_process_view.c:533
-msgid "CPU #:"
-msgstr "CPU n° :"
-
-#: src/bin/ui/ui.c:1153 src/bin/ui/ui_process_view.c:778
-msgid "CPU %"
-msgstr "CPU %"
-
-#: src/bin/ui/ui_process_view.c:579
-msgid "CPU %:"
-msgstr "CPU % :"
-
-#: src/bin/ui/ui_process_view.c:769
-msgid "CPU ID"
-msgstr "CPU ID"
-
-#: src/bin/ui/ui_cpu.c:213
-msgid "CPU Usage"
-msgstr "Utilisation du CPU"
-
-#: src/bin/ui/ui_memory.c:155
-msgid "Cached"
-msgstr "Cachée"
-
-#: src/bin/ui/ui.c:965
-msgid "Cancel"
-msgstr "Annuler"
-
-#: src/bin/ui/ui.c:1133
-msgid "Command"
-msgstr "Commande"
-
-#: src/bin/ui/ui_process_view.c:510
-msgid "Command line:"
-msgstr "Ligne de commande :"
-
-#: src/bin/ui/ui_process_view.c:505
-msgid "Command:"
-msgstr "Commande :"
-
-#: src/bin/ui/ui.c:896
-msgid "Debug"
-msgstr "Déboguer"
-
-#: src/bin/ui/ui.c:887
-msgid "Decrease"
-msgstr "Diminuer"
-
-#: src/bin/ui/ui_process_view.c:810
-msgid "Documentation"
-msgstr "Documentation"
-
-#: src/bin/main.c:42
-msgid "EFL System Monitor"
-msgstr "Moniteur système EFL"
-
-#: src/bin/ui/ui.c:1545
-msgid "File"
-msgstr "Fichier"
-
-#: src/bin/ui/ui_process_view.c:494
-msgid "General"
-msgstr "Général"
-
-#: src/bin/ui/ui.c:1555
-msgid "Help"
-msgstr "Aide"
-
-#: src/bin/ui/ui_process_view.c:742
-msgid "ID"
-msgstr "ID"
-
-#: src/bin/ui/ui.c:885
-msgid "Increase"
-msgstr "Augmenter"
-
-#: src/bin/ui/ui_process_view.c:626
-msgid "Kill"
-msgstr "Tuer"
-
-#: src/bin/ui/ui_process_view.c:959
-msgid "Manual"
-msgstr "Manuel"
-
-#: src/bin/ui/ui.c:1549
+#: src/bin/ui/evisum_ui.c:451
 msgid "Memory"
 msgstr "Mémoire"
 
-#: src/bin/ui/ui_memory.c:134
+#: src/bin/ui/evisum_ui.c:458 src/bin/ui/ui_disk.c:566
+msgid "Storage"
+msgstr "Stockage"
+
+#: src/bin/ui/evisum_ui.c:465 src/bin/ui/ui_sensors.c:270
+msgid "Sensors"
+msgstr "Capteurs"
+
+#: src/bin/ui/evisum_ui.c:472 src/bin/ui/ui_network.c:351
+msgid "Network"
+msgstr "Réseau"
+
+#: src/bin/ui/evisum_ui.c:486
+msgid "Effects"
+msgstr "Effets"
+
+#: src/bin/ui/evisum_ui.c:500 src/bin/ui/ui_util.c:421
+msgid "About"
+msgstr "À propos"
+
+#: src/bin/ui/evisum_ui.c:525 src/bin/ui/ui_cpu.c:728
+msgid "Options"
+msgstr "Options"
+
+#: src/bin/ui/evisum_ui.c:544
+msgid "Poll delay"
+msgstr "Intervalle d'actualisation"
+
+#: src/bin/ui/evisum_ui.c:565
+msgid "Show kernel threads?"
+msgstr "Montrer les fils d'exécution du noyau ?"
+
+#: src/bin/ui/evisum_ui.c:576
+msgid "User only?"
+msgstr "Uniquement ceux de l'utilisateur ?"
+
+#: src/bin/ui/evisum_ui.c:587
+msgid "Display"
+msgstr "Affichage"
+
+#: src/bin/ui/evisum_ui.c:600
+msgid "Display scroll bar?"
+msgstr "Montrer la barre de défilement ?"
+
+#: src/bin/ui/evisum_ui.c:616
+msgid "Alpha"
+msgstr "Opacité"
+
+#: src/bin/ui/evisum_ui.c:628
+#, c-format
+msgid "%1.0f %%"
+msgstr "%1.0f %%"
+
+#: src/bin/ui/ui_cpu.c:651
+msgid "Legend"
+msgstr "Légende"
+
+#: src/bin/ui/ui_cpu.c:741
+msgid "Overlay CPU frequency?"
+msgstr "Fréquence CPU en surimpression ?"
+
+#: src/bin/ui/ui_cpu.c:750
+msgid "Overlay CPU temperatures?"
+msgstr "Température CPU en surimpression ?"
+
+#: src/bin/ui/ui_cpu.c:759
+msgid "Confused?"
+msgstr "Clarification ?"
+
+#: src/bin/ui/ui_cpu.c:805
+msgid "CPU Activity"
+msgstr "Activité du CPU"
+
+#: src/bin/ui/ui_disk.c:588
+msgid "device"
+msgstr "périphérique"
+
+#: src/bin/ui/ui_disk.c:597
+msgid "mount"
+msgstr "montage"
+
+#: src/bin/ui/ui_disk.c:606
+msgid "type"
+msgstr "type"
+
+#: src/bin/ui/ui_disk.c:615
+msgid "total"
+msgstr "total"
+
+#: src/bin/ui/ui_disk.c:626
+msgid "used"
+msgstr "utilisé"
+
+#: src/bin/ui/ui_disk.c:637
+msgid "free"
+msgstr "libre"
+
+#: src/bin/ui/ui_disk.c:648
+msgid "usage"
+msgstr "utilisation"
+
+#: src/bin/ui/ui_memory.c:226
 msgid "Memory Usage"
 msgstr "Utilisation de la mémoire"
 
-#: src/bin/ui/ui.c:1553
-msgid "Misc"
-msgstr "Divers"
+#: src/bin/ui/ui_memory.c:253
+msgid "Used"
+msgstr "Utilisée"
 
-#: src/bin/ui/ui_process_view.c:751
-msgid "Name"
-msgstr "Nom"
+#: src/bin/ui/ui_memory.c:260
+msgid "Cached"
+msgstr "Cache"
 
-#: src/bin/ui/ui_misc.c:174
-msgid "Network Incoming"
-msgstr "Réseau entrant"
+#: src/bin/ui/ui_memory.c:267
+msgid "Buffered"
+msgstr "Tampon"
 
-#: src/bin/ui/ui_misc.c:176
-msgid "Network Outgoing"
-msgstr "Réseau sortant"
+#: src/bin/ui/ui_memory.c:274
+msgid "Shared"
+msgstr "Partage"
 
-#: src/bin/ui/ui_process_view.c:564
-msgid "Nice:"
-msgstr "Nice :"
+#: src/bin/ui/ui_memory.c:281
+msgid "Swapped"
+msgstr "Échange"
 
-#: src/bin/ui/ui_process_view.c:905
+#: src/bin/ui/ui_memory.c:290
+msgid "Video"
+msgstr "Vidéo"
+
+#: src/bin/ui/ui_network.c:163
+msgid "<hilight>Total In/Out</>"
+msgstr "<hilight>Total E/S</>"
+
+#: src/bin/ui/ui_network.c:174
+msgid "<hilight>Peak In/Out</>"
+msgstr "<hilight>Pic E/S</>"
+
+#: src/bin/ui/ui_network.c:185
+msgid "<hilight>In/Out</>"
+msgstr "<hilight>E/S</>"
+
+#: src/bin/ui/ui_process_list.c:121
+msgid "Command"
+msgstr "Commande"
+
+#: src/bin/ui/ui_process_list.c:123
+msgid "User"
+msgstr "Utilisateur"
+
+#: src/bin/ui/ui_process_list.c:125
+msgid "Process ID"
+msgstr "ID Processus"
+
+#: src/bin/ui/ui_process_list.c:127 src/bin/ui/ui_process_list.c:1355
+#: src/bin/ui/ui_process_view.c:1669
+msgid "Threads"
+msgstr "Fils d'exécution"
+
+#: src/bin/ui/ui_process_list.c:129
+msgid "CPU #"
+msgstr "CPU n°"
+
+#: src/bin/ui/ui_process_list.c:131
+msgid "Priority"
+msgstr "Priorité"
+
+#: src/bin/ui/ui_process_list.c:133
+msgid "Nice"
+msgstr "Politesse"
+
+#: src/bin/ui/ui_process_list.c:135
+msgid "Open Files"
+msgstr "Fichiers ouverts"
+
+#: src/bin/ui/ui_process_list.c:137
+msgid "Memory Size"
+msgstr "Taille mémoire"
+
+#: src/bin/ui/ui_process_list.c:139
+msgid "Memory Virtual"
+msgstr "Mémoire virtuelle"
+
+#: src/bin/ui/ui_process_list.c:141
+msgid "Memory Reserved"
+msgstr "Mémoire réservée"
+
+#: src/bin/ui/ui_process_list.c:143
+msgid "Memory Shared"
+msgstr "Mémoire partagée"
+
+#: src/bin/ui/ui_process_list.c:145
+msgid "State"
+msgstr "État"
+
+#: src/bin/ui/ui_process_list.c:147
+msgid "Time"
+msgstr "Temps"
+
+#: src/bin/ui/ui_process_list.c:149
+msgid "CPU Usage"
+msgstr "Utilisation du CPU"
+
+#: src/bin/ui/ui_process_list.c:162
+msgid "command"
+msgstr "commande"
+
+#: src/bin/ui/ui_process_list.c:164
+msgid "user"
+msgstr "user"
+
+#: src/bin/ui/ui_process_list.c:166
+msgid "pid"
+msgstr "pid"
+
+#: src/bin/ui/ui_process_list.c:168
+msgid "thr"
+msgstr "thr"
+
+#: src/bin/ui/ui_process_list.c:170
+msgid "cpu"
+msgstr "cpu"
+
+#: src/bin/ui/ui_process_list.c:172
+msgid "pri"
+msgstr "pri"
+
+#: src/bin/ui/ui_process_list.c:174
+msgid "nice"
+msgstr "nice"
+
+#: src/bin/ui/ui_process_list.c:176
+msgid "files"
+msgstr "files"
+
+#: src/bin/ui/ui_process_list.c:178
+msgid "size"
+msgstr "size"
+
+#: src/bin/ui/ui_process_list.c:180
+msgid "virt"
+msgstr "virt"
+
+#: src/bin/ui/ui_process_list.c:182
+msgid "res"
+msgstr "res"
+
+#: src/bin/ui/ui_process_list.c:184
+msgid "shr"
+msgstr "shr"
+
+#: src/bin/ui/ui_process_list.c:186 src/bin/ui/ui_process_view.c:1440
+msgid "state"
+msgstr "state"
+
+#: src/bin/ui/ui_process_list.c:188
+msgid "time"
+msgstr "time"
+
+#: src/bin/ui/ui_process_list.c:190 src/bin/ui/ui_process_view.c:1461
+msgid "cpu %"
+msgstr "% cpu"
+
+#: src/bin/ui/ui_process_list.c:888
+#, c-format
+msgid "%i processes: "
+msgstr "%i processus"
+
+#: src/bin/ui/ui_process_list.c:890
+#, c-format
+msgid "%i running, "
+msgstr "%i en cours, "
+
+#: src/bin/ui/ui_process_list.c:892
+#, c-format
+msgid "%i sleeping, "
+msgstr "%i en sommeil, "
+
+#: src/bin/ui/ui_process_list.c:894
+#, c-format
+msgid "%i stopped, "
+msgstr "%i arrêtés, "
+
+#: src/bin/ui/ui_process_list.c:896
+#, c-format
+msgid "%i idle, "
+msgstr "%i inactifs, "
+
+#: src/bin/ui/ui_process_list.c:898
+#, c-format
+msgid "%i dead, "
+msgstr "%i morts, "
+
+#: src/bin/ui/ui_process_list.c:900
+#, c-format
+msgid "%i dsleep, "
+msgstr "%i ininterruptibles, "
+
+#: src/bin/ui/ui_process_list.c:902
+#, c-format
+msgid "%i zombie, "
+msgstr "%i zombies, "
+
+#: src/bin/ui/ui_process_list.c:1300
+msgid "Debug"
+msgstr "Déboguer"
+
+#: src/bin/ui/ui_process_list.c:1351
+msgid "General"
+msgstr "Général"
+
+#: src/bin/ui/ui_process_list.c:1353 src/bin/ui/ui_process_view.c:1658
+msgid "Children"
+msgstr "Enfants"
+
+#: src/bin/ui/ui_process_list.c:1357 src/bin/ui/ui_process_view.c:1680
+msgid "Manual"
+msgstr "Manuel"
+
+#: src/bin/ui/ui_process_list.c:1389
+msgid "Start"
+msgstr "Démarrer"
+
+#: src/bin/ui/ui_process_list.c:1393
+msgid "Stop"
+msgstr "Arrêter"
+
+#: src/bin/ui/ui_process_list.c:1401
+msgid "Info"
+msgstr "Info"
+
+#: src/bin/ui/ui_process_list.c:1406
+msgid "Cancel"
+msgstr "Annuler"
+
+#: src/bin/ui/ui_process_list.c:1569
+msgid "Menu"
+msgstr "Menu"
+
+#: src/bin/ui/ui_process_list.c:1879
+msgid "Search"
+msgstr "Recherche"
+
+#: src/bin/ui/ui_process_list.c:2196
+msgid "Process Explorer"
+msgstr "Activité des processus"
+
+#: src/bin/ui/ui_process_view.c:680
+#, c-format
+msgid "<b>CPU: %.0f%%<br>Size: %s<br>Reserved: %s<br>Virtual: %s</>"
+msgstr "<b>CPU : %.0f%%<br>Taille : %s<br>Reservée : %s<br>Virtuelle : %s</>"
+
+#: src/bin/ui/ui_process_view.c:857
 #, c-format
 msgid "No documentation found for %s."
 msgstr "Pas de documentation disponible pour %s."
 
-#: src/bin/ui/ui_util.c:322
-msgid "Okay!"
-msgstr "Okay !"
+#: src/bin/ui/ui_process_view.c:986
+#, c-format
+msgid "%s (%d) - Not running"
+msgstr "%s (%d) - Pas en exécution"
 
-#: src/bin/ui/ui.c:1093
-msgid "PID"
-msgstr "PID"
+#: src/bin/ui/ui_process_view.c:1153
+msgid "Command:"
+msgstr "Commande :"
 
-#: src/bin/ui/ui_process_view.c:515
+#: src/bin/ui/ui_process_view.c:1162
+msgid "Command line:"
+msgstr "Ligne de commande :"
+
+#: src/bin/ui/ui_process_view.c:1167
 msgid "PID:"
 msgstr "PID :"
 
-#: src/bin/ui/ui.c:944
-msgid "Priority"
-msgstr "Priorité"
-
-#: src/bin/ui/ui_process_view.c:569
-msgid "Priority:"
-msgstr "Priorité :"
-
-#: src/bin/ui/ui_process_view.c:936
-msgid "Process"
-msgstr "Processus"
-
-#: src/bin/ui/ui.c:961
-msgid "Properties"
-msgstr "Propriétés"
-
-#: src/bin/ui/ui.c:1546
-msgid "Quit"
-msgstr "Quitter"
-
-#: src/bin/ui/ui.c:1123
-msgid "Res"
-msgstr "Rés."
-
-#: src/bin/ui/ui_memory.c:165
-msgid "Shared"
-msgstr "Partagée"
-
-#: src/bin/ui/ui.c:1113
-msgid "Size"
-msgstr "Taille"
-
-#: src/bin/ui/ui.c:949 src/bin/ui/ui_process_view.c:614
-msgid "Start"
-msgstr "Démarrer"
-
-#: src/bin/ui/ui.c:1143 src/bin/ui/ui_process_view.c:760
-msgid "State"
-msgstr "État"
-
-#: src/bin/ui/ui_process_view.c:574
-msgid "State:"
-msgstr "État :"
-
-#: src/bin/ui/ui.c:953 src/bin/ui/ui_process_view.c:603
-msgid "Stop"
-msgstr "Arrêter"
-
-#: src/bin/ui/ui.c:1551 src/bin/ui/ui_disk.c:177
-msgid "Storage"
-msgstr "Stockage"
-
-#: src/bin/ui/ui_misc.c:349
-msgid "Stuff"
-msgstr "Autres choses"
-
-#: src/bin/ui/ui_memory.c:170
-msgid "Swapped"
-msgstr "Échangée"
-
-#: src/bin/ui/ui.c:1056
-msgid "System CPU"
-msgstr "CPU du système"
-
-#: src/bin/ui/ui.c:1071
-msgid "System Memory"
-msgstr "Mémoire du système"
-
-#: src/bin/ui/ui_process_view.c:724 src/bin/ui/ui_process_view.c:948
-msgid "Threads"
-msgstr "Fils d'exécution"
-
-#: src/bin/ui/ui_process_view.c:539
-msgid "Threads:"
-msgstr "Fils d'exécution :"
-
-#: src/bin/ui/ui_process_view.c:525
-msgid "UID:"
-msgstr "UID :"
-
-#: src/bin/ui/ui_memory.c:150
-msgid "Used"
-msgstr "Utilisée"
-
-#: src/bin/ui/ui.c:1103
-msgid "User"
-msgstr "Utilisateur"
-
-#: src/bin/ui/ui_process_view.c:520
+#: src/bin/ui/ui_process_view.c:1172
 msgid "Username:"
 msgstr "Nom d'utilisateur :"
 
-#: src/bin/ui/ui.c:1547
-msgid "View"
-msgstr "Vue"
+#: src/bin/ui/ui_process_view.c:1177
+msgid "UID:"
+msgstr "UID :"
 
-#: src/bin/ui/ui_process_view.c:531
+#: src/bin/ui/ui_process_view.c:1182
+msgid "PPID:"
+msgstr "PPID:"
+
+#: src/bin/ui/ui_process_view.c:1188
 msgid "WQ #:"
 msgstr "WQ n° :"
+
+#: src/bin/ui/ui_process_view.c:1190
+msgid "CPU #:"
+msgstr "CPU n° :"
+
+#: src/bin/ui/ui_process_view.c:1196
+msgid "Threads:"
+msgstr "Fils d'exécution :"
+
+#: src/bin/ui/ui_process_view.c:1201
+msgid "Open Files:"
+msgstr "Fichiers ouverts :"
+
+#: src/bin/ui/ui_process_view.c:1206
+msgid " Memory :"
+msgstr " Mémoire :"
+
+#: src/bin/ui/ui_process_view.c:1211
+msgid " Shared memory:"
+msgstr " Mémoire partagée :"
+
+#: src/bin/ui/ui_process_view.c:1216
+msgid " Resident memory:"
+msgstr " Mémoire résidente :"
+
+#: src/bin/ui/ui_process_view.c:1221
+msgid " Virtual memory:"
+msgstr " Mémoire virtuelle :"
+
+#: src/bin/ui/ui_process_view.c:1226
+msgid " Start time:"
+msgstr " Heure de début :"
+
+#: src/bin/ui/ui_process_view.c:1231
+msgid " Run time:"
+msgstr " Durée :"
+
+#: src/bin/ui/ui_process_view.c:1236
+msgid "Nice:"
+msgstr "Nice :"
+
+#: src/bin/ui/ui_process_view.c:1241
+msgid "Priority:"
+msgstr "Priorité :"
+
+#: src/bin/ui/ui_process_view.c:1246
+msgid "State:"
+msgstr "État :"
+
+#: src/bin/ui/ui_process_view.c:1251
+msgid "CPU %:"
+msgstr "CPU % :"
+
+#: src/bin/ui/ui_process_view.c:1275
+msgid "stop"
+msgstr "arrêter"
+
+#: src/bin/ui/ui_process_view.c:1281
+msgid "start"
+msgstr "démarrer"
+
+#: src/bin/ui/ui_process_view.c:1287
+msgid "kill"
+msgstr "tuer"
+
+#: src/bin/ui/ui_process_view.c:1422
+msgid "id"
+msgstr "id"
+
+#: src/bin/ui/ui_process_view.c:1431
+msgid "name"
+msgstr "nom"
+
+#: src/bin/ui/ui_process_view.c:1449
+msgid "cpu id"
+msgstr "id cpu"
+
+#: src/bin/ui/ui_process_view.c:1647
+msgid "Process"
+msgstr "Processus"
+
+#: src/bin/ui/ui_process_view.c:1787
+msgid "Unknown"
+msgstr "Inconnu"
+
+#: src/bin/ui/ui_sensors.c:292
+msgid "Power"
+msgstr "Alimentation"
+
+#: src/bin/ui/ui_sensors.c:347
+msgid "Select..."
+msgstr "Choisir..."
+
+#: src/bin/ui/ui_sensors.c:358
+msgid "Thermal"
+msgstr "Zone thermique"
+
+#: src/bin/ui/ui_util.c:114
+msgid "B"
+msgstr "o"
+
+#: src/bin/ui/ui_util.c:114
+msgid "K"
+msgstr "Kio"
+
+#: src/bin/ui/ui_util.c:114
+msgid "M"
+msgstr "Mio"
+
+#: src/bin/ui/ui_util.c:114
+msgid "G"
+msgstr "Gio"
+
+#: src/bin/ui/ui_util.c:115
+msgid "T"
+msgstr "Tio"
+
+#: src/bin/ui/ui_util.c:115
+msgid "P"
+msgstr "Pio"
+
+#: src/bin/ui/ui_util.c:115
+msgid "E"
+msgstr "Eio"
+
+#: src/bin/ui/ui_util.c:115
+msgid "Z"
+msgstr "Zio"
+
+#: src/bin/ui/ui_util.c:511
+msgid "Close"
+msgstr "Fermer"
+
+#~ msgid "%s"
+#~ msgstr "%s"
+
+#~ msgid "%s (plugged in)"
+#~ msgstr "%s (sur secteur)"
+
+#~ msgid "CPU %"
+#~ msgstr "CPU %"
+
+#~ msgid "CPU ID"
+#~ msgstr "CPU ID"
+
+#~ msgid "Decrease"
+#~ msgstr "Diminuer"
+
+#~ msgid "Documentation"
+#~ msgstr "Documentation"
+
+#~ msgid "EFL System Monitor"
+#~ msgstr "Moniteur système EFL"
+
+#~ msgid "File"
+#~ msgstr "Fichier"
+
+#~ msgid "Help"
+#~ msgstr "Aide"
+
+#~ msgid "ID"
+#~ msgstr "ID"
+
+#~ msgid "Increase"
+#~ msgstr "Augmenter"
+
+#~ msgid "Kill"
+#~ msgstr "Tuer"
+
+#~ msgid "Misc"
+#~ msgstr "Divers"
+
+#~ msgid "Name"
+#~ msgstr "Nom"
+
+#~ msgid "Network Outgoing"
+#~ msgstr "Réseau sortant"
+
+#~ msgid "Okay!"
+#~ msgstr "Okay !"
+
+#~ msgid "PID"
+#~ msgstr "PID"
+
+#~ msgid "Properties"
+#~ msgstr "Propriétés"
+
+#~ msgid "Quit"
+#~ msgstr "Quitter"
+
+#~ msgid "Size"
+#~ msgstr "Taille"
+
+#~ msgid "Stuff"
+#~ msgstr "Autres choses"
+
+#~ msgid "System CPU"
+#~ msgstr "CPU du système"
+
+#~ msgid "System Memory"
+#~ msgstr "Mémoire du système"
+
+#~ msgid "View"
+#~ msgstr "Vue"
