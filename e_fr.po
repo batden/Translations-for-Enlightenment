@@ -19,7 +19,7 @@ msgstr ""
 "Project-Id-Version: enlightenment\n"
 "Report-Msgid-Bugs-To: enlightenment-devel@lists.sourceforge.net\n"
 "POT-Creation-Date: 2020-04-19 16:15+0200\n"
-"PO-Revision-Date: 2021-03-25 14:44+0100\n"
+"PO-Revision-Date: 2021-04-14 17:36+0200\n"
 "Last-Translator: Philippe Jean Guillaumie <similar@orange.fr>\n"
 "Language-Team: French\n"
 "Language: fr\n"
@@ -518,7 +518,7 @@ msgstr "Fond"
 
 #: src/modules/gadman/e_mod_config.c:22
 msgid "Overlay (Action Toggle)"
-msgstr "Incrustation (action d'activation)"
+msgstr "Surimpression (action d'activation)"
 
 #: src/modules/gadman/e_mod_config.c:79 src/modules/gadman/e_mod_config.c:156
 #: src/modules/gadman/e_mod_main.c:162
@@ -640,7 +640,7 @@ msgstr "Bureau"
 
 #: src/modules/gadman/e_mod_gadman.c:126
 msgid "Desktop Overlay"
-msgstr "Incrustation sur le bureau"
+msgstr "Surimpression sur le bureau"
 
 #: src/modules/gadman/e_mod_gadman.c:1064
 msgid "Begin move/resize"
@@ -5078,7 +5078,7 @@ msgstr "Taille de fichier maximum des vignettes"
 #: src/modules/fileman/e_mod_config.c:416
 #, c-format
 msgid "%1.0f MiB"
-msgstr "%1.0f Mo"
+msgstr "%1.0f Mio"
 
 #: src/modules/fileman/e_mod_config.c:420
 msgid "Spring Delay"
@@ -8164,22 +8164,22 @@ msgstr "%'.0f octets"
 #: src/bin/e_utils.c:557
 #, c-format
 msgid "%'.0f KiB"
-msgstr "%'.0f Ko"
+msgstr "%'.0f Kio"
 
 #: src/bin/e_utils.c:561
 #, c-format
 msgid "%'.1f MiB"
-msgstr "%'.1f Mo"
+msgstr "%'.1f Mio"
 
 #: src/bin/e_utils.c:565
 #, c-format
 msgid "%'.1f GiB"
-msgstr "%'.1f Go"
+msgstr "%'.1f Gio"
 
 #: src/bin/e_utils.c:569
 #, c-format
 msgid "%'.1f TiB"
-msgstr "%'.1f To"
+msgstr "%'.1f Tio"
 
 #: src/bin/e_utils.c:588
 #, c-format
@@ -9166,8 +9166,7 @@ msgid ""
 "Your display server does not support the compositor overlay window.\n"
 "This is needed for Enlightenment to function."
 msgstr ""
-"Votre serveur d'affichage ne sait pas gérer la fenêtre d'incrustation "
-"composite.\n"
+"Votre serveur d'affichage ne sait pas gérer le Composite Overlay Window.\n"
 "Cette fonction est essentielle au bon fonctionnement de E."
 
 #: src/bin/e_comp_x.c:5826
@@ -9890,11 +9889,11 @@ msgstr "Supprimer le fond d'écran"
 
 #: src/bin/e_fm.c:10104 src/bin/e_fm.c:10338
 msgid "Set overlay..."
-msgstr "Définir l'incrustation…"
+msgstr "Définir la surimpression…"
 
 #: src/bin/e_fm.c:10110
 msgid "Clear overlay"
-msgstr "Supprimer l'incrustation"
+msgstr "Supprimer la surimpression"
 
 #: src/bin/e_fm.c:10432 src/bin/e_fm.c:10795
 #, c-format
