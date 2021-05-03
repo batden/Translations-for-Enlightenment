@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: evisum\n"
 "Report-Msgid-Bugs-To: enlightenment-devel@lists.sourceforge.net\n"
 "POT-Creation-Date: 2021-04-02 13:16+0200\n"
-"PO-Revision-Date: 2021-04-13 18:05+0200\n"
+"PO-Revision-Date: 2021-05-03 12:48+0200\n"
 "Last-Translator: Philippe Jean Guillaumie <similar@orange.fr>\n"
 "Language-Team: French\n"
 "Language: fr\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Poedit 2.4.2\n"
+"X-Generator: Poedit 2.4.3\n"
 
 #: src/bin/system/process.c:76 src/bin/ui/ui_process_list.c:927
 msgid "dsleep"
@@ -116,7 +116,7 @@ msgstr "Intervalle d'actualisation"
 
 #: src/bin/ui/evisum_ui.c:565
 msgid "Show kernel threads?"
-msgstr "Montrer les fils d'exécution du noyau ?"
+msgstr "Montrer les threads du noyau ?"
 
 #: src/bin/ui/evisum_ui.c:576
 msgid "User only?"
@@ -221,7 +221,7 @@ msgstr "<hilight>Total E/S</>"
 
 #: src/bin/ui/ui_network.c:174
 msgid "<hilight>Peak In/Out</>"
-msgstr "<hilight>Pic E/S</>"
+msgstr "<hilight>Pic d'E/S</>"
 
 #: src/bin/ui/ui_network.c:185
 msgid "<hilight>In/Out</>"
@@ -237,12 +237,12 @@ msgstr "Utilisateur"
 
 #: src/bin/ui/ui_process_list.c:125
 msgid "Process ID"
-msgstr "ID Processus"
+msgstr "ID du processus"
 
 #: src/bin/ui/ui_process_list.c:127 src/bin/ui/ui_process_list.c:1355
 #: src/bin/ui/ui_process_view.c:1669
 msgid "Threads"
-msgstr "Fils d'exécution"
+msgstr "Threads"
 
 #: src/bin/ui/ui_process_list.c:129
 msgid "CPU #"
@@ -290,7 +290,7 @@ msgstr "Utilisation du CPU"
 
 #: src/bin/ui/ui_process_list.c:162
 msgid "command"
-msgstr "commande"
+msgstr "command"
 
 #: src/bin/ui/ui_process_list.c:164
 msgid "user"
@@ -346,7 +346,7 @@ msgstr "time"
 
 #: src/bin/ui/ui_process_list.c:190 src/bin/ui/ui_process_view.c:1461
 msgid "cpu %"
-msgstr "% cpu"
+msgstr "cpu %"
 
 #: src/bin/ui/ui_process_list.c:888
 #, c-format
@@ -469,7 +469,7 @@ msgstr "UID :"
 
 #: src/bin/ui/ui_process_view.c:1182
 msgid "PPID:"
-msgstr "PPID:"
+msgstr "PPID :"
 
 #: src/bin/ui/ui_process_view.c:1188
 msgid "WQ #:"
@@ -481,7 +481,7 @@ msgstr "CPU n° :"
 
 #: src/bin/ui/ui_process_view.c:1196
 msgid "Threads:"
-msgstr "Fils d'exécution :"
+msgstr "Threads :"
 
 #: src/bin/ui/ui_process_view.c:1201
 msgid "Open Files:"
