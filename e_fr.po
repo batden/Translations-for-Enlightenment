@@ -19,7 +19,7 @@ msgstr ""
 "Project-Id-Version: enlightenment\n"
 "Report-Msgid-Bugs-To: enlightenment-devel@lists.sourceforge.net\n"
 "POT-Creation-Date: 2021-05-05 13:19+0200\n"
-"PO-Revision-Date: 2021-05-05 14:10+0200\n"
+"PO-Revision-Date: 2021-05-18 09:44+0200\n"
 "Last-Translator: Philippe Jean Guillaumie <similar@orange.fr>\n"
 "Language-Team: French\n"
 "Language: fr\n"
@@ -1386,7 +1386,7 @@ msgstr "Général"
 
 #: src/bin/e_desktop_editor.c:830
 msgid "Startup Notify"
-msgstr "Notification de démarrage"
+msgstr "Notification de lancement"
 
 #: src/bin/e_desktop_editor.c:832 src/modules/everything/evry_plug_apps.c:1191
 msgid "Run in Terminal"
@@ -2147,7 +2147,7 @@ msgid ""
 "on this screen. Aborting startup.\n"
 msgstr ""
 "Une instance précédente d'Enlightenment est encore\n"
-"active sur cet écran. Abandon du démarrage.\n"
+"active sur cet écran. Abandon du lancement.\n"
 
 #: src/bin/e_import_config_dialog.c:94
 msgid "Picture Import Error"
@@ -2407,7 +2407,7 @@ msgstr "Créer un raccourci clavier"
 
 #: src/bin/e_int_client_menu.c:715
 msgid "Edit Color Scheme"
-msgstr "Schéma de couleurs"
+msgstr "Jeu de couleurs"
 
 #: src/bin/e_int_client_menu.c:761
 #: src/modules/everything/evry_plug_windows.c:356
@@ -6086,7 +6086,7 @@ msgstr "Paramètres du verrouillage de l'écran"
 
 #: src/modules/conf_display/e_int_config_desklock.c:218
 msgid "Lock on Startup"
-msgstr "Verrouiller au démarrage"
+msgstr "Verrouiller E au lancement"
 
 #: src/modules/conf_display/e_int_config_desklock.c:221
 msgid "Lock on Suspend"
@@ -7387,7 +7387,7 @@ msgstr "Événements"
 
 #: src/modules/conf_theme/e_int_config_transitions.c:181
 msgid "Startup"
-msgstr "Démarrage"
+msgstr "Lancement"
 
 #: src/modules/conf_theme/e_int_config_transitions.c:182
 msgid "Desk Change"
@@ -9119,7 +9119,7 @@ msgstr "Figer les icônes"
 
 #: src/modules/ibar/e_mod_config.c:151
 msgid "Don't show active windows"
-msgstr "Afficher les fenêtres du bureau actif"
+msgstr "Ne pas afficher les fenêtres actives"
 
 #: src/modules/ibar/e_mod_config.c:153
 msgid "Track launch"
@@ -9743,7 +9743,7 @@ msgstr "Désactiver les boîtes de dialogue d'avertissement"
 
 #: src/modules/quickaccess/e_mod_config.c:254
 msgid "Disable Startup Tutorial"
-msgstr "Désactiver le tutoriel de démarrage"
+msgstr "Désactiver le tutoriel au lancement"
 
 #: src/modules/quickaccess/e_mod_config.c:286
 msgid "Entries"
