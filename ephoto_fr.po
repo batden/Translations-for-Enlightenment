@@ -2,14 +2,14 @@
 # Copyright (C) 2017 Stephen "okra" Houston
 # This file is distributed under the same license as the ephoto package.
 # Vincent Torri <vincent.torri@gmail.com>, 2017.
-# similar <similar@orange.fr>, 2020.
+# similar <similar@orange.fr>, 2020, 2021.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: ephoto\n"
 "Report-Msgid-Bugs-To: enlightenment-devel@lists.sourceforge.net\n"
 "POT-Creation-Date: 2017-12-05 16:33-0600\n"
-"PO-Revision-Date: 2020-07-14 09:20+0200\n"
+"PO-Revision-Date: 2021-05-21 09:13+0200\n"
 "Last-Translator: Philippe Jean Guillaumie <similar@orange.fr>\n"
 "Language-Team: French\n"
 "Language: fr\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Poedit 2.3\n"
+"X-Generator: Poedit 2.4.3\n"
 
 #: ../src/bin/ephoto_config.c:404
 msgid ""
@@ -303,7 +303,7 @@ msgid ""
 "git>http://git.enlightenment.org/apps/ephoto.git</a><br/><br/><b>Authors:</"
 "b><br/>"
 msgstr ""
-"Ephoto est un visonneur d'images complet qui s'appuie sur les EFL. Pour plus "
+"Ephoto est une visionneuse d'images complète basée sur les EFL. Pour plus "
 "d'informations, visitez la page du projet :<br/><a href=http://www.smhouston."
 "us/ephoto/>http://www.smhouston.us/ephoto/</a><br/><br/>Ephoto est aussi sur "
 "le wiki d'Enlightenment :<br/><a href=https://phab.enlightenment.org/w/"
@@ -407,7 +407,7 @@ msgstr "Teinte / Saturation / Valeur"
 
 #: ../src/bin/ephoto_file.c:1474
 msgid "Image Files"
-msgstr "Fichers image"
+msgstr "Fichiers image"
 
 #: ../src/bin/ephoto_file.c:160
 msgid "Image Properties"
@@ -442,7 +442,7 @@ msgstr "Conserver l'aspect"
 
 #: ../src/bin/ephoto_config.c:134
 msgid "Keep Aspect on Thumbnails"
-msgstr "Conserver l'aspect sur les vignettes"
+msgstr "Conserver l'aspect des vignettes"
 
 #: ../src/bin/ephoto_slideshow.c:1043
 msgid "Last"
@@ -739,7 +739,7 @@ msgstr "Afficher les répertoires"
 
 #: ../src/bin/ephoto_config.c:102
 msgid "Show Folders On Start"
-msgstr "Afficher les répertoires au démarrage"
+msgstr "Afficher les répertoires au lancement"
 
 #: ../src/bin/ephoto_thumb_browser.c:1087
 #: ../src/bin/ephoto_thumb_browser.c:1128
