@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Name=Slideshow
+Name[fr]=Diaporama
+Icon=ephoto
+Exec=ephoto
+X-Gadget-Version=1.5
+X-Gadget-Bugreport=https://www.enlightenment.org/contrib/report-bug
+X-Gadget-Orientations=None
+Keywords=Picture;Slideshow;Graphics;

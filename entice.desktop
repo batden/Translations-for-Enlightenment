@@ -1,0 +1,13 @@
+[Desktop Entry]
+#Encoding=UTF-8
+Type=Application
+Name=Entice
+GenericName=Image Viewer
+GenericName[fr]=Visionneuse d'images
+Comment=Image Viewer
+Comment[fr]=Visionneuse d'images
+Exec=entice %U
+Icon=entice
+Categories=Graphics;Viewer;
+StartupWMClass=entice
+MimeType=image/png;image/x-png;image/jpeg;image/pjpeg;image/jp2;image/jpx;image/x-xpixmap;image/x-xbitmap;image/tiff;image/gif;image/x-portable-anymap;image/x-portable-bitmap;image/x-portable-graymap;image/x-portable-pixmap;image/bmp;image/x-bmp;image/tga;image/x-icb;image/targa;application/targa;image/vnd.wap.wbmp;image/webp;image/x-icon;image/vnd.microsoft.icon;image/x-ico;image/icon;image/vnd.adobe.photoshop;image/vnd-ms.dds;image/avif;image/avif-sequence;image/heif;image/heif-sequence;image/heic;image/heic-sequence;image/x-xcf;image/svg+xml;image/svg+xml-compressed;image/x-dcraw;image/x-adobe-dng;image/x-canon-crw;image/x-canon-cr2;image/x-epson-erf;image/x-fuji-raf;image/x-kodak-dcr;image/x-kodak-k25;image/x-kodak-kdc;image/x-minolta-mrw;image/x-nikon-nef;image/x-olympus-orf;image/x-panasonic-raw;image/x-pentax-pef;image/x-sigma-x3f;image/x-sony-srf;image/x-sony-sr2;image/x-sony-arw

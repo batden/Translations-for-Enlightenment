@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Express
+Comment=EFL IRC Application
+Comment[fr]=Client IRC basé sur les EFL
+Exec=express
+Icon=express
+Terminal=false
+Type=Application
+Categories=Network;Application;
+StartupWMClass=express
