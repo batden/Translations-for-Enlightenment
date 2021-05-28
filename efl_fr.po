@@ -1,0 +1,485 @@
+# French translation for EFL.
+# Copyright (C) 2012, 2013 Enlightenment development team
+# This file is put in the public domain.
+# batden <batden@orange.fr>, 2009.
+# dazibao <dazibao@sfr.fr>, 2011.
+# Jerome Pinot <ngc891@gmail.com>, 2012.
+# Chidambar Zinnoury <illogict@online.fr>, 2013.
+# similar <similar@orange.fr>, 2019, 2021.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: efl\n"
+"Report-Msgid-Bugs-To: enlightenment-devel@lists.sourceforge.net\n"
+"POT-Creation-Date: 2021-05-22 13:38+0200\n"
+"PO-Revision-Date: 2021-05-22 13:56+0200\n"
+"Last-Translator: Philippe Jean Guillaumie <similar@orange.fr>\n"
+"Language-Team: French>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.3\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: src/lib/ecore/ecore_getopt.c:85
+msgid "Version:"
+msgstr "Version :"
+
+#: src/lib/ecore/ecore_getopt.c:94
+msgid "Usage:"
+msgstr "Usage :"
+
+#: src/lib/ecore/ecore_getopt.c:101
+#, c-format
+msgid "%s [options]"
+msgstr "%s [options]"
+
+#: src/lib/ecore/ecore_getopt.c:301
+msgid "Copyright:"
+msgstr "Copyright :"
+
+#: src/lib/ecore/ecore_getopt.c:313
+msgid "License:"
+msgstr "Licence :"
+
+#: src/lib/ecore/ecore_getopt.c:499
+msgid "Type: "
+msgstr "Type : "
+
+#: src/lib/ecore/ecore_getopt.c:575
+msgid "Default: "
+msgstr "Par défaut : "
+
+#: src/lib/ecore/ecore_getopt.c:602
+msgid "Choices: "
+msgstr "Choix : "
+
+#: src/lib/ecore/ecore_getopt.c:640 src/lib/ecore/ecore_getopt.c:641
+msgid "No categories available."
+msgstr "Pas de catégorie disponible."
+
+#: src/lib/ecore/ecore_getopt.c:645
+msgid "Categories: "
+msgstr "Catégories : "
+
+#: src/lib/ecore/ecore_getopt.c:767
+msgid "Options:\n"
+msgstr "Options :\n"
+
+#: src/lib/ecore/ecore_getopt.c:776
+msgid "Positional arguments:\n"
+msgstr "Paramètres positionnels :\n"
+
+#: src/lib/ecore/ecore_getopt.c:843
+#, c-format
+msgid "ERROR: unknown category '%s'.\n"
+msgstr "ERREUR : catégorie inconnue « %s ».\n"
+
+#: src/lib/ecore/ecore_getopt.c:947
+#, c-format
+msgid "ERROR: unknown option --%s.\n"
+msgstr "ERREUR : option inconnue --%s.\n"
+
+#: src/lib/ecore/ecore_getopt.c:949
+#, c-format
+msgid "ERROR: unknown option -%c.\n"
+msgstr "ERREUR : option inconnue -%c.\n"
+
+#: src/lib/ecore/ecore_getopt.c:1012
+msgid "ERROR: "
+msgstr "ERREUR : "
+
+#: src/lib/ecore/ecore_getopt.c:1108 src/lib/ecore/ecore_getopt.c:1245
+#: src/lib/ecore/ecore_getopt.c:1261 src/lib/ecore/ecore_getopt.c:1276
+#: src/lib/ecore/ecore_getopt.c:1296 src/lib/ecore/ecore_getopt.c:1343
+#: src/lib/ecore/ecore_getopt.c:1463 src/lib/ecore/ecore_getopt.c:1504
+msgid "value has no pointer set.\n"
+msgstr "la valeur n’a aucun pointeur défini.\n"
+
+#: src/lib/ecore/ecore_getopt.c:1140 src/lib/ecore/ecore_getopt.c:1363
+#, c-format
+msgid "unknown boolean value %s.\n"
+msgstr "valeur booléenne inconnue %s.\n"
+
+#: src/lib/ecore/ecore_getopt.c:1191 src/lib/ecore/ecore_getopt.c:1451
+#, c-format
+msgid "invalid number format %s\n"
+msgstr "format du nombre non valide %s\n"
+
+#: src/lib/ecore/ecore_getopt.c:1309
+#, c-format
+msgid "invalid choice \"%s\". Valid values are: "
+msgstr "choix non valide « %s ». Les valeurs valides sont : "
+
+#: src/lib/ecore/ecore_getopt.c:1337
+msgid "missing parameter to append.\n"
+msgstr "paramètre manquant à ajouter.\n"
+
+#: src/lib/ecore/ecore_getopt.c:1441
+msgid "could not parse value.\n"
+msgstr "analyse de la valeur impossible.\n"
+
+#: src/lib/ecore/ecore_getopt.c:1498
+msgid "missing parameter.\n"
+msgstr "paramètre manquant.\n"
+
+#: src/lib/ecore/ecore_getopt.c:1511
+msgid "missing callback function!\n"
+msgstr "fonction de rappel (callback) manquante !\n"
+
+#: src/lib/ecore/ecore_getopt.c:1542
+msgid "no version was defined.\n"
+msgstr "aucune version n’est définie.\n"
+
+#: src/lib/ecore/ecore_getopt.c:1559
+msgid "no copyright was defined.\n"
+msgstr "aucun copyright n’est défini.\n"
+
+#: src/lib/ecore/ecore_getopt.c:1576
+msgid "no license was defined.\n"
+msgstr "aucune licence n’est définie.\n"
+
+#: src/lib/ecore/ecore_getopt.c:1666
+#, c-format
+msgid "ERROR: unknown option --%s, ignored.\n"
+msgstr "ERREUR : option inconnue --%s, non prise en compte.\n"
+
+#: src/lib/ecore/ecore_getopt.c:1706
+#, c-format
+msgid "ERROR: option --%s requires an argument!\n"
+msgstr "ERREUR : l’option --%s requiert un argument !\n"
+
+#: src/lib/ecore/ecore_getopt.c:1748
+#, c-format
+msgid "ERROR: unknown option -%c, ignored.\n"
+msgstr "ERREUR : option inconnue -%c, non prise en compte.\n"
+
+#: src/lib/ecore/ecore_getopt.c:1793
+#, c-format
+msgid "ERROR: option -%c requires an argument!\n"
+msgstr "ERREUR : l’option -%c requiert un argument !\n"
+
+#: src/lib/ecore/ecore_getopt.c:1888
+#, c-format
+msgid "ERROR: missing required positional argument %s.\n"
+msgstr "ERREUR : paramètre positionnel requis manquant %s.\n"
+
+#: src/lib/ecore/ecore_getopt.c:1920
+#, c-format
+msgid "ERROR: unsupported action type %d for positional argument %s\n"
+msgstr ""
+"ERREUR : type d'action non pris en charge %d pour le paramètre positionnel "
+"%s\n"
+
+#: src/lib/ecore/ecore_getopt.c:2041 src/lib/ecore/ecore_getopt.c:2107
+msgid "ERROR: no parser provided.\n"
+msgstr "ERREUR : aucun analyseur n’est fourni.\n"
+
+#: src/lib/ecore/ecore_getopt.c:2046 src/lib/ecore/ecore_getopt.c:2112
+msgid "ERROR: no values provided.\n"
+msgstr "ERREUR : aucune valeur n’est fournie.\n"
+
+#: src/lib/ecore/ecore_getopt.c:2055 src/lib/ecore/ecore_getopt.c:2121
+msgid "ERROR: no arguments provided.\n"
+msgstr "ERREUR : aucun argument n’est fourni.\n"
+
+#: src/lib/ecore/ecore_getopt.c:2081
+msgid "ERROR: invalid options found."
+msgstr "ERREUR : options non valides détectées."
+
+#: src/lib/ecore/ecore_getopt.c:2087 src/lib/ecore/ecore_getopt.c:2154
+#, c-format
+msgid " See --%s.\n"
+msgstr " Voir --%s.\n"
+
+#: src/lib/ecore/ecore_getopt.c:2089 src/lib/ecore/ecore_getopt.c:2156
+#, c-format
+msgid " See -%c.\n"
+msgstr " Voir -%c.\n"
+
+#: src/lib/ecore/ecore_getopt.c:2148
+msgid "ERROR: invalid positional arguments found."
+msgstr "ERREUR : paramètres positionnels non valides détectés."
+
+#: src/lib/ecore/ecore_getopt.c:2183
+#, c-format
+msgid "ERROR: incorrect geometry value '%s'\n"
+msgstr "ERREUR : valeur géométrique incorrecte « %s »\n"
+
+#: src/lib/ecore/ecore_getopt.c:2201
+#, c-format
+msgid "ERROR: incorrect size value '%s'\n"
+msgstr "ERREUR : valeur de taille incorrecte « %s »\n"
+
+#: src/lib/efreet/efreet_base.c:141
+msgid "Desktop"
+msgstr "Bureau"
+
+#: src/lib/efreet/efreet_base.c:155
+msgid "Downloads"
+msgstr "Téléchargements"
+
+#: src/lib/efreet/efreet_base.c:169
+msgid "Templates"
+msgstr "Modèles"
+
+#: src/lib/efreet/efreet_base.c:180
+msgid "Public"
+msgstr "Public"
+
+#: src/lib/efreet/efreet_base.c:189
+msgid "Documents"
+msgstr "Documents"
+
+#: src/lib/efreet/efreet_base.c:201
+msgid "Music"
+msgstr "Musique"
+
+#: src/lib/efreet/efreet_base.c:215
+msgid "Pictures"
+msgstr "Images"
+
+#: src/lib/efreet/efreet_base.c:229
+msgid "Videos"
+msgstr "Vidéos"
+
+#: src/lib/evas/common/language/evas_language_utils.c:205
+msgid "default:LTR"
+msgstr "défaut : LTR (de gauche à droite)"
+
+#: src/lib/elementary/elc_naviframe.c:408
+msgid "Title"
+msgstr "Titre"
+
+#: src/lib/elementary/elc_naviframe.c:415
+msgid "Subtitle"
+msgstr "Sous-titre"
+
+#: src/lib/elementary/elc_naviframe.c:966
+msgid "Back"
+msgstr "Retour"
+
+#: src/lib/elementary/elc_fileselector.c:1785
+msgid "Up"
+msgstr "Monter"
+
+#: src/lib/elementary/elc_fileselector.c:1799
+msgid "Home"
+msgstr "Dossier personnel"
+
+#: src/lib/elementary/elc_fileselector.c:1817
+msgid "Search"
+msgstr "Rechercher"
+
+#: src/lib/elementary/elc_fileselector.c:2091
+msgid "OK"
+msgstr "OK"
+
+#: src/lib/elementary/elc_fileselector.c:2100
+msgid "Cancel"
+msgstr "Annuler"
+
+#~ msgid "State: Disabled"
+#~ msgstr "État : désactivé"
+
+#~ msgid "Hoversel"
+#~ msgstr "Hoversel"
+
+#~ msgid "multi button entry label"
+#~ msgstr "étiquette d'entrée à plusieurs boutons"
+
+#~ msgid "multi button entry item"
+#~ msgstr "élément d'entrée à plusieurs boutons"
+
+#~ msgid "multi button entry"
+#~ msgstr "entrée à plusieurs boutons"
+
+#~ msgid "Next"
+#~ msgstr "Suivant"
+
+#~ msgid "Popup Title"
+#~ msgstr "Titre du pop-up"
+
+#~ msgid "Popup Body Text"
+#~ msgstr "Corps du texte du pop-up"
+
+#~ msgid "Alert"
+#~ msgstr "Alerte"
+
+#~ msgid "Bubble"
+#~ msgstr "Bulle"
+
+#~ msgid "Clicked"
+#~ msgstr "Cliqué"
+
+#~ msgid "Button"
+#~ msgstr "Bouton"
+
+#~ msgid "%B %Y"
+#~ msgstr "%B %Y"
+
+#~ msgid "%B"
+#~ msgstr "%B"
+
+#~ msgid "%Y"
+#~ msgstr "%Y"
+
+#~ msgid "calendar item"
+#~ msgstr "élément du calendrier"
+
+#~ msgid "calendar decrement month button"
+#~ msgstr "bouton de passage au mois précédent"
+
+#~ msgid "calendar decrement year button"
+#~ msgstr "bouton de passage à l'année précédente"
+
+#~ msgid "calendar increment month button"
+#~ msgstr "bouton de passage au mois suivant"
+
+#~ msgid "calendar increment year button"
+#~ msgstr "bouton de passage à l'année suivante"
+
+#~ msgid "calendar month"
+#~ msgstr "mois du calendrier"
+
+#~ msgid "calendar year"
+#~ msgstr "année du calendrier"
+
+#~ msgid "State: On"
+#~ msgstr "État : activé"
+
+#~ msgid "State: Off"
+#~ msgstr "État : désactivé"
+
+#~ msgid "State"
+#~ msgstr "État"
+
+#~ msgid "Check"
+#~ msgstr "À cocher"
+
+#~ msgid "clock increment button for am,pm"
+#~ msgstr "bouton d'incrémentation pour matin (am), après-midi (pm)"
+
+#~ msgid "clock decrement button for am,pm"
+#~ msgstr "bouton de décrémentation pour matin (am), après-midi (pm)"
+
+#~ msgid "State: Editable"
+#~ msgstr "État :  éditable"
+
+#~ msgid "Clock"
+#~ msgstr "Horloge"
+
+#~ msgid "Pick a color"
+#~ msgstr "Choisir une couleur"
+
+#~ msgid "R:"
+#~ msgstr "R (rouge) :"
+
+#~ msgid "G:"
+#~ msgstr "G (vert) :"
+
+#~ msgid "B:"
+#~ msgstr "B (bleu) :"
+
+#~ msgid "A:"
+#~ msgstr "A (alpha)"
+
+#~ msgid "color selector palette item"
+#~ msgstr "élément du sélecteur de couleur"
+
+#~ msgid "day selector item"
+#~ msgstr "élément du sélecteur du jour"
+
+#~ msgid "diskselector item"
+#~ msgstr "élément du sélecteur de disque"
+
+#~ msgid "Cut"
+#~ msgstr "Couper"
+
+#~ msgid "Copy"
+#~ msgstr "Copier"
+
+#~ msgid "Paste"
+#~ msgstr "Coller"
+
+#~ msgid "Select"
+#~ msgstr "Sélectionner"
+
+#~ msgid "Entry"
+#~ msgstr "Entrée"
+
+#~ msgid "Index"
+#~ msgstr "Index"
+
+#~ msgid "Index Item"
+#~ msgstr "Élément de l'index"
+
+#~ msgid "Label"
+#~ msgstr "Étiquette"
+
+#~ msgid "state: opened"
+#~ msgstr "état : ouvert"
+
+#~ msgid "state: closed"
+#~ msgstr "état : fermé"
+
+#~ msgid "A panel is open"
+#~ msgstr "Un panneau est ouvert"
+
+#~ msgid "Double tap to close panel menu"
+#~ msgstr "Appuyer deux fois pour fermer le menu du panneau"
+
+#~ msgid "panel button"
+#~ msgstr "bouton de panneau"
+
+#~ msgid "progressbar"
+#~ msgstr "barre de progression"
+
+#~ msgid "Radio"
+#~ msgstr "Radio"
+
+#~ msgid "State: Selected"
+#~ msgstr "État : sélectionné"
+
+#~ msgid "State: Unselected"
+#~ msgstr "État : désélectionné"
+
+#~ msgid "Segment Control Item"
+#~ msgstr "Élément de contrôle de segment"
+
+#~ msgid "slider"
+#~ msgstr "curseur"
+
+#~ msgid "incremented"
+#~ msgstr "augmenté"
+
+#~ msgid "decremented"
+#~ msgstr "diminué"
+
+#~ msgid "spinner"
+#~ msgstr "spinner"
+
+#~ msgid "spinner increment button"
+#~ msgstr "bouton d'incrémentation du spinner"
+
+#~ msgid "spinner decrement button"
+#~ msgstr "bouton de décrémentation du spinner"
+
+#~ msgid "spinner text"
+#~ msgstr "texte du spinner"
+
+#~ msgid "Selected"
+#~ msgstr "Sélectionné"
+
+#~ msgid "Separator"
+#~ msgstr "Séparateur"
+
+#~ msgid "Has menu"
+#~ msgstr "Possède un menu"
+
+#~ msgid "Unselected"
+#~ msgstr "Non sélectionné"
+
+#~ msgid "Toolbar Item"
+#~ msgstr "Élément de barre d'outils"
