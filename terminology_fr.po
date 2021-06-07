@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: terminology 0.6.99\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-14 15:20+0100\n"
-"PO-Revision-Date: 2021-06-07 14:46+0200\n"
+"PO-Revision-Date: 2021-06-07 15:25+0200\n"
 "Last-Translator: Philippe Jean Guillaumie <similar@orange.fr>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/terminology/"
 "terminology/fr/>\n"
@@ -51,8 +51,8 @@ msgstr ""
 "<br><br>Ce terminal a été écrit pour Enlightenment, afin d'utiliser les EFL "
 "et repousser les limites de ce que devrait être un terminal moderne. Nous "
 "espérons que vous l'apprécierez.<br><br>Copyright © 2012-%d par :<br><br>"
-"%s<br><br>Distribué sous licence BSD 2-clauses détaillée ci-dessous :<br><br>"
-"%s"
+"%s<br><br>Distribué sous licence BSD à 2 clauses détaillée ci-dessous :"
+"<br><br>%s"
 
 #: src/bin/colors.c:17
 msgid "Terminology's developers"
@@ -92,7 +92,7 @@ msgstr "Coller"
 
 #: src/bin/controls.c:436
 msgid "Settings"
-msgstr "Réglages"
+msgstr "Configuration"
 
 #: src/bin/controls.c:442
 msgid "About"
