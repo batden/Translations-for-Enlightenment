@@ -19,7 +19,7 @@ msgstr ""
 "Project-Id-Version: enlightenment\n"
 "Report-Msgid-Bugs-To: enlightenment-devel@lists.sourceforge.net\n"
 "POT-Creation-Date: 2021-05-18 16:34+0200\n"
-"PO-Revision-Date: 2021-06-08 16:52+0200\n"
+"PO-Revision-Date: 2021-06-16 07:43+0200\n"
 "Last-Translator: Philippe Jean Guillaumie <similar@orange.fr>\n"
 "Language-Team: French\n"
 "Language: fr\n"
@@ -5332,15 +5332,15 @@ msgstr "Options X11 basiques"
 
 #: src/modules/conf_applications/e_int_config_deskenv.c:149
 msgid "Load X Resources"
-msgstr "Activer les ressources de X"
+msgstr "Activer les ressources X (xrdb)"
 
 #: src/modules/conf_applications/e_int_config_deskenv.c:152
 msgid "Load X Modifier Map"
-msgstr "Activer la carte des modificateurs de X"
+msgstr "Activer les mappages X (xmodmap)"
 
 #: src/modules/conf_applications/e_int_config_deskenv.c:159
 msgid "Major Desktops"
-msgstr "Environnements de bureau majeurs"
+msgstr "Environnements de bureau principaux"
 
 #: src/modules/conf_applications/e_int_config_deskenv.c:160
 msgid "Start GNOME services on login"
