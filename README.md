@@ -8,9 +8,10 @@ French translations for the Enlightenment project :fr:
 
 *Merci!*
 
-# The Team
+## The Team
 
 Carla *sensamillion* Sensa: Long-time Enlightenment user, translation reviewer...
+
 Philippe *batden* Guillaumie (aka similar, dazibao, pourunmondesansgourou): Long-time Enlightenment user, Main contributor...
 
 **Sorry folks, we do not accept contributions from non-native French speakers!**
