@@ -15,4 +15,4 @@ French translations for the Enlightenment project :fr:
 
 **Philippe Jean Guillaumie** « batden » (aka similar, dazibao, pourunmondesansgourou): Long-time Enlightenment user, main contributor...
 
-*Sorry folks, we do not accept contributions from non-native French speakers!*
+*Sorry folks, we do not accept translation suggestions from non-native French speakers!*
