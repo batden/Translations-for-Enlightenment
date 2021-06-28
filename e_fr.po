@@ -19,7 +19,7 @@ msgstr ""
 "Project-Id-Version: enlightenment\n"
 "Report-Msgid-Bugs-To: enlightenment-devel@lists.sourceforge.net\n"
 "POT-Creation-Date: 2021-05-18 16:34+0200\n"
-"PO-Revision-Date: 2021-06-16 07:43+0200\n"
+"PO-Revision-Date: 2021-06-28 18:25+0200\n"
 "Last-Translator: Philippe Jean Guillaumie <similar@orange.fr>\n"
 "Language-Team: French\n"
 "Language: fr\n"
@@ -1086,8 +1086,8 @@ msgid ""
 "Screen Setup</><br><br>And configure at least one screen to be on."
 msgstr ""
 "Il semble n'y avoir aucun écran actif configuré<br>comme tel selon la sortie "
-"actuelle.<br>Pour y remédier, allez dans :<br><br><b>Paramètres -> Écran -> "
-"Configuration de l'écran</><br><br>Et activez au moins un écran."
+"actuelle.<br>Pour y remédier, allez dans :<br><br><b>Configuration -> "
+"Affichage</><br><br>Et activez au moins un écran."
 
 #: src/bin/e_config.c:183
 msgid "The EET file handle is bad."
@@ -2965,7 +2965,7 @@ msgid ""
 msgstr ""
 "Cette option risque de rendre votre bureau INUTILISABLE à moins de savoir "
 "ce<ps/>que vous faites. Inutile de faire un rapport de bogue si cette option "
-"est activée.<ps/>Vous voilà prévenu !"
+"est activée.<ps/>Vous voilà prévenu(e) !"
 
 #: src/bin/e_int_config_comp.c:207
 msgid "Edit window matches"
@@ -6884,7 +6884,7 @@ msgstr "Gestion de l'énergie"
 #: src/modules/conf_randr/e_mod_main.c:60
 #: src/modules/conf_randr/e_mod_main.c:66
 msgid "Screen Setup"
-msgstr "Configuration de l'écran"
+msgstr "Affichage"
 
 #: src/modules/conf_randr/e_int_config_randr2.c:466
 #: src/modules/conf_randr/e_int_config_randr2.c:694
