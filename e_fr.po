@@ -18,8 +18,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: enlightenment\n"
 "Report-Msgid-Bugs-To: enlightenment-devel@lists.sourceforge.net\n"
-"POT-Creation-Date: 2021-05-18 16:34+0200\n"
-"PO-Revision-Date: 2021-06-28 18:25+0200\n"
+"POT-Creation-Date: 2021-07-09 07:52+0200\n"
+"PO-Revision-Date: 2021-07-09 08:27+0200\n"
 "Last-Translator: Philippe Jean Guillaumie <similar@orange.fr>\n"
 "Language-Team: French\n"
 "Language: fr\n"
@@ -1075,11 +1075,11 @@ msgstr ""
 msgid "Enlightenment cannot initialize the XSettings system.\n"
 msgstr "Enlightenment ne parvient pas à initialiser le système XSettings.\n"
 
-#: src/bin/e_comp_x_randr.c:439
+#: src/bin/e_comp_x_randr.c:452
 msgid "Screen setup Error"
 msgstr "Erreur de configuration de l'écran"
 
-#: src/bin/e_comp_x_randr.c:440
+#: src/bin/e_comp_x_randr.c:453
 msgid ""
 "You seem to have no screens configured to<br>be on given the outputs you "
 "have. This should<br>be fixed by going to:<br><br><b>Settings -> Screen -> "
@@ -1088,6 +1088,25 @@ msgstr ""
 "Il semble n'y avoir aucun écran actif configuré<br>comme tel selon la sortie "
 "actuelle.<br>Pour y remédier, allez dans :<br><br><b>Configuration -> "
 "Affichage</><br><br>Et activez au moins un écran."
+
+#: src/bin/e_comp_x_randr.c:461 src/bin/e_config_dialog.c:274
+#: src/bin/e_desktop_editor.c:907 src/bin/e_desktop_editor.c:971
+#: src/bin/e_entry_dialog.c:126 src/bin/e_exec.c:721 src/bin/e_fm.c:10212
+#: src/bin/e_fm.c:10979 src/bin/e_fm_prop.c:713
+#: src/bin/e_import_config_dialog.c:360 src/bin/e_int_client_remember.c:358
+#: src/bin/e_int_client_remember.c:553 src/bin/e_int_config_comp_match.c:583
+#: src/bin/e_module.c:480 src/bin/e_module.c:707 src/bin/e_sys.c:982
+#: src/bin/e_update.c:70 src/bin/e_utils.c:401
+#: src/modules/conf_bindings/e_int_config_signalbindings.c:623
+#: src/modules/conf_bindings/e_int_config_swipebindings.c:666
+#: src/modules/conf_intl/e_int_config_imc_import.c:119
+#: src/modules/conf_theme/e_int_config_theme_import.c:118
+#: src/modules/cpufreq/e_mod_main.c:551 src/modules/cpufreq/e_mod_main.c:619
+#: src/modules/fileman/e_int_config_mime_edit.c:313
+#: src/modules/polkit/auth_ui.c:184 src/modules/shot/e_mod_delay.c:79
+#: src/modules/xkbswitch/e_mod_config.c:1433
+msgid "OK"
+msgstr "OK"
 
 #: src/bin/e_config.c:183
 msgid "The EET file handle is bad."
@@ -1225,7 +1244,7 @@ msgstr "Configuration mise à niveau"
 #: src/modules/conf_bindings/e_mod_main.c:43 src/modules/conf/e_mod_main.c:278
 #: src/modules/conf_paths/e_mod_main.c:17
 #: src/modules/conf_performance/e_mod_main.c:17
-#: src/modules/cpufreq/e_mod_main.c:1563 src/modules/mixer/e_mod_main.c:498
+#: src/modules/cpufreq/e_mod_main.c:1563 src/modules/mixer/e_mod_main.c:953
 #: src/modules/syscon/e_mod_main.c:36
 msgid "Advanced"
 msgstr "Avancé"
@@ -1234,33 +1253,14 @@ msgstr "Avancé"
 msgid "Basic"
 msgstr "Basique"
 
-#: src/bin/e_config_dialog.c:274 src/bin/e_desktop_editor.c:907
-#: src/bin/e_desktop_editor.c:971 src/bin/e_entry_dialog.c:126
-#: src/bin/e_exec.c:721 src/bin/e_fm.c:10212 src/bin/e_fm.c:10979
-#: src/bin/e_fm_prop.c:713 src/bin/e_import_config_dialog.c:360
-#: src/bin/e_int_client_remember.c:358 src/bin/e_int_client_remember.c:553
-#: src/bin/e_int_config_comp_match.c:583 src/bin/e_module.c:480
-#: src/bin/e_module.c:707 src/bin/e_sys.c:982 src/bin/e_update.c:70
-#: src/bin/e_utils.c:401
-#: src/modules/conf_bindings/e_int_config_signalbindings.c:623
-#: src/modules/conf_bindings/e_int_config_swipebindings.c:666
-#: src/modules/conf_intl/e_int_config_imc_import.c:119
-#: src/modules/conf_theme/e_int_config_theme_import.c:118
-#: src/modules/cpufreq/e_mod_main.c:551 src/modules/cpufreq/e_mod_main.c:619
-#: src/modules/fileman/e_int_config_mime_edit.c:313
-#: src/modules/polkit/auth_ui.c:184 src/modules/shot/e_mod_delay.c:79
-#: src/modules/xkbswitch/e_mod_config.c:1433
-msgid "OK"
-msgstr "OK"
-
 #: src/bin/e_config_dialog.c:276
 #: src/modules/conf_bindings/e_int_config_edgebindings.c:871
 msgid "Apply"
 msgstr "Appliquer"
 
 #: src/bin/e_configure.c:29 src/modules/conf_shelves/e_mod_main.c:21
-#: src/modules/connman/e_mod_main.c:606 src/modules/gadman/e_mod_main.c:23
-#: src/modules/mixer/e_mod_main.c:654 src/modules/notification/e_mod_main.c:55
+#: src/modules/connman/e_mod_main.c:609 src/modules/gadman/e_mod_main.c:23
+#: src/modules/mixer/e_mod_main.c:1109 src/modules/notification/e_mod_main.c:55
 msgid "Extensions"
 msgstr "Extensions"
 
@@ -2772,13 +2772,13 @@ msgstr "Demande de position"
 #: src/modules/conf/e_mod_main.c:101
 #: src/modules/conf_interaction/e_int_config_mouse.c:201
 #: src/modules/conf_shelves/e_int_config_shelf.c:149
-#: src/modules/connman/e_mod_main.c:432 src/modules/cpufreq/e_mod_main.c:464
+#: src/modules/cpufreq/e_mod_main.c:464
 #: src/modules/everything/evry_gadget.c:511
 #: src/modules/everything/evry_gadget.c:683
 #: src/modules/everything/evry_plug_settings.c:183
 #: src/modules/geolocation/e_mod_main.c:235 src/modules/ibar/e_mod_main.c:497
 #: src/modules/ibar/e_mod_main.c:1638 src/modules/ibox/e_mod_main.c:357
-#: src/modules/ibox/e_mod_main.c:786 src/modules/mixer/e_mod_main.c:503
+#: src/modules/ibox/e_mod_main.c:786 src/modules/mixer/e_mod_main.c:958
 #: src/modules/music-control/ui.c:329 src/modules/packagekit/e_mod_main.c:47
 #: src/modules/pager/e_mod_main.c:1041 src/modules/tasks/e_mod_main.c:915
 #: src/modules/temperature/e_mod_main.c:231
@@ -2869,7 +2869,7 @@ msgstr "Taille, position et verrous"
 
 #: src/bin/e_int_client_remember.c:663 src/bin/e_int_client_remember.c:801
 #: src/modules/conf_bindings/e_int_config_acpibindings.c:397
-#: src/modules/mixer/backend.c:1120
+#: src/modules/mixer/backend.c:1279
 msgid "Volume"
 msgstr "Volume"
 
@@ -3412,7 +3412,7 @@ msgstr ""
 "configuration du système<ps/>de saisie est correcte et que l'exécutable "
 "est<ps/>dans votre PATH.<ps/>"
 
-#: src/bin/e_int_menus.c:142 src/modules/mixer/backend.c:1052
+#: src/bin/e_int_menus.c:142 src/modules/mixer/backend.c:1211
 #: src/modules/syscon/e_int_config_syscon.c:153
 msgid "Main"
 msgstr "Principal"
@@ -3816,113 +3816,113 @@ msgid "Enlightenment cannot set up its init screen.\n"
 msgstr ""
 "Enlightenment ne parvient pas à configurer son écran d'initialisation.\n"
 
-#: src/bin/e_main.c:865
+#: src/bin/e_main.c:870
 msgid "Enlightenment cannot configure the backlight.\n"
 msgstr "Enlightenment ne parvient pas à configurer le rétroéclairage.\n"
 
-#: src/bin/e_main.c:873
+#: src/bin/e_main.c:878
 msgid "Enlightenment cannot configure the DPMS settings.\n"
 msgstr "Enlightenment ne parvient pas à configurer les paramètres de DPMS.\n"
 
-#: src/bin/e_main.c:882
+#: src/bin/e_main.c:887
 msgid "Enlightenment cannot set up its desk locking system.\n"
 msgstr ""
 "Enlightenment ne parvient pas à initialiser son système de verrouillage de "
 "bureau.\n"
 
-#: src/bin/e_main.c:901
+#: src/bin/e_main.c:906
 msgid "Enlightenment cannot initialize the System Command system.\n"
 msgstr ""
 "Enlightenment ne parvient pas à initialiser le système System Command.\n"
 
-#: src/bin/e_main.c:910
+#: src/bin/e_main.c:915
 msgid "Enlightenment cannot set up its exec system.\n"
 msgstr "Enlightenment ne parvient pas à initialiser son système d'exécution.\n"
 
-#: src/bin/e_main.c:922
+#: src/bin/e_main.c:927
 msgid "Enlightenment cannot initialize the File manager.\n"
 msgstr ""
 "Enlightenment ne parvient pas à initialiser son gestionnaire de fichiers.\n"
 
-#: src/bin/e_main.c:931
+#: src/bin/e_main.c:936
 msgid "Enlightenment cannot set up its msg system.\n"
 msgstr "Enlightenment ne parvient pas à initialiser son système de messages.\n"
 
-#: src/bin/e_main.c:940
+#: src/bin/e_main.c:945
 msgid "Enlightenment cannot set up its grab input handling system.\n"
 msgstr ""
 "Enlightenment ne parvient pas à initialiser son système de périphériques "
 "d'entrée.\n"
 
-#: src/bin/e_main.c:949 src/bin/e_main.c:1088
+#: src/bin/e_main.c:954 src/bin/e_main.c:1093
 msgid "Enlightenment cannot set up its module system.\n"
 msgstr "Enlightenment ne parvient pas à initialiser son système de modules.\n"
 
-#: src/bin/e_main.c:958
+#: src/bin/e_main.c:963
 msgid "Enlightenment cannot setup remember settings.\n"
 msgstr ""
 "Enlightenment ne parvient pas à configurer les paramètres de mémorisation.\n"
 
-#: src/bin/e_main.c:967
+#: src/bin/e_main.c:972
 msgid "Enlightenment cannot set up its gadget control system.\n"
 msgstr ""
 "Enlightenment ne parvient pas à initialiser son système de contrôle de "
 "gadgets.\n"
 
-#: src/bin/e_main.c:976
+#: src/bin/e_main.c:981
 msgid "Enlightenment cannot set up its toolbars.\n"
 msgstr "Enlightenment ne parvient pas à initialiser ses barres d'outils.\n"
 
-#: src/bin/e_main.c:985
+#: src/bin/e_main.c:990
 msgid "Enlightenment cannot set up its desktop background system.\n"
 msgstr ""
 "Enlightenment ne parvient pas à initialiser son système de fond d'écran.\n"
 
-#: src/bin/e_main.c:994
+#: src/bin/e_main.c:999
 msgid "Enlightenment cannot configure the mouse settings.\n"
 msgstr "Enlightenment ne parvient pas à configurer les paramètres de souris.\n"
 
-#: src/bin/e_main.c:1002
+#: src/bin/e_main.c:1007
 msgid "Enlightenment cannot set up its bindings system.\n"
 msgstr ""
 "Enlightenment ne parvient pas à initialiser son système de raccourcis.\n"
 
-#: src/bin/e_main.c:1011
+#: src/bin/e_main.c:1016
 msgid "Enlightenment cannot initialize the Thumbnailing system.\n"
 msgstr ""
 "Enlightenment ne parvient pas à initialiser son système de vignettes.\n"
 
-#: src/bin/e_main.c:1020
+#: src/bin/e_main.c:1025
 msgid "Enlightenment cannot initialize the Icon Cache system.\n"
 msgstr ""
 "Enlightenment ne parvient pas à initialiser le système de cache d'icônes.\n"
 
-#: src/bin/e_main.c:1029
+#: src/bin/e_main.c:1034
 msgid "Enlightenment cannot initialize the Update system.\n"
 msgstr ""
 "Enlightenment ne parvient pas à initialiser son système d'actualisation.\n"
 
-#: src/bin/e_main.c:1038
+#: src/bin/e_main.c:1043
 msgid "Enlightenment cannot initialize its desktop environment.\n"
 msgstr ""
 "Enlightenment ne parvient pas à initialiser son environnement de bureau.\n"
 
-#: src/bin/e_main.c:1047
+#: src/bin/e_main.c:1052
 msgid "Enlightenment cannot set up its order file system.\n"
 msgstr ""
 "Enlightenment ne parvient pas à initialiser son système de classement de "
 "fichiers.\n"
 
-#: src/bin/e_main.c:1096 src/modules/wizard/e_wizard.c:262
+#: src/bin/e_main.c:1101 src/modules/wizard/e_wizard.c:262
 msgid "Welcome to Enlightenment"
 msgstr "Bienvenue dans Enlightenment"
 
-#: src/bin/e_main.c:1244
+#: src/bin/e_main.c:1249
 #, c-format
 msgid "Version: %s\n"
 msgstr "Version : %s\n"
 
-#: src/bin/e_main.c:1253
+#: src/bin/e_main.c:1258
 #, c-format
 msgid ""
 "Options:\n"
@@ -3977,7 +3977,7 @@ msgstr ""
 "pour vous)<ps/>\n"
 "-version<ps/>\n"
 
-#: src/bin/e_main.c:1307
+#: src/bin/e_main.c:1312
 msgid ""
 "You are executing enlightenment directly. This is\n"
 "bad. Please do not execute the \"enlightenment\"\n"
@@ -3993,16 +3993,16 @@ msgstr ""
 "des chemins, et de la gestion de tout autre service\n"
 "nécessaire avant le lancement d'Enlightenment.\n"
 
-#: src/bin/e_main.c:1570
+#: src/bin/e_main.c:1575
 msgid "Enlightenment cannot create a compositor.\n"
 msgstr "Enlightenment est incapable de créer un compositeur.\n"
 
-#: src/bin/e_main.c:1583
+#: src/bin/e_main.c:1588
 msgid "Enlightenment cannot set up its dnd system.\n"
 msgstr ""
 "Enlightenment ne parvient pas à initialiser son système de glisser-déposer.\n"
 
-#: src/bin/e_main.c:1744
+#: src/bin/e_main.c:1749
 #, c-format
 msgid ""
 "Enlightenment crashed early on start and has<ps/>been restarted. There was "
@@ -4013,11 +4013,11 @@ msgstr ""
 "module %s qui est à l'origine de<ps/>l'erreur a été désactivé. Il ne sera "
 "pas rechargé."
 
-#: src/bin/e_main.c:1749 src/bin/e_main.c:1765
+#: src/bin/e_main.c:1754 src/bin/e_main.c:1770
 msgid "Enlightenment crashed early on start and has been restarted"
 msgstr "Enlightenment a planté en phase d'initialisation et a été relancé"
 
-#: src/bin/e_main.c:1750
+#: src/bin/e_main.c:1755
 #, c-format
 msgid ""
 "Enlightenment crashed early on start and has been restarted.<ps/>There was "
@@ -4028,7 +4028,7 @@ msgstr ""
 "module nommé %s est à l'origine de l'erreur.<ps/><ps/> Ce module a été "
 "désactivé et ne sera pas rechargé."
 
-#: src/bin/e_main.c:1758
+#: src/bin/e_main.c:1763
 msgid ""
 "Enlightenment crashed early on start and has<ps/>been restarted. All modules "
 "have been disabled<ps/>and will not be loaded to help remove any problem<ps/"
@@ -4041,7 +4041,7 @@ msgstr ""
 "dialogue de configuration des modules vous permettra<ps/>de recharger vos "
 "modules.\n"
 
-#: src/bin/e_main.c:1766
+#: src/bin/e_main.c:1771
 msgid ""
 "Enlightenment crashed early on start and has been restarted.<ps/>All modules "
 "have been disabled and will not be loaded to help<ps/>remove any problem "
@@ -5487,8 +5487,8 @@ msgid "Vaio"
 msgstr "Vaio"
 
 #: src/modules/conf_bindings/e_int_config_acpibindings.c:395
-#: src/modules/mixer/backend.c:841 src/modules/mixer/backend.c:1074
-#: src/modules/mixer/e_mod_main.c:423
+#: src/modules/mixer/backend.c:1000 src/modules/mixer/backend.c:1233
+#: src/modules/mixer/e_mod_main.c:773 src/modules/mixer/e_mod_main.c:871
 msgid "Mute"
 msgstr "Muet"
 
@@ -6364,7 +6364,7 @@ msgstr "Bureau"
 #: src/modules/conf/e_mod_config.c:33 src/modules/conf/e_mod_main.c:280
 #: src/modules/conf/e_mod_main.c:294
 msgid "Configuration Panel"
-msgstr "Panneau de configuration"
+msgstr "Menu de configuration"
 
 #: src/modules/conf/e_mod_config.c:63
 msgid "Show configurations in menu"
@@ -6614,7 +6614,7 @@ msgstr "Sélecteur de langue"
 #: src/modules/conf_intl/e_int_config_intl.c:1057
 #: src/modules/conf_intl/e_int_config_intl.c:1506
 #: src/modules/conf_menus/e_int_config_menus.c:170
-#: src/modules/wizard/page_010.c:182
+#: src/modules/wizard/page_010.c:183
 msgid "System Default"
 msgstr "Système (par défaut)"
 
@@ -6628,7 +6628,7 @@ msgstr "Paramètres régionaux"
 msgid "Locale"
 msgstr "Localisation"
 
-#: src/modules/conf_intl/e_mod_main.c:17 src/modules/wizard/page_010.c:217
+#: src/modules/conf_intl/e_mod_main.c:17 src/modules/wizard/page_010.c:218
 msgid "Language"
 msgstr "Langue"
 
@@ -6931,7 +6931,7 @@ msgid "Hotplug Policy (%s)"
 msgstr "Gestion du branchement à chaud (%s)"
 
 #: src/modules/conf_randr/e_int_config_randr2.c:864
-#: src/modules/mixer/emixer.c:1937
+#: src/modules/mixer/emixer.c:1954
 msgid "Outputs"
 msgstr "Sorties"
 
@@ -9243,8 +9243,8 @@ msgstr "Saisissez votre code PIN"
 msgid "Please enter your unlock password"
 msgstr "Saisissez le mot de passe de déverrouillage"
 
-#: src/modules/lokker/lokker.c:317 src/modules/lokker/lokker.c:751
-#: src/modules/lokker/lokker.c:769
+#: src/modules/lokker/lokker.c:317 src/modules/lokker/lokker.c:809
+#: src/modules/lokker/lokker.c:827
 msgid "Caps Lock is On"
 msgstr "Le verrouillage des majuscules est activé"
 
@@ -9263,56 +9263,72 @@ msgstr ""
 "d'authentification. Le code de l'erreur est <hilight>%i</hilight>.<ps/>Cela "
 "ne devrait pas se produire. Veuillez signaler ce bogue."
 
-#: src/modules/mixer/backend.c:113
+#: src/modules/mixer/backend.c:120
 msgid "New volume"
 msgstr "Nouveau volume"
 
-#: src/modules/mixer/backend.c:126 src/modules/mixer/emixer.c:1919
-#: src/modules/mixer/e_mod_main.c:433 src/modules/mixer/e_mod_main.c:656
+#: src/modules/mixer/backend.c:133 src/modules/mixer/emixer.c:1936
+#: src/modules/mixer/e_mod_main.c:889 src/modules/mixer/e_mod_main.c:1111
 msgid "Mixer"
 msgstr "Mélangeur"
 
-#: src/modules/mixer/backend.c:129
+#: src/modules/mixer/backend.c:136
 msgid "Volume changed"
 msgstr "Volume modifié"
 
-#: src/modules/mixer/backend.c:243 src/modules/mixer/backend.c:296
+#: src/modules/mixer/backend.c:291 src/modules/mixer/backend.c:363
 msgid "Increase Volume"
 msgstr "Augmenter le volume"
 
-#: src/modules/mixer/backend.c:251 src/modules/mixer/backend.c:303
+#: src/modules/mixer/backend.c:298 src/modules/mixer/backend.c:369
 msgid "Decrease Volume"
 msgstr "Diminuer le volume"
 
-#: src/modules/mixer/backend.c:259
+#: src/modules/mixer/backend.c:305
 msgid "Mute volume"
 msgstr "Muet"
 
-#: src/modules/mixer/backend.c:267 src/modules/mixer/backend.c:318
+#: src/modules/mixer/backend.c:313 src/modules/mixer/backend.c:382
 msgid "Increase Volume of Focused Application"
 msgstr "Augmenter le volume de l'application focalisée"
 
-#: src/modules/mixer/backend.c:275 src/modules/mixer/backend.c:326
+#: src/modules/mixer/backend.c:321 src/modules/mixer/backend.c:389
 msgid "Decrease Volume of Focused Application"
 msgstr "Diminuer le volume de l'application focalisée"
 
-#: src/modules/mixer/backend.c:283 src/modules/mixer/backend.c:334
+#: src/modules/mixer/backend.c:329 src/modules/mixer/backend.c:396
 msgid "Mute Volume of Focused Application"
 msgstr "Couper le son de l'application focalisée"
 
-#: src/modules/mixer/backend.c:310
+#: src/modules/mixer/backend.c:336 src/modules/mixer/backend.c:402
+msgid "Increase Mic Volume"
+msgstr "Augmenter gain micro"
+
+#: src/modules/mixer/backend.c:343 src/modules/mixer/backend.c:408
+msgid "Decrease Mic Volume"
+msgstr "Diminuer gain micro"
+
+#: src/modules/mixer/backend.c:350
+msgid "Mute Mic volume"
+msgstr "Couper le micro"
+
+#: src/modules/mixer/backend.c:375
 msgid "Mute Volume"
 msgstr "Muet"
 
-#: src/modules/mixer/emixer.c:1935
+#: src/modules/mixer/backend.c:414
+msgid "Mute Mic Volume"
+msgstr "Couper le micro"
+
+#: src/modules/mixer/emixer.c:1952
 msgid "Playback"
 msgstr "Lecture"
 
-#: src/modules/mixer/emixer.c:1939
+#: src/modules/mixer/emixer.c:1956
 msgid "Inputs"
 msgstr "Entrées"
 
-#: src/modules/mixer/emixer.c:1941
+#: src/modules/mixer/emixer.c:1958
 msgid "Cards"
 msgstr "Cartes"
 
@@ -9698,38 +9714,38 @@ msgstr "Saisissez le mot de passe pour <b>%s</b>"
 
 #: src/modules/polkit/auth_ui.c:150
 #, c-format
-msgid "Enter passowrd for UID %u"
+msgid "Enter password for UID %u"
 msgstr "Saisissez le mot de passe pour l'UID %u"
 
-#: src/modules/procstats/e_mod_main.c:269
+#: src/modules/procstats/e_mod_main.c:273
 msgid "B"
 msgstr "o"
 
-#: src/modules/procstats/e_mod_main.c:269
+#: src/modules/procstats/e_mod_main.c:273
 msgid "KiB"
 msgstr "Kio"
 
-#: src/modules/procstats/e_mod_main.c:269
+#: src/modules/procstats/e_mod_main.c:273
 msgid "MiB"
 msgstr "Mio"
 
-#: src/modules/procstats/e_mod_main.c:269
+#: src/modules/procstats/e_mod_main.c:273
 msgid "GiB"
 msgstr "Gio"
 
-#: src/modules/procstats/e_mod_main.c:270
+#: src/modules/procstats/e_mod_main.c:274
 msgid "TiB"
 msgstr "Tio"
 
-#: src/modules/procstats/e_mod_main.c:270
+#: src/modules/procstats/e_mod_main.c:274
 msgid "PiB"
 msgstr "Pio"
 
-#: src/modules/procstats/e_mod_main.c:270
+#: src/modules/procstats/e_mod_main.c:274
 msgid "EiB"
 msgstr "Eio"
 
-#: src/modules/procstats/e_mod_main.c:270
+#: src/modules/procstats/e_mod_main.c:274
 msgid "ZiB"
 msgstr "Zio"
 
@@ -10587,7 +10603,7 @@ msgstr "Suivant"
 msgid "Please Wait..."
 msgstr "Veuillez patienter."
 
-#: src/modules/wizard/page_010.c:219 src/modules/wizard/page_011.c:189
+#: src/modules/wizard/page_010.c:220 src/modules/wizard/page_011.c:189
 #: src/modules/wizard/page_020.c:115
 msgid "Select one"
 msgstr "Choisissez"
@@ -10774,6 +10790,7 @@ msgid "Led"
 msgstr "Led"
 
 #: src/modules/xkbswitch/e_mod_config.c:784
+#: src/modules/xkbswitch/e_mod_config.c:1081
 msgid "Control"
 msgstr "Ctrl"
 
@@ -10837,7 +10854,6 @@ msgid "Terminate X"
 msgstr "Arrêter X"
 
 #: src/modules/xkbswitch/e_mod_config.c:1058
-#: src/modules/xkbswitch/e_mod_config.c:1081
 msgid "Switch Layout"
 msgstr "Changer d'agencement"
 
