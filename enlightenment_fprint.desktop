@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Type=Application
+Name=Fingerprint Password Settings
+Name[de]=Fingerprint Passwort Einstellungen
+Icon=enlightenment_fprint
+Exec=enlightenment_fprint
+Comment=Tool to set up or modify fingerprint authentication
+GenericName=GUI for Fingerprint Authentication
+Categories=Settings;DesktopSettings;
+StartupWMClass=enlightenment_fprint
