@@ -19,7 +19,7 @@ msgstr ""
 "Project-Id-Version: enlightenment\n"
 "Report-Msgid-Bugs-To: enlightenment-devel@lists.sourceforge.net\n"
 "POT-Creation-Date: 2021-10-10 18:03+0200\n"
-"PO-Revision-Date: 2021-10-10 18:19+0200\n"
+"PO-Revision-Date: 2021-11-23 15:32+0100\n"
 "Last-Translator: Philippe Jean Guillaumie <similar@orange.fr>\n"
 "Language-Team: French\n"
 "Language: fr\n"
@@ -332,7 +332,7 @@ msgstr "Définir l'état d'enroulement"
 
 #: src/bin/e_actions.c:3595
 msgid "syntax: \"(0|1) (up|down|left|right)\""
-msgstr "syntaxe : \"(0|1) (up|down|left|right)\""
+msgstr "syntax : \"(0|1) (up|down|left|right)\""
 
 #: src/bin/e_actions.c:3599
 msgid "Toggle Borderless State"
@@ -965,7 +965,7 @@ msgstr "Changer l'opacité de la fenêtre actuelle"
 
 #: src/bin/e_comp.c:1245
 msgid "Set current window opacity"
-msgstr "Définir l'opacité de la fenêtre"
+msgstr "Définir l'opacité de la fenêtre actuelle"
 
 #: src/bin/e_comp.c:1251
 msgid "Toggle focused client's redirect state"
@@ -1146,7 +1146,7 @@ msgstr "Erreurs d'E/S sur le disque.<ps/>Peut-être devriez-vous le remplacer ?
 
 #: src/bin/e_config.c:204
 msgid "You ran out of space while writing the file."
-msgstr "Vous êtes tombé à cours d'espace lors de l'écriture du fichier."
+msgstr "Vous êtes tombé(e) à cours d'espace lors de l'écriture du fichier."
 
 #: src/bin/e_config.c:207
 msgid "The file was closed while writing."
@@ -1222,7 +1222,7 @@ msgstr ""
 "vraiment étonnant. Cela ne devrait pas se produire<ps/>à moins que vous "
 "n'ayez installé une version antérieure<ps/>ou copié la configuration depuis "
 "une machine sur laquelle<ps/>une version plus récente de E était en cours. "
-"Ce n'est pas bon<ps/>et, par mesure de précaution, les valeurs par défaut "
+"Ce n'est pas sain<ps/>et, par mesure de précaution, les valeurs par défaut "
 "de<ps/>votre configuration ont été restaurées.<ps/>Désolé pour le "
 "désagrément.<ps/>"
 
@@ -2173,8 +2173,8 @@ msgid ""
 "Enlightenment was unable to import the image.<ps/><ps/>Are you sure this is "
 "a valid image?"
 msgstr ""
-"Enlightenment n'a pu importer cette image.<ps/><ps/>Est-ce un fichier "
-"valide ?"
+"Enlightenment n'a pu importer cette image.<ps/><ps/>Est-ce vraiment un "
+"fichier valide ?"
 
 #: src/bin/e_import_config_dialog.c:283
 msgid "Import Settings..."
@@ -4834,7 +4834,7 @@ msgstr "Afficher une alerte dès que la batterie est faible"
 
 #: src/modules/battery/e_mod_config.c:133
 msgid "Use desktop notifications for alert"
-msgstr "Utiliser une notification du bureau pour alerter"
+msgstr "Utiliser une notification de bureau pour alerter"
 
 #: src/modules/battery/e_mod_config.c:223
 msgid "Check every:"
@@ -5899,7 +5899,7 @@ msgstr "Ajouter un raccourci de balayage"
 
 #: src/modules/conf_bindings/e_int_config_swipebindings.c:675
 msgid "Direction:"
-msgstr "Direction"
+msgstr "Direction :"
 
 #: src/modules/conf_bindings/e_int_config_swipebindings.c:685
 msgid "Error:"
@@ -6568,8 +6568,8 @@ msgid ""
 "Enlightenment was unable to import the configuration.<ps/><ps/>Are you sure "
 "this is really a valid configuration?"
 msgstr ""
-"Enlightenment n'a pu importer la configuration.<ps/><ps/>Est-ce que cette "
-"configuration est vraiment valide ?"
+"Enlightenment n'a pu importer la configuration.<ps/><ps/>Est-ce vraiment une "
+"configuration valide ?"
 
 #: src/modules/conf_intl/e_int_config_imc_import.c:280
 msgid ""
@@ -6747,7 +6747,7 @@ msgstr "Variables d'environnement"
 
 #: src/modules/conf_paths/e_int_config_env.c:332
 msgid "Unset"
-msgstr "Non assigné"
+msgstr "Non assignée"
 
 #: src/modules/conf_paths/e_int_config_paths.c:59
 msgid "Search Path Settings"
@@ -7352,7 +7352,7 @@ msgstr " Importer un fichier…"
 
 #: src/modules/conf_theme/e_int_config_theme.c:773
 msgid " Import Online..."
-msgstr " Importer un fichier en ligne…"
+msgstr " Importer un fichier distant…"
 
 #: src/modules/conf_theme/e_int_config_theme_import.c:65
 msgid "Select a Theme..."
@@ -7423,7 +7423,7 @@ msgstr "Importer un fichier…"
 #: src/modules/conf_theme/e_int_config_wallpaper.c:517
 #: src/modules/conf_theme/e_int_config_wallpaper.c:718
 msgid "Import Online..."
-msgstr "Importer un fichier en ligne…"
+msgstr "Importer un fichier distant…"
 
 #: src/modules/conf_theme/e_int_config_wallpaper.c:741
 msgid "Where to place the Wallpaper"
@@ -8820,7 +8820,7 @@ msgstr "Barre latérale"
 
 #: src/modules/fileman/e_mod_config.c:362
 msgid "Show Detailed Time and Date"
-msgstr "Affichage détaillé du temps et date"
+msgstr "Affichage détaillé de temps et de date"
 
 #: src/modules/fileman/e_mod_config.c:403
 msgid "Open Dirs In Place"
@@ -9208,7 +9208,7 @@ msgstr "Afficher le nom de l'icône"
 
 #: src/modules/ibox/e_mod_config.c:130
 msgid "Display Border Caption"
-msgstr "Afficher la légende de la bordure"
+msgstr "Afficher la légende"
 
 #: src/modules/ibox/e_mod_config.c:147 src/modules/tasks/e_mod_config.c:94
 msgid "Show windows from all screens"
@@ -9446,7 +9446,7 @@ msgstr "Module de notification"
 
 #: src/modules/notification/e_mod_main.c:101
 msgid "Error during notification server initialization"
-msgstr "Erreur au démarrage du serveur de notifications"
+msgstr "Erreur lors du démarrage du serveur de notifications"
 
 #: src/modules/notification/e_mod_main.c:102
 msgid ""
@@ -9684,27 +9684,27 @@ msgstr "Afficher le pop-up de la miniature des bureaux"
 
 #: src/modules/pager/e_mod_main.c:2118
 msgid "Popup Desk Right"
-msgstr "Bureau à droite dans le pop-up"
+msgstr "Bureau à droite du pop-up"
 
 #: src/modules/pager/e_mod_main.c:2120
 msgid "Popup Desk Left"
-msgstr "Bureau à gauche dans le pop-up"
+msgstr "Bureau à gauche du pop-up"
 
 #: src/modules/pager/e_mod_main.c:2122
 msgid "Popup Desk Up"
-msgstr "Bureau au-dessus dans le pop-up"
+msgstr "Bureau au-dessus du pop-up"
 
 #: src/modules/pager/e_mod_main.c:2124
 msgid "Popup Desk Down"
-msgstr "Bureau en dessous dans le pop-up"
+msgstr "Bureau en dessous du pop-up"
 
 #: src/modules/pager/e_mod_main.c:2126
 msgid "Popup Desk Next"
-msgstr "Bureau suivant dans le pop-up"
+msgstr "Bureau suivant"
 
 #: src/modules/pager/e_mod_main.c:2128
 msgid "Popup Desk Previous"
-msgstr "Bureau précédent dans le pop-up"
+msgstr "Bureau précédent"
 
 #: src/modules/polkit/auth_ui.c:95
 msgid "Please enter password"
@@ -10078,7 +10078,7 @@ msgstr "Malloc"
 
 #: src/modules/shot/e_mod_edit.c:1989
 msgid "Malloc (evil)"
-msgstr "Malloc (mauvais)"
+msgstr "Malloc (en pétard)"
 
 #: src/modules/shot/e_mod_edit.c:1990
 msgid "Pointing finger"
@@ -10645,7 +10645,9 @@ msgstr "Service réseau Connman introuvable"
 
 #: src/modules/wizard/page_110.c:19
 msgid "Install/Enable Connman service for network management support"
-msgstr "Installer / Activer Connman pour le support de la gestion du réseau"
+msgstr ""
+"Installer / Activer le service Connman pour le support de la gestion du "
+"réseau"
 
 #: src/modules/wizard/page_110.c:21
 msgid "Connman and Wireless modules disabled"
@@ -10671,7 +10673,7 @@ msgstr "Service Bluetooth BlueZ introuvable"
 msgid ""
 "Install/Enable BlueZ 5 / bluetoothd service for network management support"
 msgstr ""
-"Installer / Activer BlueZ 5 / service bluetoothd pour le support de la "
+"Installer / Activer BlueZ 5 / le service bluetoothd pour le support de la "
 "gestion du réseau"
 
 #: src/modules/wizard/page_115.c:21
@@ -10723,11 +10725,12 @@ msgstr ""
 "d'extensions.<ps/><ps/>C'est d'une aide précieuse pour vous tenir informé "
 "des<ps/>correctifs disponibles dès leur parution. Pour ce faire,<ps/"
 ">Enlightenment se connecte à enlightenment.org et échange<ps/>des données "
-"comme le fait n'importe quel navigateur.<ps/>Aucune information personnelle "
-"telle que le nom et le mot de<ps/>passe de l'utilisateur, ou quelque fichier "
-"personnel que ce<ps/>soit, n'est transmis. Si vous n'en voulez vraiment pas,"
-"<ps/>alors désactivez la fonctionnalité ci-dessous. Mais dans ce<ps/>cas, "
-"vous vous exposez à des vulnérabilités et à devoir<ps/>vivre avec des bogues."
+"comme le ferait n'importe quel navigateur.<ps/>Aucune information "
+"personnelle telle que le nom et le mot de<ps/>passe de l'utilisateur, ou "
+"quelque fichier personnel que ce<ps/>soit, n'est transmis. Si vous n'en "
+"voulez vraiment pas,<ps/>alors désactivez la fonctionnalité ci-dessous. Mais "
+"dans ce<ps/>cas, vous vous exposez à des vulnérabilités et à devoir<ps/"
+">vivre avec des bogues."
 
 #: src/modules/wizard/page_170.c:60
 msgid "Enable update checking"
@@ -10742,9 +10745,9 @@ msgid ""
 "A taskbar can be added to<ps/>show open windows and applications.<ps/>The "
 "IBar launcher already can do this,<ps/>so this is in addition to that."
 msgstr ""
-"Une barre des tâches peut être ajoutée pour montrer<ps/>les fenêtres et les "
-"applications ouvertes.<ps/>Cependant l'IBar peut déjà faire cela, cette<ps/"
-">fonctionnalité viendra se surajouter."
+"Une barre des tâches peut être ajoutée pour<ps/>montrer applications et "
+"fenêtres ouvertes.<ps/>Cependant l'IBar peut déjà faire cela.<ps/>Cette "
+"fonctionnalité viendrait se surajouter."
 
 #: src/modules/wizard/page_180.c:49
 msgid "Enable Taskbar"
