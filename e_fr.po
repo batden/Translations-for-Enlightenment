@@ -18,8 +18,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: enlightenment\n"
 "Report-Msgid-Bugs-To: enlightenment-devel@lists.sourceforge.net\n"
-"POT-Creation-Date: 2021-10-10 18:03+0200\n"
-"PO-Revision-Date: 2021-11-23 15:32+0100\n"
+"POT-Creation-Date: 2021-11-26 14:22+0100\n"
+"PO-Revision-Date: 2021-11-26 14:59+0100\n"
 "Last-Translator: Philippe Jean Guillaumie <similar@orange.fr>\n"
 "Language-Team: French\n"
 "Language: fr\n"
@@ -332,7 +332,7 @@ msgstr "Définir l'état d'enroulement"
 
 #: src/bin/e_actions.c:3595
 msgid "syntax: \"(0|1) (up|down|left|right)\""
-msgstr "syntax : \"(0|1) (up|down|left|right)\""
+msgstr "syntax: \"(0|1) (up|down|left|right)\""
 
 #: src/bin/e_actions.c:3599
 msgid "Toggle Borderless State"
@@ -1022,11 +1022,11 @@ msgstr ""
 "OpenGL 2.0 (ou OpenGL ES 2.0)<ps/>pour tirer profit de la composition avec "
 "OpenGL."
 
-#: src/bin/e_comp_x.c:5851
+#: src/bin/e_comp_x.c:5854
 msgid "Lock Failed"
 msgstr "Échec du verrouillage"
 
-#: src/bin/e_comp_x.c:5852
+#: src/bin/e_comp_x.c:5855
 msgid ""
 "Locking the desktop failed because some application<ps/>has grabbed either "
 "the keyboard or the mouse or both<ps/>and their grab is unable to be broken."
@@ -1035,12 +1035,12 @@ msgstr ""
 "soit le clavier ou la souris, soit les deux,<ps/>et cette réservation n'a pu "
 "être annulée."
 
-#: src/bin/e_comp_x.c:5870
+#: src/bin/e_comp_x.c:5873
 msgid "Another compositor is already running on your display server."
 msgstr ""
 "Un autre compositeur est déjà fonctionnel sur votre serveur d'affichage."
 
-#: src/bin/e_comp_x.c:5895
+#: src/bin/e_comp_x.c:5898
 msgid ""
 "Your display server does not support the compositor overlay window.\n"
 "This is needed for Enlightenment to function."
@@ -1048,12 +1048,12 @@ msgstr ""
 "Votre serveur d'affichage ne sait pas gérer le Composite Overlay Window.\n"
 "Cette fonction est essentielle au bon fonctionnement de E."
 
-#: src/bin/e_comp_x.c:6029
+#: src/bin/e_comp_x.c:6032
 #, c-format
 msgid "Enlightenment cannot initialize X Connection...\n"
 msgstr "Enlightenment ne parvient pas à initialiser une connexion à X...\n"
 
-#: src/bin/e_comp_x.c:6044
+#: src/bin/e_comp_x.c:6047
 msgid ""
 "Your display server does not support XComposite, or Ecore-X was built "
 "without XComposite support. Note that for composite support you will also "
@@ -1063,7 +1063,7 @@ msgstr ""
 "sans le support de XComposite. Notez que vous avez également besoin de "
 "XRender et XFixes dans X11 et Ecore pour la prise en charge du composite."
 
-#: src/bin/e_comp_x.c:6053
+#: src/bin/e_comp_x.c:6056
 msgid ""
 "Your display server does not support XDamage or Ecore was built without "
 "XDamage support."
@@ -1071,7 +1071,7 @@ msgstr ""
 "Votre serveur d'affichage ne supporte pas XDamage ou Ecore est compilé sans "
 "le support de XDamage."
 
-#: src/bin/e_comp_x.c:6159
+#: src/bin/e_comp_x.c:6162
 msgid "Enlightenment cannot initialize the XSettings system.\n"
 msgstr "Enlightenment ne parvient pas à initialiser le système XSettings.\n"
 
@@ -1091,7 +1091,7 @@ msgstr ""
 
 #: src/bin/e_comp_x_randr.c:461 src/bin/e_config_dialog.c:274
 #: src/bin/e_desktop_editor.c:907 src/bin/e_desktop_editor.c:971
-#: src/bin/e_entry_dialog.c:126 src/bin/e_exec.c:875 src/bin/e_fm.c:10212
+#: src/bin/e_entry_dialog.c:126 src/bin/e_exec.c:897 src/bin/e_fm.c:10212
 #: src/bin/e_fm.c:10979 src/bin/e_fm_prop.c:769
 #: src/bin/e_import_config_dialog.c:360 src/bin/e_int_client_remember.c:358
 #: src/bin/e_int_client_remember.c:553 src/bin/e_int_config_comp_match.c:583
@@ -1259,7 +1259,7 @@ msgid "Apply"
 msgstr "Appliquer"
 
 #: src/bin/e_configure.c:29 src/modules/conf_shelves/e_mod_main.c:21
-#: src/modules/connman/e_mod_main.c:609 src/modules/gadman/e_mod_main.c:23
+#: src/modules/connman/e_mod_main.c:610 src/modules/gadman/e_mod_main.c:23
 #: src/modules/mixer/e_mod_main.c:1109 src/modules/notification/e_mod_main.c:55
 msgid "Extensions"
 msgstr "Extensions"
@@ -1272,14 +1272,14 @@ msgid "Modules"
 msgstr "Modules"
 
 #: src/bin/e_configure.c:31 src/bin/e_gadcon.c:1841
-#: src/bin/e_int_config_modules.c:53 src/modules/conf_theme/e_mod_main.c:60
+#: src/bin/e_int_config_modules.c:53 src/modules/conf_theme/e_mod_main.c:92
 msgid "Look"
 msgstr "Aspect"
 
 #: src/bin/e_configure.c:34 src/modules/battery/e_mod_config.c:283
 #: src/modules/conf_applications/e_mod_main.c:60
 #: src/modules/conf_display/e_mod_main.c:40
-#: src/modules/conf_theme/e_mod_main.c:53
+#: src/modules/conf_theme/e_mod_main.c:85
 msgid "Internal"
 msgstr "Interne"
 
@@ -1410,37 +1410,37 @@ msgstr "Choisir une icône pour « %s »"
 msgid "Select an Executable"
 msgstr "Choisir un exécutable"
 
-#: src/bin/e_exec.c:598 src/bin/e_exec.c:606 src/bin/e_exec.c:617
-#: src/bin/e_exec.c:676 src/bin/e_remember.c:51
+#: src/bin/e_exec.c:620 src/bin/e_exec.c:628 src/bin/e_exec.c:639
+#: src/bin/e_exec.c:698 src/bin/e_remember.c:51
 #: src/modules/conf_intl/e_int_config_imc.c:274
 #: src/modules/conf_intl/e_int_config_imc.c:561
 msgid "Run Error"
 msgstr "Erreur d'exécution"
 
-#: src/bin/e_exec.c:599
+#: src/bin/e_exec.c:621
 msgid "Enlightenment was unable to get current directory"
 msgstr "Enlightenment est incapable de déterminer le dossier courant"
 
-#: src/bin/e_exec.c:607
+#: src/bin/e_exec.c:629
 #, c-format
 msgid "Enlightenment was unable to change to directory:<ps/><ps/>%s"
 msgstr "Enlightenment est incapable de changer de dossier vers :<ps/><ps/>%s"
 
-#: src/bin/e_exec.c:618
+#: src/bin/e_exec.c:640
 #, c-format
 msgid "Enlightenment was unable to restore to directory:<ps/><ps/>%s"
 msgstr "Enlightenment est incapable de revenir au dossier :<ps/><ps/>%s"
 
-#: src/bin/e_exec.c:677
+#: src/bin/e_exec.c:699
 #, c-format
 msgid "Enlightenment was unable to fork a child process:<ps/><ps/>%s"
 msgstr "Enlightenment est incapable de cloner un processus fils :<ps/><ps/>%s"
 
-#: src/bin/e_exec.c:866
+#: src/bin/e_exec.c:888
 msgid "Application run error"
 msgstr "Erreur d'exécution de l'application"
 
-#: src/bin/e_exec.c:868
+#: src/bin/e_exec.c:890
 #, c-format
 msgid ""
 "Enlightenment was unable to run the application:<ps/><ps/>%s<ps/><ps/>The "
@@ -1449,108 +1449,108 @@ msgstr ""
 "Enlightenment est incapable d'exécuter l'application :<ps/><ps/>%s<ps/><ps/"
 ">Son lancement a échoué."
 
-#: src/bin/e_exec.c:1014
+#: src/bin/e_exec.c:1036
 msgid "Application Execution Error"
 msgstr "Erreur lors de l'exécution de l'application"
 
-#: src/bin/e_exec.c:1027 src/bin/e_exec.c:1029
+#: src/bin/e_exec.c:1049 src/bin/e_exec.c:1051
 #, c-format
 msgid "%s stopped running unexpectedly."
 msgstr "%s s'est arrêté de façon inattendue."
 
-#: src/bin/e_exec.c:1035
+#: src/bin/e_exec.c:1057
 #, c-format
 msgid "An exit code of %i was returned from %s."
 msgstr "%2$s a retourné le code de sortie %1$i."
 
-#: src/bin/e_exec.c:1043
+#: src/bin/e_exec.c:1065
 #, c-format
 msgid "%s was interrupted by an Interrupt Signal."
 msgstr "%s a été interrompu par un signal d'interruption."
 
-#: src/bin/e_exec.c:1046
+#: src/bin/e_exec.c:1068
 #, c-format
 msgid "%s was interrupted by a Quit Signal."
 msgstr "%s a été interrompu par un signal de sortie."
 
-#: src/bin/e_exec.c:1050
+#: src/bin/e_exec.c:1072
 #, c-format
 msgid "%s was interrupted by an Abort Signal."
 msgstr "%s a été interrompu par un signal d'arrêt."
 
-#: src/bin/e_exec.c:1053
+#: src/bin/e_exec.c:1075
 #, c-format
 msgid "%s was interrupted by a Floating Point Error."
 msgstr "%s a été interrompu par une erreur de virgule flottante."
 
-#: src/bin/e_exec.c:1057
+#: src/bin/e_exec.c:1079
 #, c-format
 msgid "%s was interrupted by an Uninterruptable Kill Signal."
 msgstr "%s a été interrompu par un signal de mort prioritaire."
 
-#: src/bin/e_exec.c:1061
+#: src/bin/e_exec.c:1083
 #, c-format
 msgid "%s was interrupted by a Segmentation Fault."
 msgstr "%s a été interrompu par une erreur de segmentation."
 
-#: src/bin/e_exec.c:1065
+#: src/bin/e_exec.c:1087
 #, c-format
 msgid "%s was interrupted by a Broken Pipe."
 msgstr "%s a été interrompu par un tube cassé."
 
-#: src/bin/e_exec.c:1068
+#: src/bin/e_exec.c:1090
 #, c-format
 msgid "%s was interrupted by a Termination Signal."
 msgstr "%s a été interrompu par un signal de terminaison."
 
-#: src/bin/e_exec.c:1072
+#: src/bin/e_exec.c:1094
 #, c-format
 msgid "%s was interrupted by a Bus Error."
 msgstr "%s a été interrompu par une erreur de bus."
 
-#: src/bin/e_exec.c:1075
+#: src/bin/e_exec.c:1097
 #, c-format
 msgid "%s was interrupted by the signal number %i."
 msgstr "%s a été interrompu par le signal numéro %i."
 
-#: src/bin/e_exec.c:1131
+#: src/bin/e_exec.c:1153
 msgid ""
 "***The remaining output has been truncated. Save the output to view.***\n"
 msgstr ""
 "***Le reste de la sortie a été tronqué. Enregistrez la sortie pour tout voir."
 "***\n"
 
-#: src/bin/e_exec.c:1190 src/bin/e_exec.c:1268 src/bin/e_exec.c:1275
+#: src/bin/e_exec.c:1212 src/bin/e_exec.c:1290 src/bin/e_exec.c:1297
 msgid "Error Logs"
 msgstr "Journaux des erreurs"
 
-#: src/bin/e_exec.c:1196 src/bin/e_exec.c:1276
+#: src/bin/e_exec.c:1218 src/bin/e_exec.c:1298
 msgid "There was no error message."
 msgstr "Il n'y a eu aucun message d'erreur."
 
-#: src/bin/e_exec.c:1200 src/bin/e_exec.c:1283
+#: src/bin/e_exec.c:1222 src/bin/e_exec.c:1305
 msgid "Save This Message"
 msgstr "Enregistrer ce message"
 
-#: src/bin/e_exec.c:1205 src/bin/e_exec.c:1208 src/bin/e_exec.c:1288
-#: src/bin/e_exec.c:1291
+#: src/bin/e_exec.c:1227 src/bin/e_exec.c:1230 src/bin/e_exec.c:1310
+#: src/bin/e_exec.c:1313
 #, c-format
 msgid "This error log will be saved as %s/%s.log"
 msgstr "Ce journal d'erreur va être enregistré dans %s/%s.log"
 
-#: src/bin/e_exec.c:1234
+#: src/bin/e_exec.c:1256
 msgid "Error Information"
 msgstr "Informations sur l'erreur"
 
-#: src/bin/e_exec.c:1242
+#: src/bin/e_exec.c:1264
 msgid "Error Signal Information"
 msgstr "Informations sur le signal d'erreur"
 
-#: src/bin/e_exec.c:1252 src/bin/e_exec.c:1259
+#: src/bin/e_exec.c:1274 src/bin/e_exec.c:1281
 msgid "Output Data"
 msgstr "Données de sortie"
 
-#: src/bin/e_exec.c:1260
+#: src/bin/e_exec.c:1282
 msgid "There was no output."
 msgstr "Il n'y a eu aucune sortie."
 
@@ -1718,7 +1718,7 @@ msgid "Eject"
 msgstr "Éjecter"
 
 #: src/bin/e_fm.c:9389 src/bin/e_int_client_remember.c:807
-#: src/modules/ibar/e_mod_main.c:1645
+#: src/modules/ibar/e_mod_main.c:1643
 msgid "Properties"
 msgstr "Propriétés"
 
@@ -2032,7 +2032,7 @@ msgstr "Autres :"
 
 #: src/bin/e_fm_prop.c:625 src/bin/e_import_config_dialog.c:299
 #: src/bin/e_widget_fsel.c:348
-#: src/modules/conf_theme/e_int_config_transitions.c:214
+#: src/modules/conf_theme/e_int_config_transitions.c:227
 #: src/modules/conf_theme/e_int_config_xsettings.c:514
 #: src/modules/ibox/e_mod_config.c:100 src/modules/tasks/e_mod_config.c:120
 msgid "Preview"
@@ -2425,7 +2425,7 @@ msgstr "Redimensionner avec le clavier"
 msgid "Skip"
 msgstr "Ignorer"
 
-#: src/bin/e_int_client_menu.c:821 src/modules/conf_theme/e_mod_main.c:57
+#: src/bin/e_int_client_menu.c:821 src/modules/conf_theme/e_mod_main.c:89
 msgid "Border"
 msgstr "Bordure"
 
@@ -2630,9 +2630,9 @@ msgstr "Statique"
 #: src/modules/conf_randr/e_int_config_randr2.c:688
 #: src/modules/conf_randr/e_int_config_randr2.c:1067
 #: src/modules/conf_theme/e_int_config_fonts.c:742
-#: src/modules/conf_theme/e_int_config_transitions.c:199
-#: src/modules/conf_theme/e_int_config_transitions.c:253
-#: src/modules/conf_theme/e_int_config_transitions.c:285
+#: src/modules/conf_theme/e_int_config_transitions.c:212
+#: src/modules/conf_theme/e_int_config_transitions.c:271
+#: src/modules/conf_theme/e_int_config_transitions.c:303
 #: src/modules/conf_window_manipulation/e_int_config_clientlist.c:117
 #: src/modules/conf_window_manipulation/e_int_config_clientlist.c:130
 #: src/modules/conf_window_manipulation/e_int_config_clientlist.c:144
@@ -2776,9 +2776,9 @@ msgstr "Demande de position"
 #: src/modules/everything/evry_gadget.c:683
 #: src/modules/everything/evry_plug_settings.c:183
 #: src/modules/geolocation/e_mod_main.c:235 src/modules/ibar/e_mod_main.c:497
-#: src/modules/ibar/e_mod_main.c:1638 src/modules/ibox/e_mod_main.c:358
+#: src/modules/ibar/e_mod_main.c:1636 src/modules/ibox/e_mod_main.c:358
 #: src/modules/ibox/e_mod_main.c:791 src/modules/mixer/e_mod_main.c:958
-#: src/modules/music-control/ui.c:329 src/modules/packagekit/e_mod_main.c:47
+#: src/modules/music-control/ui.c:330 src/modules/packagekit/e_mod_main.c:47
 #: src/modules/pager/e_mod_main.c:1026 src/modules/tasks/e_mod_main.c:938
 #: src/modules/temperature/e_mod_main.c:231
 #: src/modules/tiling/e_mod_tiling.c:2169 src/modules/wizard/page_150.c:31
@@ -4246,7 +4246,7 @@ msgstr "Renommer le rayon"
 
 #: src/bin/e_shelf.c:2362 src/modules/conf_shelves/e_int_config_shelf.c:145
 #: src/modules/ibar/e_mod_config.c:118 src/modules/ibar/e_mod_main.c:491
-#: src/modules/ibar/e_mod_main.c:1632
+#: src/modules/ibar/e_mod_main.c:1630
 msgid "Contents"
 msgstr "Contenu"
 
@@ -6068,9 +6068,9 @@ msgstr "Paramètres du bureau"
 #: src/modules/conf_display/e_int_config_desk.c:153
 #: src/modules/conf_display/e_int_config_desklock.c:373
 #: src/modules/conf_theme/e_mod_main.c:28
-#: src/modules/conf_theme/e_mod_main.c:55
-#: src/modules/conf_theme/e_mod_main.c:62
-#: src/modules/conf_theme/e_mod_main.c:90
+#: src/modules/conf_theme/e_mod_main.c:87
+#: src/modules/conf_theme/e_mod_main.c:94
+#: src/modules/conf_theme/e_mod_main.c:120
 msgid "Wallpaper"
 msgstr "Fond d'écran"
 
@@ -6440,6 +6440,7 @@ msgstr "Accélération"
 
 #: src/modules/conf_interaction/e_int_config_mouse.c:258
 #: src/modules/conf_interaction/e_int_config_mouse.c:292
+#: src/modules/conf_theme/e_int_config_transitions.c:233
 #: src/modules/fileman/e_mod_config.c:483
 #, c-format
 msgid "%1.1f"
@@ -6763,7 +6764,7 @@ msgstr "Images"
 
 #: src/modules/conf_paths/e_int_config_paths.c:74
 #: src/modules/conf_theme/e_int_config_fonts.c:436
-#: src/modules/conf_theme/e_mod_main.c:76
+#: src/modules/conf_theme/e_mod_main.c:106
 msgid "Fonts"
 msgstr "Polices"
 
@@ -7376,30 +7377,34 @@ msgid "Enlightenment was unable to import the theme<ps/>due to a copy error."
 msgstr ""
 "Enlightenment n'a pu importer ce thème<ps/>à cause d'une erreur de copie."
 
-#: src/modules/conf_theme/e_int_config_transitions.c:46
+#: src/modules/conf_theme/e_int_config_transitions.c:48
 msgid "Transition Settings"
 msgstr "Paramètres de la transition"
 
-#: src/modules/conf_theme/e_int_config_transitions.c:173
+#: src/modules/conf_theme/e_int_config_transitions.c:186
 msgid "Events"
 msgstr "Événements"
 
-#: src/modules/conf_theme/e_int_config_transitions.c:181
+#: src/modules/conf_theme/e_int_config_transitions.c:194
 msgid "Startup"
 msgstr "Lancement"
 
-#: src/modules/conf_theme/e_int_config_transitions.c:182
+#: src/modules/conf_theme/e_int_config_transitions.c:195
 msgid "Desk Change"
 msgstr "Changement de bureau"
 
-#: src/modules/conf_theme/e_int_config_transitions.c:183
+#: src/modules/conf_theme/e_int_config_transitions.c:196
 msgid "Background Change"
 msgstr "Changement de fond d'écran"
 
-#: src/modules/conf_theme/e_int_config_transitions.c:191
-#: src/modules/conf_theme/e_mod_main.c:82
+#: src/modules/conf_theme/e_int_config_transitions.c:204
+#: src/modules/conf_theme/e_mod_main.c:112
 msgid "Transitions"
 msgstr "Transitions"
+
+#: src/modules/conf_theme/e_int_config_transitions.c:232
+msgid "Animation Period Multiplier"
+msgstr "Coefficient multiplicateur de l'animation"
 
 #: src/modules/conf_theme/e_int_config_wallpaper.c:104
 msgid "Wallpaper Settings"
@@ -7466,20 +7471,26 @@ msgid "Enable icon theme for Enlightenment"
 msgstr "Utiliser ce thème d'icônes pour Enlightenment"
 
 #: src/modules/conf_theme/e_mod_main.c:45
-#: src/modules/conf_theme/e_mod_main.c:65
-#: src/modules/conf_theme/e_mod_main.c:93
+#: src/modules/conf_theme/e_mod_main.c:97
+#: src/modules/conf_theme/e_mod_main.c:123
 msgid "Theme"
 msgstr "Thème"
 
-#: src/modules/conf_theme/e_mod_main.c:68
+#: src/modules/conf_theme/e_mod_main.c:62
+#: src/modules/conf_theme/e_mod_main.c:103
+#: src/modules/conf_theme/e_mod_main.c:126
+msgid "Palette"
+msgstr "Palette"
+
+#: src/modules/conf_theme/e_mod_main.c:100
 msgid "Application Theme"
 msgstr "Thème des applications"
 
-#: src/modules/conf_theme/e_mod_main.c:79
+#: src/modules/conf_theme/e_mod_main.c:109
 msgid "Borders"
 msgstr "Bordures"
 
-#: src/modules/conf_theme/e_mod_main.c:85
+#: src/modules/conf_theme/e_mod_main.c:115
 msgid "Scaling"
 msgstr "Mise à l'échelle"
 
@@ -8092,11 +8103,11 @@ msgstr ""
 "Ce module veut exécuter l'application externe EConnMan qui n'existe pas.<ps/"
 ">Il faudrait installer l'application <b>EConnMan</b>."
 
-#: src/modules/connman/e_mod_main.c:284
+#: src/modules/connman/e_mod_main.c:285
 msgid "Wifi On"
 msgstr "Wi-Fi actif"
 
-#: src/modules/connman/e_mod_main.c:294
+#: src/modules/connman/e_mod_main.c:295
 #: src/modules/everything/evry_config.c:377
 msgid "Configure"
 msgstr "Configurer"
@@ -9153,28 +9164,28 @@ msgstr ""
 msgid "Are you sure you want to delete this bar source?"
 msgstr "Voulez-vous vraiment supprimer cette source ?"
 
-#: src/modules/ibar/e_mod_main.c:370 src/modules/ibar/e_mod_main.c:2893
+#: src/modules/ibar/e_mod_main.c:370 src/modules/ibar/e_mod_main.c:2891
 msgid "IBar"
 msgstr "IBar"
 
-#: src/modules/ibar/e_mod_main.c:480 src/modules/ibar/e_mod_main.c:1621
+#: src/modules/ibar/e_mod_main.c:480 src/modules/ibar/e_mod_main.c:1619
 msgid "Create new Icon"
 msgstr "Créer une nouvelle icône"
 
-#: src/modules/ibar/e_mod_main.c:1652
+#: src/modules/ibar/e_mod_main.c:1650
 msgid "Add to bar"
 msgstr "Ajouter à la barre"
 
-#: src/modules/ibar/e_mod_main.c:1658
+#: src/modules/ibar/e_mod_main.c:1656
 msgid "Remove from bar"
 msgstr "Retirer de la barre"
 
-#: src/modules/ibar/e_mod_main.c:1664
+#: src/modules/ibar/e_mod_main.c:1662
 #, c-format
 msgid "Icon %s"
 msgstr "Icône %s"
 
-#: src/modules/ibar/e_mod_main.c:2893
+#: src/modules/ibar/e_mod_main.c:2891
 msgid "Focus IBar"
 msgstr "Focaliser l'IBar"
 
@@ -9355,20 +9366,20 @@ msgstr "Configuration du mélangeur"
 msgid "Music controller"
 msgstr "Lecture multimédia"
 
-#: src/modules/music-control/ui.c:216
+#: src/modules/music-control/ui.c:217
 msgid "Music Player"
 msgstr "Lecteur"
 
-#: src/modules/music-control/ui.c:226
+#: src/modules/music-control/ui.c:227
 msgid "* Your player must be configured to export the DBus interface MPRIS2."
 msgstr ""
 "* Votre lecteur doit être configuré pour exporter l'interface DBus MPRIS2."
 
-#: src/modules/music-control/ui.c:229
+#: src/modules/music-control/ui.c:230
 msgid "Pause music when screen is locked"
 msgstr "Mettre en pause la lecture quand l'écran est verrouillé"
 
-#: src/modules/music-control/ui.c:298
+#: src/modules/music-control/ui.c:299
 msgid "Music control Settings"
 msgstr "Paramètres du contrôleur média"
 
@@ -10722,7 +10733,7 @@ msgid ""
 msgstr ""
 "Enlightenment peut vérifier la disponibilité de nouvelles versions,<ps/>de "
 "mises à jour de sécurité et de corrections de bogues, mais<ps/>aussi "
-"d'extensions.<ps/><ps/>C'est d'une aide précieuse pour vous tenir informé "
+"d'extensions.<ps/><ps/>C'est d'une aide précieuse pour vous tenir informé(e) "
 "des<ps/>correctifs disponibles dès leur parution. Pour ce faire,<ps/"
 ">Enlightenment se connecte à enlightenment.org et échange<ps/>des données "
 "comme le ferait n'importe quel navigateur.<ps/>Aucune information "
@@ -10746,7 +10757,7 @@ msgid ""
 "IBar launcher already can do this,<ps/>so this is in addition to that."
 msgstr ""
 "Une barre des tâches peut être ajoutée pour<ps/>montrer applications et "
-"fenêtres ouvertes.<ps/>Cependant l'IBar peut déjà faire cela.<ps/>Cette "
+"fenêtres ouvertes.<ps/>Cependant, l'IBar peut déjà faire cela.<ps/>Cette "
 "fonctionnalité viendrait se surajouter."
 
 #: src/modules/wizard/page_180.c:49
