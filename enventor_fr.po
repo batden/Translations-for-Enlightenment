@@ -1,52 +1,52 @@
 # French translation for Enventor.
 # This file is distributed under the same license as the enventor package.
-# similar <similar@orange.fr>, 2020.
+# similar <similar@orange.fr>, 2020, 2021.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: enventor 1.0.0\n"
+"Project-Id-Version: enventor\n"
 "Report-Msgid-Bugs-To: enlightenment-devel@lists.sourceforge.net\n"
-"POT-Creation-Date: 2016-08-28 01:00+0900\n"
-"PO-Revision-Date: 2020-03-29 09:32+0200\n"
+"POT-Creation-Date: 2021-12-05 11:59+0100\n"
+"PO-Revision-Date: 2021-12-05 13:42+0100\n"
+"Last-Translator: Philippe Jean Guillaumie <similar@orange.fr>\n"
 "Language-Team: French\n"
+"Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.3\n"
-"Last-Translator: Philippe Jean Guillaumie <similar@orange.fr>\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"Language: fr_FR\n"
+"X-Generator: Poedit 3.0\n"
 
 #: src/bin/base_gui.c:70
 #, c-format
 msgid "%s - Enventor"
 msgstr "%s - Enventor"
 
-#: src/bin/config_data.c:76
+#: src/bin/config_data.c:78
 msgid "Failed to generate tmp folder!"
 msgstr "Impossible de générer un dossier temporaire !"
 
-#: src/bin/config_data.c:97
+#: src/bin/config_data.c:99
 #, c-format
 msgid "Cannot create a config folder \"%s\""
 msgstr "Impossible de créer le dossier de configuration « %s »"
 
-#: src/bin/config_data.c:111
+#: src/bin/config_data.c:113
 #, c-format
 msgid "Cannot create a enventor config folder \"%s\""
 msgstr "Impossible de créer le dossier de configuration Enventor « %s »"
 
-#: src/bin/config_data.c:122
+#: src/bin/config_data.c:124
 #, c-format
 msgid "Cannot save a config file \"%s\""
 msgstr "Échec de l'enregistrement du fichier de configuration « %s »"
 
-#: src/bin/config_data.c:161
+#: src/bin/config_data.c:163
 #, c-format
 msgid "Cannot load a config file \"%s\""
 msgstr "Échec du chargement du fichier de configuration « %s »"
 
-#: src/bin/config_data.c:169
+#: src/bin/config_data.c:171
 msgid "Failed to allocate Memory!"
 msgstr "Impossible d'allouer de la mémoire !"
 
@@ -62,7 +62,7 @@ msgstr "Voulez-vous remplacer le contenu ?"
 msgid "Save As"
 msgstr "Enregistrer sous"
 
-#: src/bin/file_mgr.c:110 src/bin/search.c:421
+#: src/bin/file_mgr.c:110 src/bin/search.c:427
 msgid "Replace"
 msgstr "Remplacer"
 
@@ -101,12 +101,12 @@ msgstr "Entrer le numéro de ligne [1..%d] :"
 msgid "Ok"
 msgstr "OK"
 
-#: src/bin/goto.c:194 src/bin/search.c:443
+#: src/bin/goto.c:194 src/bin/search.c:449
 msgid "Failed to grab key - Escape"
 msgstr "Impossible d'accaparer la touche - Échap"
 
 #: src/bin/live_edit.c:2020 src/bin/live_edit.c:2057 src/bin/live_edit.c:2059
-#: src/bin/main.c:870 src/lib/auto_comp.c:410 src/lib/ctxpopup.c:779
+#: src/bin/main.c:872 src/lib/auto_comp.c:410 src/lib/ctxpopup.c:813
 #, c-format
 msgid "Failed to grab key - %s"
 msgstr "Impossible d'accaparer la touche - %s"
@@ -173,12 +173,12 @@ msgstr ""
 msgid "Faild to allocate Memory!"
 msgstr "Impossible d'allouer de la mémoire !"
 
-#: src/bin/main.c:208
+#: src/bin/main.c:212
 #, c-format
 msgid "Font Size: %1.1fx"
 msgstr "Taille de la police : %1.1fx"
 
-#: src/bin/main.c:942
+#: src/bin/main.c:944
 #, c-format
 msgid "Cannot create temporary diretory \"%s\""
 msgstr "Impossible de créer le dossier temporaire « %s »"
@@ -276,28 +276,28 @@ msgstr "Fichier « %s » introuvable !"
 msgid "%d matches replaced"
 msgstr "%d correspondances remplacées"
 
-#: src/bin/search.c:145 src/bin/search.c:205
+#: src/bin/search.c:150 src/bin/search.c:210
 #, c-format
 msgid "No \"%s\" in the text"
 msgstr "Aucun « %s » dans le texte"
 
-#: src/bin/search.c:242 src/bin/search.c:407
+#: src/bin/search.c:248 src/bin/search.c:413
 msgid "Previous"
 msgstr "Précédent"
 
-#: src/bin/search.c:274 src/bin/search.c:414
+#: src/bin/search.c:280 src/bin/search.c:420
 msgid "Next"
 msgstr "Suivant"
 
-#: src/bin/search.c:358
+#: src/bin/search.c:364
 msgid "Enventor Search"
 msgstr "Enventor Rechercher"
 
-#: src/bin/search.c:361
+#: src/bin/search.c:367
 msgid "Find/Replace"
 msgstr "Rechercher / Remplacer"
 
-#: src/bin/search.c:428
+#: src/bin/search.c:434
 msgid "Replace All"
 msgstr "Remplacer tout"
 
@@ -354,15 +354,15 @@ msgstr "Numéro de ligne du curseur : nombre de lignes max."
 msgid "Failed to open file \"%s\""
 msgstr "Impossible d'ouvrir le fichier « %s »"
 
-#: src/bin/text_setting.c:909
+#: src/bin/text_setting.c:915
 msgid "Double click a keyword to change its color :"
 msgstr "Double clic sur un mot-clé pour changer sa couleur :"
 
-#: src/bin/text_setting.c:1004
+#: src/bin/text_setting.c:1010
 msgid "Font Name"
 msgstr "Nom de la police"
 
-#: src/bin/text_setting.c:1031
+#: src/bin/text_setting.c:1037
 msgid "Font Style"
 msgstr "Style de la police"
 
@@ -382,7 +382,7 @@ msgstr "Annuler le texte."
 msgid "No text to be undo."
 msgstr "Aucun texte à annuler."
 
-#: src/bin/tools.c:209
+#: src/bin/tools.c:244
 msgid ""
 "Part highlighting (Ctrl + H)<br>Show a highlight effect on the selected "
 "part<br>in the live view."
@@ -390,7 +390,7 @@ msgstr ""
 "Surbrillance (Ctrl+H)<br>Mise en évidence de la partie<br>sélectionnée dans "
 "l'aperçu."
 
-#: src/bin/tools.c:220
+#: src/bin/tools.c:256
 msgid ""
 "Dummy parts (Ctrl + U)<br>Display virtual images for the swallow "
 "and<br>spacer parts."
@@ -398,7 +398,7 @@ msgstr ""
 "Maquette (Ctrl+U)<br>Affiche des images factices pour les<br>parties Swallow "
 "et Spacer."
 
-#: src/bin/tools.c:231
+#: src/bin/tools.c:268
 msgid ""
 "Wireframes (Ctrl + W)<br>Display wireframes to identify the "
 "parts<br>boundaries."
@@ -406,7 +406,7 @@ msgstr ""
 "Encadrement (Ctrl+W)<br>Affiche des guides pour délimiter<br>les différentes "
 "parties."
 
-#: src/bin/tools.c:242
+#: src/bin/tools.c:280
 msgid ""
 "Mirror mode (Ctrl + M)<br>Invert the layout horizontally and review<br>the "
 "designed layout in RTL(right-to-left)<br>LTR(left-to-right) settings."
@@ -415,25 +415,25 @@ msgstr ""
 "de<br>tester les dispositions RTL (de droite à gauche)<br>et LTR (de gauche "
 "à droite)."
 
-#: src/bin/tools.c:280
+#: src/bin/tools.c:348
 msgid "Save the file (Ctrl + S)<br>Save the current script to a file."
 msgstr ""
 "Enregistrer le fichier (Ctrl+S)<br>Enregistre le script actuel dans un "
 "fichier."
 
-#: src/bin/tools.c:288
+#: src/bin/tools.c:357
 msgid "Undo text (Ctrl + Z)"
 msgstr "Annuler texte (Ctrl+Z)"
 
-#: src/bin/tools.c:295
+#: src/bin/tools.c:365
 msgid "Redo text (Ctrl + R)"
 msgstr "Répéter texte (Ctrl+R)"
 
-#: src/bin/tools.c:302
+#: src/bin/tools.c:373
 msgid "Find/Replace (Ctrl + F)<br>Find or replace text."
 msgstr "Chercher / Remplacer (Ctrl+F)<br>Cherche ou remplace du texte."
 
-#: src/bin/tools.c:311
+#: src/bin/tools.c:383
 msgid ""
 "Go to line (Ctrl + L)<br>Open the Go to window to move the cursor<br>line "
 "position."
@@ -441,11 +441,11 @@ msgstr ""
 "Aller à la ligne (Ctrl+L)<br>Ouvre une boîte de dialogue pour déplacer<br>le "
 "curseur à la ligne indiquée."
 
-#: src/bin/tools.c:321
+#: src/bin/tools.c:394
 msgid "Line numbers<br>Display the script line numbers."
 msgstr "Numéros de lignes<br>Affiche les numéros de lignes."
 
-#: src/bin/tools.c:330
+#: src/bin/tools.c:404
 msgid ""
 "Insert a code snippet (Ctrl + T)<br>Enventor chooses the best code with "
 "regards<br>to the current editing context. For instance,<br>if the cursor is "
@@ -455,17 +455,17 @@ msgstr ""
 "adapté au contexte<br>actuel. Par exemple, si le curseur se trouve<br>dans "
 "une section Part, un code de<br>description est généré."
 
-#: src/bin/tools.c:342
+#: src/bin/tools.c:418
 msgid ""
 "Console box (Alt + Down)<br>Display the console box, which shows the "
 "EDC<br>build logs, such as error messages. It pops<br>up automatically when "
-"compliation errors occur."
+"compilation errors occur."
 msgstr ""
-"Console (Alt+Flèche bas)<br>Affiche les journaux EDC tels les messages "
+"Console (Alt+Flèche bas)<br>Affiche les journaux EDC tels que les messages "
 "d'erreur.<br>Elle apparaît automatiquement quand des<br>erreurs de "
 "compilation se produisent."
 
-#: src/bin/tools.c:353
+#: src/bin/tools.c:430
 msgid ""
 "File browser (F9)<br>Display the file browser, which shows a file list<br>in "
 "current workspace."
@@ -473,7 +473,7 @@ msgstr ""
 "Navigateur de fichiers (F9)<br>Affiche le navigateur pour lister les "
 "fichiers<br>de l'espace de travail actuel."
 
-#: src/bin/tools.c:363
+#: src/bin/tools.c:441
 msgid ""
 "EDC navigator (F10)<br>Display the EDC navigator, which shows the "
 "current<br>group hierarchy tree that contains parts,<br>descriptions and "
@@ -483,60 +483,60 @@ msgstr ""
 "de<br>l'EDC actuel qui contient les parties, descriptions<br>et listes de "
 "programmes."
 
-#: src/bin/tools.c:375
+#: src/bin/tools.c:453
 msgid ""
 "File tab (F11)<br>Display the file tab in the bottom area<br>It shows an "
-"opened file list to switch<br>files quickly. to switch files quickly."
+"opened file list to switch<br>files quickly."
 msgstr ""
 "Onglet (F11)<br>Affiche l'onglet de la zone inférieure qui regroupe<br>les "
 "fichiers EDC et permet de passer<br>rapidement de l'un à l'autre."
 
-#: src/bin/tools.c:386
+#: src/bin/tools.c:467
 msgid "Enventor menu (Esc)<br>Open the Enventor main menu."
 msgstr "Enventor Menu (Échap)<br>Ouvre le menu principal d'Enventor."
 
-#: src/bin/tools.c:432
+#: src/bin/tools.c:514
 msgid "Part highlighting enabled."
 msgstr "Mode surbrillance activé."
 
-#: src/bin/tools.c:434
+#: src/bin/tools.c:516
 msgid "Part highlighting disabled."
 msgstr "Mode surbrillance désactivé."
 
-#: src/bin/tools.c:519
+#: src/bin/tools.c:601
 msgid "Dummy parts enabled."
 msgstr "Mode maquette activé."
 
-#: src/bin/tools.c:521
+#: src/bin/tools.c:603
 msgid "Dummy parts disabled."
 msgstr "Mode maquette désactivé."
 
-#: src/bin/tools.c:543
+#: src/bin/tools.c:625
 msgid "Wireframes enabled."
 msgstr "Mode encadrement activé."
 
-#: src/bin/tools.c:545
+#: src/bin/tools.c:627
 msgid "Wireframes disabled."
 msgstr "Mode encadrement désactivé."
 
-#: src/bin/tools.c:568
+#: src/bin/tools.c:650
 msgid "Mirror mode enabled."
 msgstr "Mode miroir activé."
 
-#: src/bin/tools.c:570
+#: src/bin/tools.c:652
 msgid "Mirror mode disabled."
 msgstr "Mode miroir désactivé."
 
-#: src/bin/tools.c:624
+#: src/bin/tools.c:706
 msgid "Insertion of template code is disabled while in Live Edit mode"
 msgstr "L'insertion de modèles de code est désactivée en mode Live Edit"
 
-#: src/bin/tools.c:635
+#: src/bin/tools.c:717
 #, c-format
 msgid "Template code inserted, (%s)"
 msgstr "Insertion du modèle de code, (%s)"
 
-#: src/bin/tools.c:641
+#: src/bin/tools.c:723
 msgid ""
 "Can't insert template code here. Move the cursor inside the \"Collections,"
 "Images,Parts,Part,Programs\" scope."
