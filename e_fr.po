@@ -19,7 +19,7 @@ msgstr ""
 "Project-Id-Version: enlightenment\n"
 "Report-Msgid-Bugs-To: enlightenment-devel@lists.sourceforge.net\n"
 "POT-Creation-Date: 2021-11-26 14:22+0100\n"
-"PO-Revision-Date: 2021-11-26 14:59+0100\n"
+"PO-Revision-Date: 2021-12-08 11:51+0100\n"
 "Last-Translator: Philippe Jean Guillaumie <similar@orange.fr>\n"
 "Language-Team: French\n"
 "Language: fr\n"
@@ -3059,11 +3059,11 @@ msgstr "Messages de X"
 
 #: src/bin/e_int_config_comp.c:305
 msgid "Send flush"
-msgstr "Synchroniser la plage mémoire"
+msgstr "Synchroniser la plage mémoire (flush)"
 
 #: src/bin/e_int_config_comp.c:307
 msgid "Send dump"
-msgstr "Vider la plage mémoire"
+msgstr "Vider la plage mémoire (dump)"
 
 #: src/bin/e_int_config_comp.c:311
 msgid "Sync"
@@ -3535,7 +3535,7 @@ msgstr "%1.0f pixels"
 
 #: src/bin/e_int_shelf_config.c:215
 msgid "Shrink to Content Width"
-msgstr "Réduire à la largeur du contenu"
+msgstr "Ajuster la taille au contenu"
 
 #: src/bin/e_int_shelf_config.c:232
 msgid "Auto-hide the shelf"
@@ -6680,7 +6680,7 @@ msgstr "Afficher les paramètres du gadget au premier niveau"
 
 #: src/modules/conf_menus/e_int_config_menus.c:287
 msgid "Margin"
-msgstr "Marge"
+msgstr "Marge de défilement"
 
 #: src/modules/conf_menus/e_int_config_menus.c:289
 #: src/modules/conf_menus/e_int_config_menus.c:294
@@ -6695,7 +6695,7 @@ msgstr "%2.0f pixels"
 
 #: src/modules/conf_menus/e_int_config_menus.c:292
 msgid "Cursor Margin"
-msgstr "Marge du pointeur"
+msgstr "Marge de défilement du curseur"
 
 #: src/modules/conf_menus/e_int_config_menus.c:297
 msgid "Autoscroll"
@@ -10153,12 +10153,12 @@ msgstr "Couleur"
 
 #: src/modules/shot/e_mod_main.c:312 src/modules/shot/e_mod_main.c:366
 msgid "Take Shot"
-msgstr "Capturer l'écran"
+msgstr "Capture d'écran"
 
 #: src/modules/shot/e_mod_main.c:323 src/modules/shot/e_mod_main.c:350
 #: src/modules/shot/e_mod_main.c:371
 msgid "Take Screenshot"
-msgstr "Capture d'écran"
+msgstr "Capturer l'écran"
 
 #: src/modules/shot/e_mod_main.c:340
 msgid "Shot Error"
