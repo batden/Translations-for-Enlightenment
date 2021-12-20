@@ -19,7 +19,7 @@ msgstr ""
 "Project-Id-Version: enlightenment\n"
 "Report-Msgid-Bugs-To: enlightenment-devel@lists.sourceforge.net\n"
 "POT-Creation-Date: 2021-11-26 14:22+0100\n"
-"PO-Revision-Date: 2021-12-08 11:51+0100\n"
+"PO-Revision-Date: 2021-12-20 08:48+0100\n"
 "Last-Translator: Philippe Jean Guillaumie <similar@orange.fr>\n"
 "Language-Team: French\n"
 "Language: fr\n"
@@ -27,7 +27,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Poedit 3.0\n"
+"X-Generator: Poedit 3.0.1\n"
 "X-Poedit-SourceCharset: utf-8\n"
 
 #: src/bin/e_about.c:17
@@ -2386,7 +2386,7 @@ msgstr "Restaurer"
 
 #: src/bin/e_int_client_menu.c:679
 msgid "Edit Icon"
-msgstr "Éditer l'icône"
+msgstr "Modifier l'icône"
 
 #: src/bin/e_int_client_menu.c:687
 msgid "Create Icon"
@@ -3305,7 +3305,7 @@ msgstr "Supprimer"
 #: src/bin/e_int_config_comp_match.c:749
 #: src/modules/conf_window_remembers/e_int_config_remembers.c:185
 msgid "Edit"
-msgstr "Édition"
+msgstr "Modifier"
 
 #: src/bin/e_int_config_comp_match.c:766
 #: src/modules/conf_applications/e_mod_main.c:18
@@ -10731,14 +10731,14 @@ msgid ""
 ">please disable this below. It is highly<ps/>advised that you do not disable "
 "this as it<ps/>may leave you vulnerable or having to live<ps/>with bugs."
 msgstr ""
-"Enlightenment peut vérifier la disponibilité de nouvelles versions,<ps/>de "
-"mises à jour de sécurité et de corrections de bogues, mais<ps/>aussi "
-"d'extensions.<ps/><ps/>C'est d'une aide précieuse pour vous tenir informé(e) "
-"des<ps/>correctifs disponibles dès leur parution. Pour ce faire,<ps/"
-">Enlightenment se connecte à enlightenment.org et échange<ps/>des données "
-"comme le ferait n'importe quel navigateur.<ps/>Aucune information "
-"personnelle telle que le nom et le mot de<ps/>passe de l'utilisateur, ou "
-"quelque fichier personnel que ce<ps/>soit, n'est transmis. Si vous n'en "
+"Enlightenment peut vérifier la présence de nouvelles versions,<ps/>de mises "
+"à jour de sécurité et de corrections de bogues,<ps/>ainsi que la "
+"disponibilité d'extensions.<ps/><ps/>C'est d'une aide précieuse pour vous "
+"tenir informé(e) des<ps/>correctifs disponibles dès leur parution. Pour ce "
+"faire,<ps/>Enlightenment se connecte à enlightenment.org et échange<ps/>des "
+"données comme le ferait n'importe quel navigateur.<ps/>Aucune information "
+"personnelle telle que le nom, le mot de<ps/>passe de l'utilisateur, ou "
+"quelque fichier personnel que ce<ps/>soit, n'est transmise. Si vous n'en "
 "voulez vraiment pas,<ps/>alors désactivez la fonctionnalité ci-dessous. Mais "
 "dans ce<ps/>cas, vous vous exposez à des vulnérabilités et à devoir<ps/"
 ">vivre avec des bogues."
