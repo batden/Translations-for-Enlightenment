@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: edi\n"
 "Report-Msgid-Bugs-To: enlightenment-devel@lists.sourceforge.net\n"
 "POT-Creation-Date: 2017-12-23 21:59+0000\n"
-"PO-Revision-Date: 2022-01-02 16:29+0100\n"
+"PO-Revision-Date: 2022-01-02 17:05+0100\n"
 "Last-Translator: Philippe Jean Guillaumie <similar@orange.fr>\n"
 "Language-Team: French\n"
 "Language: fr\n"
@@ -102,7 +102,7 @@ msgstr "Paramètres"
 
 #: src/bin/editor/edi_editor_documentation.c:66
 msgid "Returns"
-msgstr "Retourne"
+msgstr "Retours"
 
 #: src/bin/editor/edi_editor_documentation.c:69
 msgid "See also"
@@ -398,7 +398,7 @@ msgstr "Courriel de l'auteur"
 
 #: src/bin/screens/edi_settings.c:708 src/bin/edi_filepanel.c:481
 msgid "Source Control"
-msgstr "Dépôt"
+msgstr "Contrôle des sources"
 
 #: src/bin/screens/edi_settings.c:724
 msgid "Remote URL"
