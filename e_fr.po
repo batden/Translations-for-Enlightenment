@@ -18,8 +18,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: enlightenment\n"
 "Report-Msgid-Bugs-To: enlightenment-devel@lists.sourceforge.net\n"
-"POT-Creation-Date: 2022-01-19 07:04+0100\n"
-"PO-Revision-Date: 2022-01-19 08:01+0100\n"
+"POT-Creation-Date: 2022-01-20 19:40+0100\n"
+"PO-Revision-Date: 2022-01-20 19:56+0100\n"
 "Last-Translator: Philippe Jean Guillaumie <similar@orange.fr>\n"
 "Language-Team: French\n"
 "Language: fr\n"
@@ -55,12 +55,12 @@ msgstr "Enlightenment"
 
 #: src/bin/e_about.c:26
 msgid ""
-"<title>Copyright &copy; 2000-2021, by the Enlightenment Development Team</"
+"<title>Copyright &copy; 2000-2022, by the Enlightenment Development Team</"
 "><ps/><ps/>We hope you enjoy using this software as much as we enjoyed "
 "writing it.<ps/><ps/>To contact us please visit:<ps/><hilight>http://www."
 "enlightenment.org</><ps/><ps/>"
 msgstr ""
-"<title>Copyright &copy; 2000-2021, par l'équipe de développement "
+"<title>Copyright &copy; 2000-2022, par l'équipe de développement "
 "d'Enlightenment</><ps/><ps/>Nous espérons que vous aurez autant de plaisir à "
 "utiliser ce logiciel que nous en avons eu à l'écrire.<ps/><ps/>Pour nous "
 "contacter, visitez :<ps/><hilight>http://www.enlightenment.org</><ps/><ps/>"
@@ -107,8 +107,8 @@ msgstr "Tuer"
 #: src/bin/e_actions.c:369 src/bin/e_actions.c:2272 src/bin/e_actions.c:2347
 #: src/bin/e_actions.c:2407 src/bin/e_actions.c:2464 src/bin/e_actions.c:2526
 #: src/bin/e_actions.c:2628 src/bin/e_confirm_dialog.c:53 src/bin/e_fm.c:10706
-#: src/bin/e_fm.c:11059 src/modules/bluez5/e_mod_popup.c:520
-#: src/modules/bluez5/e_mod_popup.c:521
+#: src/bin/e_fm.c:11059 src/modules/bluez5/e_mod_popup.c:521
+#: src/modules/bluez5/e_mod_popup.c:522
 #: src/modules/quickaccess/e_mod_quickaccess.c:1308
 msgid "No"
 msgstr "Non"
@@ -128,7 +128,7 @@ msgstr "Voulez-vous vraiment quitter Enlightenment ?"
 #: src/bin/e_actions.c:2270 src/bin/e_actions.c:2345 src/bin/e_actions.c:2405
 #: src/bin/e_actions.c:2462 src/bin/e_actions.c:2524 src/bin/e_actions.c:2626
 #: src/bin/e_confirm_dialog.c:52 src/bin/e_fm.c:10709
-#: src/modules/bluez5/e_mod_popup.c:520 src/modules/bluez5/e_mod_popup.c:521
+#: src/modules/bluez5/e_mod_popup.c:521 src/modules/bluez5/e_mod_popup.c:522
 #: src/modules/quickaccess/e_mod_quickaccess.c:1308
 msgid "Yes"
 msgstr "Oui"
@@ -935,7 +935,7 @@ msgstr "Choisir"
 #: src/bin/e_desktop_editor.c:973 src/bin/e_entry_dialog.c:128
 #: src/bin/e_fm.c:10213 src/bin/e_fm_prop.c:770
 #: src/bin/e_import_config_dialog.c:361 src/bin/e_import_dialog.c:197
-#: src/modules/bluez5/e_mod_popup.c:615
+#: src/modules/bluez5/e_mod_popup.c:616
 #: src/modules/conf_bindings/e_int_config_signalbindings.c:624
 #: src/modules/conf_bindings/e_int_config_swipebindings.c:678
 #: src/modules/conf_intl/e_int_config_imc_import.c:123
@@ -971,7 +971,7 @@ msgstr "Définir l'opacité de la fenêtre actuelle"
 msgid "Toggle focused client's redirect state"
 msgstr "(Dés)Activer l'état de redirection du client focalisé"
 
-#: src/bin/e_comp.c:1416 src/modules/bluez5/e_mod_popup.c:458
+#: src/bin/e_comp.c:1416 src/modules/bluez5/e_mod_popup.c:459
 msgid "Visible"
 msgstr "Visible"
 
@@ -3183,7 +3183,7 @@ msgstr "Utilitaire"
 #: src/bin/e_widget_filepreview.c:696 src/bin/e_widget_filepreview.c:697
 #: src/bin/e_widget_filepreview.c:698 src/bin/e_widget_filepreview.c:728
 #: src/bin/e_widget_filepreview.c:739 src/modules/battery/e_mod_main.c:265
-#: src/modules/bluez5/e_mod_popup.c:509 src/modules/bluez5/e_mod_popup.c:510
+#: src/modules/bluez5/e_mod_popup.c:510 src/modules/bluez5/e_mod_popup.c:511
 #: src/modules/bluez5/e_mod_util.c:261
 #: src/modules/conf_bindings/e_int_config_acpibindings.c:429
 #: src/modules/conf_bindings/e_int_config_edgebindings.c:1235
@@ -5032,48 +5032,48 @@ msgstr ""
 "rfkill pour le déblocage.<br>Vérifiez les utilisateurs et groupes pour ce "
 "fichier."
 
-#: src/modules/bluez5/e_mod_popup.c:393
+#: src/modules/bluez5/e_mod_popup.c:394
 msgid "Adapters"
 msgstr "Adaptateurs"
 
-#: src/modules/bluez5/e_mod_popup.c:394
+#: src/modules/bluez5/e_mod_popup.c:395
 msgid "Devices"
 msgstr "Périphériques"
 
-#: src/modules/bluez5/e_mod_popup.c:429
+#: src/modules/bluez5/e_mod_popup.c:430
 msgid "Unknown Address"
 msgstr "Adresse inconnue"
 
-#: src/modules/bluez5/e_mod_popup.c:452
+#: src/modules/bluez5/e_mod_popup.c:453
 msgid "Power"
 msgstr "Alimentation"
 
-#: src/modules/bluez5/e_mod_popup.c:452
+#: src/modules/bluez5/e_mod_popup.c:453
 msgid "Enable power for this adapter"
 msgstr "Activer l'alimentation pour cet adaptateur"
 
-#: src/modules/bluez5/e_mod_popup.c:458
+#: src/modules/bluez5/e_mod_popup.c:459
 msgid "Make this adapter visible to other devices"
 msgstr "Rendre cet adaptateur visible aux autres appareils"
 
-#: src/modules/bluez5/e_mod_popup.c:464
+#: src/modules/bluez5/e_mod_popup.c:465
 msgid "Scan"
 msgstr "Recherche"
 
-#: src/modules/bluez5/e_mod_popup.c:464
+#: src/modules/bluez5/e_mod_popup.c:465
 msgid "Scan for other devices"
 msgstr "Rechercher d'autres appareils"
 
-#: src/modules/bluez5/e_mod_popup.c:470
+#: src/modules/bluez5/e_mod_popup.c:471
 msgid "Pairable"
 msgstr "Appairable"
 
-#: src/modules/bluez5/e_mod_popup.c:470
+#: src/modules/bluez5/e_mod_popup.c:471
 msgid "Allow this adapter to have other devices request to pair with it"
 msgstr ""
 "Accepter les requêtes d'appairage d'autres appareils pour cet adaptateur"
 
-#: src/modules/bluez5/e_mod_popup.c:503
+#: src/modules/bluez5/e_mod_popup.c:504
 #, c-format
 msgid ""
 "Address: %s (%s)<br>Services: %s%s%s%s%s%s%s%s%s<br>Trusted: %s<br>Blocked: "
@@ -5082,80 +5082,80 @@ msgstr ""
 "Adresse : %s (%s)<br>Services : %s%s%s%s%s%s%s%s%s<br>De confiance : "
 "%s<br>Bloqué : %s<br>"
 
-#: src/modules/bluez5/e_mod_popup.c:511
+#: src/modules/bluez5/e_mod_popup.c:512
 msgid "Limited-Discoverable "
 msgstr "Découverte limitée "
 
-#: src/modules/bluez5/e_mod_popup.c:512
+#: src/modules/bluez5/e_mod_popup.c:513
 msgid "Positioning "
 msgstr "Localisation "
 
-#: src/modules/bluez5/e_mod_popup.c:513
+#: src/modules/bluez5/e_mod_popup.c:514
 msgid "Networking "
 msgstr "Réseau "
 
-#: src/modules/bluez5/e_mod_popup.c:514
+#: src/modules/bluez5/e_mod_popup.c:515
 msgid "Rendering "
 msgstr "Rendu "
 
-#: src/modules/bluez5/e_mod_popup.c:515
+#: src/modules/bluez5/e_mod_popup.c:516
 msgid "Capture "
 msgstr "Capture "
 
-#: src/modules/bluez5/e_mod_popup.c:516
+#: src/modules/bluez5/e_mod_popup.c:517
 msgid "OBEX "
 msgstr "OBEX "
 
-#: src/modules/bluez5/e_mod_popup.c:517
+#: src/modules/bluez5/e_mod_popup.c:518
 msgid "Audio "
 msgstr "Audio "
 
-#: src/modules/bluez5/e_mod_popup.c:518
+#: src/modules/bluez5/e_mod_popup.c:519
 msgid "Telephony "
 msgstr "Téléphonie "
 
-#: src/modules/bluez5/e_mod_popup.c:519
+#: src/modules/bluez5/e_mod_popup.c:520
 msgid "Information "
 msgstr "Information "
 
-#: src/modules/bluez5/e_mod_popup.c:544
+#: src/modules/bluez5/e_mod_popup.c:545
 msgid "Stop this from being an unlock device"
 msgstr "Oublier le déverrouillage du périphérique"
 
-#: src/modules/bluez5/e_mod_popup.c:551
+#: src/modules/bluez5/e_mod_popup.c:552
 msgid "Make this auto unlock when detected (and lock when not)"
 msgstr "Déverrouillage auto. à la détection (sinon verrouillage)"
 
-#: src/modules/bluez5/e_mod_popup.c:561
+#: src/modules/bluez5/e_mod_popup.c:562
 msgid "Disconnect this device"
 msgstr "Déconnecter cet appareil"
 
-#: src/modules/bluez5/e_mod_popup.c:568
+#: src/modules/bluez5/e_mod_popup.c:569
 msgid "Connect this device"
 msgstr "Connecter cet appareil"
 
-#: src/modules/bluez5/e_mod_popup.c:578
+#: src/modules/bluez5/e_mod_popup.c:579
 msgid "Disrust this device"
 msgstr "Ne pas faire confiance à cet appareil"
 
-#: src/modules/bluez5/e_mod_popup.c:585
+#: src/modules/bluez5/e_mod_popup.c:586
 msgid "Trust this device"
 msgstr "Faire confiance à cet appareil"
 
-#: src/modules/bluez5/e_mod_popup.c:597 src/modules/bluez5/e_mod_popup.c:658
-#: src/modules/bluez5/e_mod_popup.c:680
+#: src/modules/bluez5/e_mod_popup.c:598 src/modules/bluez5/e_mod_popup.c:659
+#: src/modules/bluez5/e_mod_popup.c:681
 msgid "Pair with this device"
 msgstr "Associer cet appareil"
 
-#: src/modules/bluez5/e_mod_popup.c:607
+#: src/modules/bluez5/e_mod_popup.c:608
 msgid "Unpair with this device"
 msgstr "Dissocier cet appareil"
 
-#: src/modules/bluez5/e_mod_popup.c:666 src/modules/bluez5/e_mod_popup.c:687
+#: src/modules/bluez5/e_mod_popup.c:667 src/modules/bluez5/e_mod_popup.c:688
 msgid "Reject pairing"
 msgstr "Refuser l'association"
 
-#: src/modules/bluez5/e_mod_popup.c:719
+#: src/modules/bluez5/e_mod_popup.c:720
 msgid "Options for device like connect, pair etc."
 msgstr "Options de l'appareil telles que la connexion, l'association, etc."
 
@@ -5956,7 +5956,7 @@ msgstr "Aide"
 
 #: src/modules/conf_bindings/e_int_config_swipebindings.c:977
 msgid "Open input devices"
-msgstr "Ouvrir les périphériques d'entrée"
+msgstr "Ouvrir les périphériques d'entrée "
 
 #: src/modules/conf_bindings/e_int_config_swipebindings.c:1045
 msgid "Swipe Bindings Settings"
