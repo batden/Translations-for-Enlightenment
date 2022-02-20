@@ -13,5 +13,6 @@ Comment[fr]=Outil pour configurer ou modifier l'authentification par empreintes 
 Comment[it]=Utilità per impostare o modificare l'autenticazione mediante sensore di impronte digitali
 Comment[pt]=Ferramenta para configurar ou modificar a autenticação das impressões digitais
 GenericName=GUI for Fingerprint Authentication
+GenericName[fr]=Interface d'authentification par empreintes digitales
 Categories=Settings;DesktopSettings;
 StartupWMClass=enlightenment_fprint
