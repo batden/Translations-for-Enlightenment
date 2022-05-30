@@ -18,8 +18,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: enlightenment\n"
 "Report-Msgid-Bugs-To: enlightenment-devel@lists.sourceforge.net\n"
-"POT-Creation-Date: 2022-04-12 18:35+0200\n"
-"PO-Revision-Date: 2022-04-12 20:34+0200\n"
+"POT-Creation-Date: 2022-05-30 10:44+0200\n"
+"PO-Revision-Date: 2022-05-30 11:51+0200\n"
 "Last-Translator: Philippe Jean Guillaumie <similar@orange.fr>\n"
 "Language-Team: French\n"
 "Language: fr\n"
@@ -41,7 +41,7 @@ msgstr "À propos d’Enlightenment"
 #: src/modules/conf_bindings/e_int_config_edgebindings.c:872
 #: src/modules/conf_bindings/e_int_config_swipebindings.c:919
 #: src/modules/conf/e_conf.c:159 src/modules/everything/evry_plug_windows.c:370
-#: src/modules/fileman/e_fwin.c:2657 src/modules/vkbd/e_kbd_cfg.c:188
+#: src/modules/fileman/e_fwin.c:2775 src/modules/vkbd/e_kbd_cfg.c:188
 msgid "Close"
 msgstr "Fermer"
 
@@ -945,7 +945,7 @@ msgstr "Choisir"
 #: src/modules/polkit/auth_ui.c:185
 #: src/modules/quickaccess/e_mod_quickaccess.c:334
 #: src/modules/quickaccess/e_mod_quickaccess.c:396
-#: src/modules/shot/e_mod_delay.c:86 src/modules/shot/e_mod_preview.c:104
+#: src/modules/shot/e_mod_delay.c:86 src/modules/shot/e_mod_preview.c:118
 #: src/modules/shot/e_mod_share.c:225 src/modules/shot/e_mod_share.c:254
 #: src/modules/syscon/e_syscon.c:92 src/modules/xkbswitch/e_mod_config.c:893
 #: src/modules/xkbswitch/e_mod_config.c:1024
@@ -993,14 +993,14 @@ msgstr "Cachée"
 msgid "Title"
 msgstr "Titre"
 
-#: src/bin/e_comp_wl.c:3040
+#: src/bin/e_comp_wl.c:2992
 #, c-format
 msgid "Enlightenment cannot initialize Wayland client connection.\n"
 msgstr ""
 "Enlightenment ne parvient pas à initialiser une connexion au client "
 "Wayland.\n"
 
-#: src/bin/e_comp_wl.c:3055
+#: src/bin/e_comp_wl.c:3007
 #, c-format
 msgid "Enlightenment cannot create a Wayland Compositor.\n"
 msgstr "Enlightenment est incapable de créer un compositeur Wayland.\n"
@@ -1022,11 +1022,11 @@ msgstr ""
 "OpenGL 2.0 (ou OpenGL ES 2.0)<ps/>pour tirer profit de la composition avec "
 "OpenGL."
 
-#: src/bin/e_comp_x.c:5899
+#: src/bin/e_comp_x.c:5846
 msgid "Lock Failed"
 msgstr "Échec du verrouillage"
 
-#: src/bin/e_comp_x.c:5900
+#: src/bin/e_comp_x.c:5847
 msgid ""
 "Locking the desktop failed because some application<ps/>has grabbed either "
 "the keyboard or the mouse or both<ps/>and their grab is unable to be broken."
@@ -1035,12 +1035,12 @@ msgstr ""
 "soit le clavier ou la souris, soit les deux,<ps/>et cette réservation n'a pu "
 "être annulée."
 
-#: src/bin/e_comp_x.c:5918
+#: src/bin/e_comp_x.c:5865
 msgid "Another compositor is already running on your display server."
 msgstr ""
 "Un autre compositeur est déjà fonctionnel sur votre serveur d'affichage."
 
-#: src/bin/e_comp_x.c:5943
+#: src/bin/e_comp_x.c:5890
 msgid ""
 "Your display server does not support the compositor overlay window.\n"
 "This is needed for Enlightenment to function."
@@ -1048,12 +1048,12 @@ msgstr ""
 "Votre serveur d'affichage ne sait pas gérer le Composite Overlay Window.\n"
 "Cette fonction est essentielle au bon fonctionnement de E."
 
-#: src/bin/e_comp_x.c:6077
+#: src/bin/e_comp_x.c:6024
 #, c-format
 msgid "Enlightenment cannot initialize X Connection...\n"
 msgstr "Enlightenment ne parvient pas à initialiser une connexion à X...\n"
 
-#: src/bin/e_comp_x.c:6092
+#: src/bin/e_comp_x.c:6039
 msgid ""
 "Your display server does not support XComposite, or Ecore-X was built "
 "without XComposite support. Note that for composite support you will also "
@@ -1063,7 +1063,7 @@ msgstr ""
 "sans le support de XComposite. Notez que vous avez également besoin de "
 "XRender et XFixes dans X11 et Ecore pour la prise en charge du composite."
 
-#: src/bin/e_comp_x.c:6101
+#: src/bin/e_comp_x.c:6048
 msgid ""
 "Your display server does not support XDamage or Ecore was built without "
 "XDamage support."
@@ -1071,7 +1071,7 @@ msgstr ""
 "Votre serveur d'affichage ne supporte pas XDamage ou Ecore est compilé sans "
 "le support de XDamage."
 
-#: src/bin/e_comp_x.c:6207
+#: src/bin/e_comp_x.c:6154
 msgid "Enlightenment cannot initialize the XSettings system.\n"
 msgstr "Enlightenment ne parvient pas à initialiser le système XSettings.\n"
 
@@ -1108,15 +1108,15 @@ msgstr ""
 msgid "OK"
 msgstr "OK"
 
-#: src/bin/e_config.c:183
+#: src/bin/e_config.c:201
 msgid "The EET file handle is bad."
 msgstr "Le descripteur de fichier EET est incorrect."
 
-#: src/bin/e_config.c:186
+#: src/bin/e_config.c:204
 msgid "The file data is empty."
 msgstr "Aucune donnée dans le fichier."
 
-#: src/bin/e_config.c:189
+#: src/bin/e_config.c:207
 msgid ""
 "The file is not writable. Perhaps the disk is read-only<ps/>or you lost "
 "permissions to your files."
@@ -1124,15 +1124,15 @@ msgstr ""
 "Le fichier n'est pas accessible en écriture. Le disque est peut-être<ps/"
 ">monté en lecture seule ou les permissions ont été modifiées."
 
-#: src/bin/e_config.c:192
+#: src/bin/e_config.c:210
 msgid "Memory ran out while preparing the write.<ps/>Please free up memory."
 msgstr "Mémoire insuffisante pour l'écriture.<ps/>Libérez de la mémoire."
 
-#: src/bin/e_config.c:195
+#: src/bin/e_config.c:213
 msgid "This is a generic error."
 msgstr "Erreur générique."
 
-#: src/bin/e_config.c:198
+#: src/bin/e_config.c:216
 msgid ""
 "The settings file is too large.<ps/>It should be very small (a few hundred "
 "KB at most)."
@@ -1140,59 +1140,59 @@ msgstr ""
 "Le fichier de configuration est trop gros.<ps/>Il ne devrait pas dépasser "
 "quelques centaines de ko."
 
-#: src/bin/e_config.c:201
+#: src/bin/e_config.c:219
 msgid "You have I/O errors on the disk.<ps/>Maybe it needs replacing?"
 msgstr "Erreurs d'E/S sur le disque.<ps/>Peut-être devriez-vous le remplacer ?"
 
-#: src/bin/e_config.c:204
+#: src/bin/e_config.c:222
 msgid "You ran out of space while writing the file."
 msgstr "Vous êtes tombé(e) à cours d'espace lors de l'écriture du fichier."
 
-#: src/bin/e_config.c:207
+#: src/bin/e_config.c:225
 msgid "The file was closed while writing."
 msgstr "Le fichier a été fermé pendant l'écriture."
 
-#: src/bin/e_config.c:210
+#: src/bin/e_config.c:228
 msgid "Memory-mapping (mmap) of the file failed."
 msgstr "Échec du mappage du fichier en mémoire (mmap)."
 
-#: src/bin/e_config.c:213
+#: src/bin/e_config.c:231
 msgid "X509 Encoding failed."
 msgstr "Échec de l'encodage X509."
 
-#: src/bin/e_config.c:216
+#: src/bin/e_config.c:234
 msgid "Signature failed."
 msgstr "Échec de la signature."
 
-#: src/bin/e_config.c:219
+#: src/bin/e_config.c:237
 msgid "The signature was invalid."
 msgstr "Signature invalide."
 
-#: src/bin/e_config.c:222
+#: src/bin/e_config.c:240
 msgid "Not signed."
 msgstr "Non signé."
 
-#: src/bin/e_config.c:225
+#: src/bin/e_config.c:243
 msgid "Feature not implemented."
 msgstr "Pas encore implémenté."
 
-#: src/bin/e_config.c:228
+#: src/bin/e_config.c:246
 msgid "PRNG was not seeded."
 msgstr "Impossible de générer un nombre pseudo-aléatoire."
 
-#: src/bin/e_config.c:231
+#: src/bin/e_config.c:249
 msgid "Encryption failed."
 msgstr "Échec du chiffrement."
 
-#: src/bin/e_config.c:234
+#: src/bin/e_config.c:252
 msgid "Decryption failed."
 msgstr "Échec du déchiffrement."
 
-#: src/bin/e_config.c:237
+#: src/bin/e_config.c:255
 msgid "The error is unknown to Enlightenment."
 msgstr "Enlightenment ne reconnaît pas cette erreur."
 
-#: src/bin/e_config.c:1250
+#: src/bin/e_config.c:1276
 msgid ""
 "Settings data needed upgrading. Your old settings have<ps/>been wiped and a "
 "new set of defaults initialized. This<ps/>will happen regularly during "
@@ -1210,7 +1210,7 @@ msgstr ""
 "configuration ne fournit pas.<ps/>Vous pouvez maintenant tout reconfigurer "
 "selon votre goût.<ps/>Désolé pour la gêne occasionnée.<ps/>"
 
-#: src/bin/e_config.c:1267
+#: src/bin/e_config.c:1293
 msgid ""
 "Your settings are NEWER than Enlightenment. This is very<ps/>strange. This "
 "should not happen unless you downgraded<ps/>Enlightenment or copied the "
@@ -1226,7 +1226,7 @@ msgstr ""
 "de<ps/>votre configuration ont été restaurées.<ps/>Désolé pour le "
 "désagrément.<ps/>"
 
-#: src/bin/e_config.c:1383
+#: src/bin/e_config.c:1409
 msgid ""
 "Your bindings settings version does not match the current settings version."
 "<ps/>As a result, all bindings have been reloaded from defaults.<ps/>Sorry "
@@ -1236,7 +1236,7 @@ msgstr ""
 "attendue.<ps/>En conséquence, tous vos paramètres de raccourcis ont été "
 "ramenés aux valeurs par défaut.<ps/>Désolé pour le désagrément.<ps/>"
 
-#: src/bin/e_config.c:2718
+#: src/bin/e_config.c:2708
 msgid "Settings Upgraded"
 msgstr "Configuration mise à niveau"
 
@@ -1271,7 +1271,7 @@ msgstr "Extensions"
 msgid "Modules"
 msgstr "Modules"
 
-#: src/bin/e_configure.c:31 src/bin/e_gadcon.c:1841
+#: src/bin/e_configure.c:31 src/bin/e_gadcon.c:1839
 #: src/bin/e_int_config_modules.c:53 src/modules/conf_theme/e_mod_main.c:92
 msgid "Look"
 msgstr "Aspect"
@@ -1673,7 +1673,8 @@ msgstr "Lien"
 msgid "Cut"
 msgstr "Couper"
 
-#: src/bin/e_fm.c:9263 src/bin/e_fm.c:11832 src/modules/shot/e_mod_preview.c:97
+#: src/bin/e_fm.c:9263 src/bin/e_fm.c:11832
+#: src/modules/shot/e_mod_preview.c:111
 msgid "Copy"
 msgstr "Copier"
 
@@ -1928,8 +1929,8 @@ msgid ""
 "Are you sure you want to delete<ps/>the %d selected file in<ps/><hilight>%s</"
 "hilight>?"
 msgid_plural ""
-"Are you sure you want to delete<ps/>the %d selected files in<ps/><hilight>"
-"%s</hilight>?"
+"Are you sure you want to delete<ps/>the %d selected files in<ps/"
+"><hilight>%s</hilight>?"
 msgstr[0] ""
 "Voulez-vous vraiment supprimer<ps/>%d fichier sélectionné dans :<ps/"
 "><hilight>%s</hilight> ?"
@@ -2087,11 +2088,11 @@ msgstr "Défilement automatique"
 msgid "Plain"
 msgstr "En plein"
 
-#: src/bin/e_gadcon.c:1828 src/modules/gadman/e_mod_gadman.c:1084
+#: src/bin/e_gadcon.c:1827 src/modules/gadman/e_mod_gadman.c:1084
 msgid "Inset"
 msgstr "En creux"
 
-#: src/bin/e_gadcon.c:1853 src/bin/e_int_gadcon_config.c:698
+#: src/bin/e_gadcon.c:1851 src/bin/e_int_gadcon_config.c:698
 #: src/bin/e_int_gadcon_config.c:756 src/bin/e_widget_config_list.c:66
 #: src/modules/conf_applications/e_int_config_apps.c:315
 #: src/modules/conf_applications/e_int_config_apps.c:336
@@ -2101,15 +2102,15 @@ msgstr "En creux"
 msgid "Remove"
 msgstr "Supprimer"
 
-#: src/bin/e_gadcon.c:2588
+#: src/bin/e_gadcon.c:2586
 msgid "Stop moving"
 msgstr "Figer"
 
-#: src/bin/e_gadcon.c:3231
+#: src/bin/e_gadcon.c:3229
 msgid "Insufficient gadcon support"
 msgstr "Le support de gadcon est insuffisant"
 
-#: src/bin/e_gadcon.c:3232
+#: src/bin/e_gadcon.c:3230
 #, c-format
 msgid "Module %s needs to support %s"
 msgstr "Le module %s doit prendre en charge %s"
@@ -3925,56 +3926,59 @@ msgstr "Version : %s\n"
 #, c-format
 msgid ""
 "Options:\n"
-"\t-display DISPLAY\n"
-"\t\tConnect to display named DISPLAY.\n"
-"\t\tEG: -display :1.0\n"
-"\t-fake-xinerama-screen WxH+X+Y\n"
-"\t\tAdd a FAKE xinerama screen (instead of the real ones)\n"
-"\t\tgiven the geometry. Add as many as you like. They all\n"
-"\t\treplace the real xinerama screens, if any. This can\n"
-"\t\tbe used to simulate xinerama.\n"
-"\t\tEG: -fake-xinerama-screen 800x600+0+0 -fake-xinerama-screen "
+"  -display DISPLAY\n"
+"    Connect to display named DISPLAY.\n"
+"    EG: -display :1.0\n"
+"  -fake-xinerama-screen WxH+X+Y\n"
+"    Add a FAKE xinerama screen (instead of the real ones)\n"
+"    given the geometry. Add as many as you like. They all\n"
+"    replace the real xinerama screens, if any. This can\n"
+"    be used to simulate xinerama.\n"
+"    EG: -fake-xinerama-screen 800x600+0+0 -fake-xinerama-screen "
 "800x600+800+0\n"
-"\t-profile CONF_PROFILE\n"
-"\t\tUse the configuration profile CONF_PROFILE instead of the user selected "
+"  -profile CONF_PROFILE\n"
+"    Use the configuration profile CONF_PROFILE instead of the user selected "
 "default or just \"default\".\n"
-"\t-good\n"
-"\t\tBe good.\n"
-"\t-evil\n"
-"\t\tBe evil.\n"
-"\t-psychotic\n"
-"\t\tBe psychotic.\n"
-"\t-locked\n"
-"\t\tStart with desklock on, so password will be asked.\n"
-"\t-i-really-know-what-i-am-doing-and-accept-full-responsibility-for-it\n"
-"\t\tIf you need this help, you don't need this option.\n"
-"\t-version\n"
+"  -good\n"
+"    Be good.\n"
+"  -evil\n"
+"    Be evil.\n"
+"  -psychotic\n"
+"    Be psychotic.\n"
+"  -locked\n"
+"    Start with desklock on, so password will be asked.\n"
+"  -i-really-know-what-i-am-doing-and-accept-full-responsibility-for-it\n"
+"    If you need this help, you don't need this option.\n"
+"  -version\n"
 msgstr ""
-"Options :<ps/>\n"
-"-display DISPLAY<ps/>\n"
-"(Pour se connecter à l'affichage nommé DISPLAY)<ps/>\n"
-"Exemple : -display :1.0<ps/>\n"
-"-fake-xinerama-screen WxH+X+Y<ps/>\n"
-"(Pour ajouter un écran xinerama VIRTUEL au lieu d'écrans réels,<ps/>\n"
-"en précisant la géométrie; vous pouvez en ajouter autant que<ps/>\n"
-"vous le désirez; ils remplaceront les écrans xinerama réels, le<ps/>\n"
-"cas échéant; on peut se servir de ça pour simuler xinerama)<ps/>\n"
-"Exemple : -fake-xinerama-screen 800x600+0+0 -fake-xinerama-screen "
-"800x600+800+0<ps/>\n"
-"-profile PROFIL_CONFIG<ps/>\n"
-"(Pour utiliser le profil de configuration PROFIL_CONFIG à la place du profil "
-"par défaut choisi par<ps/>\n"
-"l'utilisateur, ou du simple « default »)<ps/>\n"
-"-good<ps/>\n"
-"-evil<ps/>\n"
-"-psychotic<ps/>\n"
-"-locked<ps/>\n"
-"(Pour démarrer avec le verrouillage du bureau activé, afin que le mot de "
-"passe soit demandé)<ps/>\n"
-"-i-really-know-what-i-am-doing-and-accept-full-responsibility-for-it<ps/>\n"
-"(Si vous avez eu besoin d'afficher l'aide, c'est que cette option n'est pas "
-"pour vous)<ps/>\n"
-"-version<ps/>\n"
+"Options :\n"
+"  -display DISPLAY\n"
+"    Pour se connecter à l'affichage nommé DISPLAY.\n"
+"    Exemple : -display :1.0\n"
+"  -fake-xinerama-screen WxH+X+Y\n"
+"    Pour ajouter un écran xinerama VIRTUEL (au lieu d'écrans réels),\n"
+"    en précisant la géométrie; vous pouvez en ajouter autant que\n"
+"    vous le désirez; ils remplaceront les écrans xinerama réels, le\n"
+"    cas échéant; on peut s'en servir pour simuler xinerama.\n"
+"    Exemple : -fake-xinerama-screen 800x600+0+0 -fake-xinerama-screen "
+"800x600+800+0\n"
+"  -profile CONF_PROFILE\n"
+"    Pour utiliser le profil de configuration CONF_PROFILE à la place du "
+"profil par défaut choisi par\n"
+"    l'utilisateur, ou du simple « default ».\n"
+"  -good\n"
+"    Sois gentil.\n"
+"  -evil\n"
+"    Sois mauvais.\n"
+"  -psychotic\n"
+"    Sois psychotique.\n"
+"  -locked\n"
+"    Pour démarrer avec le verrouillage du bureau activé, afin que le mot de "
+"passe soit demandé.\n"
+"  -i-really-know-what-i-am-doing-and-accept-full-responsibility-for-it\n"
+"    Si vous avez eu besoin d'afficher l'aide, alors cette option n'est pas "
+"pour vous.\n"
+"  -version\n"
 
 #: src/bin/e_main.c:1315
 msgid ""
@@ -5733,8 +5737,9 @@ msgstr "Erreur de raccourci clavier"
 #: src/modules/conf_bindings/e_int_config_keybindings.c:979
 #, c-format
 msgid ""
-"The binding key combination that you chose is already used by <ps/><hilight>"
-"%s</hilight> action.<ps/>Please choose another binding key combination."
+"The binding key combination that you chose is already used by <ps/"
+"><hilight>%s</hilight> action.<ps/>Please choose another binding key "
+"combination."
 msgstr ""
 "La séquence de raccourci que vous avez choisie est déjà utilisée<ps/>par "
 "l'action <hilight>%s</hilight>.<ps/>Choisissez une autre séquence de "
@@ -8430,7 +8435,7 @@ msgstr "Exebuf"
 
 #: src/modules/everything/evry_plug_apps.c:1171
 #: src/modules/everything/evry_plug_apps.c:1218
-#: src/modules/fileman/e_fwin.c:2283 src/modules/fileman/e_fwin.c:2654
+#: src/modules/fileman/e_fwin.c:2401 src/modules/fileman/e_fwin.c:2772
 msgid "Open with..."
 msgstr "Ouvrir avec…"
 
@@ -8451,7 +8456,7 @@ msgid "Run with Sudo"
 msgstr "Exécuter avec sudo"
 
 #: src/modules/everything/evry_plug_apps.c:1225
-#: src/modules/fileman/e_fwin.c:270
+#: src/modules/fileman/e_fwin.c:377
 msgid "Open Terminal here"
 msgstr "Ouvrir un terminal ici"
 
@@ -8610,8 +8615,8 @@ msgstr ""
 "<hilight>&lt;Ctrl+Tab&gt;</hilight> détail des entrées (ça dépend du "
 "greffon)<ps/>    <hilight>&lt;Ctrl+« x »&gt;</hilight> va au greffon "
 "commençant par la lettre « x »<ps/>    <hilight>&lt;Ctrl+Flèche gauche / "
-"droite&gt;</hilight> circule parmi les greffons<ps/>    <hilight>&lt;Ctrl"
-"+Flèche haut / bas&gt;</hilight> va au premier / dernier élément<ps/>    "
+"droite&gt;</hilight> circule parmi les greffons<ps/>    <hilight>&lt;"
+"Ctrl+Flèche haut / bas&gt;</hilight> va au premier / dernier élément<ps/>    "
 "<hilight>&lt;Ctrl+1&gt;</hilight> commute le mode d'affichage (quitte cette "
 "page ;)<ps/>    <hilight>&lt;Ctrl+2&gt;</hilight> commute le mode "
 "d'affichage en liste<ps/>    <hilight>&lt;Ctrl+3&gt;</hilight> commute le "
@@ -8621,132 +8626,132 @@ msgstr ""
 msgid "Back"
 msgstr "Retour"
 
-#: src/modules/fileman/e_fwin.c:2172
+#: src/modules/fileman/e_fwin.c:2290
 msgid "Other application..."
 msgstr "Autre application…"
 
-#: src/modules/fileman/e_fwin.c:2237
+#: src/modules/fileman/e_fwin.c:2355
 msgid "Go To Parent Directory"
 msgstr "Aller au dossier parent"
 
-#: src/modules/fileman/e_fwin.c:2247
+#: src/modules/fileman/e_fwin.c:2365
 msgid "Clone Window"
 msgstr "Cloner la fenêtre"
 
-#: src/modules/fileman/e_fwin.c:2253
+#: src/modules/fileman/e_fwin.c:2371
 msgid "Copy Path"
 msgstr "Copier le chemin"
 
-#: src/modules/fileman/e_fwin.c:2269
+#: src/modules/fileman/e_fwin.c:2387
 msgid "Run"
 msgstr "Exécuter"
 
-#: src/modules/fileman/e_fwin.c:2276 src/modules/fileman/e_fwin.c:2655
+#: src/modules/fileman/e_fwin.c:2394 src/modules/fileman/e_fwin.c:2773
 msgid "Open"
 msgstr "Ouvrir"
 
-#: src/modules/fileman/e_fwin.c:2684 src/modules/fileman/e_fwin.c:2709
+#: src/modules/fileman/e_fwin.c:2802 src/modules/fileman/e_fwin.c:2827
 #, c-format
 msgid "%d file"
 msgid_plural "%d files"
 msgstr[0] "%d fichier"
 msgstr[1] "%d fichiers"
 
-#: src/modules/fileman/e_fwin.c:2727
+#: src/modules/fileman/e_fwin.c:2845
 msgid "Known Applications"
 msgstr "Applications disponibles"
 
-#: src/modules/fileman/e_fwin.c:2737
+#: src/modules/fileman/e_fwin.c:2855
 msgid "Suggested Applications"
 msgstr "Applications suggérées"
 
-#: src/modules/fileman/e_fwin.c:2772
+#: src/modules/fileman/e_fwin.c:2890
 msgid "All Applications"
 msgstr "Toutes les applications"
 
-#: src/modules/fileman/e_fwin.c:2795
+#: src/modules/fileman/e_fwin.c:2913
 msgid "Custom Command"
 msgstr "Commande personnalisée"
 
-#: src/modules/fileman/e_fwin.c:3087
+#: src/modules/fileman/e_fwin.c:3205
 #: src/modules/fileman_opinfo/e_mod_main.c:105
 #, c-format
 msgid "Copying is aborted"
 msgstr "Copie annulée"
 
-#: src/modules/fileman/e_fwin.c:3091
+#: src/modules/fileman/e_fwin.c:3209
 #: src/modules/fileman_opinfo/e_mod_main.c:109
 #, c-format
 msgid "Moving is aborted"
 msgstr "Déplacement annulé"
 
-#: src/modules/fileman/e_fwin.c:3095
+#: src/modules/fileman/e_fwin.c:3213
 #: src/modules/fileman_opinfo/e_mod_main.c:113
 #, c-format
 msgid "Deleting is aborted"
 msgstr "Suppression annulée"
 
-#: src/modules/fileman/e_fwin.c:3099
+#: src/modules/fileman/e_fwin.c:3217
 #: src/modules/fileman_opinfo/e_mod_main.c:117
 #, c-format
 msgid "Secure deletion is aborted"
 msgstr "La suppression sécurisée est annulée"
 
-#: src/modules/fileman/e_fwin.c:3103
+#: src/modules/fileman/e_fwin.c:3221
 #: src/modules/fileman_opinfo/e_mod_main.c:121
 #, c-format
 msgid "Unknown operation from slave is aborted"
 msgstr "L'opération inconnue depuis l'esclave est annulée"
 
-#: src/modules/fileman/e_fwin.c:3113
+#: src/modules/fileman/e_fwin.c:3231
 #: src/modules/fileman_opinfo/e_mod_main.c:131
 #, c-format
 msgid "Copy of %s done"
 msgstr "Copie de %s accomplie"
 
-#: src/modules/fileman/e_fwin.c:3115
+#: src/modules/fileman/e_fwin.c:3233
 #: src/modules/fileman_opinfo/e_mod_main.c:133
 #, c-format
 msgid "Copying %s (eta: %s)"
 msgstr "Copie de %s (reste %s)"
 
-#: src/modules/fileman/e_fwin.c:3120
+#: src/modules/fileman/e_fwin.c:3238
 #: src/modules/fileman_opinfo/e_mod_main.c:139
 #, c-format
 msgid "Move of %s done"
 msgstr "Déplacement de %s accompli"
 
-#: src/modules/fileman/e_fwin.c:3122
+#: src/modules/fileman/e_fwin.c:3240
 #: src/modules/fileman_opinfo/e_mod_main.c:141
 #, c-format
 msgid "Moving %s (eta: %s)"
 msgstr "Déplacement de %s (reste %s)"
 
-#: src/modules/fileman/e_fwin.c:3127
+#: src/modules/fileman/e_fwin.c:3245
 #: src/modules/fileman_opinfo/e_mod_main.c:147
 #, c-format
 msgid "Delete done"
 msgstr "Suppression terminée"
 
-#: src/modules/fileman/e_fwin.c:3129
+#: src/modules/fileman/e_fwin.c:3247
 #: src/modules/fileman_opinfo/e_mod_main.c:149
 #, c-format
 msgid "Deleting files..."
 msgstr "Suppression des fichiers…"
 
-#: src/modules/fileman/e_fwin.c:3134
+#: src/modules/fileman/e_fwin.c:3252
 #: src/modules/fileman_opinfo/e_mod_main.c:154
 #, c-format
 msgid "Secure delete done"
 msgstr "La suppression sécurisée est terminée"
 
-#: src/modules/fileman/e_fwin.c:3136
+#: src/modules/fileman/e_fwin.c:3254
 #: src/modules/fileman_opinfo/e_mod_main.c:156
 #, c-format
 msgid "Securely deleting files..."
 msgstr "Suppression sécurisée des fichiers…"
 
-#: src/modules/fileman/e_fwin.c:3140
+#: src/modules/fileman/e_fwin.c:3258
 #: src/modules/fileman_opinfo/e_mod_main.c:160
 #, c-format
 msgid "Unknown operation from slave %d"
@@ -9731,35 +9736,35 @@ msgstr "Saisissez le mot de passe pour <b>%s</b>"
 msgid "Enter password for UID %u"
 msgstr "Saisissez le mot de passe pour l'UID %u"
 
-#: src/modules/procstats/e_mod_main.c:339
+#: src/modules/procstats/e_mod_main.c:363
 msgid "B"
 msgstr "o"
 
-#: src/modules/procstats/e_mod_main.c:339
+#: src/modules/procstats/e_mod_main.c:363
 msgid "KiB"
 msgstr "Kio"
 
-#: src/modules/procstats/e_mod_main.c:339
+#: src/modules/procstats/e_mod_main.c:363
 msgid "MiB"
 msgstr "Mio"
 
-#: src/modules/procstats/e_mod_main.c:339
+#: src/modules/procstats/e_mod_main.c:363
 msgid "GiB"
 msgstr "Gio"
 
-#: src/modules/procstats/e_mod_main.c:340
+#: src/modules/procstats/e_mod_main.c:364
 msgid "TiB"
 msgstr "Tio"
 
-#: src/modules/procstats/e_mod_main.c:340
+#: src/modules/procstats/e_mod_main.c:364
 msgid "PiB"
 msgstr "Pio"
 
-#: src/modules/procstats/e_mod_main.c:340
+#: src/modules/procstats/e_mod_main.c:364
 msgid "EiB"
 msgstr "Eio"
 
-#: src/modules/procstats/e_mod_main.c:340
+#: src/modules/procstats/e_mod_main.c:364
 msgid "ZiB"
 msgstr "Zio"
 
@@ -9875,8 +9880,8 @@ msgid ""
 "either the app is unknown to us<ps/>or it is not intended for use with this "
 "option.<ps/>Please choose an action to take:"
 msgstr ""
-"La fenêtre sélectionnée créée avec le nom :<ps/>%s<ps/>et la classe :<ps/>"
-"%s<ps/> est introuvable dans la base de données des<ps/>applications pour "
+"La fenêtre sélectionnée créée avec le nom :<ps/>%s<ps/>et la classe :<ps/"
+">%s<ps/> est introuvable dans la base de données des<ps/>applications pour "
 "les accès rapides.<ps/> Cela signifie que l'application est soit inconnue,"
 "<ps/>soit inutilisable dans ce cas de figure.<ps/>Choisissez une action à "
 "appliquer :"
@@ -10038,11 +10043,11 @@ msgstr ""
 msgid "quick access name/identifier"
 msgstr "nom / identifiant de l'accès rapide"
 
-#: src/modules/shot/e_mod_delay.c:47 src/modules/shot/e_mod_preview.c:64
+#: src/modules/shot/e_mod_delay.c:47 src/modules/shot/e_mod_preview.c:74
 msgid "Select action to take with screenshot"
 msgstr "Choisir l'action à appliquer à la capture"
 
-#: src/modules/shot/e_mod_delay.c:59 src/modules/shot/e_mod_preview.c:101
+#: src/modules/shot/e_mod_delay.c:59 src/modules/shot/e_mod_preview.c:115
 msgid "Delay"
 msgstr "Delai"
 
@@ -10172,15 +10177,15 @@ msgstr "Impossible d'initialiser le réseau"
 msgid "Take Screenshot with Delay"
 msgstr "Capture d'écran en différé"
 
-#: src/modules/shot/e_mod_preview.c:77
+#: src/modules/shot/e_mod_preview.c:91
 msgid "Quality"
 msgstr "Qualité"
 
-#: src/modules/shot/e_mod_preview.c:93
+#: src/modules/shot/e_mod_preview.c:107
 msgid "Save"
 msgstr "Enregistrer"
 
-#: src/modules/shot/e_mod_preview.c:95
+#: src/modules/shot/e_mod_preview.c:109
 msgid "Share"
 msgstr "Partager"
 
