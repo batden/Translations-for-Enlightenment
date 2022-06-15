@@ -18,8 +18,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: enlightenment\n"
 "Report-Msgid-Bugs-To: enlightenment-devel@lists.sourceforge.net\n"
-"POT-Creation-Date: 2022-05-30 10:44+0200\n"
-"PO-Revision-Date: 2022-05-30 11:51+0200\n"
+"POT-Creation-Date: 2022-06-15 19:38+0200\n"
+"PO-Revision-Date: 2022-06-15 20:36+0200\n"
 "Last-Translator: Philippe Jean Guillaumie <similar@orange.fr>\n"
 "Language-Team: French\n"
 "Language: fr\n"
@@ -27,7 +27,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Poedit 3.0.1\n"
+"X-Generator: Poedit 3.1\n"
 "X-Poedit-SourceCharset: utf-8\n"
 
 #: src/bin/e_about.c:17
@@ -38,7 +38,7 @@ msgstr "À propos d’Enlightenment"
 #: src/bin/e_config_dialog.c:284 src/bin/e_fm.c:1096
 #: src/bin/e_int_client_menu.c:244 src/bin/e_int_client_prop.c:81
 #: src/bin/e_startup.c:110 src/bin/e_theme_about.c:22
-#: src/modules/conf_bindings/e_int_config_edgebindings.c:872
+#: src/modules/conf_bindings/e_int_config_edgebindings.c:822
 #: src/modules/conf_bindings/e_int_config_swipebindings.c:919
 #: src/modules/conf/e_conf.c:159 src/modules/everything/evry_plug_windows.c:370
 #: src/modules/fileman/e_fwin.c:2775 src/modules/vkbd/e_kbd_cfg.c:188
@@ -46,7 +46,7 @@ msgid "Close"
 msgstr "Fermer"
 
 #: src/bin/e_about.c:21 src/bin/e_actions.c:3973 src/bin/e_actions.c:3977
-#: src/bin/e_actions.c:3981 src/bin/e_init.c:218 src/bin/e_int_menus.c:234
+#: src/bin/e_actions.c:3981 src/bin/e_init.c:218 src/bin/e_int_menus.c:246
 #: src/modules/conf_interaction/e_int_config_mouse.c:227
 #: src/modules/conf_window_remembers/e_int_config_remembers.c:243
 #: src/modules/wizard/page_000.c:25
@@ -117,7 +117,7 @@ msgstr "Non"
 msgid "Action Params Syntax Error"
 msgstr "Erreur de syntaxe des paramètres d'action"
 
-#: src/bin/e_actions.c:2267 src/bin/e_actions.c:3977 src/bin/e_int_menus.c:268
+#: src/bin/e_actions.c:2267 src/bin/e_actions.c:3977 src/bin/e_int_menus.c:280
 msgid "Exit"
 msgstr "Quitter"
 
@@ -367,7 +367,7 @@ msgstr "(Dés)Activer l'épinglage"
 #: src/bin/e_actions.c:3762 src/bin/e_actions.c:3764 src/bin/e_actions.c:3766
 #: src/bin/e_actions.c:4043 src/bin/e_actions.c:4048
 #: src/bin/e_int_config_comp_match.c:83 src/bin/e_int_config_comp_match.c:418
-#: src/bin/e_int_menus.c:193 src/bin/e_int_shelf_config.c:285
+#: src/bin/e_int_menus.c:195 src/bin/e_int_shelf_config.c:285
 #: src/modules/conf_window_manipulation/e_int_config_clientlist.c:119
 #: src/modules/fileman/e_mod_menu.c:614 src/modules/gadman/e_mod_gadman.c:119
 #: src/modules/ibox/e_mod_config.c:158
@@ -805,7 +805,7 @@ msgstr "Application"
 msgid "New Instance of Focused App"
 msgstr "Nouvelle instance de l'appli focalisée"
 
-#: src/bin/e_actions.c:3973 src/bin/e_int_menus.c:263
+#: src/bin/e_actions.c:3973 src/bin/e_int_menus.c:275
 msgid "Restart"
 msgstr "Relancer"
 
@@ -878,7 +878,7 @@ msgstr "Mise en hibernation intelligente"
 msgid "Lock"
 msgstr "Verrouiller"
 
-#: src/bin/e_actions.c:4048 src/bin/e_int_menus.c:1585
+#: src/bin/e_actions.c:4048 src/bin/e_int_menus.c:1629
 msgid "Cleanup Windows"
 msgstr "Réorganiser les fenêtres"
 
@@ -1095,7 +1095,7 @@ msgstr ""
 #: src/bin/e_fm.c:10979 src/bin/e_fm_prop.c:769
 #: src/bin/e_import_config_dialog.c:360 src/bin/e_int_client_remember.c:358
 #: src/bin/e_int_client_remember.c:553 src/bin/e_int_config_comp_match.c:583
-#: src/bin/e_module.c:480 src/bin/e_module.c:707 src/bin/e_sys.c:982
+#: src/bin/e_module.c:480 src/bin/e_module.c:707 src/bin/e_sys.c:1085
 #: src/bin/e_update.c:70 src/bin/e_utils.c:401
 #: src/modules/conf_bindings/e_int_config_signalbindings.c:623
 #: src/modules/conf_bindings/e_int_config_swipebindings.c:677
@@ -1254,7 +1254,7 @@ msgid "Basic"
 msgstr "Basique"
 
 #: src/bin/e_config_dialog.c:276
-#: src/modules/conf_bindings/e_int_config_edgebindings.c:871
+#: src/modules/conf_bindings/e_int_config_edgebindings.c:821
 msgid "Apply"
 msgstr "Appliquer"
 
@@ -1681,7 +1681,7 @@ msgstr "Copier"
 #: src/bin/e_fm.c:9338 src/bin/e_fm.c:11058 src/bin/e_shelf.c:1777
 #: src/bin/e_shelf.c:2401
 #: src/modules/conf_bindings/e_int_config_acpibindings.c:201
-#: src/modules/conf_bindings/e_int_config_edgebindings.c:261
+#: src/modules/conf_bindings/e_int_config_edgebindings.c:260
 #: src/modules/conf_bindings/e_int_config_keybindings.c:240
 #: src/modules/conf_bindings/e_int_config_mousebindings.c:290
 #: src/modules/conf_bindings/e_int_config_signalbindings.c:789
@@ -2367,7 +2367,7 @@ msgstr "Enrouler"
 msgid "Borderless"
 msgstr "Sans bordure"
 
-#: src/bin/e_int_client_menu.c:222 src/bin/e_int_menus.c:1248
+#: src/bin/e_int_client_menu.c:222 src/bin/e_int_menus.c:1292
 msgid "Composite"
 msgstr "Composite"
 
@@ -2764,7 +2764,7 @@ msgid "Request Position"
 msgstr "Demande de position"
 
 #: src/bin/e_int_client_prop.c:482 src/bin/e_int_client_prop.c:517
-#: src/bin/e_int_config_modules.c:58 src/bin/e_int_menus.c:287
+#: src/bin/e_int_config_modules.c:58 src/bin/e_int_menus.c:299
 #: src/bin/e_shelf.c:2367 src/modules/backlight/e_mod_main.c:259
 #: src/modules/battery/e_mod_main.c:475 src/modules/clock/e_mod_main.c:359
 #: src/modules/clock/e_mod_main.c:590 src/modules/conf_dialogs/e_mod_main.c:17
@@ -3187,7 +3187,7 @@ msgstr "Utilitaire"
 #: src/modules/bluez5/e_mod_popup.c:510 src/modules/bluez5/e_mod_popup.c:511
 #: src/modules/bluez5/e_mod_util.c:261
 #: src/modules/conf_bindings/e_int_config_acpibindings.c:429
-#: src/modules/conf_bindings/e_int_config_edgebindings.c:1235
+#: src/modules/conf_bindings/e_int_config_edgebindings.c:1185
 #: src/modules/conf_bindings/e_int_config_keybindings.c:983
 #: src/modules/conf_bindings/e_int_config_signalbindings.c:574
 #: src/modules/conf_dialogs/e_int_config_profiles.c:299
@@ -3286,7 +3286,7 @@ msgstr "Descendre"
 #: src/modules/conf_applications/e_int_config_apps.c:332
 #: src/modules/conf_applications/e_int_config_apps_personal.c:98
 #: src/modules/conf_bindings/e_int_config_acpibindings.c:197
-#: src/modules/conf_bindings/e_int_config_edgebindings.c:258
+#: src/modules/conf_bindings/e_int_config_edgebindings.c:257
 #: src/modules/conf_bindings/e_int_config_keybindings.c:237
 #: src/modules/conf_bindings/e_int_config_mousebindings.c:288
 #: src/modules/conf_bindings/e_int_config_signalbindings.c:786
@@ -3412,18 +3412,18 @@ msgstr ""
 "configuration du système<ps/>de saisie est correcte et que l'exécutable "
 "est<ps/>dans votre PATH.<ps/>"
 
-#: src/bin/e_int_menus.c:142 src/modules/mixer/backend.c:1211
+#: src/bin/e_int_menus.c:144 src/modules/mixer/backend.c:1211
 #: src/modules/syscon/e_int_config_syscon.c:153
 msgid "Main"
 msgstr "Principal"
 
-#: src/bin/e_int_menus.c:165
+#: src/bin/e_int_menus.c:167
 #: src/modules/conf_applications/e_int_config_apps.c:72
 #: src/modules/conf_applications/e_mod_main.c:29
 msgid "Favorite Applications"
 msgstr "Applications favorites"
 
-#: src/bin/e_int_menus.c:176
+#: src/bin/e_int_menus.c:178
 #: src/modules/conf_applications/e_int_config_apps.c:340
 #: src/modules/conf_menus/e_int_config_menus.c:262
 #: src/modules/conf_menus/e_int_config_menus.c:284
@@ -3435,7 +3435,11 @@ msgstr "Applications favorites"
 msgid "Applications"
 msgstr "Applications"
 
-#: src/bin/e_int_menus.c:200 src/bin/e_int_menus.c:1543
+#: src/bin/e_int_menus.c:204
+msgid "Blanking Block"
+msgstr "Inhibiteurs d'extinction"
+
+#: src/bin/e_int_menus.c:212 src/bin/e_int_menus.c:1587
 #: src/modules/conf_window_manipulation/e_mod_main.c:17
 #: src/modules/conf_window_remembers/e_mod_main.c:14
 #: src/modules/everything/evry_plug_windows.c:343
@@ -3443,67 +3447,67 @@ msgstr "Applications"
 msgid "Windows"
 msgstr "Fenêtres"
 
-#: src/bin/e_int_menus.c:212 src/bin/e_int_menus.c:1598
+#: src/bin/e_int_menus.c:224 src/bin/e_int_menus.c:1642
 msgid "Lost Windows"
 msgstr "F. orphelines"
 
-#: src/bin/e_int_menus.c:239
+#: src/bin/e_int_menus.c:251
 msgid "About"
 msgstr "À propos"
 
-#: src/bin/e_int_menus.c:244 src/bin/e_theme_about.c:19
+#: src/bin/e_int_menus.c:256 src/bin/e_theme_about.c:19
 msgid "About Theme"
 msgstr "À propos du thème"
 
-#: src/bin/e_int_menus.c:249
+#: src/bin/e_int_menus.c:261
 msgid "Report Bug"
 msgstr "Rapport de bogue"
 
-#: src/bin/e_int_menus.c:340
+#: src/bin/e_int_menus.c:352
 msgid "Virtual"
 msgstr "Virtuel"
 
-#: src/bin/e_int_menus.c:347 src/modules/conf_shelves/e_mod_main.c:23
+#: src/bin/e_int_menus.c:359 src/modules/conf_shelves/e_mod_main.c:23
 #: src/modules/conf_shelves/e_mod_main.c:27
 #: src/modules/conf_shelves/e_mod_main.c:75
 msgid "Shelves"
 msgstr "Rayons"
 
-#: src/bin/e_int_menus.c:353 src/modules/gadman/e_mod_main.c:180
+#: src/bin/e_int_menus.c:365 src/modules/gadman/e_mod_main.c:180
 msgid "Change Wallpaper"
 msgstr "Changer le fond d'écran"
 
-#: src/bin/e_int_menus.c:361
+#: src/bin/e_int_menus.c:373
 msgid "Show/Hide All Windows"
 msgstr "Voir / Cacher les fenêtres"
 
-#: src/bin/e_int_menus.c:927
+#: src/bin/e_int_menus.c:971
 msgid "No applications"
 msgstr "Aucune application"
 
-#: src/bin/e_int_menus.c:1161
+#: src/bin/e_int_menus.c:1205
 msgid "Set Virtual Desktops"
 msgstr "Paramétrer les bureaux"
 
-#: src/bin/e_int_menus.c:1549 src/bin/e_int_menus.c:1739
+#: src/bin/e_int_menus.c:1593 src/bin/e_int_menus.c:1783
 msgid "No windows"
 msgstr "Pas de fenêtre"
 
-#: src/bin/e_int_menus.c:1658 src/bin/e_int_menus.c:1752
+#: src/bin/e_int_menus.c:1702 src/bin/e_int_menus.c:1796
 msgid "Untitled window"
 msgstr "Fenêtre sans titre"
 
-#: src/bin/e_int_menus.c:1849 src/bin/e_shelf.c:1621
+#: src/bin/e_int_menus.c:1893 src/bin/e_shelf.c:1621
 #: src/modules/conf_shelves/e_int_config_shelf.c:194
 #, c-format
 msgid "Shelf %s"
 msgstr "Rayon %s"
 
-#: src/bin/e_int_menus.c:1917
+#: src/bin/e_int_menus.c:1961
 msgid "Add a Shelf"
 msgstr "Ajouter un rayon"
 
-#: src/bin/e_int_menus.c:1924
+#: src/bin/e_int_menus.c:1968
 msgid "Delete a Shelf"
 msgstr "Supprimer un rayon"
 
@@ -3564,7 +3568,7 @@ msgid "Hide duration"
 msgstr "Vitesse du masquage"
 
 #: src/bin/e_int_shelf_config.c:260
-#: src/modules/conf_bindings/e_int_config_edgebindings.c:883
+#: src/modules/conf_bindings/e_int_config_edgebindings.c:833
 #, c-format
 msgid "%.2f seconds"
 msgstr "%.2f secondes"
@@ -4266,7 +4270,7 @@ msgstr "Auto-masquage"
 msgid "Refresh"
 msgstr "Rafraîchir"
 
-#: src/bin/e_sys.c:797
+#: src/bin/e_sys.c:900
 #, c-format
 msgid ""
 "Logout is taking too long.<ps/>Some applications refuse to close.<ps/>Do you "
@@ -4278,27 +4282,27 @@ msgstr ""
 ">sans attendre la fermeture des applications ?<ps/><ps/>Déconnexion "
 "automatique dans %d secondes."
 
-#: src/bin/e_sys.c:856
+#: src/bin/e_sys.c:959
 msgid "Logout problems"
 msgstr "La fermeture de session pose problème"
 
-#: src/bin/e_sys.c:859
+#: src/bin/e_sys.c:962
 msgid "Logout now"
 msgstr "Fermer à l'instant la session"
 
-#: src/bin/e_sys.c:861
+#: src/bin/e_sys.c:964
 msgid "Wait longer"
 msgstr "Attendre plus longtemps"
 
-#: src/bin/e_sys.c:863
+#: src/bin/e_sys.c:966
 msgid "Cancel Logout"
 msgstr "Annuler la fermeture de session"
 
-#: src/bin/e_sys.c:943
+#: src/bin/e_sys.c:1046
 msgid "Enlightenment is busy with another request"
 msgstr "Enlightenment est occupé à traiter une autre requête"
 
-#: src/bin/e_sys.c:948
+#: src/bin/e_sys.c:1051
 msgid ""
 "Logging out.<ps/>You cannot perform other system actions<ps/>once a logout "
 "has begun."
@@ -4306,7 +4310,7 @@ msgstr ""
 "Fermeture de session en cours.<ps/>Vous ne pouvez pas effectuer d'autres "
 "actions système<ps/>pendant cette phase."
 
-#: src/bin/e_sys.c:955
+#: src/bin/e_sys.c:1058
 msgid ""
 "Powering off.<ps/>You cannot perform any other system actions<ps/>once a "
 "shutdown has been started."
@@ -4314,7 +4318,7 @@ msgstr ""
 "Extinction en cours.<ps/>Vous ne pouvez pas effectuer d'autres actions "
 "système<ps/>pendant cette phase."
 
-#: src/bin/e_sys.c:961
+#: src/bin/e_sys.c:1064
 msgid ""
 "Resetting.<ps/>You cannot perform any other system actions<ps/>once a reboot "
 "has begun."
@@ -4322,7 +4326,7 @@ msgstr ""
 "Redémarrage en cours.<ps/>Vous ne pouvez pas effectuer d'autres actions "
 "système<ps/>pendant cette phase."
 
-#: src/bin/e_sys.c:967
+#: src/bin/e_sys.c:1070
 msgid ""
 "Suspending.<ps/>You cannot perform any other system actions<ps/>until "
 "suspend is complete."
@@ -4330,7 +4334,7 @@ msgstr ""
 "Mise en veille en cours.<ps/>Vous ne pouvez pas effectuer d'autres actions "
 "système<ps/>pendant cette phase."
 
-#: src/bin/e_sys.c:973
+#: src/bin/e_sys.c:1076
 msgid ""
 "Hibernating.<ps/>You cannot perform any other system actions<ps/>until "
 "hibernation is complete."
@@ -4338,7 +4342,7 @@ msgstr ""
 "Mise en hibernation en cours.<ps/>Vous ne pouvez pas effectuer d'autres "
 "actions système<ps/>pendant cette phase."
 
-#: src/bin/e_sys.c:979
+#: src/bin/e_sys.c:1082
 msgid "EEK! This should not happen"
 msgstr "ARGH ! ça ne devrait pas se produire…"
 
@@ -5376,7 +5380,7 @@ msgid "ACPI Bindings"
 msgstr "Raccourcis ACPI"
 
 #: src/modules/conf_bindings/e_int_config_acpibindings.c:209
-#: src/modules/conf_bindings/e_int_config_edgebindings.c:278
+#: src/modules/conf_bindings/e_int_config_edgebindings.c:275
 #: src/modules/conf_bindings/e_int_config_keybindings.c:257
 #: src/modules/conf_bindings/e_int_config_mousebindings.c:308
 #: src/modules/conf_bindings/e_int_config_signalbindings.c:802
@@ -5385,7 +5389,7 @@ msgid "Action"
 msgstr "Action"
 
 #: src/modules/conf_bindings/e_int_config_acpibindings.c:216
-#: src/modules/conf_bindings/e_int_config_edgebindings.c:291
+#: src/modules/conf_bindings/e_int_config_edgebindings.c:288
 #: src/modules/conf_bindings/e_int_config_keybindings.c:264
 #: src/modules/conf_bindings/e_int_config_mousebindings.c:315
 #: src/modules/conf_bindings/e_int_config_signalbindings.c:809
@@ -5580,23 +5584,23 @@ msgstr ""
 "annuler.<ps/><ps/>Vous avez le choix entre spécifier un délai<ps/> pour "
 "cette action en utilisant le curseur,<ps/>ou l'activer par un clic :"
 
-#: src/modules/conf_bindings/e_int_config_edgebindings.c:106
+#: src/modules/conf_bindings/e_int_config_edgebindings.c:105
 msgid "Edge Bindings Settings"
 msgstr "Paramètres des raccourcis des bords de l'écran"
 
-#: src/modules/conf_bindings/e_int_config_edgebindings.c:253
+#: src/modules/conf_bindings/e_int_config_edgebindings.c:252
 #: src/modules/conf_bindings/e_mod_main.c:33
 msgid "Edge Bindings"
 msgstr "Raccourcis des bords"
 
-#: src/modules/conf_bindings/e_int_config_edgebindings.c:265
+#: src/modules/conf_bindings/e_int_config_edgebindings.c:264
 #: src/modules/conf_bindings/e_int_config_keybindings.c:244
 #: src/modules/conf_bindings/e_int_config_mousebindings.c:294
 #: src/modules/conf_paths/e_int_config_env.c:340
 msgid "Modify"
 msgstr "Modifier"
 
-#: src/modules/conf_bindings/e_int_config_edgebindings.c:269
+#: src/modules/conf_bindings/e_int_config_edgebindings.c:268
 #: src/modules/conf_bindings/e_int_config_keybindings.c:248
 #: src/modules/conf_bindings/e_int_config_mousebindings.c:298
 #: src/modules/conf_bindings/e_int_config_signalbindings.c:793
@@ -5604,51 +5608,43 @@ msgstr "Modifier"
 msgid "Delete All"
 msgstr "Tout supprimer"
 
-#: src/modules/conf_bindings/e_int_config_edgebindings.c:273
-#: src/modules/conf_bindings/e_int_config_keybindings.c:252
-#: src/modules/conf_bindings/e_int_config_mousebindings.c:302
-#: src/modules/conf_bindings/e_int_config_signalbindings.c:797
-#: src/modules/conf_bindings/e_int_config_swipebindings.c:953
-msgid "Restore Default Bindings"
-msgstr "Restaurer les raccourcis par défaut"
-
-#: src/modules/conf_bindings/e_int_config_edgebindings.c:285
+#: src/modules/conf_bindings/e_int_config_edgebindings.c:282
 msgid "Mouse Button"
 msgstr "Bouton de souris"
 
-#: src/modules/conf_bindings/e_int_config_edgebindings.c:301
+#: src/modules/conf_bindings/e_int_config_edgebindings.c:298
 msgid "General Options"
 msgstr "Options générales"
 
-#: src/modules/conf_bindings/e_int_config_edgebindings.c:302
+#: src/modules/conf_bindings/e_int_config_edgebindings.c:299
 msgid "Allow binding activation with fullscreen windows"
 msgstr "Autoriser l'activation du raccourci avec des fenêtres plein écran"
 
-#: src/modules/conf_bindings/e_int_config_edgebindings.c:304
+#: src/modules/conf_bindings/e_int_config_edgebindings.c:301
 msgid "Allow binding activation with multiple screens (DANGEROUS!)"
 msgstr "Autoriser l'activation du raccourci avec plusieurs écrans (DANGER)"
 
-#: src/modules/conf_bindings/e_int_config_edgebindings.c:870
+#: src/modules/conf_bindings/e_int_config_edgebindings.c:820
 msgid "Edge Binding Sequence"
 msgstr "Séquence du raccourci des bords"
 
-#: src/modules/conf_bindings/e_int_config_edgebindings.c:888
+#: src/modules/conf_bindings/e_int_config_edgebindings.c:838
 msgid "Clickable edge"
 msgstr "Bord cliquable"
 
-#: src/modules/conf_bindings/e_int_config_edgebindings.c:896
+#: src/modules/conf_bindings/e_int_config_edgebindings.c:846
 msgid "Drag only"
 msgstr "Glisser uniquement"
 
-#: src/modules/conf_bindings/e_int_config_edgebindings.c:938
+#: src/modules/conf_bindings/e_int_config_edgebindings.c:888
 msgid "No edge selected"
 msgstr "Aucun bord sélectionné"
 
-#: src/modules/conf_bindings/e_int_config_edgebindings.c:1231
+#: src/modules/conf_bindings/e_int_config_edgebindings.c:1181
 msgid "Edge Binding Error"
 msgstr "Erreur : Raccourci des bords"
 
-#: src/modules/conf_bindings/e_int_config_edgebindings.c:1232
+#: src/modules/conf_bindings/e_int_config_edgebindings.c:1182
 #, c-format
 msgid ""
 "The edge binding that you chose is already used by<ps/><hilight>%s</hilight> "
@@ -5658,62 +5654,62 @@ msgstr ""
 "l'action <hilight>%s</hilight>.<ps/>Choisissez un autre bord auquel "
 "attribuer un raccourci."
 
-#: src/modules/conf_bindings/e_int_config_edgebindings.c:1371
+#: src/modules/conf_bindings/e_int_config_edgebindings.c:1321
 #: src/modules/conf_bindings/e_int_config_keybindings.c:1124
 msgid "ALT"
 msgstr "Alt"
 
-#: src/modules/conf_bindings/e_int_config_edgebindings.c:1377
+#: src/modules/conf_bindings/e_int_config_edgebindings.c:1327
 #: src/modules/conf_bindings/e_int_config_keybindings.c:1130
 msgid "SHIFT"
 msgstr "Majuscule"
 
-#: src/modules/conf_bindings/e_int_config_edgebindings.c:1383
+#: src/modules/conf_bindings/e_int_config_edgebindings.c:1333
 #: src/modules/conf_bindings/e_int_config_keybindings.c:1136
 msgid "WIN"
 msgstr "Win"
 
-#: src/modules/conf_bindings/e_int_config_edgebindings.c:1393
+#: src/modules/conf_bindings/e_int_config_edgebindings.c:1343
 msgid "Left Edge"
 msgstr "Bord gauche"
 
-#: src/modules/conf_bindings/e_int_config_edgebindings.c:1397
+#: src/modules/conf_bindings/e_int_config_edgebindings.c:1347
 msgid "Top Edge"
 msgstr "Bord supérieur"
 
-#: src/modules/conf_bindings/e_int_config_edgebindings.c:1401
+#: src/modules/conf_bindings/e_int_config_edgebindings.c:1351
 msgid "Right Edge"
 msgstr "Bord droit"
 
-#: src/modules/conf_bindings/e_int_config_edgebindings.c:1405
+#: src/modules/conf_bindings/e_int_config_edgebindings.c:1355
 msgid "Bottom Edge"
 msgstr "Bord inférieur"
 
-#: src/modules/conf_bindings/e_int_config_edgebindings.c:1409
+#: src/modules/conf_bindings/e_int_config_edgebindings.c:1359
 msgid "Top Left Edge"
 msgstr "Coin gauche en haut"
 
-#: src/modules/conf_bindings/e_int_config_edgebindings.c:1413
+#: src/modules/conf_bindings/e_int_config_edgebindings.c:1363
 msgid "Top Right Edge"
 msgstr "Coin droit en haut"
 
-#: src/modules/conf_bindings/e_int_config_edgebindings.c:1417
+#: src/modules/conf_bindings/e_int_config_edgebindings.c:1367
 msgid "Bottom Right Edge"
 msgstr "Coin droit en bas"
 
-#: src/modules/conf_bindings/e_int_config_edgebindings.c:1421
+#: src/modules/conf_bindings/e_int_config_edgebindings.c:1371
 msgid "Bottom Left Edge"
 msgstr "Coin gauche en bas"
 
-#: src/modules/conf_bindings/e_int_config_edgebindings.c:1433
+#: src/modules/conf_bindings/e_int_config_edgebindings.c:1383
 msgid "(left clickable)"
 msgstr "(répond au clic gauche)"
 
-#: src/modules/conf_bindings/e_int_config_edgebindings.c:1435
+#: src/modules/conf_bindings/e_int_config_edgebindings.c:1385
 msgid "(clickable)"
 msgstr "(répond au clic)"
 
-#: src/modules/conf_bindings/e_int_config_edgebindings.c:1443
+#: src/modules/conf_bindings/e_int_config_edgebindings.c:1393
 msgid "(drag only)"
 msgstr "(glisser uniquement)"
 
@@ -5729,6 +5725,13 @@ msgstr "Paramètres des raccourcis clavier"
 #: src/modules/conf_bindings/e_mod_main.c:21
 msgid "Key Bindings"
 msgstr "Raccourcis clavier"
+
+#: src/modules/conf_bindings/e_int_config_keybindings.c:252
+#: src/modules/conf_bindings/e_int_config_mousebindings.c:302
+#: src/modules/conf_bindings/e_int_config_signalbindings.c:797
+#: src/modules/conf_bindings/e_int_config_swipebindings.c:953
+msgid "Restore Default Bindings"
+msgstr "Restaurer les raccourcis par défaut"
 
 #: src/modules/conf_bindings/e_int_config_keybindings.c:978
 msgid "Binding Key Error"
