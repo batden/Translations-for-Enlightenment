@@ -19,7 +19,7 @@ msgstr ""
 "Project-Id-Version: enlightenment\n"
 "Report-Msgid-Bugs-To: enlightenment-devel@lists.sourceforge.net\n"
 "POT-Creation-Date: 2022-06-15 19:38+0200\n"
-"PO-Revision-Date: 2022-11-06 11:30+0100\n"
+"PO-Revision-Date: 2022-11-06 14:21+0100\n"
 "Last-Translator: Philippe Jean Guillaumie <similar@orange.fr>\n"
 "Language-Team: French\n"
 "Language: fr\n"
@@ -4354,30 +4354,30 @@ msgstr "Dernière modification :"
 #: src/bin/e_widget_filepreview.c:881 src/bin/e_widget_filepreview.c:890
 #, c-format
 msgid "Read Only"
-msgstr "Lecture seule"
+msgstr "lecture seule"
 
 #: src/bin/e_widget_filepreview.c:685 src/bin/e_widget_filepreview.c:897
 msgid "Read-Write"
-msgstr "Lecture-Écriture"
+msgstr "lecture et écriture"
 
 #: src/bin/e_widget_filepreview.c:688 src/bin/e_widget_filepreview.c:699
 msgid "Unmounted"
-msgstr "Non monté"
+msgstr "non monté"
 
 #: src/bin/e_widget_filepreview.c:821
 #, c-format
 msgid "You"
-msgstr "Vous"
+msgstr "vous"
 
 #: src/bin/e_widget_filepreview.c:870
 #, c-format
 msgid "Protected"
-msgstr "Protégé"
+msgstr "protégé"
 
 #: src/bin/e_widget_filepreview.c:879 src/bin/e_widget_filepreview.c:888
 #, c-format
 msgid "Forbidden"
-msgstr "Interdit"
+msgstr "interdit"
 
 #: src/bin/e_widget_fsel.c:334
 msgid "Add to Favorites"
