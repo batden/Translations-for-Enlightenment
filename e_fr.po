@@ -19,7 +19,7 @@ msgstr ""
 "Project-Id-Version: enlightenment\n"
 "Report-Msgid-Bugs-To: enlightenment-devel@lists.sourceforge.net\n"
 "POT-Creation-Date: 2022-06-15 19:38+0200\n"
-"PO-Revision-Date: 2022-10-18 18:54+0200\n"
+"PO-Revision-Date: 2022-11-06 11:30+0100\n"
 "Last-Translator: Philippe Jean Guillaumie <similar@orange.fr>\n"
 "Language-Team: French\n"
 "Language: fr\n"
@@ -27,7 +27,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Poedit 3.1.1\n"
+"X-Generator: Poedit 3.2\n"
 "X-Poedit-SourceCharset: utf-8\n"
 
 #: src/bin/e_about.c:17
@@ -1002,9 +1002,11 @@ msgid "Another compositor is already running on your display server."
 msgstr "Un autre compositeur est déjà fonctionnel sur votre serveur d'affichage."
 
 #: src/bin/e_comp_x.c:5890
-msgid "Your display server does not support the compositor overlay window.\n"
+msgid ""
+"Your display server does not support the compositor overlay window.\n"
 "This is needed for Enlightenment to function."
-msgstr "Votre serveur d'affichage ne sait pas gérer le Composite Overlay Window.\n"
+msgstr ""
+"Votre serveur d'affichage ne sait pas gérer le Composite Overlay Window.\n"
 "Cette fonction est essentielle au bon fonctionnement de E."
 
 #: src/bin/e_comp_x.c:6024
@@ -1141,7 +1143,7 @@ msgstr "La version de vos paramètres de raccourcis ne correspond pas à la vers
 
 #: src/bin/e_config.c:2708
 msgid "Settings Upgraded"
-msgstr "Configuration mise à niveau"
+msgstr "La configuration a été modifiée"
 
 #: src/bin/e_config_dialog.c:222 src/modules/battery/e_mod_main.c:1099
 #: src/modules/conf_bindings/e_mod_main.c:43 src/modules/conf/e_mod_main.c:278
@@ -2005,9 +2007,11 @@ msgid "Key Binding Combination"
 msgstr "Combinaison du raccourci clavier"
 
 #: src/bin/e_hints.c:186
-msgid "A previous instance of Enlightenment is still active\n"
+msgid ""
+"A previous instance of Enlightenment is still active\n"
 "on this screen. Aborting startup.\n"
-msgstr "Une instance précédente d'Enlightenment est encore\n"
+msgstr ""
+"Une instance précédente d'Enlightenment est encore\n"
 "active sur cet écran. Abandon du lancement.\n"
 
 #: src/bin/e_import_config_dialog.c:94
@@ -3435,21 +3439,27 @@ msgid "Enlightenment cannot initialize EIO!\n"
 msgstr "Enlightenment ne parvient pas à initialiser EIO !\n"
 
 #: src/bin/e_main.c:421
-msgid "Enlightenment cannot set up an exit signal handler.\n"
+msgid ""
+"Enlightenment cannot set up an exit signal handler.\n"
 "Perhaps you are out of memory?"
-msgstr "Enlightenment ne parvient pas à initialiser le gestionnaire de signal de sortie.\n"
+msgstr ""
+"Enlightenment ne parvient pas à initialiser le gestionnaire de signal de sortie.\n"
 "Êtes-vous à court de mémoire ?"
 
 #: src/bin/e_main.c:428
-msgid "Enlightenment cannot set up a HUP signal handler.\n"
+msgid ""
+"Enlightenment cannot set up a HUP signal handler.\n"
 "Perhaps you are out of memory?"
-msgstr "Enlightenment ne parvient pas à initialiser le gestionnaire de signal HUP.\n"
+msgstr ""
+"Enlightenment ne parvient pas à initialiser le gestionnaire de signal HUP.\n"
 "Êtes-vous à court de mémoire ?"
 
 #: src/bin/e_main.c:435
-msgid "Enlightenment cannot set up a USER signal handler.\n"
+msgid ""
+"Enlightenment cannot set up a USER signal handler.\n"
 "Perhaps you are out of memory?"
-msgstr "Enlightenment ne parvient pas à initialiser le gestionnaire de signal UTILISATEUR.\n"
+msgstr ""
+"Enlightenment ne parvient pas à initialiser le gestionnaire de signal UTILISATEUR.\n"
 "Êtes-vous à court de mémoire ?"
 
 #: src/bin/e_main.c:444
@@ -3477,26 +3487,32 @@ msgid "Enlightenment cannot initialize Emotion!\n"
 msgstr "Enlightenment ne parvient pas à initialiser Emotion !\n"
 
 #: src/bin/e_main.c:505
-msgid "Enlightenment found ecore_evas doesn't support the Wayland SHM\n"
+msgid ""
+"Enlightenment found ecore_evas doesn't support the Wayland SHM\n"
 "rendering in Evas. Please check your installation of Evas and\n"
 "Ecore and check they support the Wayland SHM rendering engine."
-msgstr "Enlightenment a détecté que ecore_evas ne prend pas en charge le\n"
+msgstr ""
+"Enlightenment a détecté que ecore_evas ne prend pas en charge le\n"
 "rendu Wayland SHM dans Evas. Vérifiez vos installations de Evas\n"
 "et Ecore , et qu'elles supportent le moteur de rendu Wayland SHM."
 
 #: src/bin/e_main.c:515
-msgid "Enlightenment found ecore_evas doesn't support the Software X11\n"
+msgid ""
+"Enlightenment found ecore_evas doesn't support the Software X11\n"
 "rendering in Evas. Please check your installation of Evas and\n"
 "Ecore and check they support the Software X11 rendering engine."
-msgstr "Enlightenment a détecté que ecore_evas ne prend pas en charge le\n"
+msgstr ""
+"Enlightenment a détecté que ecore_evas ne prend pas en charge le\n"
 "rendu logiciel X11 dans Evas. Vérifiez vos installations de Evas\n"
 "et Ecore, et qu'elles supportent le moteur de rendu logiciel X11."
 
 #: src/bin/e_main.c:524
-msgid "Enlightenment found ecore_evas doesn't support the Software Buffer\n"
+msgid ""
+"Enlightenment found ecore_evas doesn't support the Software Buffer\n"
 "rendering in Evas. Please check your installation of Evas and\n"
 "Ecore and check they support the Software Buffer rendering engine."
-msgstr "Enlightenment a détecté que ecore_evas ne prend pas en charge le rendu\n"
+msgstr ""
+"Enlightenment a détecté que ecore_evas ne prend pas en charge le rendu\n"
 "logiciel en mémoire dans Evas. Vérifiez vos installations de Evas et\n"
 "Ecore et qu'elles supportent le moteur de rendu logiciel en mémoire."
 
@@ -3505,15 +3521,19 @@ msgid "Enlightenment cannot initialize E_Intl!\n"
 msgstr "Enlightenment ne parvient pas à initialiser E_Intl !\n"
 
 #: src/bin/e_main.c:549
-msgid "Enlightenment cannot initialize its emergency alert system.\n"
+msgid ""
+"Enlightenment cannot initialize its emergency alert system.\n"
 "Have you set your DISPLAY variable?"
-msgstr "Enlightenment ne parvient pas à initialiser son système d'alerte d'urgence.\n"
+msgstr ""
+"Enlightenment ne parvient pas à initialiser son système d'alerte d'urgence.\n"
 "Avez-vous défini la variable d'environnement DISPLAY ?"
 
 #: src/bin/e_main.c:561
-msgid "Enlightenment cannot create directories in your home directory.\n"
+msgid ""
+"Enlightenment cannot create directories in your home directory.\n"
 "Perhaps you have no home directory or the disk is full?"
-msgstr "Enlightenment ne peut créer aucun dossier dans votre répertoire personnel.\n"
+msgstr ""
+"Enlightenment ne peut créer aucun dossier dans votre répertoire personnel.\n"
 "Peut-être n'avez-vous pas de répertoire personnel,\n"
 "ou que votre disque dur est plein ?"
 
@@ -3530,9 +3550,11 @@ msgid "Enlightenment cannot set up its environment.\n"
 msgstr "Enlightenment ne parvient pas à initialiser son environnement.\n"
 
 #: src/bin/e_main.c:642
-msgid "Enlightenment cannot set up paths for finding files.\n"
+msgid ""
+"Enlightenment cannot set up paths for finding files.\n"
 "Perhaps you are out of memory?"
-msgstr "Enlightenment ne parvient pas à configurer les chemins de recherche des fichiers.\n"
+msgstr ""
+"Enlightenment ne parvient pas à configurer les chemins de recherche des fichiers.\n"
 "Êtes-vous à court de mémoire ?"
 
 #: src/bin/e_main.c:704
@@ -3544,19 +3566,23 @@ msgid "Enlightenment cannot set up its theme system.\n"
 msgstr "Enlightenment ne parvient pas à initialiser son système de thèmes.\n"
 
 #: src/bin/e_main.c:733
-msgid "Enlightenment cannot create a dbus session connection.\n"
+msgid ""
+"Enlightenment cannot create a dbus session connection.\n"
 "At best this will break many things, at worst it will hard lock your machine.\n"
 "If you're sure you know what you're doing, export E_NO_DBUS_SESSION=1"
-msgstr "Enlightenment ne parvient pas à créer une connexion à D-Bus.\n"
+msgstr ""
+"Enlightenment ne parvient pas à créer une connexion à D-Bus.\n"
 "Au mieux, cela va entraîner de nombreux problèmes; au pire,\n"
 "votre machine ne répondra plus du tout. Si vous êtes \n"
 "conscient des risques, exportez E_NO_DBUS_SESSION=1"
 
 #: src/bin/e_main.c:746
-msgid "Enlightenment cannot initialize the FDO desktop system.\n"
+msgid ""
+"Enlightenment cannot initialize the FDO desktop system.\n"
 "Perhaps you lack permissions on ~/.cache/efreet or are\n"
 "out of memory or disk space?"
-msgstr "Enlightenment ne parvient pas à initialiser le système de menus FDO.\n"
+msgstr ""
+"Enlightenment ne parvient pas à initialiser le système de menus FDO.\n"
 "Peut-être vous manque-t-il certaines permissions sur ~/.cache/efreet\n"
 "ou bien le système est à court de mémoire ou d'espace disque ?"
 
@@ -3577,9 +3603,11 @@ msgid "Enlightenment cannot set up its powersave modes.\n"
 msgstr "Enlightenment ne peut initialiser ses modes d'économie d'énergie.\n"
 
 #: src/bin/e_main.c:806
-msgid "Enlightenment set up window management for all the screens on your system\n"
+msgid ""
+"Enlightenment set up window management for all the screens on your system\n"
 "failed. Perhaps another window manager is running?\n"
-msgstr "Enlightenment ne peut être initialisé en tant que gestionnaire de fenêtres.\n"
+msgstr ""
+"Enlightenment ne peut être initialisé en tant que gestionnaire de fenêtres.\n"
 "Un autre gestionnaire de fenêtres est-il déjà lancé ?\n"
 
 #: src/bin/e_main.c:816
@@ -3685,7 +3713,8 @@ msgstr "Version : %s\n"
 
 #: src/bin/e_main.c:1261
 #, c-format
-msgid "Options:\n"
+msgid ""
+"Options:\n"
 "  -display DISPLAY\n"
 "    Connect to display named DISPLAY.\n"
 "    EG: -display :1.0\n"
@@ -3708,7 +3737,8 @@ msgid "Options:\n"
 "  -i-really-know-what-i-am-doing-and-accept-full-responsibility-for-it\n"
 "    If you need this help, you don't need this option.\n"
 "  -version\n"
-msgstr "Options :\n"
+msgstr ""
+"Options :\n"
 "  -display DISPLAY\n"
 "    Pour se connecter à l'affichage nommé DISPLAY.\n"
 "    Exemple : -display :1.0\n"
@@ -3734,13 +3764,15 @@ msgstr "Options :\n"
 "  -version\n"
 
 #: src/bin/e_main.c:1315
-msgid "You are executing enlightenment directly. This is\n"
+msgid ""
+"You are executing enlightenment directly. This is\n"
 "bad. Please do not execute the \"enlightenment\"\n"
 "binary. Use the \"enlightenment_start\" launcher. It\n"
 "will handle setting up environment variables, paths,\n"
 "and launching any other required services etc.\n"
 "before enlightenment itself begins running.\n"
-msgstr "Vous tentez, à tort, d'exécuter Enlightenment directement.\n"
+msgstr ""
+"Vous tentez, à tort, d'exécuter Enlightenment directement.\n"
 "Veuillez ne pas utiliser l'exécutable « enlightenment » mais\n"
 "plutôt le lanceur « enlightenment_start ». Ce dernier se\n"
 "charge du paramétrage des variables d'environnement,\n"
@@ -5944,7 +5976,7 @@ msgstr "Boutons"
 #: src/modules/conf_interaction/e_int_config_mouse.c:272
 #: src/modules/conf_interaction/e_int_config_mouse.c:303
 msgid "Middle mouse button emulation"
-msgstr "Émulation bouton central de la souris"
+msgstr "Émulation du bouton central de la souris"
 
 #: src/modules/conf_interaction/e_int_config_mouse.c:277
 #: src/modules/conf_interaction/e_int_config_mouse.c:314
@@ -8753,7 +8785,7 @@ msgstr "Moteur à utiliser :"
 
 #: src/modules/mixer/e_mod_config.c:501
 msgid "Emix Configuration"
-msgstr "Configuration du mélangeur"
+msgstr "Configuration du mélangeur (Emixer)"
 
 #: src/modules/music-control/e_mod_main.c:9
 msgid "Music controller"
@@ -8773,7 +8805,7 @@ msgstr "Mettre en pause la lecture quand l'écran est verrouillé"
 
 #: src/modules/music-control/ui.c:299
 msgid "Music control Settings"
-msgstr "Paramètres du contrôleur média"
+msgstr "Paramètres du contrôleur média (Music)"
 
 #: src/modules/notification/e_mod_config.c:51
 msgid "Notification Settings"
@@ -10176,12 +10208,8 @@ msgstr "Impossible d'établir une connexion avec une socket X11."
 msgid "Cannot launch XWayland from X11 display."
 msgstr "Impossible de lancer XWayland depuis l'affichage X11."
 
-#~ msgid ""
-#~ "This image will be uploaded<ps/>to enlightenment.org. It will be publicly "
-#~ "visible."
-#~ msgstr ""
-#~ "Cette image va être téléversée sur enlightenment.org.<ps/>Elle sera "
-#~ "visible par tous."
+#~ msgid "This image will be uploaded<ps/>to enlightenment.org. It will be publicly visible."
+#~ msgstr "Cette image va être téléversée sur enlightenment.org.<ps/>Elle sera visible par tous."
 
 #~ msgid "Stop this device from being forcefully connected"
 #~ msgstr "Oublier la connexion forcée du périphérique"
