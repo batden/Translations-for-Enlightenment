@@ -19,7 +19,7 @@ msgstr ""
 "Project-Id-Version: enlightenment\n"
 "Report-Msgid-Bugs-To: enlightenment-devel@lists.sourceforge.net\n"
 "POT-Creation-Date: 2022-06-15 19:38+0200\n"
-"PO-Revision-Date: 2022-11-06 14:21+0100\n"
+"PO-Revision-Date: 2022-11-15 17:01+0100\n"
 "Last-Translator: Philippe Jean Guillaumie <similar@orange.fr>\n"
 "Language-Team: French\n"
 "Language: fr\n"
@@ -27,7 +27,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Poedit 3.2\n"
+"X-Generator: Poedit 3.2.1\n"
 "X-Poedit-SourceCharset: utf-8\n"
 
 #: src/bin/e_about.c:17
@@ -59,7 +59,7 @@ msgstr "<title>Copyright &copy; 2000-2022, par l'équipe de développement d'Enl
 
 #: src/bin/e_about.c:69
 msgid "<title>The Team</><ps/><ps/>"
-msgstr "<title>Notre Équipe</><ps/><ps/>"
+msgstr "<title>Notre équipe</><ps/><ps/>"
 
 #: src/bin/e_acpi.c:138
 msgid "ACPI Error"
@@ -598,7 +598,7 @@ msgstr "Éclaircir"
 
 #: src/bin/e_actions.c:3806
 msgid "Backlight Set"
-msgstr "Rétroéclairage réglé"
+msgstr "Définir le rétroéclairage"
 
 #: src/bin/e_actions.c:3808
 msgid "Backlight Min"
@@ -782,7 +782,7 @@ msgstr "Application"
 
 #: src/bin/e_actions.c:3969
 msgid "New Instance of Focused App"
-msgstr "Nouvelle instance de l'appli focalisée"
+msgstr "Nouvelle instance de l'application focalisée"
 
 #: src/bin/e_actions.c:3973 src/bin/e_int_menus.c:275
 msgid "Restart"
@@ -1032,7 +1032,7 @@ msgstr "Erreur de configuration de l'écran"
 
 #: src/bin/e_comp_x_randr.c:453
 msgid "You seem to have no screens configured to<br>be on given the outputs you have. This should<br>be fixed by going to:<br><br><b>Settings -> Screen -> Screen Setup</><br><br>And configure at least one screen to be on."
-msgstr "Il semble n'y avoir aucun écran actif configuré<br>comme tel selon la sortie actuelle.<br>Pour y remédier, allez dans :<br><br><b>Configuration -> Affichage</><br><br>Et activez au moins un écran."
+msgstr "Il semble n'y avoir aucun écran actif configuré<br>comme tel pour la sortie actuelle.<br>Pour y remédier, allez dans :<br><br><b>Configuration -> Affichage</><br><br>Et activez au moins un écran."
 
 #: src/bin/e_comp_x_randr.c:461 src/bin/e_config_dialog.c:274
 #: src/bin/e_desktop_editor.c:907 src/bin/e_desktop_editor.c:971
@@ -2231,7 +2231,7 @@ msgstr "Composite"
 
 #: src/bin/e_int_client_menu.c:232
 msgid "Unredirected"
-msgstr "Non redirigé"
+msgstr "Non orienté"
 
 #: src/bin/e_int_client_menu.c:428 src/bin/e_int_client_prop.c:516
 #: src/bin/e_int_config_comp_match.c:523
@@ -4045,7 +4045,7 @@ msgstr "ARGH ! ça ne devrait pas se produire…"
 #: src/bin/e_system.c:95 src/bin/e_system.c:100 src/bin/e_system.c:105
 #: src/bin/e_system.c:111
 msgid "Error in Enlightenment System Service"
-msgstr "Erreur du service Enlightenment system"
+msgstr "Erreur du service Enlightenment System"
 
 #: src/bin/e_system.c:36
 msgid "Enlightenment cannot successfully start<br>the enlightenment_system service<br>because ecore_exe_run() failed."
@@ -4890,11 +4890,11 @@ msgstr "Options X11 basiques"
 
 #: src/modules/conf_applications/e_int_config_deskenv.c:149
 msgid "Load X Resources"
-msgstr "Activer les ressources X (xrdb)"
+msgstr "Activer les ressources de X (xrdb)"
 
 #: src/modules/conf_applications/e_int_config_deskenv.c:152
 msgid "Load X Modifier Map"
-msgstr "Activer les mappages X (xmodmap)"
+msgstr "Activer les mappages de X (xmodmap)"
 
 #: src/modules/conf_applications/e_int_config_deskenv.c:159
 msgid "Major Desktops"
@@ -8506,7 +8506,7 @@ msgstr "Altitude :  %f"
 #: src/modules/geolocation/e_mod_main.c:152
 #, c-format
 msgid "Altitude:  N/A"
-msgstr "Altitude:  N/A"
+msgstr "Altitude :  N/A"
 
 #: src/modules/geolocation/e_mod_main.c:91
 #: src/modules/geolocation/e_mod_main.c:158
@@ -8741,11 +8741,11 @@ msgstr "Couper le son de l'application focalisée"
 
 #: src/modules/mixer/backend.c:336 src/modules/mixer/backend.c:402
 msgid "Increase Mic Volume"
-msgstr "Augmenter gain micro"
+msgstr "Augmenter le gain du micro"
 
 #: src/modules/mixer/backend.c:343 src/modules/mixer/backend.c:408
 msgid "Decrease Mic Volume"
-msgstr "Diminuer gain micro"
+msgstr "Diminuer le gain du micro"
 
 #: src/modules/mixer/backend.c:350
 msgid "Mute Mic volume"
@@ -8873,7 +8873,7 @@ msgstr "Coin droit en bas"
 
 #: src/modules/notification/e_mod_config.c:162
 msgid "Ignore replace ID"
-msgstr "Ignorer l'ID de remplacement"
+msgstr "Ne pas remplacer l'ID de notification"
 
 #: src/modules/notification/e_mod_main.c:80
 msgid "Notification Module"
@@ -9577,7 +9577,7 @@ msgstr "Confirmer"
 
 #: src/modules/syscon/e_int_config_syscon.c:43
 msgid "System Controls Settings"
-msgstr "Paramètres des commandes système"
+msgstr "Paramètres des commandes système (Syscon)"
 
 #: src/modules/syscon/e_int_config_syscon.c:158
 msgid "Secondary"
@@ -9724,7 +9724,7 @@ msgstr "Activer le mode de séparation flottante"
 
 #: src/modules/tiling/e_mod_config.c:180
 msgid "Enable/disable tiling per desktop."
-msgstr "(Dés)Activer le pavage par bureau."
+msgstr "(Dés)Activer le pavage par bureau"
 
 #: src/modules/tiling/e_mod_config.c:213
 msgid "Padding between windows"
@@ -10169,7 +10169,7 @@ msgstr "Solaris"
 #: src/modules/xkbswitch/e_mod_config.c:811
 #: src/modules/xkbswitch/e_mod_config.c:1229
 msgid "Terminate X"
-msgstr "Arrêter X"
+msgstr "Arrêter serveur X"
 
 #: src/modules/xkbswitch/e_mod_config.c:1073
 msgid "Switch Layout"
