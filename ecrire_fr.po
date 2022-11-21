@@ -1,87 +1,103 @@
 # French translation for Ecrire.
 # This file is put in the public domain.
 # dazibao <dazibao@sfr.fr>, 2012.
-# similar <similar@orange.fr>, 2021.
+# similar <similar@orange.fr>, 2021, 2022.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: ecrire\n"
 "Report-Msgid-Bugs-To: enlightenment-devel@lists.sourceforge.net\n"
-"POT-Creation-Date: 2017-11-06 16:42+0900\n"
-"PO-Revision-Date: 2021-05-19 09:00+0200\n"
+"POT-Creation-Date: 2022-11-21 15:09+0100\n"
+"PO-Revision-Date: 2022-11-21 15:38+0100\n"
 "Last-Translator: Philippe Jean Guillaumie <similar@orange.fr>\n"
 "Language-Team: French\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.4.3\n"
+"X-Generator: Poedit 3.2.1\n"
 "X-Poedit-SourceCharset: utf-8\n"
 
-#: src/bin/main.c:101
+#: src/bin/main.c:124
 #, c-format
 msgid "%s%s - %s"
 msgstr "%s%s - %s"
 
-#: src/bin/main.c:104
+#: src/bin/main.c:127
 #, c-format
 msgid "%sUntitled %d - %s"
 msgstr "%sSans titre %d - %s"
 
-#: src/bin/main.c:128
+#: src/bin/main.c:150
 #, c-format
 msgid "Ln %d, Col %d"
 msgstr "L %d, Col. %d"
 
-#: src/bin/main.c:737
+#: src/bin/main.c:651 src/bin/main.c:687
 msgid "New"
 msgstr "Nouveau"
 
-#: src/bin/main.c:738
+#: src/bin/main.c:652 src/bin/main.c:688
 msgid "Open"
 msgstr "Ouvrir"
 
-#: src/bin/main.c:740 src/bin/ui/alerts.c:64
+#: src/bin/main.c:653 src/bin/main.c:690 src/bin/ui/alerts.c:99
 msgid "Save"
 msgstr "Enregistrer"
 
-#: src/bin/main.c:741
+#: src/bin/main.c:654 src/bin/main.c:691
 msgid "Save As"
 msgstr "Enreg. sous"
 
-#: src/bin/main.c:746
-msgid "Undo"
-msgstr "Annuler"
-
-#: src/bin/main.c:748
-msgid "Redo"
-msgstr "Rétablir"
-
-#: src/bin/main.c:751
+#: src/bin/main.c:657 src/bin/main.c:697
 msgid "Cut"
 msgstr "Couper"
 
-#: src/bin/main.c:753
+#: src/bin/main.c:658 src/bin/main.c:699
 msgid "Copy"
 msgstr "Copier"
 
-#: src/bin/main.c:755
+#: src/bin/main.c:659 src/bin/main.c:701
 msgid "Paste"
 msgstr "Coller"
 
-#: src/bin/main.c:758 src/bin/ui/search_dialog.c:148
-msgid "Search"
-msgstr "Rechercher"
+#: src/bin/main.c:662 src/bin/main.c:704
+msgid "Undo"
+msgstr "Annuler"
 
-#: src/bin/main.c:760 src/bin/ui/goto_dialog.c:60
-msgid "Jump to"
-msgstr "Passer à"
+#: src/bin/main.c:663 src/bin/main.c:706
+msgid "Redo"
+msgstr "Rétablir"
 
-#: src/bin/main.c:763
+#: src/bin/main.c:666 src/bin/main.c:708 src/bin/ui/search_dialog.c:244
+msgid "Find"
+msgstr "Chercher"
+
+#: src/bin/main.c:667
+msgid "Go to..."
+msgstr "Aller à..."
+
+#: src/bin/main.c:670 src/bin/main.c:711
 msgid "Settings"
 msgstr "Paramètres"
 
-#: src/bin/ui/alerts.c:60
+#: src/bin/main.c:686
+msgid "File"
+msgstr "Fichier"
+
+#: src/bin/main.c:693 src/bin/ui/alerts.c:133
+msgid "Close"
+msgstr "Fermer"
+
+#: src/bin/main.c:695
+msgid "Edit"
+msgstr "Modifier"
+
+#: src/bin/main.c:709 src/bin/ui/goto_dialog.c:84
+msgid "Go to line..."
+msgstr "Aller à la ligne..."
+
+#: src/bin/ui/alerts.c:95
 msgid ""
 "<align=center>Would you like to save changes to document?<br>Any unsaved "
 "changes will be lost."
@@ -89,64 +105,71 @@ msgstr ""
 "<align=center>Voulez-vous enregistrer le document modifié ?<br>Toute "
 "modification non enregistrée sera perdue."
 
-#: src/bin/ui/alerts.c:69
+#: src/bin/ui/alerts.c:104
 msgid "Discard"
 msgstr "Abandonner"
 
-#: src/bin/ui/alerts.c:74
+#: src/bin/ui/alerts.c:109
 msgid "Cancel"
 msgstr "Annuler"
 
-#: src/bin/ui/font_dialog.c:89
-msgid "Select Font"
-msgstr "Choisir une police"
+#: src/bin/ui/alerts.c:129
+msgid "Warning"
+msgstr "Avertissement"
 
-#: src/bin/ui/font_dialog.c:114
-msgid "Font size:"
-msgstr "Taille de la police :"
-
-#: src/bin/ui/font_dialog.c:119
+#: src/bin/ui/file_related.c:27
 #, c-format
-msgid "%.0f pts"
-msgstr "%.0f pt"
+msgid "Unable to save to directory '%s'"
+msgstr "Enregistrement impossible dans le dossier « %s »"
 
-#: src/bin/ui/font_dialog.c:158
-msgid "Use Default Font:"
-msgstr "Police par défaut :"
+#: src/bin/ui/file_related.c:32
+#, c-format
+msgid "Unable to open directory '%s'"
+msgstr "Impossible d'ouvrir le dossier « %s »"
 
-#: src/bin/ui/font_dialog.c:169
-msgid "Set"
-msgstr "Valider"
-
-#: src/bin/ui/goto_dialog.c:82
-msgid "Jump to line:"
-msgstr "Passer à la ligne :"
-
-#: src/bin/ui/goto_dialog.c:106
+#: src/bin/ui/goto_dialog.c:104
 msgid "Go"
 msgstr "Aller"
 
-#: src/bin/ui/search_dialog.c:170
-msgid "Search for:"
-msgstr "Rechercher :"
+#: src/bin/ui/search_dialog.c:196
+msgid "Search"
+msgstr "Rechercher"
 
-#: src/bin/ui/search_dialog.c:194
-msgid "Replace with:"
-msgstr "Remplacer par :"
-
-#: src/bin/ui/search_dialog.c:218
-msgid "Find"
-msgstr "Chercher"
-
-#: src/bin/ui/search_dialog.c:226
+#: src/bin/ui/search_dialog.c:259
 msgid "Replace"
 msgstr "Remplacer"
+
+#: src/bin/ui/search_dialog.c:270
+msgid "Wrap?"
+msgstr "Boucler ?"
+
+#~ msgid "Jump to"
+#~ msgstr "Passer à"
+
+#~ msgid "Select Font"
+#~ msgstr "Choisir une police"
+
+#~ msgid "Font size:"
+#~ msgstr "Taille de la police :"
+
+#, c-format
+#~ msgid "%.0f pts"
+#~ msgstr "%.0f pt"
+
+#~ msgid "Use Default Font:"
+#~ msgstr "Police par défaut :"
+
+#~ msgid "Set"
+#~ msgstr "Valider"
+
+#~ msgid "Search for:"
+#~ msgstr "Rechercher :"
+
+#~ msgid "Replace with:"
+#~ msgstr "Remplacer par :"
 
 #~ msgid "Find & Replace"
 #~ msgstr "Substituer"
 
 #~ msgid "Goto Line"
 #~ msgstr "Aller à la ligne"
-
-#~ msgid "Go to"
-#~ msgstr "Aller à"
