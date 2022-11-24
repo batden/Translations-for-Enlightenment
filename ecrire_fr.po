@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ecrire\n"
 "Report-Msgid-Bugs-To: enlightenment-devel@lists.sourceforge.net\n"
-"POT-Creation-Date: 2022-11-21 15:09+0100\n"
-"PO-Revision-Date: 2022-11-21 15:38+0100\n"
+"POT-Creation-Date: 2022-11-24 11:59+0100\n"
+"PO-Revision-Date: 2022-11-24 12:04+0100\n"
 "Last-Translator: Philippe Jean Guillaumie <similar@orange.fr>\n"
 "Language-Team: French\n"
 "Language: fr\n"
@@ -77,7 +77,7 @@ msgstr "Chercher"
 msgid "Go to..."
 msgstr "Aller à..."
 
-#: src/bin/main.c:670 src/bin/main.c:711
+#: src/bin/main.c:670 src/bin/main.c:711 src/bin/ui/settings.c:133
 msgid "Settings"
 msgstr "Paramètres"
 
@@ -85,7 +85,7 @@ msgstr "Paramètres"
 msgid "File"
 msgstr "Fichier"
 
-#: src/bin/main.c:693 src/bin/ui/alerts.c:133
+#: src/bin/main.c:693 src/bin/ui/alerts.c:133 src/bin/ui/settings.c:212
 msgid "Close"
 msgstr "Fermer"
 
@@ -143,21 +143,24 @@ msgstr "Remplacer"
 msgid "Wrap?"
 msgstr "Boucler ?"
 
+#: src/bin/ui/settings.c:163
+msgid "Font size:"
+msgstr "Taille de la police :"
+
+#: src/bin/ui/settings.c:168
+#, c-format
+msgid "%.0f px"
+msgstr "%.0f px"
+
+#: src/bin/ui/settings.c:203
+msgid "Default Font?"
+msgstr "Police par défaut ?"
+
 #~ msgid "Jump to"
 #~ msgstr "Passer à"
 
 #~ msgid "Select Font"
 #~ msgstr "Choisir une police"
-
-#~ msgid "Font size:"
-#~ msgstr "Taille de la police :"
-
-#, c-format
-#~ msgid "%.0f pts"
-#~ msgstr "%.0f pt"
-
-#~ msgid "Use Default Font:"
-#~ msgstr "Police par défaut :"
 
 #~ msgid "Set"
 #~ msgstr "Valider"
