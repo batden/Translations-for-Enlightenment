@@ -12,14 +12,14 @@
 # rustyBSD <rustyBSD@gmx.fr>, 2012.
 # Raoul Hecky <raoul.hecky@gmail.com>, 2012.
 # Eliovir <eliovir@gmail.com>, 2013.
-# similar <similar@orange.fr>, 2019, 2020, 2021, 2022.
+# similar <similar@orange.fr>, 2019, 2020, 2021, 2022, 2023.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: enlightenment\n"
 "Report-Msgid-Bugs-To: enlightenment-devel@lists.sourceforge.net\n"
 "POT-Creation-Date: 2022-06-15 19:38+0200\n"
-"PO-Revision-Date: 2022-11-15 17:01+0100\n"
+"PO-Revision-Date: 2023-01-08 10:15+0100\n"
 "Last-Translator: Philippe Jean Guillaumie <similar@orange.fr>\n"
 "Language-Team: French\n"
 "Language: fr\n"
@@ -27,7 +27,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Poedit 3.2.1\n"
+"X-Generator: Poedit 3.2.2\n"
 "X-Poedit-SourceCharset: utf-8\n"
 
 #: src/bin/e_about.c:17
@@ -2899,7 +2899,7 @@ msgstr "Accaparer le serveur pendant le dessin"
 
 #: src/bin/e_int_config_comp.c:314
 msgid "Initial draw timeout for newly mapped windows"
-msgstr "Délai initial pour l'affichage des nouvelles fenêtres"
+msgstr "Délai dessin fenêtres nouvellement mappées"
 
 #: src/bin/e_int_config_comp.c:316
 #, c-format
@@ -9238,7 +9238,7 @@ msgstr "Impossible de déterminer la commande qui lance cette application !"
 #: src/modules/quickaccess/e_mod_quickaccess.c:316
 #, c-format
 msgid "The relaunch option is meant to be used<ps/>with terminal applications to create a persistent<ps/>terminal which reopens when closed, generally seen<ps/>in quake-style drop-down terminals.<ps/>Either the selected application is not a terminal<ps/>or the cmdline flag for changing the terminal's window<ps/>name is not known. Feel free to submit a bug report if this<ps/>is a terminal which can change its window name.<ps/>Alternatively, you can add a data.item to<ps/>%s/e-module-quickaccess.edj<ps/>Like so:<ps/>data.item: \"%s\" \"--OPT\";"
-msgstr "L'option « relancer » est conçue pour les applications de terminal dans<ps/>le but de créer un terminal persistant qui s'ouvre à nouveau dès sa fermeture,<ps/>à l'instar des terminaux déroulants de type Quake.<ps/>Soit l'application sélectionnée n'est pas un terminal, soit<ps/>l'option de la commande permettant de changer le nom de la fenêtre est inconnue.<ps/>N'hésitez pas à faire un rapport de bogue si le terminal en question<ps/>offre bien la possibilité de changer le nom de sa fenêtre. <ps/>Ou alors, vous pouvez ajouter un data.item à %s/e-module-quickaccess.edj<ps/>Comme ceci :<ps/>data.item: \"%s\" \"--OPT\";"
+msgstr "L'option « relancer » est conçue pour les applications de terminal dans<ps/>le but de créer un terminal persistant qui s'ouvre à nouveau dès sa fermeture,<ps/>à l'instar des terminaux déroulants de type Quake.<ps/>Soit l'application sélectionnée n'est pas un terminal, soit<ps/>l'option de la commande permettant de changer le nom de la fenêtre est inconnue.<ps/>N'hésitez pas à faire un rapport de bogue si le terminal en question<ps/>offre bien la possibilité de changer le nom de sa fenêtre. <ps/>Ou vous pouvez ajouter un data.item (élément de donnée) à %s/e-module-quickaccess.edj<ps/>Comme ceci :<ps/>data.item: \"%s\" \"--OPT\";"
 
 #: src/modules/quickaccess/e_mod_quickaccess.c:331
 #: src/modules/quickaccess/e_mod_quickaccess.c:876
