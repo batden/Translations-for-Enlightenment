@@ -4,21 +4,23 @@
 # <boris@fau.re>, 2014.
 # similar <similar@orange.fr>, 2019, 2020.
 # anthi <thetechrobo@pm.me>, 2021.
-# Philippe Jean Guillaumie <similar@orange.fr>, 2021, 2022.
+# Philippe Jean Guillaumie <similar@orange.fr>, 2021, 2022, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: terminology 0.6.99\n"
-"Report-Msgid-Bugs-To: enlightenment-devel@lists.sourceforge.net\n"
-"POT-Creation-Date: 2022-10-08 10:37+0200\n"
-"PO-Revision-Date: 2022-10-13 14:57+0200\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-01 19:19+0100\n"
+"PO-Revision-Date: 2023-01-10 12:28+0100\n"
 "Last-Translator: Philippe Jean Guillaumie <similar@orange.fr>\n"
-"Language-Team: French <https://hosted.weblate.org/projects/terminology/terminology/fr/>\n"
+"Language-Team: French <https://hosted.weblate.org/projects/terminology/"
+"terminology/fr/>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Poedit 3.1.1\n"
+"X-Generator: Poedit 3.2.2\n"
+"X-Launchpad-Export-Date: 2015-02-14 12:32+0000\n"
 
 #: src/bin/about.c:129 src/bin/about.c:204 src/bin/termio.c:1307
 #: src/bin/termio.c:1316
@@ -40,8 +42,19 @@ msgstr "Chaîne YouTube"
 
 #: src/bin/about.c:289
 #, c-format
-msgid "<b>Terminology %s</b><br>Why should terminals be boring?<br><br>This terminal was written for Enlightenment, to use EFL and otherwise push the boundaries of what a modern terminal emulator should be. We hope you enjoy it.<br><br>Copyright © 2012-%d by:<br><br>%s<br><br>Distributed under the 2-clause BSD license detailed below:<br><br>%s"
-msgstr "<b>Terminology %s</b><br>Pourquoi les terminaux devraient-ils être ennuyeux ?<br><br>Ce terminal a été écrit pour Enlightenment, afin d'utiliser les EFL et repousser les limites de ce que devrait être un terminal moderne. Nous espérons que vous l'apprécierez.<br><br>Copyright © 2012-%d par :<br><br>%s<br><br>Distribué sous licence BSD à 2 clauses détaillée ci-dessous :<br><br>%s"
+msgid ""
+"<b>Terminology %s</b><br>Why should terminals be boring?<br><br>This "
+"terminal was written for Enlightenment, to use EFL and otherwise push the "
+"boundaries of what a modern terminal emulator should be. We hope you enjoy "
+"it.<br><br>Copyright © 2012-%d by:<br><br>%s<br><br>Distributed under the 2-"
+"clause BSD license detailed below:<br><br>%s"
+msgstr ""
+"<b>Terminology %s</b><br>Pourquoi les terminaux devraient-ils être ennuyeux ?"
+"<br><br>Ce terminal a été écrit pour Enlightenment, afin d'utiliser les EFL "
+"et repousser les limites de ce que devrait être un terminal moderne. Nous "
+"espérons que vous l'apprécierez.<br><br>Copyright © 2012-%d par :"
+"<br><br>%s<br><br>Distribué sous licence BSD à 2 clauses détaillée ci-"
+"dessous :<br><br>%s"
 
 #: src/bin/colors.c:17
 msgid "Terminology's developers"
@@ -67,7 +80,7 @@ msgstr "Scinder H"
 msgid "Miniview"
 msgstr "Mini-vue"
 
-#: src/bin/controls.c:413 src/bin/win.c:6239
+#: src/bin/controls.c:413 src/bin/win.c:6205
 msgid "Set title"
 msgstr "Définir le titre"
 
@@ -146,7 +159,7 @@ msgstr "Coller le tampon primaire (surligné)"
 
 #: src/bin/keyin.c:670
 msgid "Paste Clipboard buffer (ctrl+c/v)"
-msgstr "Coller le tampon du presse-papiers (Ctrl+c/v)"
+msgstr "Coller le tampon du presse-papiers (Ctrl+C/V)"
 
 #: src/bin/keyin.c:672
 msgid "Splits/Tabs"
@@ -299,7 +312,8 @@ msgstr "© 2012-%d Carsten Haitzler et contributeurs"
 
 #: src/bin/main.c:462
 msgid "Terminal emulator written with Enlightenment Foundation Libraries"
-msgstr "Émulateur de terminal écrit avec les Enlightenment Foundation Libraries"
+msgstr ""
+"Émulateur de terminal écrit avec les Enlightenment Foundation Libraries"
 
 #: src/bin/main.c:466
 msgid "Use the named file as a background wallpaper"
@@ -346,8 +360,14 @@ msgid "Set font (NAME/SIZE for scalable, NAME for bitmap)"
 msgstr "Définir la police (NOM / TAILLE si variable, NOM pour bitmap)"
 
 #: src/bin/main.c:488
-msgid "Split the terminal window. 'v' for vertical and 'h' for horizontal. Can be used multiple times. eg -S vhvv or --split hv More description available on the man page"
-msgstr "Scission de la fenêtre du terminal , « v » pour verticale et « h » pour horizontale. On peut l'utiliser en combinaison, p. ex. -S vhvv ou --split hv. Voir la page de manuel"
+msgid ""
+"Split the terminal window. 'v' for vertical and 'h' for horizontal. Can be "
+"used multiple times. eg -S vhvv or --split hv More description available on "
+"the man page"
+msgstr ""
+"Scission de la fenêtre du terminal , « v » pour verticale et « h » pour "
+"horizontale. On peut l'utiliser en combinaison, p. ex. -S vhvv ou --split "
+"hv. Voir la page de manuel"
 
 #: src/bin/main.c:493
 msgid "Run the shell as a login shell"
@@ -450,13 +470,13 @@ msgstr "l'option %s requiert un argument !"
 msgid "invalid options found. See --help"
 msgstr "options non valides détectées. Utilisez --help"
 
-#: src/bin/media.c:1336 src/bin/termpty.c:649 src/bin/termpty.c:654
+#: src/bin/media.c:1337 src/bin/termpty.c:649 src/bin/termpty.c:654
 #: src/bin/termpty.c:658
 #, c-format
 msgid "Function %s failed: %s"
 msgstr "La fonction %s a échoué : %s"
 
-#: src/bin/media.c:1433
+#: src/bin/media.c:1434
 msgid "Media visualizing is not supported"
 msgstr "La visualisation multimédia n'est pas prise en charge"
 
@@ -486,7 +506,7 @@ msgstr "Transparence"
 
 #: src/bin/options_background.c:565
 msgid "Opacity:"
-msgstr "Opacité"
+msgstr "Opacité :"
 
 #: src/bin/options_background.c:573 src/bin/options_background.c:574
 #, c-format
@@ -573,7 +593,8 @@ msgstr "Réagir aux pressions sur les touches (sons de frappe et animations)"
 
 #: src/bin/options_behavior.c:402
 msgid "Audio Support for key presses <failure>DISABLED</failure>!"
-msgstr "Support audio pour la pression des touches <failure>DÉSACTIVÉ</failure> !"
+msgstr ""
+"Support audio pour la pression des touches <failure>DÉSACTIVÉ</failure> !"
 
 #: src/bin/options_behavior.c:406
 msgid "Visual Bell"
@@ -597,7 +618,8 @@ msgstr "Définir TERM sur xterm-256color"
 
 #: src/bin/options_behavior.c:412
 msgid "BackArrow sends Del (instead of BackSpace)"
-msgstr "Retour arrière efface le caractère suivant au lieu du caractère précédent"
+msgstr ""
+"Retour arrière efface le caractère suivant au lieu du caractère précédent"
 
 #: src/bin/options_behavior.c:413
 msgid "Start as login shell"
@@ -620,7 +642,8 @@ msgid "Treat Emojis as double-width characters"
 msgstr "Traiter les Emojis comme des caractères de largeur double"
 
 #: src/bin/options_behavior.c:418
-msgid "When grouping input, do it on all terminals and not just the visible ones"
+msgid ""
+"When grouping input, do it on all terminals and not just the visible ones"
 msgstr "Grouper l'entrée sur tous les terminaux, pas seulement ceux visibles"
 
 #: src/bin/options_behavior.c:425
@@ -640,8 +663,13 @@ msgid "Height:"
 msgstr "Hauteur :"
 
 #: src/bin/options_behavior.c:527
-msgid "Set the time of the animation that<br>takes places during tab switches,<br>be those done due to key bindings or <br>mouse wheel over the tabs panel"
-msgstr "Définit la durée de l'animation qui se produit lors<br>du passage d'un onglet à l'autre, que ce soit<br>par raccourci clavier ou par la molette de la souris<br>sur le panneau des onglets"
+msgid ""
+"Set the time of the animation that<br>takes places during tab switches,"
+"<br>be those done due to key bindings or <br>mouse wheel over the tabs panel"
+msgstr ""
+"Définit la durée de l'animation qui se produit lors<br>du passage d'un "
+"onglet à l'autre, que ce soit<br>par raccourci clavier ou par la molette de "
+"la souris<br>sur le panneau des onglets"
 
 #: src/bin/options_behavior.c:532
 msgid "Tab zoom/switch animation time:"
@@ -692,7 +720,8 @@ msgstr "Accéder au site"
 #: src/bin/options_colors.c:131
 #, c-format
 msgid "<b>Author: </b>%s<br/><b>Website: </b>%s<br/><b>License: </b>%s"
-msgstr "<b>Auteur : </b>%s<br/><b>Site Internet : </b>%s<br/><b>Licence : </b>%s"
+msgstr ""
+"<b>Auteur : </b>%s<br/><b>Site Internet : </b>%s<br/><b>Licence : </b>%s"
 
 #: src/bin/options_colors.c:226
 msgid "Color schemes"
@@ -705,25 +734,35 @@ msgstr "Thème actif : <hilight>%s</hilight>"
 
 #: src/bin/options_elm.c:122
 #, c-format
-msgid "<em>Terminology</em> uses the <hilight>elementary</hilight> toolkit.<br>The toolkit configuration settings can be accessed by running <keyword>%s</keyword>"
-msgstr "<em>Terminology</em> utilise la boîte à outils <hilight>Elementary</hilight>.<br>Les paramètres de configuration sont accessibles en lançant <keyword>%s</keyword>"
+msgid ""
+"<em>Terminology</em> uses the <hilight>elementary</hilight> toolkit.<br>The "
+"toolkit configuration settings can be accessed by running <keyword>%s</"
+"keyword>"
+msgstr ""
+"<em>Terminology</em> utilise la boîte à outils <hilight>Elementary</hilight>."
+"<br>Les paramètres de configuration sont accessibles en lançant <keyword>%s</"
+"keyword>"
 
 #: src/bin/options_elm.c:134
 #, c-format
 msgid "Launch %s"
 msgstr "Lancer %s"
 
-#: src/bin/options_elm.c:150 src/bin/win.c:384 src/bin/win.c:404
+#: src/bin/options_elm.c:150 src/bin/win.c:383 src/bin/win.c:403
 msgid "Scale"
 msgstr "Échelle"
 
-#: src/bin/options_elm.c:172 src/bin/win.c:433
+#: src/bin/options_elm.c:172 src/bin/win.c:432
 msgid "Select preferred size so that this text is readable"
 msgstr "Sélectionner la taille adéquate pour que ce texte soit lisible"
 
 #: src/bin/options_elm.c:180
-msgid "The scale configuration can also be changed through <hilight>elementary</hilight>'s configuration panel"
-msgstr "Les paramètres d'échelle sont également modifiables via la <hilight>Configuration pour Elementary</hilight>"
+msgid ""
+"The scale configuration can also be changed through <hilight>elementary</"
+"hilight>'s configuration panel"
+msgstr ""
+"Les paramètres d'échelle sont également modifiables via la "
+"<hilight>Configuration pour Elementary</hilight>"
 
 #: src/bin/options_font.c:550
 msgid "Search font"
@@ -791,7 +830,7 @@ msgstr "Visualisation liée au focus"
 
 #: src/bin/options_mouse.c:174
 msgid "Auto hide the mouse cursor when idle:"
-msgstr "Auto-masquage du pointeur quand inactif pendant :"
+msgstr "Auto-masquage du pointeur inactif après :"
 
 #: src/bin/options_mouse.c:204
 msgid "Active Links:"
@@ -907,7 +946,7 @@ msgstr "Copier le chemin relatif"
 
 #: src/bin/termio.c:1387
 msgid "Copy full path"
-msgstr "Copier le chemin complet"
+msgstr "Copier le chemin absolu"
 
 #: src/bin/termio.c:2804
 msgid "Open as URL"
@@ -962,29 +1001,37 @@ msgstr "Impossible de changer le dossier actuel en « %s » : %s"
 msgid "Could not load any theme for group=%s: %s"
 msgstr "Impossible de charger un thème pour group=%s : %s"
 
-#: src/bin/win.c:425
+#: src/bin/win.c:424
 msgid "Done"
 msgstr "Terminé"
 
-#: src/bin/win.c:441
-msgid "The scale configuration can be changed in the Settings (right click on the terminal) →  Toolkit, or by starting the command <keyword>elementary_config</keyword>"
-msgstr "Les paramètres d'échelle sont modifiables dans Configuration (clic droit dans le terminal) →  Boîte à outils, ou avec la commande <keyword>elementary_config</keyword>"
+#: src/bin/win.c:440
+msgid ""
+"The scale configuration can be changed in the Settings (right click on the "
+"terminal) →  Toolkit, or by starting the command <keyword>elementary_config</"
+"keyword>"
+msgstr ""
+"Les paramètres d'échelle sont modifiables dans Configuration (clic droit "
+"dans le terminal) →  Boîte à outils, ou avec la commande "
+"<keyword>elementary_config</keyword>"
 
-#: src/bin/win.c:2358
+#: src/bin/win.c:2334
 msgid "Ecore IMF failed"
 msgstr "Échec de Ecore IMF"
 
-#: src/bin/win.c:6243
+#: src/bin/win.c:6209
 msgid "Ok"
 msgstr "OK"
 
-#: src/bin/win.c:6248
+#: src/bin/win.c:6214
 msgid "Cancel"
 msgstr "Annuler"
 
-#: src/bin/win.c:7446
+#: src/bin/win.c:7412
 msgid "Couldn't find terminology theme! Forgot 'ninja install'?"
-msgstr "Impossible de trouver le thème de Terminology ! Avez-vous exécuté la commande « ninja install » ?"
+msgstr ""
+"Impossible de trouver le thème de Terminology ! Avez-vous exécuté la "
+"commande « ninja install » ?"
 
 #~ msgid "Shine:"
 #~ msgstr "Brillance :"
