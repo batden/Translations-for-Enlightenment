@@ -5,17 +5,19 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: eflete\n"
-"Report-Msgid-Bugs-To: v.reutskiy@samsung.com\n"
+"Report-Msgid-Bugs-To: dmitri.chudinov@gmail.com\n"
 "POT-Creation-Date: 2017-07-21 16:03+0300\n"
-"PO-Revision-Date: 2023-01-09 12:48+0100\n"
+"PO-Revision-Date: 2023-01-09 11:36+0000\n"
 "Last-Translator: Philippe Jean Guillaumie <similar@orange.fr>\n"
-"Language-Team: French\n"
+"Language-Team: French <https://hosted.weblate.org/projects/eflete/eflete/fr/>"
+"\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Poedit 3.2.2\n"
+"X-Generator: Weblate 4.15.1-dev\n"
+"X-Launchpad-Export-Date: 2014-08-25 07:02+0000\n"
 
 #: src/bin/project_manager/project_manager2.c:1404
 #, c-format
@@ -145,7 +147,7 @@ msgstr "Tonalités sonores"
 #: src/bin/ui/sound_manager.c:224
 #, c-format
 msgid "File '%s' is not exist"
-msgstr "Le fichier « %s » n'existe pas."
+msgstr "Le fichier « %s » n'existe pas"
 
 #: src/bin/ui/sound_manager.c:243
 #, c-format
@@ -155,7 +157,7 @@ msgstr "L'échantillon « %s » a déjà été ajouté"
 #: src/bin/ui/sound_manager.c:256
 #, c-format
 msgid "File '%s' exist"
-msgstr "Le fichier « %s » existe."
+msgstr "Le fichier « %s » existe"
 
 #: src/bin/ui/sound_manager.c:307
 msgid "Choose a sound"
@@ -207,8 +209,7 @@ msgstr "Entrez nouveau nom de style"
 
 #: src/bin/ui/style_manager.c:221 src/bin/ui/style_manager.c:312
 msgid "Failed to add tag value. Tag will be deleted"
-msgstr ""
-"Impossible d'ajouter une valeur à la balise. La balise a été supprimée."
+msgstr "Impossible d'ajouter une valeur à la balise. La balise a été supprimée."
 
 #: src/bin/ui/style_manager.c:253
 msgid "Add textblock style"
@@ -260,8 +261,8 @@ msgstr ""
 #: src/bin/ui/live_view/elementary/live_ctxpopup.c:196
 msgid "Click to show vertical ctxpopup with icons and no labels (30 items)"
 msgstr ""
-"Cliquez pour afficher un ctxpopup vertical avec icônes et sans étiquettes "
-"(30 éléments)"
+"Cliquez pour afficher un ctxpopup vertical avec icônes et sans étiquettes ("
+"30 éléments)"
 
 #: src/bin/ui/live_view/elementary/live_ctxpopup.c:198
 msgid "Click to show vertical ctxpopup with labels and no icons (3 items)"
@@ -272,8 +273,8 @@ msgstr ""
 #: src/bin/ui/live_view/elementary/live_ctxpopup.c:200
 msgid "Click to show vertical ctxpopup with labels and no icons (30 items)"
 msgstr ""
-"Cliquez pour afficher un ctxpopup vertical avec étiquettes et sans icônes "
-"(30 éléments)"
+"Cliquez pour afficher un ctxpopup vertical avec étiquettes et sans icônes ("
+"30 éléments)"
 
 #: src/bin/ui/live_view/elementary/live_ctxpopup.c:202
 msgid "Click to show horizontal ctxpopup with icons and labels (3 items)"
@@ -290,26 +291,26 @@ msgstr ""
 #: src/bin/ui/live_view/elementary/live_ctxpopup.c:206
 msgid "Click to show horizontal ctxpopup with icons and no labels (3 items)"
 msgstr ""
-"Cliquez pour afficher un ctxpopup horizontal avec icônes et sans étiquettes "
-"(3 éléments)"
+"Cliquez pour afficher un ctxpopup horizontal avec icônes et sans étiquettes ("
+"3 éléments)"
 
 #: src/bin/ui/live_view/elementary/live_ctxpopup.c:208
 msgid "Click to show horizontal ctxpopup with icons and no labels (30 items)"
 msgstr ""
-"Cliquez pour afficher un ctxpopup horizontal avec icônes et sans étiquettes "
-"(30 éléments)"
+"Cliquez pour afficher un ctxpopup horizontal avec icônes et sans étiquettes ("
+"30 éléments)"
 
 #: src/bin/ui/live_view/elementary/live_ctxpopup.c:210
 msgid "Click to show horizontal ctxpopup with labels and no icons (3 items)"
 msgstr ""
-"Cliquez pour afficher un ctxpopup horizontal avec étiquettes et sans icônes "
-"(3 éléments)"
+"Cliquez pour afficher un ctxpopup horizontal avec étiquettes et sans icônes ("
+"3 éléments)"
 
 #: src/bin/ui/live_view/elementary/live_ctxpopup.c:212
 msgid "Click to show horizontal ctxpopup with labels and no icons (30 items)"
 msgstr ""
-"Cliquez pour afficher un ctxpopup horizontal avec étiquettes et sans icônes "
-"(30 éléments)"
+"Cliquez pour afficher un ctxpopup horizontal avec étiquettes et sans icônes ("
+"30 éléments)"
 
 #: src/bin/ui/live_view/elementary/live_custom_layout.c:30
 #, c-format
@@ -356,6 +357,7 @@ msgstr "ça"
 #: src/bin/ui/live_view/elementary/live_multibuttonentry.c:121
 msgid "!"
 msgstr "attentivement !"
+
 
 #: src/bin/ui/live_view/elementary/live_multibuttonentry.c:143
 msgid "Text1"
@@ -509,15 +511,15 @@ msgstr ""
 "item)<br><b>Suppr</b> - supprimer le (la) partie/état/élément/programme/"
 "élément de donnée sélectionné(e)<br><b>S</b> - Sélectionner l'état suivant "
 "de la partie active<br><b>Z</b> - sélectionner partie précédente<br><b>X</b> "
-"- sélectionner partie suivante<br><b>Échap</b> - désélectionner<br><b>O</b> "
-"- voir / cacher la zone d'objet (object area)<br><b>Ctrl + molette vers le "
-"haut</b> / <b>PN_signe +</b> - agrandir<br><b>Ctrl + molette vers le bas</"
-"b> / <b>PN_signe-</b> - réduire<br><b>PN_signe /</b> - Zoom à "
+"- sélectionner partie suivante<br><b>Échap</b> - désélectionner<br><b>O</b> -"
+" voir / cacher la zone d'objet (object area)<br><b>Ctrl + molette vers le "
+"haut</b> / <b>PN_signe +</b> - agrandir<br><b>Ctrl + molette vers le bas</b> "
+"/ <b>PN_signe-</b> - réduire<br><b>PN_signe /</b> - Zoom à "
 "100%<br><br>Onglets :<br><b>Ctrl + W</b> - fermer l'onglet<br><b>Ctrl + "
 "touches numérotées</b> - basculer vers l'onglet de 1 à 10<br><b>Tab</b> / "
 "<b>Ctrl + Pg.Suiv</b> - basculer vers l'onglet suivant<br><b>Majuscule + "
-"Tab</b> / <b>Ctrl + Pg.Préc</b> - basculer vers l'onglet "
-"précédent<br><br>Pop-up :<br><b>Entrée</b> - OK<br><b>Échap</b> - annuler<br>"
+"Tab</b> / <b>Ctrl + Pg.Préc</b> - basculer vers l'onglet précédent<br><br"
+">Pop-up :<br><b>Entrée</b> - OK<br><b>Échap</b> - annuler<br>"
 
 #: src/bin/ui/main_window.c:407 src/bin/ui/main_window.c:645
 msgid "Help: shortcuts"
@@ -1475,14 +1477,12 @@ msgstr "vitesse de l'échantillon du programme modifiée de %.2f en %.2f"
 #: src/bin/ui/property/property_group.c:3246
 #, c-format
 msgid "program drag value x changed from %.2f to %.2f"
-msgstr ""
-"valeur de déplacement (drag) en x du programme modifiée de %.2f en %.2f"
+msgstr "valeur de déplacement (drag) en x du programme modifiée de %.2f en %.2f"
 
 #: src/bin/ui/property/property_group.c:3250
 #, c-format
 msgid "program drag value y changed from %.2f to %.2f"
-msgstr ""
-"valeur de déplacement (drag) en y du programme modifiée de %.2f en %.2f"
+msgstr "valeur de déplacement (drag) en y du programme modifiée de %.2f en %.2f"
 
 #: src/bin/ui/property/property_group.c:3254
 #, c-format
@@ -2106,7 +2106,7 @@ msgid ""
 msgstr ""
 "Définit la partie qui est utilisée comme « lumière » pour calculer la "
 "luminosité (en fonction de la façon dont la surface de la partie fait face à "
-"la source lumineuse)."
+"la source lumineuse)"
 
 #: src/bin/ui/property/property_group.c:5205
 msgid "Sets the distance from the focal z plane (zplane) and the camera."
@@ -2357,8 +2357,8 @@ msgid ""
 "the X axis."
 msgstr ""
 "Déplace le coin supérieur gauche vers une position relative à l'intérieur du "
-"conteneur de la partie relative « to ». Valeurs de 0.0 (0%, début) à 1.0 "
-"(100%, fin) de l'axe X."
+"conteneur de la partie relative « to ». Valeurs de 0.0 (0%, début) à 1.0 ("
+"100%, fin) de l'axe X."
 
 #: src/bin/ui/property/property_group.c:5404
 msgid ""
@@ -2367,8 +2367,8 @@ msgid ""
 "the Y axis."
 msgstr ""
 "Déplace le coin supérieur gauche vers une position relative à l'intérieur du "
-"conteneur de la partie relative « to ». Valeurs de 0.0 (0%, début) à 1.0 "
-"(100%, fin) de l'axe Y."
+"conteneur de la partie relative « to ». Valeurs de 0.0 (0%, début) à 1.0 ("
+"100%, fin) de l'axe Y."
 
 #: src/bin/ui/property/property_group.c:5410
 #: src/bin/ui/property/property_group.c:5453
@@ -2425,8 +2425,8 @@ msgid ""
 "of the X axis."
 msgstr ""
 "Déplace le coin inférieur droit vers une position relative à l'intérieur du "
-"conteneur de la partie relative « to ». Valeurs de 0.0 (0%, début) à 1.0 "
-"(100%, fin) de l'axe X."
+"conteneur de la partie relative « to ». Valeurs de 0.0 (0%, début) à 1.0 ("
+"100%, fin) de l'axe X."
 
 #: src/bin/ui/property/property_group.c:5447
 msgid ""
@@ -2435,8 +2435,8 @@ msgid ""
 "of the Y axis."
 msgstr ""
 "Déplace le coin inférieur droit vers une position relative à l'intérieur du "
-"conteneur de la partie relative « to ». Valeurs de 0.0 (0%, début) à 1.0 "
-"(100%, fin) de l'axe Y."
+"conteneur de la partie relative « to ». Valeurs de 0.0 (0%, début) à 1.0 ("
+"100%, fin) de l'axe Y."
 
 #: src/bin/ui/property/property_group.c:5455
 msgid ""
@@ -2920,15 +2920,15 @@ msgstr ""
 "être regroupés, mais seulement 1 mot-clé de signal par programme peut être "
 "utilisé, par exemple : « mouse,clicked, » ; (cliquer sur n'importe quel "
 "bouton de la souris correspondant à la source démarre le programme). Edje "
-"fournit les signaux généraux suivants :<br>hold,on ; hold,off ;<br>mouse,"
-"in ; mouse,out ; mouse,pressed,in ; mouse,pressed,out ;<br>mouse,down,N : où "
-"N = numéro du bouton de la souris ;<br>mouse,down,N,double : où N = numéro "
-"du bouton de la souris ;<br>mouse,down,N,triple : où N = numéro du bouton de "
-"la souris ;<br>mouse,up,N : où N = numéro du bouton de la souris ;<br>mouse,"
-"clicked,N : où N -=numéro du bouton de la souris ;<br>mouse,move ;<br> mouse,"
-"wheel,N,M : où N = la direction (par défaut c'est 0), M = 1 si la molette "
-"défile vers le haut et -1 vers le bas ;<br>drag,start ; drag ; drag,stop ;"
-"<br>focus,part,in ; focus,part,out.<br>"
+"fournit les signaux généraux suivants :<br>hold,on ; hold,off ;<br>mouse,in ;"
+" mouse,out ; mouse,pressed,in ; mouse,pressed,out ;<br>mouse,down,N : où N = "
+"numéro du bouton de la souris ;<br>mouse,down,N,double : où N = numéro du "
+"bouton de la souris ;<br>mouse,down,N,triple : où N = numéro du bouton de la "
+"souris ;<br>mouse,up,N : où N = numéro du bouton de la souris ;"
+"<br>mouse,clicked,N : où N -=numéro du bouton de la souris ;<br>mouse,move ;"
+"<br> mouse,wheel,N,M : où N = la direction (par défaut c'est 0), M = 1 si la "
+"molette défile vers le haut et -1 vers le bas ;<br>drag,start ; drag ; "
+"drag,stop ;<br>focus,part,in ; focus,part,out.<br>"
 
 #: src/bin/ui/property/property_group.c:5941
 msgid ""
@@ -3033,7 +3033,7 @@ msgstr ""
 
 #: src/bin/ui/property/property_group.c:6059
 msgid "Number of bounces (rounded down to the nearest integer value)"
-msgstr "Nombre de rebonds (arrondi à la valeur entière la plus proche)."
+msgstr "Nombre de rebonds (arrondi à la valeur entière la plus proche)"
 
 #: src/bin/ui/property/property_group.c:6065
 msgid "Number of spring \"swings\"."
@@ -3080,8 +3080,8 @@ msgid ""
 "lang=hi\" or \"Serif:style=Bold\".Warning! All font names shouldn't contain "
 "spaces.Font name \"Times New Roman\" should be written as \"TimesNewRoman\"!"
 msgstr ""
-"Description de la police au format fontconfig. Par exemple, « Sans:"
-"style=Italic:lang=hi » ou « Serif:style=Bold ». Attention ! Les noms de "
+"Description de la police au format fontconfig. Par exemple, « "
+"Sans:style=Italic:lang=hi » ou « Serif:style=Bold ». Attention ! Les noms de "
 "polices ne doivent pas contenir d'espaces ; « Times New Roman » doit être "
 "écrit sous la forme « TimesNewRoman » !"
 
@@ -3120,8 +3120,8 @@ msgid ""
 msgstr ""
 "Définit l'alignement horizontal du texte.<br> * auto  - respecte les "
 "paramètres LTR/RTL<br>  * center - centre le texte sur la ligne.<br> * "
-"middle - alias de « center »<br>  * left  - aligne le texte sur la gauche."
-"<br> * right  - aligne le texte sur la droite.<br>"
+"middle - alias de « center »<br>  * left  - aligne le texte sur la "
+"gauche.<br> * right  - aligne le texte sur la droite.<br>"
 
 #: src/bin/ui/property/property_textblock.c:1201
 msgid ""
@@ -3664,8 +3664,7 @@ msgstr "Un fichier seulement doit être indiqué."
 
 #: src/bin/main.c:304
 msgid "--export-edj value have not extension '.edj'. Wrong value."
-msgstr ""
-"la valeur --export-edj n'a pas d'extension en « .edj ». Valeur erronée."
+msgstr "la valeur --export-edj n'a pas d'extension en « .edj ». Valeur erronée."
 
 #: src/bin/main.c:309
 msgid "--reopen is given but file specified."
