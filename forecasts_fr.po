@@ -1,14 +1,14 @@
-# Forecasts module (e17), French translation.
+# French translation for the Forecasts module.
 # This file is put in the public domain.
 # batden <batden@orange.fr>, 2009, 2010.
-# similar <similar@orange.fr>, 2021
+# similar <similar@orange.fr>, 2021, 2023.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: forecasts\n"
 "Report-Msgid-Bugs-To: enlightenment-devel@lists.sourceforge.net\n"
 "POT-Creation-Date: 2013-08-24 11:50+0200\n"
-"PO-Revision-Date: 2021-03-18 14:11+0100\n"
+"PO-Revision-Date: 2023-01-20 11:36+0100\n"
 "Last-Translator: Philippe Jean Guillaumie <similar@orange.fr>\n"
 "Language-Team: French\n"
 "Language: fr\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Poedit 2.4.2\n"
+"X-Generator: Poedit 3.2.2\n"
 
 #: src/e_mod_config.c:42
 msgid "Forecasts Settings"
@@ -61,11 +61,11 @@ msgstr "Code des prévisions Weather.com"
 
 #: src/e_mod_config.c:112
 msgid "Forecasts Code/US Zip Code"
-msgstr "Code des prévisions / Code postal américain"
+msgstr "Code des prévisions / Code postal US"
 
 #: src/e_mod_config.c:117
 msgid "To find the code for your area, go to:"
-msgstr "Pour trouver le code de votre région, allez à :"
+msgstr "Pour trouver le code de votre région, visitez :"
 
 #: src/e_mod_config.c:119
 #, c-format
@@ -78,7 +78,7 @@ msgstr "Prévisions"
 
 #: src/e_mod_main.c:299
 msgid "Settings"
-msgstr "Paramètres"
+msgstr "Configuration"
 
 #: src/e_mod_main.c:998
 #, c-format
@@ -87,7 +87,7 @@ msgstr "%s : conditions actuelles"
 
 #: src/e_mod_main.c:1014
 msgid "Wind Chill"
-msgstr "Ressentie"
+msgstr "Ressenti"
 
 #: src/e_mod_main.c:1020
 msgid "Wind Speed"
@@ -131,8 +131,8 @@ msgstr "Demain"
 
 #: src/e_mod_main.c:1081
 msgid "High"
-msgstr "Maximum"
+msgstr "Maximale"
 
 #: src/e_mod_main.c:1092
 msgid "Low"
-msgstr "Minimum"
+msgstr "Minimale"
