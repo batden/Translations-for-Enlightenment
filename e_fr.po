@@ -19,7 +19,7 @@ msgstr ""
 "Project-Id-Version: enlightenment\n"
 "Report-Msgid-Bugs-To: enlightenment-devel@lists.sourceforge.net\n"
 "POT-Creation-Date: 2022-06-15 19:38+0200\n"
-"PO-Revision-Date: 2023-01-08 10:15+0100\n"
+"PO-Revision-Date: 2023-02-27 13:34+0100\n"
 "Last-Translator: Philippe Jean Guillaumie <similar@orange.fr>\n"
 "Language-Team: French\n"
 "Language: fr\n"
@@ -4848,7 +4848,7 @@ msgstr "Applications par défaut"
 
 #: src/modules/conf_applications/e_int_config_defapps.c:297
 msgid "Custom Browser Command"
-msgstr "Commande du navigateur préféré"
+msgstr "Commande personnalisée du navigateur"
 
 #: src/modules/conf_applications/e_int_config_defapps.c:310
 msgid "Browser"
@@ -6699,7 +6699,7 @@ msgstr[1] "%d pixels"
 
 #: src/modules/conf_theme/e_int_config_fonts.c:430
 msgid "Enable Custom Font Classes"
-msgstr "Activer les polices personnalisées"
+msgstr "Activer les classes de polices personnalisées"
 
 #: src/modules/conf_theme/e_int_config_fonts.c:452
 #: src/modules/conf_theme/e_int_config_fonts.c:722
@@ -8222,7 +8222,7 @@ msgstr "Utiliser l'icône du thème"
 
 #: src/modules/fileman/e_int_config_mime_edit.c:151
 msgid "Use Edje File"
-msgstr "Utiliser un fichier edj"
+msgstr "Utiliser un fichier EDJ"
 
 #: src/modules/fileman/e_int_config_mime_edit.c:154
 msgid "Use Image"
@@ -8234,7 +8234,7 @@ msgstr "Utiliser la valeur par défaut"
 
 #: src/modules/fileman/e_int_config_mime_edit.c:297
 msgid "Select an Edje file"
-msgstr "Choisir un fichier edj"
+msgstr "Choisir un fichier EDJ"
 
 #: src/modules/fileman/e_int_config_mime_edit.c:299
 msgid "Select an image"
@@ -8408,7 +8408,7 @@ msgstr "Gestionnaire de fichiers inactif"
 
 #: src/modules/fileman_opinfo/e_mod_main.c:435
 msgid "EFM Operation Info"
-msgstr "Infos d'opération EFM"
+msgstr "Info d'opération EFM"
 
 #: src/modules/gadman/e_mod_config.c:21 src/modules/gadman/e_mod_config.c:229
 msgid "Background"
