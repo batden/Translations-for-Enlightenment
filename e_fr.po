@@ -19,7 +19,7 @@ msgstr ""
 "Project-Id-Version: enlightenment\n"
 "Report-Msgid-Bugs-To: enlightenment-devel@lists.sourceforge.net\n"
 "POT-Creation-Date: 2022-06-15 19:38+0200\n"
-"PO-Revision-Date: 2023-02-27 13:34+0100\n"
+"PO-Revision-Date: 2023-03-12 13:34+0100\n"
 "Last-Translator: Philippe Jean Guillaumie <similar@orange.fr>\n"
 "Language-Team: French\n"
 "Language: fr\n"
@@ -1495,7 +1495,7 @@ msgstr "Erreur"
 #: src/bin/e_fm.c:6714 src/bin/e_fm.c:6749
 #, c-format
 msgid "The recent DND operation requested for '%s' has failed."
-msgstr "La requête de glisser-déposer pour « %s » a échoué."
+msgstr "La demande de glisser-déposer pour « %s » a échoué."
 
 #: src/bin/e_fm.c:6852
 msgid "A link to the requested URL already exists!"
@@ -2069,7 +2069,7 @@ msgstr "Remplir"
 
 #: src/bin/e_import_config_dialog.c:336
 msgid "Pan"
-msgstr "Pano"
+msgstr "Panorama"
 
 #: src/bin/e_import_config_dialog.c:344
 msgid "File Quality"
@@ -4012,7 +4012,7 @@ msgstr "Annuler la fermeture de session"
 
 #: src/bin/e_sys.c:1046
 msgid "Enlightenment is busy with another request"
-msgstr "Enlightenment est occupé à traiter une autre requête"
+msgstr "Enlightenment est occupé à traiter une autre demande"
 
 #: src/bin/e_sys.c:1051
 msgid "Logging out.<ps/>You cannot perform other system actions<ps/>once a logout has begun."
@@ -4642,7 +4642,7 @@ msgstr "Appairable"
 
 #: src/modules/bluez5/e_mod_popup.c:471
 msgid "Allow this adapter to have other devices request to pair with it"
-msgstr "Accepter les requêtes d'appairage d'autres appareils pour cet adaptateur"
+msgstr "Autoriser les demandes d'appairage d'autres appareils pour cet adaptateur"
 
 #: src/modules/bluez5/e_mod_popup.c:504
 #, c-format
@@ -7611,23 +7611,23 @@ msgstr "Intervalle d'actualisation"
 
 #: src/modules/cpufreq/e_mod_config.c:90 src/modules/cpufreq/e_mod_main.c:207
 msgid "Fast (4 ticks)"
-msgstr "Rapide (4 tics)"
+msgstr "Rapide [4 tics]"
 
 #: src/modules/cpufreq/e_mod_config.c:92 src/modules/cpufreq/e_mod_main.c:214
 msgid "Medium (8 ticks)"
-msgstr "Moyen (8 tics)"
+msgstr "Moyen(ne) [8 tics]"
 
 #: src/modules/cpufreq/e_mod_config.c:94 src/modules/cpufreq/e_mod_main.c:221
 msgid "Normal (32 ticks)"
-msgstr "Normal (32 tics)"
+msgstr "Normal(e) [32 tics]"
 
 #: src/modules/cpufreq/e_mod_config.c:96 src/modules/cpufreq/e_mod_main.c:228
 msgid "Slow (64 ticks)"
-msgstr "Lent (64 tics)"
+msgstr "Lent(e) [64 tics]"
 
 #: src/modules/cpufreq/e_mod_config.c:98 src/modules/cpufreq/e_mod_main.c:235
 msgid "Very Slow (256 ticks)"
-msgstr "Très lent (256 tics)"
+msgstr "Très lent(e) [256 tics]"
 
 #: src/modules/cpufreq/e_mod_config.c:104
 msgid "Minimum Power State"
@@ -9577,7 +9577,7 @@ msgstr "Confirmer"
 
 #: src/modules/syscon/e_int_config_syscon.c:43
 msgid "System Controls Settings"
-msgstr "Paramètres des commandes système (Syscon)"
+msgstr "Paramètres des commandes système"
 
 #: src/modules/syscon/e_int_config_syscon.c:158
 msgid "Secondary"
