@@ -19,7 +19,7 @@ msgstr ""
 "Project-Id-Version: enlightenment\n"
 "Report-Msgid-Bugs-To: enlightenment-devel@lists.sourceforge.net\n"
 "POT-Creation-Date: 2022-06-15 19:38+0200\n"
-"PO-Revision-Date: 2023-03-12 13:34+0100\n"
+"PO-Revision-Date: 2023-03-19 08:47+0100\n"
 "Last-Translator: Philippe Jean Guillaumie <similar@orange.fr>\n"
 "Language-Team: French\n"
 "Language: fr\n"
@@ -4882,7 +4882,7 @@ msgstr "Exécution"
 
 #: src/modules/conf_applications/e_int_config_deskenv.c:140
 msgid "Only launch single instances"
-msgstr "Ne lancer que des instances uniques"
+msgstr "Instance unique pour les applications"
 
 #: src/modules/conf_applications/e_int_config_deskenv.c:148
 msgid "X11 Basics"
@@ -4910,7 +4910,7 @@ msgstr "Lancer les services de KDE à l'ouverture de session"
 
 #: src/modules/conf_applications/e_int_config_deskenv.c:168
 msgid "Show applications only for Environment"
-msgstr "Afficher seulement pour l'environnement"
+msgstr "Afficher les applications pour l'environnement..."
 
 #: src/modules/conf_applications/e_int_config_deskenv.c:170
 #: src/modules/conf_bindings/e_int_config_mousebindings.c:324
@@ -6488,7 +6488,7 @@ msgstr "Actions liées au capot"
 #: src/modules/conf_shelves/e_int_config_shelf.c:129
 #, c-format
 msgid "Configured Shelves: Display %d"
-msgstr "Rayons configurés : écran %d"
+msgstr "Rayon(s) configuré(s) : écran %d"
 
 #: src/modules/conf_shelves/e_int_config_shelf.c:393
 #, c-format
