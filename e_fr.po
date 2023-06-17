@@ -17,9 +17,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: enlightenment\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-03-29 19:35+0100\n"
-"PO-Revision-Date: 2023-03-30 08:21+0200\n"
+"Report-Msgid-Bugs-To: enlightenment-devel@lists.sourceforge.net\n"
+"POT-Creation-Date: 2023-06-17 18:43+0200\n"
+"PO-Revision-Date: 2023-06-17 19:21+0200\n"
 "Last-Translator: Philippe Jean Guillaumie <similar@orange.fr>\n"
 "Language-Team: French\n"
 "Language: fr\n"
@@ -27,7 +27,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Poedit 3.2.2\n"
+"X-Generator: Poedit 3.3.1\n"
 "X-Poedit-SourceCharset: utf-8\n"
 
 #: src/bin/e_about.c:17
@@ -1091,7 +1091,7 @@ msgstr ""
 
 #: src/bin/e_comp_x_randr.c:462 src/bin/e_config_dialog.c:274
 #: src/bin/e_desktop_editor.c:907 src/bin/e_desktop_editor.c:971
-#: src/bin/e_entry_dialog.c:126 src/bin/e_exec.c:898 src/bin/e_fm.c:10212
+#: src/bin/e_entry_dialog.c:126 src/bin/e_exec.c:899 src/bin/e_fm.c:10212
 #: src/bin/e_fm.c:10979 src/bin/e_fm_prop.c:769
 #: src/bin/e_import_config_dialog.c:360 src/bin/e_int_client_remember.c:358
 #: src/bin/e_int_client_remember.c:553 src/bin/e_int_config_comp_match.c:583
@@ -1192,7 +1192,7 @@ msgstr "Échec du déchiffrement."
 msgid "The error is unknown to Enlightenment."
 msgstr "Enlightenment ne reconnaît pas cette erreur."
 
-#: src/bin/e_config.c:1279
+#: src/bin/e_config.c:1280
 msgid ""
 "Settings data needed upgrading. Your old settings have<ps/>been wiped and a "
 "new set of defaults initialized. This<ps/>will happen regularly during "
@@ -1210,7 +1210,7 @@ msgstr ""
 "configuration ne fournit pas.<ps/>Vous pouvez maintenant tout reconfigurer "
 "selon votre goût.<ps/>Désolé pour la gêne occasionnée.<ps/>"
 
-#: src/bin/e_config.c:1296
+#: src/bin/e_config.c:1297
 msgid ""
 "Your settings are NEWER than Enlightenment. This is very<ps/>strange. This "
 "should not happen unless you downgraded<ps/>Enlightenment or copied the "
@@ -1226,7 +1226,7 @@ msgstr ""
 "de<ps/>votre configuration ont été restaurées.<ps/>Désolé pour le "
 "désagrément.<ps/>"
 
-#: src/bin/e_config.c:1412
+#: src/bin/e_config.c:1413
 msgid ""
 "Your bindings settings version does not match the current settings version."
 "<ps/>As a result, all bindings have been reloaded from defaults.<ps/>Sorry "
@@ -1236,7 +1236,7 @@ msgstr ""
 "attendue.<ps/>En conséquence, tous vos paramètres de raccourcis ont été "
 "ramenés aux valeurs par défaut.<ps/>Désolé pour le désagrément.<ps/>"
 
-#: src/bin/e_config.c:2719
+#: src/bin/e_config.c:2720
 msgid "Settings Upgraded"
 msgstr "La configuration a été modifiée"
 
@@ -1410,37 +1410,37 @@ msgstr "Choisir une icône pour « %s »"
 msgid "Select an Executable"
 msgstr "Choisir un exécutable"
 
-#: src/bin/e_exec.c:621 src/bin/e_exec.c:629 src/bin/e_exec.c:640
-#: src/bin/e_exec.c:699 src/bin/e_remember.c:51
+#: src/bin/e_exec.c:622 src/bin/e_exec.c:630 src/bin/e_exec.c:641
+#: src/bin/e_exec.c:700 src/bin/e_remember.c:51
 #: src/modules/conf_intl/e_int_config_imc.c:274
 #: src/modules/conf_intl/e_int_config_imc.c:561
 msgid "Run Error"
 msgstr "Erreur d'exécution"
 
-#: src/bin/e_exec.c:622
+#: src/bin/e_exec.c:623
 msgid "Enlightenment was unable to get current directory"
 msgstr "Enlightenment est incapable de déterminer le dossier courant"
 
-#: src/bin/e_exec.c:630
+#: src/bin/e_exec.c:631
 #, c-format
 msgid "Enlightenment was unable to change to directory:<ps/><ps/>%s"
 msgstr "Enlightenment est incapable de changer de dossier vers :<ps/><ps/>%s"
 
-#: src/bin/e_exec.c:641
+#: src/bin/e_exec.c:642
 #, c-format
 msgid "Enlightenment was unable to restore to directory:<ps/><ps/>%s"
 msgstr "Enlightenment est incapable de revenir au dossier :<ps/><ps/>%s"
 
-#: src/bin/e_exec.c:700
+#: src/bin/e_exec.c:701
 #, c-format
 msgid "Enlightenment was unable to fork a child process:<ps/><ps/>%s"
 msgstr "Enlightenment est incapable de cloner un processus fils :<ps/><ps/>%s"
 
-#: src/bin/e_exec.c:889
+#: src/bin/e_exec.c:890
 msgid "Application run error"
 msgstr "Erreur d'exécution de l'application"
 
-#: src/bin/e_exec.c:891
+#: src/bin/e_exec.c:892
 #, c-format
 msgid ""
 "Enlightenment was unable to run the application:<ps/><ps/>%s<ps/><ps/>The "
@@ -1449,108 +1449,108 @@ msgstr ""
 "Enlightenment est incapable d'exécuter l'application :<ps/><ps/>%s<ps/><ps/"
 ">Son lancement a échoué."
 
-#: src/bin/e_exec.c:1037
+#: src/bin/e_exec.c:1038
 msgid "Application Execution Error"
 msgstr "Erreur lors de l'exécution de l'application"
 
-#: src/bin/e_exec.c:1050 src/bin/e_exec.c:1052
+#: src/bin/e_exec.c:1051 src/bin/e_exec.c:1053
 #, c-format
 msgid "%s stopped running unexpectedly."
 msgstr "%s s'est arrêté de façon inattendue."
 
-#: src/bin/e_exec.c:1058
+#: src/bin/e_exec.c:1059
 #, c-format
 msgid "An exit code of %i was returned from %s."
 msgstr "%2$s a retourné le code de sortie %1$i."
 
-#: src/bin/e_exec.c:1066
+#: src/bin/e_exec.c:1067
 #, c-format
 msgid "%s was interrupted by an Interrupt Signal."
 msgstr "%s a été interrompu par un signal d'interruption."
 
-#: src/bin/e_exec.c:1069
+#: src/bin/e_exec.c:1070
 #, c-format
 msgid "%s was interrupted by a Quit Signal."
 msgstr "%s a été interrompu par un signal de sortie."
 
-#: src/bin/e_exec.c:1073
+#: src/bin/e_exec.c:1074
 #, c-format
 msgid "%s was interrupted by an Abort Signal."
 msgstr "%s a été interrompu par un signal d'arrêt."
 
-#: src/bin/e_exec.c:1076
+#: src/bin/e_exec.c:1077
 #, c-format
 msgid "%s was interrupted by a Floating Point Error."
 msgstr "%s a été interrompu par une erreur de virgule flottante."
 
-#: src/bin/e_exec.c:1080
+#: src/bin/e_exec.c:1081
 #, c-format
 msgid "%s was interrupted by an Uninterruptable Kill Signal."
 msgstr "%s a été interrompu par un signal de mort prioritaire."
 
-#: src/bin/e_exec.c:1084
+#: src/bin/e_exec.c:1085
 #, c-format
 msgid "%s was interrupted by a Segmentation Fault."
 msgstr "%s a été interrompu par une erreur de segmentation."
 
-#: src/bin/e_exec.c:1088
+#: src/bin/e_exec.c:1089
 #, c-format
 msgid "%s was interrupted by a Broken Pipe."
 msgstr "%s a été interrompu par un tube cassé."
 
-#: src/bin/e_exec.c:1091
+#: src/bin/e_exec.c:1092
 #, c-format
 msgid "%s was interrupted by a Termination Signal."
 msgstr "%s a été interrompu par un signal de terminaison."
 
-#: src/bin/e_exec.c:1095
+#: src/bin/e_exec.c:1096
 #, c-format
 msgid "%s was interrupted by a Bus Error."
 msgstr "%s a été interrompu par une erreur de bus."
 
-#: src/bin/e_exec.c:1098
+#: src/bin/e_exec.c:1099
 #, c-format
 msgid "%s was interrupted by the signal number %i."
 msgstr "%s a été interrompu par le signal numéro %i."
 
-#: src/bin/e_exec.c:1154
+#: src/bin/e_exec.c:1155
 msgid ""
 "***The remaining output has been truncated. Save the output to view.***\n"
 msgstr ""
 "***Le reste de la sortie a été tronqué. Enregistrez la sortie pour tout voir."
 "***\n"
 
-#: src/bin/e_exec.c:1213 src/bin/e_exec.c:1291 src/bin/e_exec.c:1298
+#: src/bin/e_exec.c:1214 src/bin/e_exec.c:1292 src/bin/e_exec.c:1299
 msgid "Error Logs"
 msgstr "Journaux des erreurs"
 
-#: src/bin/e_exec.c:1219 src/bin/e_exec.c:1299
+#: src/bin/e_exec.c:1220 src/bin/e_exec.c:1300
 msgid "There was no error message."
 msgstr "Il n'y a eu aucun message d'erreur."
 
-#: src/bin/e_exec.c:1223 src/bin/e_exec.c:1306
+#: src/bin/e_exec.c:1224 src/bin/e_exec.c:1307
 msgid "Save This Message"
 msgstr "Enregistrer ce message"
 
-#: src/bin/e_exec.c:1228 src/bin/e_exec.c:1231 src/bin/e_exec.c:1311
-#: src/bin/e_exec.c:1314
+#: src/bin/e_exec.c:1229 src/bin/e_exec.c:1232 src/bin/e_exec.c:1312
+#: src/bin/e_exec.c:1315
 #, c-format
 msgid "This error log will be saved as %s/%s.log"
 msgstr "Ce journal d'erreur va être enregistré dans %s/%s.log"
 
-#: src/bin/e_exec.c:1257
+#: src/bin/e_exec.c:1258
 msgid "Error Information"
 msgstr "Informations sur l'erreur"
 
-#: src/bin/e_exec.c:1265
+#: src/bin/e_exec.c:1266
 msgid "Error Signal Information"
 msgstr "Informations sur le signal d'erreur"
 
-#: src/bin/e_exec.c:1275 src/bin/e_exec.c:1282
+#: src/bin/e_exec.c:1276 src/bin/e_exec.c:1283
 msgid "Output Data"
 msgstr "Données de sortie"
 
-#: src/bin/e_exec.c:1283
+#: src/bin/e_exec.c:1284
 msgid "There was no output."
 msgstr "Il n'y a eu aucune sortie."
 
@@ -2377,7 +2377,7 @@ msgstr "Non orienté"
 
 #: src/bin/e_int_client_menu.c:428 src/bin/e_int_client_prop.c:517
 #: src/bin/e_int_config_comp_match.c:523
-#: src/modules/conf_window_manipulation/e_int_config_window_geometry.c:208
+#: src/modules/conf_window_manipulation/e_int_config_window_geometry.c:213
 msgid "Fullscreen"
 msgstr "Plein écran"
 
@@ -4149,14 +4149,14 @@ msgid "Float"
 msgstr "Flottant"
 
 #: src/bin/e_shelf.c:66
-#: src/modules/conf_window_manipulation/e_int_config_window_geometry.c:220
+#: src/modules/conf_window_manipulation/e_int_config_window_geometry.c:225
 #: src/modules/everything/evry_config.c:566
 #: src/modules/gadman/e_mod_gadman.c:1105
 msgid "Horizontal"
 msgstr "Horizontal(e)"
 
 #: src/bin/e_shelf.c:67
-#: src/modules/conf_window_manipulation/e_int_config_window_geometry.c:222
+#: src/modules/conf_window_manipulation/e_int_config_window_geometry.c:227
 #: src/modules/everything/evry_config.c:559
 #: src/modules/gadman/e_mod_gadman.c:1114
 msgid "Vertical"
@@ -6701,11 +6701,11 @@ msgstr "Marge de défilement"
 
 #: src/modules/conf_menus/e_int_config_menus.c:289
 #: src/modules/conf_menus/e_int_config_menus.c:294
-#: src/modules/conf_window_manipulation/e_int_config_window_geometry.c:183
-#: src/modules/conf_window_manipulation/e_int_config_window_geometry.c:190
-#: src/modules/conf_window_manipulation/e_int_config_window_geometry.c:197
-#: src/modules/conf_window_manipulation/e_int_config_window_geometry.c:247
+#: src/modules/conf_window_manipulation/e_int_config_window_geometry.c:188
+#: src/modules/conf_window_manipulation/e_int_config_window_geometry.c:195
+#: src/modules/conf_window_manipulation/e_int_config_window_geometry.c:202
 #: src/modules/conf_window_manipulation/e_int_config_window_geometry.c:252
+#: src/modules/conf_window_manipulation/e_int_config_window_geometry.c:257
 #, c-format
 msgid "%2.0f pixels"
 msgstr "%2.0f pixels"
@@ -6854,7 +6854,7 @@ msgstr "p. ex. enregistrement sur disque"
 
 #: src/modules/conf_performance/e_int_config_powermanagement.c:208
 #: src/modules/conf_window_manipulation/e_int_config_focus.c:295
-#: src/modules/conf_window_manipulation/e_int_config_window_geometry.c:242
+#: src/modules/conf_window_manipulation/e_int_config_window_geometry.c:247
 #: src/modules/syscon/e_int_config_syscon.c:176
 #, c-format
 msgid "%1.1f s"
@@ -7242,7 +7242,7 @@ msgid "Bytecode"
 msgstr "Bytecode"
 
 #: src/modules/conf_theme/e_int_config_fonts.c:738
-#: src/modules/conf_window_manipulation/e_int_config_window_geometry.c:270
+#: src/modules/conf_window_manipulation/e_int_config_window_geometry.c:278
 #: src/modules/cpufreq/e_mod_main.c:253 src/modules/cpufreq/e_mod_main.c:291
 msgid "Automatic"
 msgstr "Automatique"
@@ -7312,7 +7312,7 @@ msgid "Application Base DPI"
 msgstr "DPI de base des applications"
 
 #: src/modules/conf_theme/e_int_config_scale.c:343
-#: src/modules/conf_window_manipulation/e_int_config_window_geometry.c:206
+#: src/modules/conf_window_manipulation/e_int_config_window_geometry.c:211
 msgid "Policy"
 msgstr "Gestion"
 
@@ -7897,123 +7897,127 @@ msgstr "Autoriser les fenêtres entièrement en dehors des limites d'affichage"
 msgid "Screen Limits"
 msgstr "Limites d'affichage"
 
-#: src/modules/conf_window_manipulation/e_int_config_window_geometry.c:64
+#: src/modules/conf_window_manipulation/e_int_config_window_geometry.c:65
 #: src/modules/conf_window_manipulation/e_mod_main.c:20
 msgid "Window Geometry"
 msgstr "Géométrie des fenêtres"
 
-#: src/modules/conf_window_manipulation/e_int_config_window_geometry.c:178
+#: src/modules/conf_window_manipulation/e_int_config_window_geometry.c:183
 msgid "Resist obstacles"
 msgstr "Résistance aux obstacles"
 
-#: src/modules/conf_window_manipulation/e_int_config_window_geometry.c:180
+#: src/modules/conf_window_manipulation/e_int_config_window_geometry.c:185
 msgid "Other windows"
 msgstr "Autres fenêtres"
 
-#: src/modules/conf_window_manipulation/e_int_config_window_geometry.c:187
+#: src/modules/conf_window_manipulation/e_int_config_window_geometry.c:192
 msgid "Edge of the screen"
 msgstr "Bord de l'écran"
 
-#: src/modules/conf_window_manipulation/e_int_config_window_geometry.c:194
+#: src/modules/conf_window_manipulation/e_int_config_window_geometry.c:199
 msgid "Desktop gadgets"
 msgstr "Gadgets de bureau"
 
-#: src/modules/conf_window_manipulation/e_int_config_window_geometry.c:201
+#: src/modules/conf_window_manipulation/e_int_config_window_geometry.c:206
 msgid "Resistance"
 msgstr "Résistance"
 
-#: src/modules/conf_window_manipulation/e_int_config_window_geometry.c:211
+#: src/modules/conf_window_manipulation/e_int_config_window_geometry.c:216
 msgid "Smart expansion"
 msgstr "Expansion intelligente"
 
-#: src/modules/conf_window_manipulation/e_int_config_window_geometry.c:215
+#: src/modules/conf_window_manipulation/e_int_config_window_geometry.c:220
 msgid "Fill available space"
 msgstr "Remplir l'espace disponible"
 
-#: src/modules/conf_window_manipulation/e_int_config_window_geometry.c:218
+#: src/modules/conf_window_manipulation/e_int_config_window_geometry.c:223
 msgid "Direction"
 msgstr "Direction"
 
-#: src/modules/conf_window_manipulation/e_int_config_window_geometry.c:224
+#: src/modules/conf_window_manipulation/e_int_config_window_geometry.c:229
 msgid "Both"
 msgstr "Les deux"
 
-#: src/modules/conf_window_manipulation/e_int_config_window_geometry.c:227
+#: src/modules/conf_window_manipulation/e_int_config_window_geometry.c:232
 msgid "Manipulation"
 msgstr "Manipulation"
 
-#: src/modules/conf_window_manipulation/e_int_config_window_geometry.c:228
+#: src/modules/conf_window_manipulation/e_int_config_window_geometry.c:233
 msgid "Allow manipulation of maximized windows"
 msgstr "Autoriser la manipulation des fenêtres maximisées"
 
-#: src/modules/conf_window_manipulation/e_int_config_window_geometry.c:231
+#: src/modules/conf_window_manipulation/e_int_config_window_geometry.c:236
 msgid "Allow windows above fullscreen window"
 msgstr "Autoriser les fenêtres à couvrir une fenêtre en plein écran"
 
-#: src/modules/conf_window_manipulation/e_int_config_window_geometry.c:235
+#: src/modules/conf_window_manipulation/e_int_config_window_geometry.c:240
 msgid "Maximization"
 msgstr "Maximisation"
 
-#: src/modules/conf_window_manipulation/e_int_config_window_geometry.c:240
+#: src/modules/conf_window_manipulation/e_int_config_window_geometry.c:245
 msgid "Automatically accept changes after:"
 msgstr "Acceptation automatique des changements après :"
 
-#: src/modules/conf_window_manipulation/e_int_config_window_geometry.c:245
+#: src/modules/conf_window_manipulation/e_int_config_window_geometry.c:250
 msgid "Move by"
 msgstr "Déplacer de :"
 
-#: src/modules/conf_window_manipulation/e_int_config_window_geometry.c:250
+#: src/modules/conf_window_manipulation/e_int_config_window_geometry.c:255
 msgid "Resize by"
 msgstr "Redimensionner de :"
 
-#: src/modules/conf_window_manipulation/e_int_config_window_geometry.c:255
+#: src/modules/conf_window_manipulation/e_int_config_window_geometry.c:260
 #: src/modules/wizard/page_011.c:187 src/modules/xkbswitch/e_mod_main.c:78
 #: src/modules/xkbswitch/e_mod_main.c:253
 msgid "Keyboard"
 msgstr "Clavier"
 
-#: src/modules/conf_window_manipulation/e_int_config_window_geometry.c:261
+#: src/modules/conf_window_manipulation/e_int_config_window_geometry.c:266
 msgid "Limit resize to useful geometry"
 msgstr "Limiter le redimensionnement à la géométrie utile"
 
-#: src/modules/conf_window_manipulation/e_int_config_window_geometry.c:264
+#: src/modules/conf_window_manipulation/e_int_config_window_geometry.c:269
 msgid "Ensure initial placement of windows inside useful geometry"
 msgstr ""
 "Positionnement initial des fenêtres à l'intérieur de la géométrie utile"
 
-#: src/modules/conf_window_manipulation/e_int_config_window_geometry.c:267
+#: src/modules/conf_window_manipulation/e_int_config_window_geometry.c:272
 msgid "Adjust windows on shelf hide"
 msgstr "Ajuster les fenêtres lors de l'auto-masquage du rayon"
 
 #: src/modules/conf_window_manipulation/e_int_config_window_geometry.c:275
+msgid "Set hidden state when not on current desktop"
+msgstr "Définir l'état caché si pas sur le bureau actuel"
+
+#: src/modules/conf_window_manipulation/e_int_config_window_geometry.c:283
 msgid "Follow Move"
 msgstr "Suivi du déplacement"
 
-#: src/modules/conf_window_manipulation/e_int_config_window_geometry.c:278
+#: src/modules/conf_window_manipulation/e_int_config_window_geometry.c:286
 msgid "Follow Resize"
 msgstr "Suivi du redimensionnement"
 
-#: src/modules/conf_window_manipulation/e_int_config_window_geometry.c:281
+#: src/modules/conf_window_manipulation/e_int_config_window_geometry.c:289
 msgid "Follow Raise"
 msgstr "Suivi du placement au-dessus"
 
-#: src/modules/conf_window_manipulation/e_int_config_window_geometry.c:284
+#: src/modules/conf_window_manipulation/e_int_config_window_geometry.c:292
 msgid "Follow Lower"
 msgstr "Suivi du placement au-dessous"
 
-#: src/modules/conf_window_manipulation/e_int_config_window_geometry.c:287
+#: src/modules/conf_window_manipulation/e_int_config_window_geometry.c:295
 msgid "Follow Layer"
 msgstr "Suivi de la couche"
 
-#: src/modules/conf_window_manipulation/e_int_config_window_geometry.c:290
+#: src/modules/conf_window_manipulation/e_int_config_window_geometry.c:298
 msgid "Follow Desktop"
 msgstr "Suivi du bureau"
 
-#: src/modules/conf_window_manipulation/e_int_config_window_geometry.c:293
+#: src/modules/conf_window_manipulation/e_int_config_window_geometry.c:301
 msgid "Follow Iconify"
 msgstr "Suivi de la minimisation"
 
-#: src/modules/conf_window_manipulation/e_int_config_window_geometry.c:297
+#: src/modules/conf_window_manipulation/e_int_config_window_geometry.c:305
 #: src/modules/quickaccess/e_mod_config.c:313
 msgid "Transients"
 msgstr "Transitoires"
