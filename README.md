@@ -6,8 +6,7 @@ French translations for the Enlightenment project :fr:
 
 *Please consider starring our repositories to show your support.*
 
-*Merci*
-
+Merci.
 
 ## The Team
 
