@@ -12,14 +12,14 @@
 # rustyBSD <rustyBSD@gmx.fr>, 2012.
 # Raoul Hecky <raoul.hecky@gmail.com>, 2012.
 # Eliovir <eliovir@gmail.com>, 2013.
-# similar <similar@orange.fr>, 2019, 2020, 2021, 2022, 2023.
+# similar <similar@orange.fr>, 2019, 2020, 2021, 2022, 2023, 2024.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: enlightenment\n"
-"Report-Msgid-Bugs-To: enlightenment-devel@lists.sourceforge.net\n"
-"POT-Creation-Date: 2023-12-26 17:09+0100\n"
-"PO-Revision-Date: 2023-12-26 17:27+0100\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-01-23 21:51+0100\n"
+"PO-Revision-Date: 2024-01-24 08:37+0100\n"
 "Last-Translator: Philippe Jean Guillaumie <similar@orange.fr>\n"
 "Language-Team: French\n"
 "Language: fr\n"
@@ -55,15 +55,15 @@ msgstr "Enlightenment"
 
 #: src/bin/e_about.c:26
 msgid ""
-"<title>Copyright &copy; 2000-2022, by the Enlightenment Development Team</"
+"<title>Copyright &copy; 2000-2024, by the Enlightenment Development Team</"
 "><ps/><ps/>We hope you enjoy using this software as much as we enjoyed "
 "writing it.<ps/><ps/>To contact us please visit:<ps/><hilight>http://www."
 "enlightenment.org</><ps/><ps/>"
 msgstr ""
-"<title>Copyright &copy; 2000-2022, par l'équipe de développement "
+"<title>Copyright &copy; 2000-2024, par l'équipe de développement "
 "d'Enlightenment</><ps/><ps/>Nous espérons que vous aurez autant de plaisir à "
 "utiliser ce logiciel que nous en avons eu à l'écrire.<ps/><ps/>Pour nous "
-"contacter, visitez :<ps/><hilight>http://www.enlightenment.org</><ps/><ps/>"
+"contacter, visitez :<ps/><hilight>https://www.enlightenment.org</><ps/><ps/>"
 
 #: src/bin/e_about.c:69
 msgid "<title>The Team</><ps/><ps/>"
@@ -10305,7 +10305,7 @@ msgstr "Afficher le menu"
 msgid "Systray Settings"
 msgstr "Paramètres de la zone de notification"
 
-#: src/modules/systray/e_mod_main.c:358
+#: src/modules/systray/e_mod_main.c:373
 msgid "Systray"
 msgstr "Zone de notification"
 
