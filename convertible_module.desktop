@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Link
+Name=E-convertible
+GenericName=E-convertible
+Comment=Helps to manage screen rotation based on accelerometer
+Comment[fr]=Permet de gérer la rotation de l'écran en fonction de l'accéléromètre.
+Comment[it]=Aiuta a gestire la rotazione dello schermo basandosi sui dati dell'accelerometro
+Icon=e-module-convertible
+X-Enlightenment-ModuleType=system
