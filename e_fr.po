@@ -19,7 +19,7 @@ msgstr ""
 "Project-Id-Version: enlightenment\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-01-23 21:51+0100\n"
-"PO-Revision-Date: 2024-01-24 08:37+0100\n"
+"PO-Revision-Date: 2024-05-15 14:34+0200\n"
 "Last-Translator: Philippe Jean Guillaumie <similar@orange.fr>\n"
 "Language-Team: French\n"
 "Language: fr\n"
@@ -27,7 +27,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Poedit 3.4.2\n"
+"X-Generator: Poedit 3.4.3\n"
 "X-Poedit-SourceCharset: utf-8\n"
 
 #: src/bin/e_about.c:17
@@ -143,11 +143,11 @@ msgstr "Voulez-vous vraiment fermer la session ?"
 
 #: src/bin/e_actions.c:2401
 msgid "Power off"
-msgstr "Éteindre"
+msgstr "Arrêt"
 
 #: src/bin/e_actions.c:2403
 msgid "Are you sure you want to power off your computer?"
-msgstr "Voulez-vous vraiment éteindre votre ordinateur ?"
+msgstr "Voulez-vous vraiment arrêter votre ordinateur ?"
 
 #: src/bin/e_actions.c:2459 src/bin/e_actions.c:4011
 msgid "Reboot"
@@ -852,11 +852,11 @@ msgstr "Déconnexion"
 
 #: src/bin/e_actions.c:4003
 msgid "Power Off Now"
-msgstr "Éteindre directement"
+msgstr "Arrêt immédiat"
 
 #: src/bin/e_actions.c:4007
 msgid "Power Off"
-msgstr "Éteindre"
+msgstr "Arrêt"
 
 #: src/bin/e_actions.c:4015
 msgid "Suspend Now"
@@ -1471,12 +1471,12 @@ msgstr "%s a été interrompu par un signal d'interruption."
 #: src/bin/e_exec.c:1070
 #, c-format
 msgid "%s was interrupted by a Quit Signal."
-msgstr "%s a été interrompu par un signal de sortie."
+msgstr "%s a été interrompu par un signal de sortie (Quit)."
 
 #: src/bin/e_exec.c:1074
 #, c-format
 msgid "%s was interrupted by an Abort Signal."
-msgstr "%s a été interrompu par un signal d'arrêt."
+msgstr "%s a été interrompu par un signal d'abandon (Abort)."
 
 #: src/bin/e_exec.c:1077
 #, c-format
@@ -1929,8 +1929,8 @@ msgid ""
 "Are you sure you want to delete<ps/>the %d selected file in<ps/><hilight>%s</"
 "hilight>?"
 msgid_plural ""
-"Are you sure you want to delete<ps/>the %d selected files in<ps/"
-"><hilight>%s</hilight>?"
+"Are you sure you want to delete<ps/>the %d selected files in<ps/><hilight>"
+"%s</hilight>?"
 msgstr[0] ""
 "Voulez-vous vraiment supprimer<ps/>%d fichier sélectionné dans :<ps/"
 "><hilight>%s</hilight> ?"
@@ -4315,8 +4315,8 @@ msgid ""
 "Powering off.<ps/>You cannot perform any other system actions<ps/>once a "
 "shutdown has been started."
 msgstr ""
-"Extinction en cours.<ps/>Vous ne pouvez pas effectuer d'autres actions "
-"système<ps/>pendant cette phase."
+"Arrêt en cours.<ps/>Vous ne pouvez pas effectuer d'autres actions système<ps/"
+">pendant cette phase."
 
 #: src/bin/e_sys.c:1058
 msgid ""
@@ -5740,9 +5740,8 @@ msgstr "Erreur de raccourci clavier"
 #: src/modules/conf_bindings/e_int_config_keybindings.c:979
 #, c-format
 msgid ""
-"The binding key combination that you chose is already used by <ps/"
-"><hilight>%s</hilight> action.<ps/>Please choose another binding key "
-"combination."
+"The binding key combination that you chose is already used by <ps/><hilight>"
+"%s</hilight> action.<ps/>Please choose another binding key combination."
 msgstr ""
 "La séquence de raccourci que vous avez choisie est déjà utilisée<ps/>par "
 "l'action <hilight>%s</hilight>.<ps/>Choisissez une autre séquence de "
@@ -8635,8 +8634,8 @@ msgstr ""
 "<hilight>&lt;Ctrl+Tab&gt;</hilight> détail des entrées (ça dépend du "
 "greffon)<ps/>    <hilight>&lt;Ctrl+« x »&gt;</hilight> va au greffon "
 "commençant par la lettre « x »<ps/>    <hilight>&lt;Ctrl+Flèche gauche / "
-"droite&gt;</hilight> circule parmi les greffons<ps/>    <hilight>&lt;"
-"Ctrl+Flèche haut / bas&gt;</hilight> va au premier / dernier élément<ps/>    "
+"droite&gt;</hilight> circule parmi les greffons<ps/>    <hilight>&lt;Ctrl"
+"+Flèche haut / bas&gt;</hilight> va au premier / dernier élément<ps/>    "
 "<hilight>&lt;Ctrl+1&gt;</hilight> commute le mode d'affichage (quitte cette "
 "page ;)<ps/>    <hilight>&lt;Ctrl+2&gt;</hilight> commute le mode "
 "d'affichage en liste<ps/>    <hilight>&lt;Ctrl+3&gt;</hilight> commute le "
@@ -9900,8 +9899,8 @@ msgid ""
 "either the app is unknown to us<ps/>or it is not intended for use with this "
 "option.<ps/>Please choose an action to take:"
 msgstr ""
-"La fenêtre sélectionnée créée avec le nom :<ps/>%s<ps/>et la classe :<ps/"
-">%s<ps/> est introuvable dans la base de données des<ps/>applications pour "
+"La fenêtre sélectionnée créée avec le nom :<ps/>%s<ps/>et la classe :<ps/>"
+"%s<ps/> est introuvable dans la base de données des<ps/>applications pour "
 "les accès rapides.<ps/> Cela signifie que l'application est soit inconnue,"
 "<ps/>soit inutilisable dans ce cas de figure.<ps/>Choisissez une action à "
 "appliquer :"
@@ -10894,7 +10893,7 @@ msgstr "Solaris"
 #: src/modules/xkbswitch/e_mod_config.c:811
 #: src/modules/xkbswitch/e_mod_config.c:1229
 msgid "Terminate X"
-msgstr "Arrêter serveur X"
+msgstr "Arrêter le serveur X"
 
 #: src/modules/xkbswitch/e_mod_config.c:1073
 msgid "Switch Layout"
