@@ -18,8 +18,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: enlightenment\n"
 "Report-Msgid-Bugs-To: enlightenment-devel@lists.sourceforge.net\n"
-"POT-Creation-Date: 2024-07-23 08:00+0200\n"
-"PO-Revision-Date: 2024-07-23 08:24+0200\n"
+"POT-Creation-Date: 2024-11-06 19:17+0100\n"
+"PO-Revision-Date: 2024-11-06 19:56+0100\n"
 "Last-Translator: Philippe Jean Guillaumie <similar@orange.fr>\n"
 "Language-Team: French\n"
 "Language: fr\n"
@@ -27,7 +27,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Poedit 3.4.3\n"
+"X-Generator: Poedit 3.0.1\n"
 "X-Poedit-SourceCharset: utf-8\n"
 
 #: src/bin/e_about.c:17
@@ -878,7 +878,7 @@ msgstr "Mise en hibernation intelligente"
 msgid "Lock"
 msgstr "Verrouiller"
 
-#: src/bin/e_actions.c:4048 src/bin/e_int_menus.c:1638
+#: src/bin/e_actions.c:4048 src/bin/e_int_menus.c:1658
 msgid "Cleanup Windows"
 msgstr "Réorganiser les fenêtres"
 
@@ -910,11 +910,11 @@ msgstr "Agencement de clavier précédent"
 msgid "Set As Background"
 msgstr "Utiliser comme fond d'écran"
 
-#: src/bin/e_client.c:4954
+#: src/bin/e_client.c:4982
 msgid "Client Error!"
 msgstr "Erreur du client !"
 
-#: src/bin/e_client.c:4954
+#: src/bin/e_client.c:4982
 msgid "Something has attempted to set a border when it shouldn't! Report this!"
 msgstr ""
 "La tentative de définir une bordure est non conforme. Signalez ce bogue !"
@@ -1022,11 +1022,11 @@ msgstr ""
 "OpenGL 2.0 (ou OpenGL ES 2.0)<ps/>pour tirer profit de la composition avec "
 "OpenGL."
 
-#: src/bin/e_comp_x.c:5865
+#: src/bin/e_comp_x.c:5866
 msgid "Lock Failed"
 msgstr "Échec du verrouillage"
 
-#: src/bin/e_comp_x.c:5866
+#: src/bin/e_comp_x.c:5867
 msgid ""
 "Locking the desktop failed because some application<ps/>has grabbed either "
 "the keyboard or the mouse or both<ps/>and their grab is unable to be broken."
@@ -1035,12 +1035,12 @@ msgstr ""
 "soit le clavier ou la souris, soit les deux,<ps/>et cette réservation n'a pu "
 "être annulée."
 
-#: src/bin/e_comp_x.c:5884
+#: src/bin/e_comp_x.c:5885
 msgid "Another compositor is already running on your display server."
 msgstr ""
 "Un autre compositeur est déjà fonctionnel sur votre serveur d'affichage."
 
-#: src/bin/e_comp_x.c:5909
+#: src/bin/e_comp_x.c:5910
 msgid ""
 "Your display server does not support the compositor overlay window.\n"
 "This is needed for Enlightenment to function."
@@ -1048,12 +1048,12 @@ msgstr ""
 "Votre serveur d'affichage ne sait pas gérer le Composite Overlay Window.\n"
 "Cette fonction est essentielle au bon fonctionnement de E."
 
-#: src/bin/e_comp_x.c:6050
+#: src/bin/e_comp_x.c:6051
 #, c-format
 msgid "Enlightenment cannot initialize X Connection...\n"
 msgstr "Enlightenment ne parvient pas à initialiser une connexion à X...\n"
 
-#: src/bin/e_comp_x.c:6065
+#: src/bin/e_comp_x.c:6066
 msgid ""
 "Your display server does not support XComposite, or Ecore-X was built "
 "without XComposite support. Note that for composite support you will also "
@@ -1063,7 +1063,7 @@ msgstr ""
 "sans le support de XComposite. Notez que vous avez également besoin de "
 "XRender et XFixes dans X11 et Ecore pour la prise en charge du composite."
 
-#: src/bin/e_comp_x.c:6074
+#: src/bin/e_comp_x.c:6075
 msgid ""
 "Your display server does not support XDamage or Ecore was built without "
 "XDamage support."
@@ -1071,7 +1071,7 @@ msgstr ""
 "Votre serveur d'affichage ne supporte pas XDamage ou Ecore est compilé sans "
 "le support de XDamage."
 
-#: src/bin/e_comp_x.c:6180
+#: src/bin/e_comp_x.c:6181
 msgid "Enlightenment cannot initialize the XSettings system.\n"
 msgstr "Enlightenment ne parvient pas à initialiser le système XSettings.\n"
 
@@ -1095,7 +1095,7 @@ msgstr ""
 #: src/bin/e_fm.c:10979 src/bin/e_fm_prop.c:769
 #: src/bin/e_import_config_dialog.c:360 src/bin/e_int_client_remember.c:358
 #: src/bin/e_int_client_remember.c:553 src/bin/e_int_config_comp_match.c:583
-#: src/bin/e_module.c:480 src/bin/e_module.c:707 src/bin/e_sys.c:1079
+#: src/bin/e_module.c:480 src/bin/e_module.c:707 src/bin/e_sys.c:1159
 #: src/bin/e_update.c:70 src/bin/e_utils.c:401
 #: src/modules/conf_bindings/e_int_config_signalbindings.c:623
 #: src/modules/conf_bindings/e_int_config_swipebindings.c:677
@@ -1192,7 +1192,7 @@ msgstr "Échec du déchiffrement."
 msgid "The error is unknown to Enlightenment."
 msgstr "Enlightenment ne reconnaît pas cette erreur."
 
-#: src/bin/e_config.c:1280
+#: src/bin/e_config.c:1281
 msgid ""
 "Settings data needed upgrading. Your old settings have<ps/>been wiped and a "
 "new set of defaults initialized. This<ps/>will happen regularly during "
@@ -1210,7 +1210,7 @@ msgstr ""
 "configuration ne fournit pas.<ps/>Vous pouvez maintenant tout reconfigurer "
 "selon votre goût.<ps/>Désolé pour la gêne occasionnée.<ps/>"
 
-#: src/bin/e_config.c:1297
+#: src/bin/e_config.c:1298
 msgid ""
 "Your settings are NEWER than Enlightenment. This is very<ps/>strange. This "
 "should not happen unless you downgraded<ps/>Enlightenment or copied the "
@@ -1226,7 +1226,7 @@ msgstr ""
 "de<ps/>votre configuration ont été restaurées.<ps/>Désolé pour le "
 "désagrément.<ps/>"
 
-#: src/bin/e_config.c:1413
+#: src/bin/e_config.c:1414
 msgid ""
 "Your bindings settings version does not match the current settings version."
 "<ps/>As a result, all bindings have been reloaded from defaults.<ps/>Sorry "
@@ -1236,7 +1236,7 @@ msgstr ""
 "attendue.<ps/>En conséquence, tous vos paramètres de raccourcis ont été "
 "ramenés aux valeurs par défaut.<ps/>Désolé pour le désagrément.<ps/>"
 
-#: src/bin/e_config.c:2720
+#: src/bin/e_config.c:2721
 msgid "Settings Upgraded"
 msgstr "La configuration a été modifiée"
 
@@ -1244,7 +1244,7 @@ msgstr "La configuration a été modifiée"
 #: src/modules/conf_bindings/e_mod_main.c:43 src/modules/conf/e_mod_main.c:278
 #: src/modules/conf_paths/e_mod_main.c:17
 #: src/modules/conf_performance/e_mod_main.c:17
-#: src/modules/cpufreq/e_mod_main.c:1563 src/modules/mixer/e_mod_main.c:953
+#: src/modules/cpufreq/e_mod_main.c:1570 src/modules/mixer/e_mod_main.c:953
 #: src/modules/syscon/e_mod_main.c:36
 msgid "Advanced"
 msgstr "Avancé"
@@ -1929,8 +1929,8 @@ msgid ""
 "Are you sure you want to delete<ps/>the %d selected file in<ps/><hilight>%s</"
 "hilight>?"
 msgid_plural ""
-"Are you sure you want to delete<ps/>the %d selected files in<ps/><hilight>"
-"%s</hilight>?"
+"Are you sure you want to delete<ps/>the %d selected files in<ps/"
+"><hilight>%s</hilight>?"
 msgstr[0] ""
 "Voulez-vous vraiment supprimer<ps/>%d fichier sélectionné dans :<ps/"
 "><hilight>%s</hilight> ?"
@@ -2367,7 +2367,7 @@ msgstr "Enrouler"
 msgid "Borderless"
 msgstr "Sans bordure"
 
-#: src/bin/e_int_client_menu.c:222 src/bin/e_int_menus.c:1301
+#: src/bin/e_int_client_menu.c:222 src/bin/e_int_menus.c:1321
 msgid "Composite"
 msgstr "Composite"
 
@@ -2626,7 +2626,7 @@ msgstr "Statique"
 #: src/bin/e_int_client_prop.c:304 src/modules/clock/e_mod_config.c:103
 #: src/modules/clock/e_mod_config.c:143
 #: src/modules/conf_bindings/e_int_config_mousebindings.c:356
-#: src/modules/conf_performance/e_int_config_powermanagement.c:200
+#: src/modules/conf_performance/e_int_config_powermanagement.c:205
 #: src/modules/conf_randr/e_int_config_randr2.c:494
 #: src/modules/conf_randr/e_int_config_randr2.c:713
 #: src/modules/conf_randr/e_int_config_randr2.c:1110
@@ -3439,7 +3439,7 @@ msgstr "Applications"
 msgid "Blanking Block"
 msgstr "Inhibiteurs d'extinction"
 
-#: src/bin/e_int_menus.c:212 src/bin/e_int_menus.c:1596
+#: src/bin/e_int_menus.c:212 src/bin/e_int_menus.c:1616
 #: src/modules/conf_window_manipulation/e_mod_main.c:17
 #: src/modules/conf_window_remembers/e_mod_main.c:14
 #: src/modules/everything/evry_plug_windows.c:343
@@ -3447,7 +3447,7 @@ msgstr "Inhibiteurs d'extinction"
 msgid "Windows"
 msgstr "Fenêtres"
 
-#: src/bin/e_int_menus.c:224 src/bin/e_int_menus.c:1651
+#: src/bin/e_int_menus.c:224 src/bin/e_int_menus.c:1671
 msgid "Lost Windows"
 msgstr "F. orphelines"
 
@@ -3481,33 +3481,37 @@ msgstr "Changer le fond d'écran"
 msgid "Show/Hide All Windows"
 msgstr "Voir / Cacher les fenêtres"
 
-#: src/bin/e_int_menus.c:980
+#: src/bin/e_int_menus.c:464
+msgid "Remove All"
+msgstr "Supprimer tout"
+
+#: src/bin/e_int_menus.c:1000
 msgid "No applications"
 msgstr "Aucune application"
 
-#: src/bin/e_int_menus.c:1214
+#: src/bin/e_int_menus.c:1234
 msgid "Set Virtual Desktops"
 msgstr "Paramétrer les bureaux"
 
-#: src/bin/e_int_menus.c:1602 src/bin/e_int_menus.c:1792
+#: src/bin/e_int_menus.c:1622 src/bin/e_int_menus.c:1812
 msgid "No windows"
 msgstr "Pas de fenêtre"
 
-#: src/bin/e_int_menus.c:1711 src/bin/e_int_menus.c:1805
+#: src/bin/e_int_menus.c:1731 src/bin/e_int_menus.c:1825
 msgid "Untitled window"
 msgstr "Fenêtre sans titre"
 
-#: src/bin/e_int_menus.c:1902 src/bin/e_shelf.c:1621
+#: src/bin/e_int_menus.c:1922 src/bin/e_shelf.c:1621
 #: src/modules/conf_shelves/e_int_config_shelf.c:194
 #, c-format
 msgid "Shelf %s"
 msgstr "Rayon %s"
 
-#: src/bin/e_int_menus.c:1970
+#: src/bin/e_int_menus.c:1990
 msgid "Add a Shelf"
 msgstr "Ajouter un rayon"
 
-#: src/bin/e_int_menus.c:1977
+#: src/bin/e_int_menus.c:1997
 msgid "Delete a Shelf"
 msgstr "Supprimer un rayon"
 
@@ -4270,7 +4274,7 @@ msgstr "Auto-masquage"
 msgid "Refresh"
 msgstr "Rafraîchir"
 
-#: src/bin/e_sys.c:894
+#: src/bin/e_sys.c:962
 #, c-format
 msgid ""
 "Logout is taking too long.<ps/>Some applications refuse to close.<ps/>Do you "
@@ -4282,27 +4286,27 @@ msgstr ""
 ">sans attendre la fermeture des applications ?<ps/><ps/>Déconnexion "
 "automatique dans %d secondes."
 
-#: src/bin/e_sys.c:953
+#: src/bin/e_sys.c:1021
 msgid "Logout problems"
 msgstr "La fermeture de session pose problème"
 
-#: src/bin/e_sys.c:956
+#: src/bin/e_sys.c:1024
 msgid "Logout now"
 msgstr "Fermer à l'instant la session"
 
-#: src/bin/e_sys.c:958
+#: src/bin/e_sys.c:1026
 msgid "Wait longer"
 msgstr "Attendre plus longtemps"
 
-#: src/bin/e_sys.c:960
+#: src/bin/e_sys.c:1028
 msgid "Cancel Logout"
 msgstr "Annuler la fermeture de session"
 
-#: src/bin/e_sys.c:1040
+#: src/bin/e_sys.c:1108
 msgid "Enlightenment is busy with another request"
 msgstr "Enlightenment est occupé à traiter une autre demande"
 
-#: src/bin/e_sys.c:1045
+#: src/bin/e_sys.c:1113
 msgid ""
 "Logging out.<ps/>You cannot perform other system actions<ps/>once a logout "
 "has begun."
@@ -4310,7 +4314,7 @@ msgstr ""
 "Fermeture de session en cours.<ps/>Vous ne pouvez pas effectuer d'autres "
 "actions système<ps/>pendant cette phase."
 
-#: src/bin/e_sys.c:1052
+#: src/bin/e_sys.c:1120
 msgid ""
 "Powering off.<ps/>You cannot perform any other system actions<ps/>once a "
 "shutdown has been started."
@@ -4318,7 +4322,7 @@ msgstr ""
 "Arrêt en cours.<ps/>Vous ne pouvez pas effectuer d'autres actions système<ps/"
 ">pendant cette phase."
 
-#: src/bin/e_sys.c:1058
+#: src/bin/e_sys.c:1126
 msgid ""
 "Resetting.<ps/>You cannot perform any other system actions<ps/>once a reboot "
 "has begun."
@@ -4326,7 +4330,7 @@ msgstr ""
 "Redémarrage en cours.<ps/>Vous ne pouvez pas effectuer d'autres actions "
 "système<ps/>pendant cette phase."
 
-#: src/bin/e_sys.c:1064
+#: src/bin/e_sys.c:1132
 msgid ""
 "Suspending.<ps/>You cannot perform any other system actions<ps/>until "
 "suspend is complete."
@@ -4334,7 +4338,7 @@ msgstr ""
 "Mise en veille en cours.<ps/>Vous ne pouvez pas effectuer d'autres actions "
 "système<ps/>pendant cette phase."
 
-#: src/bin/e_sys.c:1070
+#: src/bin/e_sys.c:1138
 msgid ""
 "Hibernating.<ps/>You cannot perform any other system actions<ps/>until "
 "hibernation is complete."
@@ -4342,7 +4346,23 @@ msgstr ""
 "Mise en hibernation en cours.<ps/>Vous ne pouvez pas effectuer d'autres "
 "actions système<ps/>pendant cette phase."
 
-#: src/bin/e_sys.c:1076
+#: src/bin/e_sys.c:1144
+msgid ""
+"Hiybrid Susspending.<ps/>You cannot perform any other system actions<ps/"
+">until hybrid susspend is complete."
+msgstr ""
+"Mise en veille hybride en cours.<ps/>Vous ne pouvez pas effectuer d'autres "
+"actions système<ps/>pendant cette phase."
+
+#: src/bin/e_sys.c:1150
+msgid ""
+"Suspending then hibernating.<ps/>You cannot perform any other system "
+"actions<ps/>until suspend then hibernate is complete."
+msgstr ""
+"Mise en veille puis hibernation en cours.<ps/>Vous ne pouvez pas effectuer "
+"d'autres actions système<ps/>pendant cette phase."
+
+#: src/bin/e_sys.c:1156
 msgid "EEK! This should not happen"
 msgstr "ARGH ! ça ne devrait pas se produire…"
 
@@ -5740,8 +5760,9 @@ msgstr "Erreur de raccourci clavier"
 #: src/modules/conf_bindings/e_int_config_keybindings.c:979
 #, c-format
 msgid ""
-"The binding key combination that you chose is already used by <ps/><hilight>"
-"%s</hilight> action.<ps/>Please choose another binding key combination."
+"The binding key combination that you chose is already used by <ps/"
+"><hilight>%s</hilight> action.<ps/>Please choose another binding key "
+"combination."
 msgstr ""
 "La séquence de raccourci que vous avez choisie est déjà utilisée<ps/>par "
 "l'action <hilight>%s</hilight>.<ps/>Choisissez une autre séquence de "
@@ -6411,7 +6432,7 @@ msgid "Friction slowdown"
 msgstr "Inertie"
 
 #: src/modules/conf_interaction/e_int_config_interaction.c:122
-#: src/modules/conf_performance/e_int_config_powermanagement.c:247
+#: src/modules/conf_performance/e_int_config_powermanagement.c:252
 #, c-format
 msgid "%1.2f s"
 msgstr "%1.2f s"
@@ -6823,35 +6844,35 @@ msgstr "Paramètres des performances"
 msgid "Application priority"
 msgstr "Priorité des applications"
 
-#: src/modules/conf_performance/e_int_config_powermanagement.c:42
+#: src/modules/conf_performance/e_int_config_powermanagement.c:43
 msgid "Power Management Settings"
 msgstr "Paramètres d'économie d'énergie"
 
-#: src/modules/conf_performance/e_int_config_powermanagement.c:124
+#: src/modules/conf_performance/e_int_config_powermanagement.c:129
 msgid "Levels Allowed"
 msgstr "Niveaux autorisés"
 
-#: src/modules/conf_performance/e_int_config_powermanagement.c:133
+#: src/modules/conf_performance/e_int_config_powermanagement.c:138
 msgid "Time to defer power-hungry tasks"
 msgstr "Quand différer les tâches énergivores"
 
-#: src/modules/conf_performance/e_int_config_powermanagement.c:144
+#: src/modules/conf_performance/e_int_config_powermanagement.c:149
 msgid "Min"
 msgstr "Min."
 
-#: src/modules/conf_performance/e_int_config_powermanagement.c:152
+#: src/modules/conf_performance/e_int_config_powermanagement.c:157
 msgid "Max"
 msgstr "Max."
 
-#: src/modules/conf_performance/e_int_config_powermanagement.c:161
+#: src/modules/conf_performance/e_int_config_powermanagement.c:166
 msgid "Level"
 msgstr "Niveau"
 
-#: src/modules/conf_performance/e_int_config_powermanagement.c:170
+#: src/modules/conf_performance/e_int_config_powermanagement.c:175
 msgid "e.g. Saving to disk"
 msgstr "p. ex. enregistrement sur disque"
 
-#: src/modules/conf_performance/e_int_config_powermanagement.c:208
+#: src/modules/conf_performance/e_int_config_powermanagement.c:213
 #: src/modules/conf_window_manipulation/e_int_config_focus.c:295
 #: src/modules/conf_window_manipulation/e_int_config_window_geometry.c:247
 #: src/modules/syscon/e_int_config_syscon.c:176
@@ -6859,33 +6880,37 @@ msgstr "p. ex. enregistrement sur disque"
 msgid "%1.1f s"
 msgstr "%1.1f s"
 
-#: src/modules/conf_performance/e_int_config_powermanagement.c:239
+#: src/modules/conf_performance/e_int_config_powermanagement.c:244
 #: src/modules/notification/e_mod_config.c:102
 msgid "Low"
 msgstr "Bas(se)"
 
-#: src/modules/conf_performance/e_int_config_powermanagement.c:278
+#: src/modules/conf_performance/e_int_config_powermanagement.c:283
 msgid "Medium"
 msgstr "Moyen(ne)"
 
-#: src/modules/conf_performance/e_int_config_powermanagement.c:286
-#: src/modules/conf_performance/e_int_config_powermanagement.c:325
-#: src/modules/conf_performance/e_int_config_powermanagement.c:364
+#: src/modules/conf_performance/e_int_config_powermanagement.c:291
+#: src/modules/conf_performance/e_int_config_powermanagement.c:330
+#: src/modules/conf_performance/e_int_config_powermanagement.c:369
 #, c-format
 msgid "%.0f s"
 msgstr "%.0f s"
 
-#: src/modules/conf_performance/e_int_config_powermanagement.c:317
+#: src/modules/conf_performance/e_int_config_powermanagement.c:322
 msgid "High"
 msgstr "Haut(e)"
 
-#: src/modules/conf_performance/e_int_config_powermanagement.c:356
+#: src/modules/conf_performance/e_int_config_powermanagement.c:361
 msgid "Extreme"
 msgstr "Extrême"
 
-#: src/modules/conf_performance/e_int_config_powermanagement.c:375
+#: src/modules/conf_performance/e_int_config_powermanagement.c:380
 msgid "Connected standby instead of suspend"
 msgstr "Veille connectée plutôt que sommeil"
+
+#: src/modules/conf_performance/e_int_config_powermanagement.c:391
+msgid "Suspend Mode"
+msgstr "Mode de mise en veille"
 
 #: src/modules/conf_performance/e_mod_main.c:18
 msgid "Performance"
@@ -8259,7 +8284,7 @@ msgstr ""
 "être été compilé sans les modules adéquats,<ps/>ou votre CPU ne supporte pas "
 "cette fonctionnalité."
 
-#: src/modules/cpufreq/e_mod_main.c:1565
+#: src/modules/cpufreq/e_mod_main.c:1572
 msgid "CPU Frequency"
 msgstr "Fréquence du CPU"
 
@@ -8638,8 +8663,8 @@ msgstr ""
 "<hilight>&lt;Ctrl+Tab&gt;</hilight> détail des entrées (ça dépend du "
 "greffon)<ps/>    <hilight>&lt;Ctrl+« x »&gt;</hilight> va au greffon "
 "commençant par la lettre « x »<ps/>    <hilight>&lt;Ctrl+Flèche gauche / "
-"droite&gt;</hilight> circule parmi les greffons<ps/>    <hilight>&lt;Ctrl"
-"+Flèche haut / bas&gt;</hilight> va au premier / dernier élément<ps/>    "
+"droite&gt;</hilight> circule parmi les greffons<ps/>    <hilight>&lt;"
+"Ctrl+Flèche haut / bas&gt;</hilight> va au premier / dernier élément<ps/>    "
 "<hilight>&lt;Ctrl+1&gt;</hilight> commute le mode d'affichage (quitte cette "
 "page ;)<ps/>    <hilight>&lt;Ctrl+2&gt;</hilight> commute le mode "
 "d'affichage en liste<ps/>    <hilight>&lt;Ctrl+3&gt;</hilight> commute le "
@@ -9903,8 +9928,8 @@ msgid ""
 "either the app is unknown to us<ps/>or it is not intended for use with this "
 "option.<ps/>Please choose an action to take:"
 msgstr ""
-"La fenêtre sélectionnée créée avec le nom :<ps/>%s<ps/>et la classe :<ps/>"
-"%s<ps/> est introuvable dans la base de données des<ps/>applications pour "
+"La fenêtre sélectionnée créée avec le nom :<ps/>%s<ps/>et la classe :<ps/"
+">%s<ps/> est introuvable dans la base de données des<ps/>applications pour "
 "les accès rapides.<ps/> Cela signifie que l'application est soit inconnue,"
 "<ps/>soit inutilisable dans ce cas de figure.<ps/>Choisissez une action à "
 "appliquer :"
