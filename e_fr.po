@@ -18,8 +18,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: enlightenment\n"
 "Report-Msgid-Bugs-To: enlightenment-devel@lists.sourceforge.net\n"
-"POT-Creation-Date: 2024-12-05 15:32+0100\n"
-"PO-Revision-Date: 2024-12-05 15:36+0100\n"
+"POT-Creation-Date: 2024-12-16 09:14+0100\n"
+"PO-Revision-Date: 2024-12-16 09:16+0100\n"
 "Last-Translator: Philippe Jean Guillaumie <similar@orange.fr>\n"
 "Language-Team: French\n"
 "Language: fr\n"
@@ -68,21 +68,6 @@ msgstr ""
 #: src/bin/e_about.c:69
 msgid "<title>The Team</><ps/><ps/>"
 msgstr "<title>Notre équipe</><ps/><ps/>"
-
-#: src/bin/e_acpi.c:138
-msgid "ACPI Error"
-msgstr "Erreur ACPI"
-
-#: src/bin/e_acpi.c:139
-msgid ""
-"You seem to have an ACPI based system, but<br><hilight>acpid</hilight> does "
-"not seem to be running or<br>contactable. Perhaps enable the <hilight>acpid</"
-"hilight><br>service on your system?"
-msgstr ""
-"Il semble que le système soit basé sur l'ACPI, mais que<br><hilight>acpid</"
-"hilight> ne soit pas en cours d'exécution ou<br>non découvrable. Vous "
-"devriez peut-être activer le service <hilight>acpid </hilight><br>sur votre "
-"système ?"
 
 #: src/bin/e_actions.c:352
 #, c-format
@@ -1239,11 +1224,11 @@ msgstr ""
 msgid "Settings Upgraded"
 msgstr "La configuration a été modifiée"
 
-#: src/bin/e_config_dialog.c:222 src/modules/battery/e_mod_main.c:1429
+#: src/bin/e_config_dialog.c:222 src/modules/battery/e_mod_main.c:1425
 #: src/modules/conf_bindings/e_mod_main.c:43 src/modules/conf/e_mod_main.c:278
 #: src/modules/conf_paths/e_mod_main.c:17
 #: src/modules/conf_performance/e_mod_main.c:17
-#: src/modules/cpufreq/e_mod_main.c:562 src/modules/mixer/e_mod_main.c:953
+#: src/modules/cpufreq/e_mod_main.c:561 src/modules/mixer/e_mod_main.c:953
 #: src/modules/syscon/e_mod_main.c:36
 msgid "Advanced"
 msgstr "Avancé"
@@ -1275,7 +1260,7 @@ msgstr "Modules"
 msgid "Look"
 msgstr "Aspect"
 
-#: src/bin/e_configure.c:34 src/modules/battery/e_mod_config.c:283
+#: src/bin/e_configure.c:34 src/modules/battery/e_mod_config.c:275
 #: src/modules/conf_applications/e_mod_main.c:60
 #: src/modules/conf_display/e_mod_main.c:40
 #: src/modules/conf_theme/e_mod_main.c:85
@@ -2771,7 +2756,7 @@ msgstr "Demande de position"
 #: src/modules/conf/e_mod_main.c:101
 #: src/modules/conf_interaction/e_int_config_mouse.c:213
 #: src/modules/conf_shelves/e_int_config_shelf.c:149
-#: src/modules/cpufreq/e_mod_main.c:434 src/modules/cpufreq/e_mod_main.c:460
+#: src/modules/cpufreq/e_mod_main.c:431 src/modules/cpufreq/e_mod_main.c:459
 #: src/modules/everything/evry_gadget.c:511
 #: src/modules/everything/evry_gadget.c:683
 #: src/modules/everything/evry_plug_settings.c:183
@@ -2875,7 +2860,7 @@ msgstr "Volume"
 #: src/bin/e_int_client_remember.c:665 src/modules/conf/e_mod_main.c:252
 #: src/modules/everything/evry_gadget.c:632
 #: src/modules/everything/evry_plug_aggregator.c:313
-#: src/modules/everything/evry_view.c:1619
+#: src/modules/everything/evry_view.c:1624
 msgid "All"
 msgstr "Tout"
 
@@ -4853,100 +4838,89 @@ msgstr "Rétroéclairage"
 msgid "Backlight Controls"
 msgstr "Contrôle du rétroéclairage"
 
-#: src/modules/battery/e_mod_config.c:62
+#: src/modules/battery/e_mod_config.c:61
 msgid "Battery Monitor Settings"
 msgstr "Paramètres du moniteur de batterie"
 
-#: src/modules/battery/e_mod_config.c:130
+#: src/modules/battery/e_mod_config.c:128
 msgid "Show alert when battery is low"
 msgstr "Afficher une alerte dès que la batterie est faible"
 
-#: src/modules/battery/e_mod_config.c:133
+#: src/modules/battery/e_mod_config.c:131
 msgid "Use desktop notifications for alert"
 msgstr "Utiliser une notification de bureau pour alerter"
 
-#: src/modules/battery/e_mod_config.c:223
-msgid "Check every:"
-msgstr "Contrôler tous les :"
-
-#: src/modules/battery/e_mod_config.c:225
-#: src/modules/conf_window_manipulation/e_int_config_window_process.c:109
-#: src/modules/temperature/e_mod_config.c:146
-#, c-format
-msgid "%1.0f ticks"
-msgstr "%1.0f tics"
-
-#: src/modules/battery/e_mod_config.c:230
+#: src/modules/battery/e_mod_config.c:222
 msgid "Suspend when below:"
 msgstr "En veille en dessous de :"
 
-#: src/modules/battery/e_mod_config.c:233
+#: src/modules/battery/e_mod_config.c:225
 msgid "Hibernate when below:"
 msgstr "Hibernation en dessous de :"
 
-#: src/modules/battery/e_mod_config.c:236
+#: src/modules/battery/e_mod_config.c:228
 msgid "Shutdown when below:"
 msgstr "Arrêt en dessous de :"
 
-#: src/modules/battery/e_mod_config.c:239
-#: src/modules/battery/e_mod_config.c:258
+#: src/modules/battery/e_mod_config.c:231
+#: src/modules/battery/e_mod_config.c:250
 #, c-format
 msgid "%1.0f %%"
 msgstr "%1.0f %%"
 
-#: src/modules/battery/e_mod_config.c:243
-msgid "Polling"
-msgstr "Interrogation"
+#: src/modules/battery/e_mod_config.c:235
+msgid "Limits"
+msgstr "Limites"
 
-#: src/modules/battery/e_mod_config.c:247
+#: src/modules/battery/e_mod_config.c:239
 msgid "Show low battery alert"
 msgstr "Afficher une alerte de batterie faible"
 
-#: src/modules/battery/e_mod_config.c:251
+#: src/modules/battery/e_mod_config.c:243
 msgid "Alert when at:"
 msgstr "Alerte quand le niveau est à :"
 
-#: src/modules/battery/e_mod_config.c:254
+#: src/modules/battery/e_mod_config.c:246
 #, c-format
 msgid "%1.0f min"
 msgstr "%1.0f min"
 
-#: src/modules/battery/e_mod_config.c:262
+#: src/modules/battery/e_mod_config.c:254
 msgid "Auto dismiss in..."
 msgstr "Éliminer automatiquement dans…"
 
-#: src/modules/battery/e_mod_config.c:267
+#: src/modules/battery/e_mod_config.c:259
 #: src/modules/conf_window_manipulation/e_int_config_window_process.c:101
 #, c-format
 msgid "%1.0f s"
 msgstr "%1.0f s"
 
-#: src/modules/battery/e_mod_config.c:274
+#: src/modules/battery/e_mod_config.c:266
 msgid "Alert"
 msgstr "Alerte"
 
-#: src/modules/battery/e_mod_config.c:280
+#: src/modules/battery/e_mod_config.c:272
 msgid "Auto Detect"
 msgstr "Auto-détection"
 
-#: src/modules/battery/e_mod_config.c:287
+#: src/modules/battery/e_mod_config.c:279
 msgid "udev"
 msgstr "udev"
 
-#: src/modules/battery/e_mod_config.c:290
+#: src/modules/battery/e_mod_config.c:282
 msgid "Fuzzy Mode"
 msgstr "Mode pondéré"
 
-#: src/modules/battery/e_mod_config.c:294
+#: src/modules/battery/e_mod_config.c:286
 msgid "HAL"
 msgstr "HAL"
 
-#: src/modules/battery/e_mod_config.c:299
+#: src/modules/battery/e_mod_config.c:291
 msgid "Hardware"
 msgstr "Interface"
 
 #: src/modules/battery/e_mod_main.c:174 src/modules/battery/e_mod_main.c:695
-#: src/modules/battery/e_mod_main.c:1013
+#: src/modules/battery/e_mod_main.c:1012
 #: src/modules/conf_bindings/e_int_config_acpibindings.c:354
 #, c-format
 msgid "Battery"
@@ -4991,24 +4965,24 @@ msgstr "Batterie : %s"
 msgid "Power Management Timing"
 msgstr "Minutage de la gestion d'énergie"
 
-#: src/modules/battery/e_mod_main.c:1016 src/modules/battery/e_mod_main.c:1048
+#: src/modules/battery/e_mod_main.c:1015 src/modules/battery/e_mod_main.c:1047
 msgid "Your battery is low!"
 msgstr "La batterie est faible !"
 
-#: src/modules/battery/e_mod_main.c:1017 src/modules/battery/e_mod_main.c:1050
+#: src/modules/battery/e_mod_main.c:1016 src/modules/battery/e_mod_main.c:1049
 msgid "AC power is recommended."
 msgstr "Branchement sur le secteur recommandé."
 
-#: src/modules/battery/e_mod_main.c:1135 src/modules/battery/e_mod_main.c:1139
+#: src/modules/battery/e_mod_main.c:1134 src/modules/battery/e_mod_main.c:1138
 msgid "N/A"
 msgstr "N/A"
 
-#: src/modules/battery/e_mod_main.c:1246 src/modules/battery/e_mod_main.c:1248
-#: src/modules/battery/e_mod_main.c:1255 src/modules/battery/e_mod_main.c:1257
+#: src/modules/battery/e_mod_main.c:1245 src/modules/battery/e_mod_main.c:1247
+#: src/modules/battery/e_mod_main.c:1254 src/modules/battery/e_mod_main.c:1256
 msgid "ERROR"
 msgstr "ERREUR"
 
-#: src/modules/battery/e_mod_main.c:1431
+#: src/modules/battery/e_mod_main.c:1427
 msgid "Battery Meter"
 msgstr "Surveillance de la batterie"
 
@@ -6921,7 +6895,7 @@ msgid "Suspend Mode"
 msgstr "Mode de mise en veille"
 
 #: src/modules/conf_performance/e_mod_main.c:18
-#: src/modules/cpufreq/e_mod_config.c:72 src/modules/cpufreq/e_mod_main.c:341
+#: src/modules/cpufreq/e_mod_config.c:72 src/modules/cpufreq/e_mod_main.c:338
 msgid "Performance"
 msgstr "Performance"
 
@@ -8087,6 +8061,12 @@ msgstr "Requêtes ping aux clients"
 msgid "Ping interval:"
 msgstr "Intervalle des requêtes :"
 
+#: src/modules/conf_window_manipulation/e_int_config_window_process.c:109
+#: src/modules/temperature/e_mod_config.c:146
+#, c-format
+msgid "%1.0f ticks"
+msgstr "%1.0f tics"
+
 #: src/modules/conf_window_manipulation/e_mod_main.c:19
 #: src/modules/wizard/page_060.c:26
 msgid "Window Focus"
@@ -8177,15 +8157,15 @@ msgstr "Configurer"
 msgid "Cpu Frequency Control Settings"
 msgstr "Paramètres du contrôle de fréquence du processeur"
 
-#: src/modules/cpufreq/e_mod_config.c:69 src/modules/cpufreq/e_mod_main.c:338
+#: src/modules/cpufreq/e_mod_config.c:69 src/modules/cpufreq/e_mod_main.c:335
 msgid "Powersave"
 msgstr "Powersave"
 
-#: src/modules/cpufreq/e_mod_config.c:70 src/modules/cpufreq/e_mod_main.c:339
+#: src/modules/cpufreq/e_mod_config.c:70 src/modules/cpufreq/e_mod_main.c:336
 msgid "Balanced Low"
 msgstr "Équilibré bas"
 
-#: src/modules/cpufreq/e_mod_config.c:71 src/modules/cpufreq/e_mod_main.c:340
+#: src/modules/cpufreq/e_mod_config.c:71 src/modules/cpufreq/e_mod_main.c:337
 msgid "Balanced Hi"
 msgstr "Équilibré haut"
 
@@ -8201,11 +8181,11 @@ msgstr "Bas niveau de puissance"
 msgid "Update Interval"
 msgstr "Intervalle d'actualisation"
 
-#: src/modules/cpufreq/e_mod_main.c:272
+#: src/modules/cpufreq/e_mod_main.c:276
 msgid "Cpufreq"
 msgstr "Cpufreq"
 
-#: src/modules/cpufreq/e_mod_main.c:564
+#: src/modules/cpufreq/e_mod_main.c:563
 msgid "CPU Frequency"
 msgstr "Fréquence du CPU"
 
@@ -10881,6 +10861,25 @@ msgstr "Impossible d'établir une connexion avec une socket X11."
 #: src/modules/xwayland/e_mod_main.c:347
 msgid "Cannot launch XWayland from X11 display."
 msgstr "Impossible de lancer XWayland depuis l'affichage X11."
+
+#~ msgid "ACPI Error"
+#~ msgstr "Erreur ACPI"
+
+#~ msgid ""
+#~ "You seem to have an ACPI based system, but<br><hilight>acpid</hilight> "
+#~ "does not seem to be running or<br>contactable. Perhaps enable the "
+#~ "<hilight>acpid</hilight><br>service on your system?"
+#~ msgstr ""
+#~ "Il semble que le système soit basé sur l'ACPI, mais "
+#~ "que<br><hilight>acpid</hilight> ne soit pas en cours d'exécution "
+#~ "ou<br>non découvrable. Vous devriez peut-être activer le service "
+#~ "<hilight>acpid </hilight><br>sur votre système ?"
+
+#~ msgid "Check every:"
+#~ msgstr "Contrôler tous les :"
+
+#~ msgid "Polling"
+#~ msgstr "Interrogation"
 
 #~ msgid "Restore CPU Power Policy"
 #~ msgstr "Restaurer le profil énergétique"
