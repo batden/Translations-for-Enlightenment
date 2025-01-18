@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Link
+Name=Pants
+Name[fr]=Fringues
+Comment=Track the state of your pants.
+Comment[fr]=Dans quel état sont vos dessous ?
+Icon=e-module-pants
+X-Enlightenment-ModuleType=utils
