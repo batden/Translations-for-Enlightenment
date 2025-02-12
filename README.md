@@ -6,7 +6,9 @@ French translations for the Enlightenment project :fr:
 
 *Please consider starring our repositories or donating with PayPal to show your support.*
 
-Merci.
+*(Donner une étoile à nos dépôts ou une contribution via PayPal est un geste très apprécié)*
+
+Merci!
 
 ## The Team
 
