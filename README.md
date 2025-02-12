@@ -8,7 +8,7 @@ French translations for the Enlightenment project :fr:
 
 *(Donner une étoile à nos dépôts ou une contribution via PayPal est un geste très apprécié)*
 
-Merci!
+Merci.
 
 ## The Team
 
