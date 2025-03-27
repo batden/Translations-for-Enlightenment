@@ -1,7 +1,6 @@
 # French translation for Entice.
 # Copyright (C) 2025 Vincent Torri
 # This file is put in the public domain.
-
 # Vincent Torri <vincent.torri@gmmail.com>, 2025.
 # similar <similar@orange.fr>, 2025.
 #
@@ -10,9 +9,9 @@ msgstr ""
 "Project-Id-Version: entice\n"
 "Report-Msgid-Bugs-To: https://git.enlightenment.org/vtorri/entice/issues\n"
 "POT-Creation-Date: 2025-03-26 18:00+0100\n"
-"PO-Revision-Date: 2025-03-27 12:35+0100\n"
+"PO-Revision-Date: 2025-03-27 21:27+0100\n"
 "Last-Translator: Philippe Jean Guillaumie <similar@orange.fr>\n"
-"Language-Team: none\n"
+"Language-Team: French\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=CP1252\n"
@@ -22,7 +21,7 @@ msgstr ""
 
 #: src/bin/entice_main.c:152
 msgid "Simple image viewer written with Enlightenment Foundation Libraries."
-msgstr "Simple visionneuse d'image basée sur les Enlightenment Foundation Libraries."
+msgstr "Simple visionneuse d'images basée sur les Enlightenment Foundation Libraries."
 
 #: src/bin/entice_main.c:156
 msgid "Go into the fullscreen mode from start."
@@ -58,7 +57,7 @@ msgstr "Le répertoire de cache est introuvable."
 
 #: src/bin/entice_main.c:378
 msgid "Could not parse command line options."
-msgstr "Impossible d'analyser les options de ligne de commande."
+msgstr "Impossible d'analyser les options de la ligne de commande."
 
 #: src/bin/entice_main.c:425
 msgid "could not create main window."
