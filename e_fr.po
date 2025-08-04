@@ -18,8 +18,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: enlightenment\n"
 "Report-Msgid-Bugs-To: enlightenment-devel@lists.sourceforge.net\n"
-"POT-Creation-Date: 2025-04-04 18:29+0200\n"
-"PO-Revision-Date: 2025-04-04 18:33+0200\n"
+"POT-Creation-Date: 2025-08-04 14:19+0200\n"
+"PO-Revision-Date: 2025-08-04 14:52+0200\n"
 "Last-Translator: Philippe Jean Guillaumie <similar@orange.fr>\n"
 "Language-Team: French\n"
 "Language: fr\n"
@@ -27,12 +27,12 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Poedit 3.0.1\n"
+"X-Generator: Poedit 3.6\n"
 "X-Poedit-SourceCharset: utf-8\n"
 
 #: src/bin/e_about.c:17
 msgid "About Enlightenment"
-msgstr "À propos d’Enlightenment"
+msgstr "À propos de Enlightenment"
 
 #: src/bin/e_about.c:20 src/bin/e_actions.c:2155 src/bin/e_actions.c:3531
 #: src/bin/e_config_dialog.c:284 src/bin/e_fm.c:1096
@@ -60,8 +60,8 @@ msgid ""
 "writing it.<ps/><ps/>To contact us please visit:<ps/><hilight>http://www."
 "enlightenment.org</><ps/><ps/>"
 msgstr ""
-"<title>Copyright &copy; 2000-2025, par l'équipe de développement "
-"d'Enlightenment</><ps/><ps/>Nous espérons que vous aurez autant de plaisir à "
+"<title>Copyright &copy; 2000-2025, par l'équipe de développement de "
+"Enlightenment</><ps/><ps/>Nous espérons que vous aurez autant de plaisir à "
 "utiliser ce logiciel que nous en avons eu à l'écrire.<ps/><ps/>Pour nous "
 "contacter, visitez :<ps/><hilight>https://www.enlightenment.org</><ps/><ps/>"
 
@@ -932,9 +932,9 @@ msgstr "Choisir"
 #: src/modules/quickaccess/e_mod_quickaccess.c:396
 #: src/modules/shot/e_mod_delay.c:86 src/modules/shot/e_mod_preview.c:118
 #: src/modules/shot/e_mod_share.c:225 src/modules/shot/e_mod_share.c:254
-#: src/modules/syscon/e_syscon.c:92 src/modules/xkbswitch/e_mod_config.c:893
-#: src/modules/xkbswitch/e_mod_config.c:1024
-#: src/modules/xkbswitch/e_mod_config.c:1449
+#: src/modules/syscon/e_syscon.c:92 src/modules/xkbswitch/e_mod_config.c:944
+#: src/modules/xkbswitch/e_mod_config.c:1075
+#: src/modules/xkbswitch/e_mod_config.c:1522
 msgid "Cancel"
 msgstr "Annuler"
 
@@ -1089,7 +1089,7 @@ msgstr ""
 #: src/modules/conf_theme/e_int_config_theme_import.c:118
 #: src/modules/fileman/e_int_config_mime_edit.c:313
 #: src/modules/polkit/auth_ui.c:184 src/modules/shot/e_mod_delay.c:79
-#: src/modules/xkbswitch/e_mod_config.c:1448
+#: src/modules/xkbswitch/e_mod_config.c:1521
 msgid "OK"
 msgstr "OK"
 
@@ -1225,7 +1225,7 @@ msgstr ""
 msgid "Settings Upgraded"
 msgstr "La configuration a été modifiée"
 
-#: src/bin/e_config_dialog.c:222 src/modules/battery/e_mod_main.c:1357
+#: src/bin/e_config_dialog.c:222 src/modules/battery/e_mod_main.c:1389
 #: src/modules/conf_bindings/e_mod_main.c:43 src/modules/conf/e_mod_main.c:278
 #: src/modules/conf_paths/e_mod_main.c:17
 #: src/modules/conf_performance/e_mod_main.c:17
@@ -2130,7 +2130,7 @@ msgid ""
 "A previous instance of Enlightenment is still active\n"
 "on this screen. Aborting startup.\n"
 msgstr ""
-"Une instance précédente d'Enlightenment est encore\n"
+"Une instance précédente de Enlightenment est encore\n"
 "active sur cet écran. Abandon du lancement.\n"
 
 #: src/bin/e_import_config_dialog.c:94
@@ -2750,7 +2750,7 @@ msgstr "Demande de position"
 #: src/bin/e_int_client_prop.c:483 src/bin/e_int_client_prop.c:518
 #: src/bin/e_int_config_modules.c:58 src/bin/e_int_menus.c:299
 #: src/bin/e_shelf.c:2367 src/modules/backlight/e_mod_main.c:259
-#: src/modules/battery/e_mod_main.c:767 src/modules/clock/e_mod_main.c:360
+#: src/modules/battery/e_mod_main.c:789 src/modules/clock/e_mod_main.c:360
 #: src/modules/clock/e_mod_main.c:599 src/modules/conf_dialogs/e_mod_main.c:17
 #: src/modules/conf/e_conf.c:115 src/modules/conf/e_conf.c:126
 #: src/modules/conf/e_mod_main.c:101
@@ -3167,9 +3167,9 @@ msgstr "Utilitaire"
 #: src/bin/e_int_config_comp_match.c:444 src/bin/e_utils.c:641
 #: src/bin/e_widget_filepreview.c:696 src/bin/e_widget_filepreview.c:697
 #: src/bin/e_widget_filepreview.c:698 src/bin/e_widget_filepreview.c:728
-#: src/bin/e_widget_filepreview.c:739 src/modules/battery/e_mod_main.c:343
-#: src/modules/battery/e_mod_main.c:356 src/modules/battery/e_mod_main.c:359
-#: src/modules/battery/e_mod_main.c:368 src/modules/battery/e_mod_main.c:377
+#: src/bin/e_widget_filepreview.c:739 src/modules/battery/e_mod_main.c:344
+#: src/modules/battery/e_mod_main.c:357 src/modules/battery/e_mod_main.c:360
+#: src/modules/battery/e_mod_main.c:369 src/modules/battery/e_mod_main.c:378
 #: src/modules/bluez5/e_mod_popup.c:510 src/modules/bluez5/e_mod_popup.c:511
 #: src/modules/bluez5/e_mod_util.c:261
 #: src/modules/conf_bindings/e_int_config_acpibindings.c:429
@@ -3256,13 +3256,13 @@ msgstr "Effet"
 
 #: src/bin/e_int_config_comp_match.c:741 src/bin/e_widget_config_list.c:80
 #: src/modules/conf_applications/e_int_config_apps.c:348
-#: src/modules/xkbswitch/e_mod_config.c:712
+#: src/modules/xkbswitch/e_mod_config.c:763
 msgid "Up"
 msgstr "Monter"
 
 #: src/bin/e_int_config_comp_match.c:743 src/bin/e_widget_config_list.c:86
 #: src/modules/conf_applications/e_int_config_apps.c:352
-#: src/modules/xkbswitch/e_mod_config.c:721
+#: src/modules/xkbswitch/e_mod_config.c:772
 msgid "Down"
 msgstr "Descendre"
 
@@ -3280,12 +3280,12 @@ msgstr "Descendre"
 #: src/modules/conf_dialogs/e_int_config_profiles.c:134
 #: src/modules/conf_paths/e_int_config_env.c:337
 #: src/modules/conf_shelves/e_int_config_shelf.c:137
-#: src/modules/ibar/e_mod_config.c:114 src/modules/xkbswitch/e_mod_config.c:695
+#: src/modules/ibar/e_mod_config.c:114 src/modules/xkbswitch/e_mod_config.c:746
 msgid "Add"
 msgstr "Ajouter"
 
 #: src/bin/e_int_config_comp_match.c:747
-#: src/modules/xkbswitch/e_mod_config.c:703
+#: src/modules/xkbswitch/e_mod_config.c:754
 msgid "Del"
 msgstr "Supprimer"
 
@@ -3583,7 +3583,7 @@ msgstr "Afficher sur les bureaux spécifiés"
 msgid "Toolbar Settings"
 msgstr "Paramètres de la barre d'outils"
 
-#: src/bin/e_int_toolbar_config.c:77 src/modules/xkbswitch/e_mod_config.c:1407
+#: src/bin/e_int_toolbar_config.c:77 src/modules/xkbswitch/e_mod_config.c:1480
 msgid "Layout"
 msgstr "Présentation"
 
@@ -3988,18 +3988,18 @@ msgstr ""
 "plutôt le lanceur « enlightenment_start ». Ce dernier se\n"
 "charge du paramétrage des variables d'environnement,\n"
 "des chemins, et de la gestion de tout autre service\n"
-"nécessaire avant le lancement d'Enlightenment.\n"
+"nécessaire avant le lancement de Enlightenment.\n"
 
-#: src/bin/e_main.c:1589
+#: src/bin/e_main.c:1594
 msgid "Enlightenment cannot create a compositor.\n"
 msgstr "Enlightenment est incapable de créer un compositeur.\n"
 
-#: src/bin/e_main.c:1602
+#: src/bin/e_main.c:1607
 msgid "Enlightenment cannot set up its dnd system.\n"
 msgstr ""
 "Enlightenment ne parvient pas à initialiser son système de glisser-déposer.\n"
 
-#: src/bin/e_main.c:1763
+#: src/bin/e_main.c:1768
 #, c-format
 msgid ""
 "Enlightenment crashed early on start and has<ps/>been restarted. There was "
@@ -4010,11 +4010,11 @@ msgstr ""
 "module %s qui est à l'origine de<ps/>l'erreur a été désactivé. Il ne sera "
 "pas rechargé."
 
-#: src/bin/e_main.c:1768 src/bin/e_main.c:1784
+#: src/bin/e_main.c:1773 src/bin/e_main.c:1789
 msgid "Enlightenment crashed early on start and has been restarted"
 msgstr "Enlightenment a planté en phase d'initialisation et a été relancé"
 
-#: src/bin/e_main.c:1769
+#: src/bin/e_main.c:1774
 #, c-format
 msgid ""
 "Enlightenment crashed early on start and has been restarted.<ps/>There was "
@@ -4025,7 +4025,7 @@ msgstr ""
 "module nommé %s est à l'origine de l'erreur.<ps/><ps/> Ce module a été "
 "désactivé et ne sera pas rechargé."
 
-#: src/bin/e_main.c:1777
+#: src/bin/e_main.c:1782
 msgid ""
 "Enlightenment crashed early on start and has<ps/>been restarted. All modules "
 "have been disabled<ps/>and will not be loaded to help remove any problem<ps/"
@@ -4038,7 +4038,7 @@ msgstr ""
 "dialogue de configuration des modules vous permettra<ps/>de recharger vos "
 "modules.\n"
 
-#: src/bin/e_main.c:1785
+#: src/bin/e_main.c:1790
 msgid ""
 "Enlightenment crashed early on start and has been restarted.<ps/>All modules "
 "have been disabled and will not be loaded to help<ps/>remove any problem "
@@ -4096,7 +4096,7 @@ msgstr ""
 #: src/bin/e_module.c:257
 #, c-format
 msgid "Enlightenment %s Module"
-msgstr "Module %s d'Enlightenment"
+msgstr "Module %s de Enlightenment"
 
 #: src/bin/e_module.c:587
 msgid "What action should be taken with this module?<ps/>"
@@ -4534,7 +4534,7 @@ msgid ""
 "latest version is:<ps/><ps/>%s<ps/><ps/>Please visit www.enlightenment."
 "org<ps/>or update your system packages<ps/>to get a new version."
 msgstr ""
-"Votre version d'Enlightenment<ps/>n'est pas la toute dernière publiée.<ps/"
+"Votre version de Enlightenment<ps/>n'est pas la toute dernière publiée.<ps/"
 ">La dernière version est :<ps/><ps/>%s<ps/><ps/>Visitez www.enlightenment."
 "org<ps/>ou mettez à jour vos paquets système<ps/>afin d'obtenir la nouvelle "
 "version."
@@ -4911,69 +4911,69 @@ msgstr "Mode pondéré"
 msgid "Hardware"
 msgstr "Interface"
 
-#: src/modules/battery/e_mod_main.c:175 src/modules/battery/e_mod_main.c:732
-#: src/modules/battery/e_mod_main.c:1019
+#: src/modules/battery/e_mod_main.c:176 src/modules/battery/e_mod_main.c:754
+#: src/modules/battery/e_mod_main.c:1041
 #: src/modules/conf_bindings/e_int_config_acpibindings.c:354
 #, c-format
 msgid "Battery"
 msgstr "Batterie"
 
-#: src/modules/battery/e_mod_main.c:310
+#: src/modules/battery/e_mod_main.c:311
 msgid "Charging"
 msgstr "En charge"
 
-#: src/modules/battery/e_mod_main.c:315
+#: src/modules/battery/e_mod_main.c:316
 msgid "Discharging"
 msgstr "En décharge"
 
-#: src/modules/battery/e_mod_main.c:320
+#: src/modules/battery/e_mod_main.c:321
 msgid "Charged"
 msgstr "Chargée"
 
-#: src/modules/battery/e_mod_main.c:612
+#: src/modules/battery/e_mod_main.c:634
 #: src/modules/conf_performance/e_int_config_powermanagement.c:166
 msgid "Level"
 msgstr "Niveau"
 
-#: src/modules/battery/e_mod_main.c:623
+#: src/modules/battery/e_mod_main.c:645
 msgid "Charge Limit"
 msgstr "Limite de charge"
 
-#: src/modules/battery/e_mod_main.c:643
+#: src/modules/battery/e_mod_main.c:665
 msgid "Energy"
 msgstr "Énergie"
 
-#: src/modules/battery/e_mod_main.c:657
+#: src/modules/battery/e_mod_main.c:679
 msgid "(Dis)charge"
 msgstr "(Dé)charge"
 
-#: src/modules/battery/e_mod_main.c:726
+#: src/modules/battery/e_mod_main.c:748
 #, c-format
 msgid "Battery: %s (%s)"
 msgstr "Batterie : %s (%s)"
 
-#: src/modules/battery/e_mod_main.c:728 src/modules/battery/e_mod_main.c:730
+#: src/modules/battery/e_mod_main.c:750 src/modules/battery/e_mod_main.c:752
 #, c-format
 msgid "Battery: %s"
 msgstr "Batterie : %s"
 
-#: src/modules/battery/e_mod_main.c:773
+#: src/modules/battery/e_mod_main.c:795
 msgid "Power Management Timing"
 msgstr "Minutage de la gestion d'énergie"
 
-#: src/modules/battery/e_mod_main.c:1022 src/modules/battery/e_mod_main.c:1054
+#: src/modules/battery/e_mod_main.c:1044 src/modules/battery/e_mod_main.c:1076
 msgid "Your battery is low!"
 msgstr "La batterie est faible !"
 
-#: src/modules/battery/e_mod_main.c:1023 src/modules/battery/e_mod_main.c:1056
+#: src/modules/battery/e_mod_main.c:1045 src/modules/battery/e_mod_main.c:1078
 msgid "AC power is recommended."
 msgstr "Branchement sur le secteur recommandé."
 
-#: src/modules/battery/e_mod_main.c:1141 src/modules/battery/e_mod_main.c:1145
+#: src/modules/battery/e_mod_main.c:1163 src/modules/battery/e_mod_main.c:1167
 msgid "N/A"
 msgstr "N/A"
 
-#: src/modules/battery/e_mod_main.c:1359
+#: src/modules/battery/e_mod_main.c:1391
 msgid "Battery Meter"
 msgstr "Surveillance de la batterie"
 
@@ -5142,7 +5142,7 @@ msgid "Connect this device"
 msgstr "Connecter cet appareil"
 
 #: src/modules/bluez5/e_mod_popup.c:579
-msgid "Disrust this device"
+msgid "Distrust this device"
 msgstr "Ne pas faire confiance à cet appareil"
 
 #: src/modules/bluez5/e_mod_popup.c:586
@@ -6750,8 +6750,8 @@ msgstr "%2.2f s"
 #: src/modules/conf_menus/e_int_config_menus.c:317
 #: src/modules/conf_window_manipulation/e_int_config_focus.c:377
 #: src/modules/notification/e_mod_config.c:161
-#: src/modules/xkbswitch/e_mod_config.c:812
-#: src/modules/xkbswitch/e_mod_config.c:1240
+#: src/modules/xkbswitch/e_mod_config.c:863
+#: src/modules/xkbswitch/e_mod_config.c:1291
 msgid "Miscellaneous"
 msgstr "Divers"
 
@@ -10714,134 +10714,142 @@ msgstr ""
 msgid "Enable Taskbar"
 msgstr "Activer la barre des tâches"
 
-#: src/modules/xkbswitch/e_mod_config.c:140
+#: src/modules/xkbswitch/e_mod_config.c:148
 msgid "Keyboard Settings"
 msgstr "Paramètres du clavier"
 
-#: src/modules/xkbswitch/e_mod_config.c:540
-#: src/modules/xkbswitch/e_mod_config.c:1505
-#: src/modules/xkbswitch/e_mod_config.c:1631
+#: src/modules/xkbswitch/e_mod_config.c:560
+#: src/modules/xkbswitch/e_mod_config.c:1578
+#: src/modules/xkbswitch/e_mod_config.c:1704
 msgid "No Name"
 msgstr "Sans nom"
 
-#: src/modules/xkbswitch/e_mod_config.c:630
+#: src/modules/xkbswitch/e_mod_config.c:651
 msgid "Do not apply any keyboard settings ever"
 msgstr "Oublier la configuration du clavier"
 
-#: src/modules/xkbswitch/e_mod_config.c:639
+#: src/modules/xkbswitch/e_mod_config.c:660
 msgid "Label only in gadgets"
 msgstr "Étiquettes uniquement dans les gadgets"
 
-#: src/modules/xkbswitch/e_mod_config.c:656
-#: src/modules/xkbswitch/e_mod_config.c:857
+#: src/modules/xkbswitch/e_mod_config.c:672
+msgid "Repeat rate"
+msgstr "Fréquence de répétition"
+
+#: src/modules/xkbswitch/e_mod_config.c:685
+msgid "Repeat delay"
+msgstr "Délai avant répétition"
+
+#: src/modules/xkbswitch/e_mod_config.c:707
+#: src/modules/xkbswitch/e_mod_config.c:908
 msgid "Default keyboard layout"
 msgstr "Agencement par défaut"
 
-#: src/modules/xkbswitch/e_mod_config.c:762
-#: src/modules/xkbswitch/e_mod_config.c:1051
+#: src/modules/xkbswitch/e_mod_config.c:813
+#: src/modules/xkbswitch/e_mod_config.c:1102
 msgid "Compose"
 msgstr "Touche compose"
 
-#: src/modules/xkbswitch/e_mod_config.c:763
-#: src/modules/xkbswitch/e_mod_config.c:1062
+#: src/modules/xkbswitch/e_mod_config.c:814
+#: src/modules/xkbswitch/e_mod_config.c:1113
 msgid "Third level"
 msgstr "Troisième niveau"
 
-#: src/modules/xkbswitch/e_mod_config.c:764
+#: src/modules/xkbswitch/e_mod_config.c:815
 msgid "Switch layout"
 msgstr "Changer d'agencement"
 
-#: src/modules/xkbswitch/e_mod_config.c:798
-#: src/modules/xkbswitch/e_mod_config.c:1084
+#: src/modules/xkbswitch/e_mod_config.c:849
+#: src/modules/xkbswitch/e_mod_config.c:1135
 msgid "Led"
 msgstr "Led"
 
-#: src/modules/xkbswitch/e_mod_config.c:799
-#: src/modules/xkbswitch/e_mod_config.c:1096
+#: src/modules/xkbswitch/e_mod_config.c:850
+#: src/modules/xkbswitch/e_mod_config.c:1147
 msgid "Control"
 msgstr "Ctrl"
 
-#: src/modules/xkbswitch/e_mod_config.c:800
-#: src/modules/xkbswitch/e_mod_config.c:1107
+#: src/modules/xkbswitch/e_mod_config.c:851
+#: src/modules/xkbswitch/e_mod_config.c:1158
 msgid "Keypad"
 msgstr "Pavé numérique"
 
-#: src/modules/xkbswitch/e_mod_config.c:801
-#: src/modules/xkbswitch/e_mod_config.c:1119
+#: src/modules/xkbswitch/e_mod_config.c:852
+#: src/modules/xkbswitch/e_mod_config.c:1170
 msgid "Keypad delete key"
 msgstr "Touche suppression du pavé numérique"
 
-#: src/modules/xkbswitch/e_mod_config.c:802
-#: src/modules/xkbswitch/e_mod_config.c:1130
+#: src/modules/xkbswitch/e_mod_config.c:853
+#: src/modules/xkbswitch/e_mod_config.c:1181
 msgid "Capslock"
 msgstr "Verr Maj"
 
-#: src/modules/xkbswitch/e_mod_config.c:803
+#: src/modules/xkbswitch/e_mod_config.c:854
 msgid "Alt win"
 msgstr "Alt+Win"
 
-#: src/modules/xkbswitch/e_mod_config.c:804
-#: src/modules/xkbswitch/e_mod_config.c:1152
+#: src/modules/xkbswitch/e_mod_config.c:855
+#: src/modules/xkbswitch/e_mod_config.c:1203
 msgid "Currency"
 msgstr "Monnaie"
 
-#: src/modules/xkbswitch/e_mod_config.c:805
-#: src/modules/xkbswitch/e_mod_config.c:1163
+#: src/modules/xkbswitch/e_mod_config.c:856
+#: src/modules/xkbswitch/e_mod_config.c:1214
 msgid "Fifth level"
 msgstr "Cinquième niveau"
 
-#: src/modules/xkbswitch/e_mod_config.c:806
-#: src/modules/xkbswitch/e_mod_config.c:1174
+#: src/modules/xkbswitch/e_mod_config.c:857
+#: src/modules/xkbswitch/e_mod_config.c:1225
 msgid "Spacebar"
 msgstr "Barre d'espace"
 
-#: src/modules/xkbswitch/e_mod_config.c:807
-#: src/modules/xkbswitch/e_mod_config.c:1185
+#: src/modules/xkbswitch/e_mod_config.c:858
+#: src/modules/xkbswitch/e_mod_config.c:1236
 msgid "Japan"
 msgstr "Japonais"
 
-#: src/modules/xkbswitch/e_mod_config.c:808
-#: src/modules/xkbswitch/e_mod_config.c:1196
+#: src/modules/xkbswitch/e_mod_config.c:859
+#: src/modules/xkbswitch/e_mod_config.c:1247
 msgid "Korean"
 msgstr "Coréen"
 
-#: src/modules/xkbswitch/e_mod_config.c:809
-#: src/modules/xkbswitch/e_mod_config.c:1207
+#: src/modules/xkbswitch/e_mod_config.c:860
+#: src/modules/xkbswitch/e_mod_config.c:1258
 msgid "Esperanto"
 msgstr "Espéranto"
 
-#: src/modules/xkbswitch/e_mod_config.c:810
-#: src/modules/xkbswitch/e_mod_config.c:1218
+#: src/modules/xkbswitch/e_mod_config.c:861
+#: src/modules/xkbswitch/e_mod_config.c:1269
 msgid "Solaris"
 msgstr "Solaris"
 
-#: src/modules/xkbswitch/e_mod_config.c:811
-#: src/modules/xkbswitch/e_mod_config.c:1229
+#: src/modules/xkbswitch/e_mod_config.c:862
+#: src/modules/xkbswitch/e_mod_config.c:1280
 msgid "Terminate X"
 msgstr "Arrêter le serveur X"
 
-#: src/modules/xkbswitch/e_mod_config.c:1073
+#: src/modules/xkbswitch/e_mod_config.c:1124
 msgid "Switch Layout"
 msgstr "Changer d'agencement"
 
-#: src/modules/xkbswitch/e_mod_config.c:1141
+#: src/modules/xkbswitch/e_mod_config.c:1192
 msgid "Alternate win key"
 msgstr "Touche Win alternative"
 
-#: src/modules/xkbswitch/e_mod_config.c:1383
+#: src/modules/xkbswitch/e_mod_config.c:1456
 msgid "Add New Configuration"
 msgstr "Ajouter une configuration"
 
-#: src/modules/xkbswitch/e_mod_config.c:1410
+#: src/modules/xkbswitch/e_mod_config.c:1483
 msgid "Model"
 msgstr "Modèle"
 
-#: src/modules/xkbswitch/e_mod_config.c:1412
+#: src/modules/xkbswitch/e_mod_config.c:1485
 msgid "Variant"
 msgstr "Variante"
 
-#: src/modules/xkbswitch/e_mod_config.c:1532
-#: src/modules/xkbswitch/e_mod_config.c:1617
+#: src/modules/xkbswitch/e_mod_config.c:1605
+#: src/modules/xkbswitch/e_mod_config.c:1690
 msgid "No Description"
 msgstr "Sans description"
 
