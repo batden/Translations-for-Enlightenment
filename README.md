@@ -18,6 +18,6 @@ Merci.
 
 ## In the Picture
 
-![GitHub Image](https://github.com/batden/elluminate/blob/master/images/Poedit_Ubuntu.png/)
+![GitHub Image](https://github.com/batden/elluminate/blob/master/images/poedit_ubuntu.jpg/)
 
 [Donate with PayPal](https://www.paypal.com/donate/?hosted_button_id=QGXWYZWH5QP5E) :trophy:
