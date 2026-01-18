@@ -16,4 +16,8 @@ Merci.
 
 **Philippe Guillaumie** *aka batden, similar, dazibao, pourunmondesansgourou*: Long-time Enlightenment user, main contributor.
 
+## In the Picture
+
+![GitHub Image](/images/Poedit_Ubuntu.jpg)
+
 [Donate with PayPal](https://www.paypal.com/donate/?hosted_button_id=QGXWYZWH5QP5E) :trophy:
