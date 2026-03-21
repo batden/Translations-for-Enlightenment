@@ -18,8 +18,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: enlightenment\n"
 "Report-Msgid-Bugs-To: enlightenment-devel@lists.sourceforge.net\n"
-"POT-Creation-Date: 2026-02-03 11:21+0100\n"
-"PO-Revision-Date: 2026-02-03 12:02+0100\n"
+"POT-Creation-Date: 2026-03-21 14:44+0100\n"
+"PO-Revision-Date: 2026-03-21 14:47+0100\n"
 "Last-Translator: Philippe Jean Guillaumie <similar@orange.fr>\n"
 "Language-Team: French\n"
 "Language: fr\n"
@@ -27,7 +27,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Poedit 3.8\n"
+"X-Generator: Poedit 3.9\n"
 "X-Poedit-SourceCharset: utf-8\n"
 
 #: src/bin/e_about.c:17
@@ -55,12 +55,12 @@ msgstr "Enlightenment"
 
 #: src/bin/e_about.c:26
 msgid ""
-"<title>Copyright &copy; 2000-2025, by the Enlightenment Development Team</"
+"<title>Copyright &copy; 2000-2026, by the Enlightenment Development Team</"
 "><ps/><ps/>We hope you enjoy using this software as much as we enjoyed "
 "writing it.<ps/><ps/>To contact us please visit:<ps/><hilight>http://"
 "www.enlightenment.org</><ps/><ps/>"
 msgstr ""
-"<title>Copyright &copy; 2000-2025, par l'équipe de développement de "
+"<title>Copyright &copy; 2000-2026, par l'équipe de développement de "
 "Enlightenment</><ps/><ps/>Nous espérons que vous aurez autant de plaisir à "
 "utiliser ce logiciel que nous en avons eu à l'écrire.<ps/><ps/>Pour nous "
 "contacter, visitez :<ps/><hilight>https://www.enlightenment.org</><ps/><ps/>"
@@ -91,8 +91,8 @@ msgstr "Tuer"
 
 #: src/bin/e_actions.c:369 src/bin/e_actions.c:2272 src/bin/e_actions.c:2347
 #: src/bin/e_actions.c:2407 src/bin/e_actions.c:2464 src/bin/e_actions.c:2526
-#: src/bin/e_actions.c:2630 src/bin/e_confirm_dialog.c:53 src/bin/e_fm.c:10706
-#: src/bin/e_fm.c:11059 src/modules/bluez5/e_mod_popup.c:521
+#: src/bin/e_actions.c:2630 src/bin/e_confirm_dialog.c:53 src/bin/e_fm.c:10707
+#: src/bin/e_fm.c:11060 src/modules/bluez5/e_mod_popup.c:521
 #: src/modules/bluez5/e_mod_popup.c:522
 #: src/modules/quickaccess/e_mod_quickaccess.c:1308
 msgid "No"
@@ -112,7 +112,7 @@ msgstr "Voulez-vous vraiment quitter Enlightenment ?"
 
 #: src/bin/e_actions.c:2270 src/bin/e_actions.c:2345 src/bin/e_actions.c:2405
 #: src/bin/e_actions.c:2462 src/bin/e_actions.c:2524 src/bin/e_actions.c:2628
-#: src/bin/e_confirm_dialog.c:52 src/bin/e_fm.c:10709
+#: src/bin/e_confirm_dialog.c:52 src/bin/e_fm.c:10710
 #: src/modules/bluez5/e_mod_popup.c:521 src/modules/bluez5/e_mod_popup.c:522
 #: src/modules/quickaccess/e_mod_quickaccess.c:1308
 msgid "Yes"
@@ -190,7 +190,7 @@ msgstr "Profil : basculement"
 msgid "Window : Actions"
 msgstr "Fenêtres : actions"
 
-#: src/bin/e_actions.c:3493 src/bin/e_fm.c:11837
+#: src/bin/e_actions.c:3493 src/bin/e_fm.c:11838
 msgid "Move"
 msgstr "Déplacer"
 
@@ -918,7 +918,7 @@ msgstr "Choisir"
 
 #: src/bin/e_color_dialog.c:68 src/bin/e_desktop_editor.c:909
 #: src/bin/e_desktop_editor.c:973 src/bin/e_entry_dialog.c:128
-#: src/bin/e_fm.c:10213 src/bin/e_fm_prop.c:770
+#: src/bin/e_fm.c:10214 src/bin/e_fm_prop.c:770
 #: src/bin/e_import_config_dialog.c:361 src/bin/e_import_dialog.c:197
 #: src/modules/bluez5/e_mod_popup.c:616
 #: src/modules/conf_bindings/e_int_config_signalbindings.c:624
@@ -956,23 +956,23 @@ msgstr "Définir l'opacité de la fenêtre actuelle"
 msgid "Toggle focused client's redirect state"
 msgstr "(Dés)Activer l'état de redirection du client focalisé"
 
-#: src/bin/e_comp.c:1482 src/modules/bluez5/e_mod_popup.c:459
+#: src/bin/e_comp.c:1481 src/modules/bluez5/e_mod_popup.c:459
 msgid "Visible"
 msgstr "Visible"
 
-#: src/bin/e_comp.c:1487
+#: src/bin/e_comp.c:1486
 msgid "Focus-Out"
 msgstr "Sans focus"
 
-#: src/bin/e_comp.c:1492
+#: src/bin/e_comp.c:1491
 msgid "Focus-In"
 msgstr "Avec focus"
 
-#: src/bin/e_comp.c:1497 src/bin/e_int_client_prop.c:516
+#: src/bin/e_comp.c:1496 src/bin/e_int_client_prop.c:516
 msgid "Hidden"
 msgstr "Cachée"
 
-#: src/bin/e_comp.c:1604 src/bin/e_int_client_prop.c:450
+#: src/bin/e_comp.c:1603 src/bin/e_int_client_prop.c:450
 #: src/bin/e_int_client_remember.c:707 src/bin/e_int_config_comp_match.c:369
 #: src/modules/wizard/page_050.c:97
 msgid "Title"
@@ -1077,8 +1077,8 @@ msgstr ""
 
 #: src/bin/e_comp_x_randr.c:462 src/bin/e_config_dialog.c:274
 #: src/bin/e_desktop_editor.c:907 src/bin/e_desktop_editor.c:971
-#: src/bin/e_entry_dialog.c:126 src/bin/e_exec.c:899 src/bin/e_fm.c:10212
-#: src/bin/e_fm.c:10979 src/bin/e_fm_prop.c:769
+#: src/bin/e_entry_dialog.c:126 src/bin/e_exec.c:899 src/bin/e_fm.c:10213
+#: src/bin/e_fm.c:10980 src/bin/e_fm_prop.c:769
 #: src/bin/e_import_config_dialog.c:360 src/bin/e_int_client_remember.c:358
 #: src/bin/e_int_client_remember.c:553 src/bin/e_int_config_comp_match.c:583
 #: src/bin/e_module.c:480 src/bin/e_sys.c:1159 src/bin/e_update.c:70
@@ -1380,7 +1380,7 @@ msgstr "Exécuter dans un terminal"
 msgid "Show in Menus"
 msgstr "Afficher dans les menus"
 
-#: src/bin/e_desktop_editor.c:837 src/bin/e_fm.c:8998 src/bin/e_fm.c:9147
+#: src/bin/e_desktop_editor.c:837 src/bin/e_fm.c:8998 src/bin/e_fm.c:9148
 #: src/bin/e_int_client_remember.c:828
 msgid "Options"
 msgstr "Options"
@@ -1579,11 +1579,11 @@ msgid "Can't eject device"
 msgstr "Impossible d'éjecter le périphérique"
 
 #: src/bin/e_fm.c:6714 src/bin/e_fm.c:6749 src/bin/e_fm.c:6852
-#: src/bin/e_fm.c:9710 src/bin/e_fm.c:9725 src/bin/e_fm.c:9860
-#: src/bin/e_fm.c:9865 src/bin/e_fm.c:9881 src/bin/e_fm.c:9886
-#: src/bin/e_fm.c:10546 src/bin/e_fm.c:10550 src/bin/e_fm.c:10554
-#: src/bin/e_fm.c:10582 src/bin/e_fm.c:10587 src/bin/e_fm.c:10591
-#: src/bin/e_fm.c:10650 src/bin/e_fm.c:10880 src/bin/e_fm_prop.c:363
+#: src/bin/e_fm.c:9711 src/bin/e_fm.c:9726 src/bin/e_fm.c:9861
+#: src/bin/e_fm.c:9866 src/bin/e_fm.c:9882 src/bin/e_fm.c:9887
+#: src/bin/e_fm.c:10547 src/bin/e_fm.c:10551 src/bin/e_fm.c:10555
+#: src/bin/e_fm.c:10583 src/bin/e_fm.c:10588 src/bin/e_fm.c:10592
+#: src/bin/e_fm.c:10651 src/bin/e_fm.c:10881 src/bin/e_fm_prop.c:363
 #: src/bin/e_shelf.c:2268 src/modules/pager/e_mod_main.c:2108
 #: src/modules/xwayland/e_mod_main.c:272 src/modules/xwayland/e_mod_main.c:347
 msgid "Error"
@@ -1622,47 +1622,47 @@ msgstr "Dossiers en premier"
 msgid "Directories Last"
 msgstr "Dossiers en dernier"
 
-#: src/bin/e_fm.c:8982 src/bin/e_fm.c:9131
+#: src/bin/e_fm.c:8982 src/bin/e_fm.c:9132
 #: src/modules/fileman/e_mod_config.c:317
 msgid "View Mode"
 msgstr "Mode d'affichage"
 
-#: src/bin/e_fm.c:8991 src/bin/e_fm.c:9140
+#: src/bin/e_fm.c:8991 src/bin/e_fm.c:9141
 #: src/modules/everything/evry_config.c:501
 #: src/modules/fileman/e_mod_config.c:400
 msgid "Sorting"
 msgstr "Tri"
 
-#: src/bin/e_fm.c:9009 src/bin/e_fm.c:9158
+#: src/bin/e_fm.c:9009 src/bin/e_fm.c:9159
 msgid "Refresh View"
 msgstr "Rafraîchir l'affichage"
 
-#: src/bin/e_fm.c:9020 src/bin/e_fm.c:9170
+#: src/bin/e_fm.c:9020 src/bin/e_fm.c:9171
 msgid "New..."
 msgstr "Nouveau…"
 
-#: src/bin/e_fm.c:9040 src/bin/e_fm.c:9192 src/bin/e_fm.c:9228
+#: src/bin/e_fm.c:9040 src/bin/e_fm.c:9193 src/bin/e_fm.c:9229
 msgid "Actions..."
 msgstr "Actions…"
 
-#: src/bin/e_fm.c:9059 src/bin/e_fm.c:9276
+#: src/bin/e_fm.c:9059 src/bin/e_fm.c:9277
 msgid "Paste"
 msgstr "Coller"
 
-#: src/bin/e_fm.c:9067 src/bin/e_fm.c:9284 src/bin/e_fm.c:11845
+#: src/bin/e_fm.c:9067 src/bin/e_fm.c:9285 src/bin/e_fm.c:11846
 msgid "Link"
 msgstr "Lien"
 
-#: src/bin/e_fm.c:9249
+#: src/bin/e_fm.c:9250
 msgid "Cut"
 msgstr "Couper"
 
-#: src/bin/e_fm.c:9263 src/bin/e_fm.c:11832
+#: src/bin/e_fm.c:9264 src/bin/e_fm.c:11833
 #: src/modules/shot/e_mod_preview.c:111
 msgid "Copy"
 msgstr "Copier"
 
-#: src/bin/e_fm.c:9338 src/bin/e_fm.c:11058 src/bin/e_shelf.c:1777
+#: src/bin/e_fm.c:9339 src/bin/e_fm.c:11059 src/bin/e_shelf.c:1777
 #: src/bin/e_shelf.c:2401
 #: src/modules/conf_bindings/e_int_config_acpibindings.c:201
 #: src/modules/conf_bindings/e_int_config_edgebindings.c:260
@@ -1682,7 +1682,7 @@ msgstr "Copier"
 msgid "Delete"
 msgstr "Supprimer"
 
-#: src/bin/e_fm.c:9346 src/bin/e_fm.c:10708 src/bin/e_shelf.c:2396
+#: src/bin/e_fm.c:9347 src/bin/e_fm.c:10709 src/bin/e_shelf.c:2396
 #: src/modules/conf_shelves/e_int_config_shelf.c:142
 #: src/modules/quickaccess/e_mod_config.c:230
 #: src/modules/quickaccess/e_mod_config.c:278
@@ -1690,215 +1690,215 @@ msgstr "Supprimer"
 msgid "Rename"
 msgstr "Renommer"
 
-#: src/bin/e_fm.c:9365
+#: src/bin/e_fm.c:9366
 msgid "Unmount"
 msgstr "Démonter"
 
-#: src/bin/e_fm.c:9370
+#: src/bin/e_fm.c:9371
 msgid "Mount"
 msgstr "Monter"
 
-#: src/bin/e_fm.c:9375
+#: src/bin/e_fm.c:9376
 msgid "Eject"
 msgstr "Éjecter"
 
-#: src/bin/e_fm.c:9389 src/bin/e_int_client_remember.c:807
+#: src/bin/e_fm.c:9390 src/bin/e_int_client_remember.c:807
 #: src/modules/ibar/e_mod_main.c:1649
 msgid "Properties"
 msgstr "Propriétés"
 
-#: src/bin/e_fm.c:9397
+#: src/bin/e_fm.c:9398
 msgid "Application Properties"
 msgstr "Propriétés de l'application"
 
-#: src/bin/e_fm.c:9405 src/bin/e_fm_prop.c:119
+#: src/bin/e_fm.c:9406 src/bin/e_fm_prop.c:119
 msgid "File Properties"
 msgstr "Propriétés du fichier"
 
-#: src/bin/e_fm.c:9609
+#: src/bin/e_fm.c:9610
 msgid "Use default"
 msgstr "Valeur par défaut"
 
-#: src/bin/e_fm.c:9638 src/modules/fileman/e_mod_config.c:322
+#: src/bin/e_fm.c:9639 src/modules/fileman/e_mod_config.c:322
 msgid "Grid Icons"
 msgstr "Icônes en grille"
 
-#: src/bin/e_fm.c:9646 src/modules/fileman/e_mod_config.c:324
+#: src/bin/e_fm.c:9647 src/modules/fileman/e_mod_config.c:324
 msgid "Custom Icons"
 msgstr "Icônes personnalisées"
 
-#: src/bin/e_fm.c:9654 src/modules/everything/evry_config.c:428
+#: src/bin/e_fm.c:9655 src/modules/everything/evry_config.c:428
 #: src/modules/everything/evry_config.c:458
 #: src/modules/fileman/e_mod_config.c:332
 msgid "List"
 msgstr "Liste"
 
-#: src/bin/e_fm.c:9662 src/modules/everything/evry_config.c:456
+#: src/bin/e_fm.c:9663 src/modules/everything/evry_config.c:456
 msgid "Default View"
 msgstr "Affichage par défaut"
 
-#: src/bin/e_fm.c:9683
+#: src/bin/e_fm.c:9684
 #, c-format
 msgid "Icon Size (%d)"
 msgstr "Taille de l'icône (%d)"
 
-#: src/bin/e_fm.c:9710
+#: src/bin/e_fm.c:9711
 msgid "Could not create a directory!"
 msgstr "Impossible de créer un dossier !"
 
-#: src/bin/e_fm.c:9725
+#: src/bin/e_fm.c:9726
 msgid "Could not create a file!"
 msgstr "Impossible de créer un fichier !"
 
-#: src/bin/e_fm.c:9741 src/bin/e_fm.c:9779
+#: src/bin/e_fm.c:9742 src/bin/e_fm.c:9780
 #: src/modules/conf_paths/e_int_config_paths.c:204
 msgid "New Directory"
 msgstr "Nouveau dossier"
 
-#: src/bin/e_fm.c:9741 src/bin/e_fm.c:9779
+#: src/bin/e_fm.c:9742 src/bin/e_fm.c:9780
 msgid "New File"
 msgstr "Nouveau fichier"
 
-#: src/bin/e_fm.c:9860 src/bin/e_fm.c:9881
+#: src/bin/e_fm.c:9861 src/bin/e_fm.c:9882
 msgid "Already creating a new file for this directory!"
 msgstr "Un fichier est en cours de création pour ce dossier !"
 
-#: src/bin/e_fm.c:9865 src/bin/e_fm.c:9886
+#: src/bin/e_fm.c:9866 src/bin/e_fm.c:9887
 #, c-format
 msgid "%s can't be written to!"
 msgstr "Impossible d'écrire vers %s !"
 
-#: src/bin/e_fm.c:9905
+#: src/bin/e_fm.c:9906
 msgid "Directory"
 msgstr "Dossier"
 
-#: src/bin/e_fm.c:9910 src/modules/conf_applications/e_int_config_defapps.c:312
+#: src/bin/e_fm.c:9911 src/modules/conf_applications/e_int_config_defapps.c:312
 msgid "File"
 msgstr "Fichier"
 
-#: src/bin/e_fm.c:9941
+#: src/bin/e_fm.c:9942
 msgid "Inherit parent settings"
 msgstr "Hériter des options du parent"
 
-#: src/bin/e_fm.c:9950
+#: src/bin/e_fm.c:9951
 msgid "Show Hidden Files"
 msgstr "Afficher les fichiers cachés"
 
-#: src/bin/e_fm.c:9962
+#: src/bin/e_fm.c:9963
 msgid "Remember Ordering"
 msgstr "Mémoriser l'ordre"
 
-#: src/bin/e_fm.c:9971
+#: src/bin/e_fm.c:9972
 msgid "Sort Now"
 msgstr "Classer maintenant"
 
-#: src/bin/e_fm.c:9979
+#: src/bin/e_fm.c:9980
 msgid "Single Click Activation"
 msgstr "Utiliser le simple clic"
 
-#: src/bin/e_fm.c:9990 src/modules/fileman/e_mod_config.c:412
+#: src/bin/e_fm.c:9991 src/modules/fileman/e_mod_config.c:412
 msgid "Secure Deletion"
 msgstr "Suppression sécurisée"
 
-#: src/bin/e_fm.c:10003 src/modules/fileman/e_mod_config.c:124
+#: src/bin/e_fm.c:10004 src/modules/fileman/e_mod_config.c:124
 msgid "File Manager Settings"
 msgstr "Paramètres du gestionnaire de fichiers"
 
-#: src/bin/e_fm.c:10008
+#: src/bin/e_fm.c:10009
 msgid "File Icon Settings"
 msgstr "Paramètres des icônes de fichiers"
 
-#: src/bin/e_fm.c:10089 src/bin/e_fm.c:10310
+#: src/bin/e_fm.c:10090 src/bin/e_fm.c:10311
 msgid "Set background..."
 msgstr "Définir le fond d'écran…"
 
-#: src/bin/e_fm.c:10097
+#: src/bin/e_fm.c:10098
 msgid "Clear background"
 msgstr "Supprimer le fond d'écran"
 
-#: src/bin/e_fm.c:10104 src/bin/e_fm.c:10338
+#: src/bin/e_fm.c:10105 src/bin/e_fm.c:10339
 msgid "Set overlay..."
 msgstr "Définir la surimpression…"
 
-#: src/bin/e_fm.c:10110
+#: src/bin/e_fm.c:10111
 msgid "Clear overlay"
 msgstr "Supprimer la surimpression"
 
-#: src/bin/e_fm.c:10432 src/bin/e_fm.c:10805
+#: src/bin/e_fm.c:10433 src/bin/e_fm.c:10806
 #, c-format
 msgid "Rename %s to:"
 msgstr "Renommer %s en :"
 
-#: src/bin/e_fm.c:10435 src/bin/e_fm.c:10806
+#: src/bin/e_fm.c:10436 src/bin/e_fm.c:10807
 msgid "Rename File"
 msgstr "Renommer le fichier"
 
-#: src/bin/e_fm.c:10546 src/bin/e_fm.c:10582
+#: src/bin/e_fm.c:10547 src/bin/e_fm.c:10583
 #, c-format
 msgid "%s already exists!"
 msgstr "%s existe déjà !"
 
-#: src/bin/e_fm.c:10550 src/bin/e_fm.c:10587
+#: src/bin/e_fm.c:10551 src/bin/e_fm.c:10588
 #, c-format
 msgid "%s could not be renamed because it is protected"
 msgstr "%s ne peut être renommé car il est protégé"
 
-#: src/bin/e_fm.c:10554 src/bin/e_fm.c:10591
+#: src/bin/e_fm.c:10555 src/bin/e_fm.c:10592
 msgid "Internal filemanager error :("
 msgstr "Erreur interne du gestionnaire de fichiers :("
 
-#: src/bin/e_fm.c:10646 src/bin/e_fm.c:10872
+#: src/bin/e_fm.c:10647 src/bin/e_fm.c:10873
 msgid "Retry"
 msgstr "Réessayer"
 
-#: src/bin/e_fm.c:10647 src/bin/e_fm.c:10873 src/bin/e_fm.c:11853
+#: src/bin/e_fm.c:10648 src/bin/e_fm.c:10874 src/bin/e_fm.c:11854
 msgid "Abort"
 msgstr "Annuler"
 
-#: src/bin/e_fm.c:10707
+#: src/bin/e_fm.c:10708
 msgid "No to all"
 msgstr "Non pour tout"
 
-#: src/bin/e_fm.c:10710
+#: src/bin/e_fm.c:10711
 msgid "Yes to all"
 msgstr "Oui pour tout"
 
-#: src/bin/e_fm.c:10713
+#: src/bin/e_fm.c:10714
 msgid "Warning"
 msgstr "Avertissement"
 
-#: src/bin/e_fm.c:10716
+#: src/bin/e_fm.c:10717
 #, c-format
 msgid "File already exists, overwrite?<ps/><hilight>%s</hilight>"
 msgstr "Le fichier existe déjà, écraser<ps/><hilight>%s</hilight> ?"
 
-#: src/bin/e_fm.c:10875
+#: src/bin/e_fm.c:10876
 msgid "Move Source"
 msgstr "Déplacer la source"
 
-#: src/bin/e_fm.c:10876
+#: src/bin/e_fm.c:10877
 msgid "Ignore this"
 msgstr "Ignorer"
 
-#: src/bin/e_fm.c:10877
+#: src/bin/e_fm.c:10878
 msgid "Ignore all"
 msgstr "Tout ignorer"
 
-#: src/bin/e_fm.c:10882
+#: src/bin/e_fm.c:10883
 #, c-format
 msgid "An error occurred while performing an operation.<ps/>%s"
 msgstr "Une erreur s'est produite lors de l'opération.<ps/>%s"
 
-#: src/bin/e_fm.c:11061
+#: src/bin/e_fm.c:11062
 msgid "Confirm Delete"
 msgstr "Confirmer la suppression"
 
-#: src/bin/e_fm.c:11071
+#: src/bin/e_fm.c:11072
 #, c-format
 msgid "Are you sure you want to delete<ps/><hilight>%s</hilight>?"
 msgstr "Voulez-vous vraiment supprimer<ps/><hilight>%s</hilight> ?"
 
-#: src/bin/e_fm.c:11076
+#: src/bin/e_fm.c:11077
 #, c-format
 msgid ""
 "Are you sure you want to delete<ps/><hilight>all</hilight> the %d files "
@@ -1907,7 +1907,7 @@ msgstr ""
 "Voulez-vous vraiment supprimer<ps/><hilight>%d fichiers</hilight><ps/"
 ">dans<hilight>%s</hilight> ?"
 
-#: src/bin/e_fm.c:11086
+#: src/bin/e_fm.c:11087
 #, c-format
 msgid ""
 "Are you sure you want to delete<ps/>the %d selected file in<ps/><hilight>%s</"
@@ -1962,8 +1962,8 @@ msgstr "Nom :"
 msgid "Location:"
 msgstr "Emplacement :"
 
-#: src/bin/e_fm_prop.c:521 src/bin/e_widget_filepreview.c:414
-#: src/bin/e_widget_filepreview.c:479 src/bin/e_widget_filepreview.c:533
+#: src/bin/e_fm_prop.c:521 src/bin/e_widget_filepreview.c:413
+#: src/bin/e_widget_filepreview.c:478 src/bin/e_widget_filepreview.c:532
 msgid "Size:"
 msgstr "Taille :"
 
@@ -3165,9 +3165,9 @@ msgstr "Utilitaire"
 
 #: src/bin/e_int_config_comp_match.c:109 src/bin/e_int_config_comp_match.c:163
 #: src/bin/e_int_config_comp_match.c:444 src/bin/e_utils.c:641
-#: src/bin/e_widget_filepreview.c:696 src/bin/e_widget_filepreview.c:697
-#: src/bin/e_widget_filepreview.c:698 src/bin/e_widget_filepreview.c:728
-#: src/bin/e_widget_filepreview.c:739 src/modules/battery/e_mod_main.c:344
+#: src/bin/e_widget_filepreview.c:695 src/bin/e_widget_filepreview.c:696
+#: src/bin/e_widget_filepreview.c:697 src/bin/e_widget_filepreview.c:727
+#: src/bin/e_widget_filepreview.c:738 src/modules/battery/e_mod_main.c:344
 #: src/modules/battery/e_mod_main.c:357 src/modules/battery/e_mod_main.c:360
 #: src/modules/battery/e_mod_main.c:369 src/modules/battery/e_mod_main.c:378
 #: src/modules/bluez5/e_mod_popup.c:510 src/modules/bluez5/e_mod_popup.c:511
@@ -3192,7 +3192,7 @@ msgstr "Titre :"
 msgid " / "
 msgstr " / "
 
-#: src/bin/e_int_config_comp_match.c:128 src/bin/e_widget_filepreview.c:483
+#: src/bin/e_int_config_comp_match.c:128 src/bin/e_widget_filepreview.c:482
 msgid "Type:"
 msgstr "Type :"
 
@@ -4745,8 +4745,8 @@ msgid_plural "%li Minutes"
 msgstr[0] "une minute"
 msgstr[1] "%li minutes"
 
-#: src/bin/e_widget_filepreview.c:93 src/bin/e_widget_filepreview.c:415
-#: src/bin/e_widget_filepreview.c:532
+#: src/bin/e_widget_filepreview.c:93 src/bin/e_widget_filepreview.c:414
+#: src/bin/e_widget_filepreview.c:531
 msgid "Resolution:"
 msgstr "Résolution :"
 
@@ -4754,65 +4754,65 @@ msgstr "Résolution :"
 msgid "Mime-type:"
 msgstr "Types MIME :"
 
-#: src/bin/e_widget_filepreview.c:407
+#: src/bin/e_widget_filepreview.c:406
 #, c-format
 msgid "%3.1f%%"
 msgstr "%3.1f%%"
 
-#: src/bin/e_widget_filepreview.c:413
+#: src/bin/e_widget_filepreview.c:412
 #: src/modules/conf_bindings/e_int_config_swipebindings.c:706
 msgid "Length:"
 msgstr "Taille :"
 
-#: src/bin/e_widget_filepreview.c:478
+#: src/bin/e_widget_filepreview.c:477
 msgid "Used:"
 msgstr "Utilisé :"
 
-#: src/bin/e_widget_filepreview.c:480
+#: src/bin/e_widget_filepreview.c:479
 msgid "Reserved:"
 msgstr "Réservé :"
 
-#: src/bin/e_widget_filepreview.c:481
+#: src/bin/e_widget_filepreview.c:480
 msgid "Mount status:"
 msgstr "Statut du montage :"
 
-#: src/bin/e_widget_filepreview.c:535
+#: src/bin/e_widget_filepreview.c:534
 msgid "Owner:"
 msgstr "Propriétaire :"
 
-#: src/bin/e_widget_filepreview.c:536
+#: src/bin/e_widget_filepreview.c:535
 msgid "Permissions:"
 msgstr "Permissions :"
 
-#: src/bin/e_widget_filepreview.c:537
+#: src/bin/e_widget_filepreview.c:536
 msgid "Modified:"
 msgstr "Dernière modification :"
 
-#: src/bin/e_widget_filepreview.c:683 src/bin/e_widget_filepreview.c:872
-#: src/bin/e_widget_filepreview.c:881 src/bin/e_widget_filepreview.c:890
+#: src/bin/e_widget_filepreview.c:682 src/bin/e_widget_filepreview.c:871
+#: src/bin/e_widget_filepreview.c:880 src/bin/e_widget_filepreview.c:889
 #, c-format
 msgid "Read Only"
 msgstr "lecture seule"
 
-#: src/bin/e_widget_filepreview.c:685 src/bin/e_widget_filepreview.c:897
+#: src/bin/e_widget_filepreview.c:684 src/bin/e_widget_filepreview.c:896
 msgid "Read-Write"
 msgstr "lecture et écriture"
 
-#: src/bin/e_widget_filepreview.c:688 src/bin/e_widget_filepreview.c:699
+#: src/bin/e_widget_filepreview.c:687 src/bin/e_widget_filepreview.c:698
 msgid "Unmounted"
 msgstr "non monté"
 
-#: src/bin/e_widget_filepreview.c:821
+#: src/bin/e_widget_filepreview.c:820
 #, c-format
 msgid "You"
 msgstr "vous"
 
-#: src/bin/e_widget_filepreview.c:870
+#: src/bin/e_widget_filepreview.c:869
 #, c-format
 msgid "Protected"
 msgstr "protégé"
 
-#: src/bin/e_widget_filepreview.c:879 src/bin/e_widget_filepreview.c:888
+#: src/bin/e_widget_filepreview.c:878 src/bin/e_widget_filepreview.c:887
 #, c-format
 msgid "Forbidden"
 msgstr "interdit"
@@ -9685,35 +9685,35 @@ msgstr "Saisissez le mot de passe pour <b>%s</b>"
 msgid "Enter password for UID %u"
 msgstr "Saisissez le mot de passe pour l'UID %u"
 
-#: src/modules/procstats/e_mod_main.c:370
+#: src/modules/procstats/e_mod_main.c:421
 msgid "B"
 msgstr "o"
 
-#: src/modules/procstats/e_mod_main.c:370
+#: src/modules/procstats/e_mod_main.c:421
 msgid "KiB"
 msgstr "Kio"
 
-#: src/modules/procstats/e_mod_main.c:370
+#: src/modules/procstats/e_mod_main.c:421
 msgid "MiB"
 msgstr "Mio"
 
-#: src/modules/procstats/e_mod_main.c:370
+#: src/modules/procstats/e_mod_main.c:421
 msgid "GiB"
 msgstr "Gio"
 
-#: src/modules/procstats/e_mod_main.c:371
+#: src/modules/procstats/e_mod_main.c:422
 msgid "TiB"
 msgstr "Tio"
 
-#: src/modules/procstats/e_mod_main.c:371
+#: src/modules/procstats/e_mod_main.c:422
 msgid "PiB"
 msgstr "Pio"
 
-#: src/modules/procstats/e_mod_main.c:371
+#: src/modules/procstats/e_mod_main.c:422
 msgid "EiB"
 msgstr "Eio"
 
-#: src/modules/procstats/e_mod_main.c:371
+#: src/modules/procstats/e_mod_main.c:422
 msgid "ZiB"
 msgstr "Zio"
 
