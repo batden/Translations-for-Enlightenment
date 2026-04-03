@@ -19,7 +19,7 @@ msgstr ""
 "Project-Id-Version: enlightenment\n"
 "Report-Msgid-Bugs-To: enlightenment-devel@lists.sourceforge.net\n"
 "POT-Creation-Date: 2026-03-21 14:44+0100\n"
-"PO-Revision-Date: 2026-03-21 14:47+0100\n"
+"PO-Revision-Date: 2026-04-03 11:22+0200\n"
 "Last-Translator: Philippe Jean Guillaumie <similar@orange.fr>\n"
 "Language-Team: French\n"
 "Language: fr\n"
@@ -28,7 +28,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
 "X-Generator: Poedit 3.9\n"
-"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SourceCharset: UTF-8\n"
 
 #: src/bin/e_about.c:17
 msgid "About Enlightenment"
@@ -1071,7 +1071,7 @@ msgid ""
 "have. This should<br>be fixed by going to:<br><br><b>Settings -> Screen -> "
 "Screen Setup</><br><br>And configure at least one screen to be on."
 msgstr ""
-"Il semble n'y avoir aucun écran actif configuré<br>comme tel pour la sortie "
+"Il n'y a semble-t-il aucun écran actif configuré<br>comme tel pour la sortie "
 "actuelle.<br>Pour y remédier, allez dans :<br><br><b>Configuration -> "
 "Affichage</><br><br>Et activez au moins un écran."
 
@@ -4397,7 +4397,7 @@ msgid ""
 "service<br>because it could not allocate memory."
 msgstr ""
 "Enlightenment ne parvient pas à lancer<br>le service "
-"enlightenment_system<br>parce qu'il n'a pu allouer de la mémoire."
+"enlightenment_system<br>parce qu'il n'a pas réussi à allouer de la mémoire."
 
 #: src/bin/e_system.c:56
 msgid ""
@@ -9998,7 +9998,7 @@ msgstr "Choisir l'action à appliquer à la capture"
 
 #: src/modules/shot/e_mod_delay.c:59 src/modules/shot/e_mod_preview.c:115
 msgid "Delay"
-msgstr "Delai"
+msgstr "Délai"
 
 #: src/modules/shot/e_mod_delay.c:61
 #, c-format
