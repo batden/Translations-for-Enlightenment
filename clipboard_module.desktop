@@ -1,0 +1,10 @@
+[Desktop Entry]
+Encoding=UTF-8
+Type=Link
+Name=Clipboard
+Name[Name]=Clipboard
+Name[fr]=Presse-papiers
+Comment=Clipboard manager gadget for the Moksha/E desktop
+Comment[fr]=Gadget de configuration du presse-papiers.
+Icon=e-module-clipboard
+X-Enlightenment-ModuleType=utils
