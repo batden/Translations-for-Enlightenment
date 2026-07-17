@@ -14,7 +14,7 @@ Merci.
 
 **Carla Sensa**: Long-time Enlightenment user and translation reviewer.
 
-**Philippe Guillaumie** *aka batden, similar, dazibao, pourunmondesansgourou*: Long-time Enlightenment user, main contributor.
+**Philippe Jean Guillaumie** *aka batden, similar, dazibao, pourunmondesansgourou*: Long-time Enlightenment user, main contributor.
 
 ## In the Picture
 
