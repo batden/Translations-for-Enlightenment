@@ -1,15 +1,15 @@
 # French translation for Evisum.
 # Copyright (C) 2020 Alastair "netstar" Poole
 # This file is distributed under the same license as the evisum package.
-# Alastair Poole <netstar@gmail.com>, 2020.
-# similar <similar@orange.fr>, 2020, 2021, 2024.
+# Alastair Poole <netstar@netstar.im>, 2020.
+# similar <similar@orange.fr>, 2020, 2021, 2024, 2026.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: evisum\n"
 "Report-Msgid-Bugs-To: enlightenment-devel@lists.sourceforge.net\n"
-"POT-Creation-Date: 2024-07-26 09:17+0200\n"
-"PO-Revision-Date: 2024-07-26 10:17+0200\n"
+"POT-Creation-Date: 2026-07-20 12:57+0200\n"
+"PO-Revision-Date: 2026-07-22 14:22+0200\n"
 "Last-Translator: Philippe Jean Guillaumie <similar@orange.fr>\n"
 "Language-Team: French\n"
 "Language: fr\n"
@@ -17,612 +17,822 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Poedit 3.4.3\n"
+"X-Generator: Poedit 3.9\n"
 
-#: src/bin/next/process.c:76 src/bin/system/process.c:76
-#: src/bin/ui/ui_process_list.c:1039
+#: src/bin/enigmatic/system/process.c:84
 msgid "dsleep"
-msgstr "dsleep"
+msgstr "(d)ininterruptible"
 
-#: src/bin/next/process.c:77 src/bin/next/process.c:84
-#: src/bin/system/process.c:77 src/bin/system/process.c:84
-#: src/bin/ui/ui_process_list.c:1033
+#: src/bin/enigmatic/system/process.c:85 src/bin/enigmatic/system/process.c:92
 msgid "idle"
 msgstr "inactif"
 
-#: src/bin/next/process.c:78 src/bin/next/process.c:85
-#: src/bin/next/process.c:96 src/bin/system/process.c:78
-#: src/bin/system/process.c:85 src/bin/system/process.c:96
-#: src/bin/ui/ui_process_list.c:1027
-msgid "running"
-msgstr "fonctionnel"
+#: src/bin/enigmatic/system/process.c:86 src/bin/enigmatic/system/process.c:93
+#: src/bin/enigmatic/system/process.c:104
+msgid "run"
+msgstr "actif"
 
-#: src/bin/next/process.c:79 src/bin/next/process.c:86
-#: src/bin/system/process.c:79 src/bin/system/process.c:86
-#: src/bin/ui/ui_process_list.c:1029
-msgid "sleeping"
-msgstr "dormant"
+#: src/bin/enigmatic/system/process.c:87 src/bin/enigmatic/system/process.c:94
+msgid "sleep"
+msgstr "(s)sommeil"
 
-#: src/bin/next/process.c:80 src/bin/next/process.c:87
-#: src/bin/system/process.c:80 src/bin/system/process.c:87
-#: src/bin/ui/ui_process_list.c:1031 src/bin/ui/ui_process_view.c:924
-msgid "stopped"
-msgstr "arrêté"
+#: src/bin/enigmatic/system/process.c:88 src/bin/enigmatic/system/process.c:95
+#: src/bin/ui/evisum_ui_process_view.c:799
+msgid "stop"
+msgstr "arrêt"
 
-#: src/bin/next/process.c:81 src/bin/system/process.c:81
-#: src/bin/ui/ui_process_list.c:1037
+#: src/bin/enigmatic/system/process.c:89
 msgid "dead"
 msgstr "mort"
 
-#: src/bin/next/process.c:82 src/bin/next/process.c:92
-#: src/bin/next/process.c:95 src/bin/system/process.c:82
-#: src/bin/system/process.c:92 src/bin/system/process.c:95
-#: src/bin/ui/ui_process_list.c:1035
+#: src/bin/enigmatic/system/process.c:90 src/bin/enigmatic/system/process.c:100
+#: src/bin/enigmatic/system/process.c:103
 msgid "zombie"
 msgstr "zombie"
 
-#: src/bin/next/process.c:90 src/bin/system/process.c:90
+#: src/bin/enigmatic/system/process.c:98
 msgid "wait"
 msgstr "attente"
 
-#: src/bin/next/process.c:91 src/bin/system/process.c:91
+#: src/bin/enigmatic/system/process.c:99
 msgid "lock"
 msgstr "verrou"
 
-#: src/bin/ui/evisum_ui.c:310 src/bin/ui/evisum_ui.c:603
-#, c-format
-msgid "%1.0f secs"
-msgstr "%1.0f secondes"
+#: src/bin/ui/evisum_ui.c:521
+msgid "Global"
+msgstr "Global"
 
-#: src/bin/ui/evisum_ui.c:312
+#: src/bin/ui/evisum_ui.c:536
 #, c-format
-msgid "%1.0f sec"
-msgstr "%1.0f seconde"
+msgid "%1.0f s"
+msgstr "%1.0f s"
 
-#: src/bin/ui/evisum_ui.c:448 src/bin/ui/ui_process_list.c:1567
+#: src/bin/ui/evisum_ui.c:538
+msgid "Enigmatic Update Interval"
+msgstr "Intervalle d'actualisation de Enigmatic"
+
+#: src/bin/ui/evisum_ui.c:548
+msgid "History"
+msgstr "Historique"
+
+#: src/bin/ui/evisum_ui.c:565
+msgid "Last hour"
+msgstr "Dernière heure"
+
+#: src/bin/ui/evisum_ui.c:574
+msgid "Whole history"
+msgstr "Historique complet"
+
+#: src/bin/ui/evisum_ui.c:589
+msgid "Keep monitoring on exit?"
+msgstr "Continuer la surveillance en quittant ?"
+
+#: src/bin/ui/evisum_ui.c:624 src/bin/ui/evisum_ui_process_list.c:1691
 msgid "Actions"
 msgstr "Actions"
 
-#: src/bin/ui/evisum_ui.c:465
+#: src/bin/ui/evisum_ui.c:641
 msgid "Processes"
 msgstr "Processus"
 
-#: src/bin/ui/evisum_ui.c:472
+#: src/bin/ui/evisum_ui.c:647 src/bin/ui/evisum_ui_process_list.c:121
 msgid "CPU"
 msgstr "CPU"
 
-#: src/bin/ui/evisum_ui.c:479
+#: src/bin/ui/evisum_ui.c:653
 msgid "Memory"
 msgstr "Mémoire"
 
-#: src/bin/ui/evisum_ui.c:486 src/bin/ui/ui_disk.c:566
+#: src/bin/ui/evisum_ui.c:659 src/bin/ui/evisum_ui_disk.c:675
 msgid "Storage"
 msgstr "Stockage"
 
-#: src/bin/ui/evisum_ui.c:493 src/bin/ui/ui_sensors.c:270
+#: src/bin/ui/evisum_ui.c:665 src/bin/ui/evisum_ui_sensors.c:530
+#: src/bin/ui/evisum_ui_sensors.c:592
 msgid "Sensors"
 msgstr "Capteurs"
 
-#: src/bin/ui/evisum_ui.c:500 src/bin/ui/ui_network.c:351
+#: src/bin/ui/evisum_ui.c:671 src/bin/ui/evisum_ui_network.c:551
 msgid "Network"
 msgstr "Réseau"
 
-#: src/bin/ui/evisum_ui.c:514
+#: src/bin/ui/evisum_ui.c:684
 msgid "Effects"
 msgstr "Effets"
 
-#: src/bin/ui/evisum_ui.c:528 src/bin/ui/ui_util.c:422
+#: src/bin/ui/evisum_ui.c:697
 msgid "About"
 msgstr "À propos"
 
-#: src/bin/ui/evisum_ui.c:556
+#: src/bin/ui/evisum_ui.c:724
 msgid "Visuals"
 msgstr "Visualisation"
 
-#: src/bin/ui/evisum_ui.c:587 src/bin/ui/visuals/cpu_default.c:540
+#: src/bin/ui/evisum_ui.c:754
+msgid "Storage Graph"
+msgstr "Graphe de stockage"
+
+#: src/bin/ui/evisum_ui.c:766
+msgid "Usage"
+msgstr "Utilisation"
+
+#: src/bin/ui/evisum_ui.c:775
+msgid "Transfer"
+msgstr "Transfert"
+
+#: src/bin/ui/evisum_ui.c:794 src/bin/ui/visuals/cpu_default.c:544
 msgid "Options"
 msgstr "Options"
 
-#: src/bin/ui/evisum_ui.c:606
-msgid "Poll delay"
-msgstr "Intervalle d'actualisation"
-
-#: src/bin/ui/evisum_ui.c:627
+#: src/bin/ui/evisum_ui.c:808
 msgid "Show kernel threads?"
 msgstr "Montrer les threads du noyau ?"
 
-#: src/bin/ui/evisum_ui.c:638
+#: src/bin/ui/evisum_ui.c:818
 msgid "User only?"
 msgstr "Uniquement ceux de l'utilisateur ?"
 
-#: src/bin/ui/evisum_ui.c:649
+#: src/bin/ui/evisum_ui.c:827
+msgid "Show Evisum and Enigmatic?"
+msgstr "Montrer Evisum et Enigmatic ?"
+
+#: src/bin/ui/evisum_ui.c:837
 msgid "Display"
 msgstr "Affichage"
 
-#: src/bin/ui/evisum_ui.c:662
-msgid "Display scroll bar?"
-msgstr "Montrer la barre de défilement ?"
-
-#: src/bin/ui/evisum_ui.c:672
+#: src/bin/ui/evisum_ui.c:850
 msgid "Display status bar?"
 msgstr "Montrer la barre d'état ?"
 
-#: src/bin/ui/evisum_ui.c:689
+#: src/bin/ui/evisum_ui.c:865
 msgid "Alpha"
 msgstr "Opacité"
 
-#: src/bin/ui/evisum_ui.c:701
+#: src/bin/ui/evisum_ui.c:876 src/bin/ui/evisum_ui_process_list.c:253
+#: src/bin/ui/evisum_ui_process_list.c:616
 #, c-format
 msgid "%1.0f %%"
 msgstr "%1.0f %%"
 
-#: src/bin/ui/ui_cpu.c:234
+#: src/bin/ui/evisum_ui_cpu.c:126
 msgid "CPU Activity"
 msgstr "Activité du CPU"
 
-#: src/bin/ui/ui_disk.c:588
-msgid "device"
-msgstr "périphérique"
+#: src/bin/ui/evisum_ui_disk.c:239 src/bin/ui/evisum_ui_memory.c:173
+#: src/bin/ui/evisum_ui_process_view.c:537
+msgid "0 B / 0 B"
+msgstr "0 B / 0 B"
 
-#: src/bin/ui/ui_disk.c:597
-msgid "mount"
-msgstr "montage"
+#: src/bin/ui/evisum_ui_disk.c:314
+#, c-format
+msgid "Read %s | Write %s"
+msgstr "Lecture %s | Écriture %s"
 
-#: src/bin/ui/ui_disk.c:606
-msgid "type"
-msgstr "type"
+#: src/bin/ui/evisum_ui_disk.c:732
+msgid "Mounts"
+msgstr "Montages"
 
-#: src/bin/ui/ui_disk.c:615
-msgid "total"
-msgstr "total"
-
-#: src/bin/ui/ui_disk.c:626
-msgid "used"
-msgstr "utilisé"
-
-#: src/bin/ui/ui_disk.c:637
-msgid "free"
-msgstr "libre"
-
-#: src/bin/ui/ui_disk.c:648
-msgid "usage"
-msgstr "utilisation"
-
-#: src/bin/ui/ui_memory.c:226
-msgid "Memory Usage"
-msgstr "Utilisation de la mémoire"
-
-#: src/bin/ui/ui_memory.c:253
+#: src/bin/ui/evisum_ui_memory.c:247
 msgid "Used"
 msgstr "Utilisée"
 
-#: src/bin/ui/ui_memory.c:260
+#: src/bin/ui/evisum_ui_memory.c:251
 msgid "Cached"
 msgstr "Cache"
 
-#: src/bin/ui/ui_memory.c:267
+#: src/bin/ui/evisum_ui_memory.c:255
 msgid "Buffered"
 msgstr "Tampon"
 
-#: src/bin/ui/ui_memory.c:274
+#: src/bin/ui/evisum_ui_memory.c:259
 msgid "Shared"
 msgstr "Partage"
 
-#: src/bin/ui/ui_memory.c:281
+#: src/bin/ui/evisum_ui_memory.c:263
 msgid "Swapped"
 msgstr "Échange"
 
-#: src/bin/ui/ui_memory.c:290
+#: src/bin/ui/evisum_ui_memory.c:268
 msgid "Video"
 msgstr "Vidéo"
 
-#: src/bin/ui/ui_network.c:163
-msgid "<hilight>Total In/Out</>"
-msgstr "<hilight>Total E/S</>"
+#: src/bin/ui/evisum_ui_memory.c:474
+msgid "Memory Usage"
+msgstr "Utilisation de la mémoire"
 
-#: src/bin/ui/ui_network.c:174
-msgid "<hilight>Peak In/Out</>"
-msgstr "<hilight>Pic d'E/S</>"
+#: src/bin/ui/evisum_ui_memory.c:537
+msgid "Memory Types"
+msgstr "Types de mémoire"
 
-#: src/bin/ui/ui_network.c:185
-msgid "<hilight>In/Out</>"
-msgstr "<hilight>E/S</>"
+#: src/bin/ui/evisum_ui_network.c:162 src/bin/ui/evisum_ui_process_list.c:486
+#: src/bin/ui/evisum_ui_process_view.c:277
+msgid "B/s"
+msgstr "o/s"
 
-#: src/bin/ui/ui_process_list.c:130
+#: src/bin/ui/evisum_ui_network.c:167 src/bin/ui/evisum_ui_process_list.c:491
+#: src/bin/ui/evisum_ui_process_view.c:283
+msgid "GB/s"
+msgstr "Go/s"
+
+#: src/bin/ui/evisum_ui_network.c:170 src/bin/ui/evisum_ui_process_list.c:494
+#: src/bin/ui/evisum_ui_process_view.c:286
+msgid "MB/s"
+msgstr "Mo/s"
+
+#: src/bin/ui/evisum_ui_network.c:173 src/bin/ui/evisum_ui_process_list.c:497
+#: src/bin/ui/evisum_ui_process_view.c:289
+msgid "KB/s"
+msgstr "Ko/s"
+
+#: src/bin/ui/evisum_ui_network.c:606
+msgid "Interfaces"
+msgstr "Interfaces"
+
+#: src/bin/ui/evisum_ui_process_list.c:117
+msgid "COMMAND"
+msgstr "COMMAND"
+
+#: src/bin/ui/evisum_ui_process_list.c:117
 msgid "Command"
 msgstr "Commande"
 
-#: src/bin/ui/ui_process_list.c:132
+#: src/bin/ui/evisum_ui_process_list.c:118
+msgid "USER"
+msgstr "USER"
+
+#: src/bin/ui/evisum_ui_process_list.c:118
 msgid "User"
 msgstr "Utilisateur"
 
-#: src/bin/ui/ui_process_list.c:134
+#: src/bin/ui/evisum_ui_process_list.c:119
+msgid "PID"
+msgstr "PID"
+
+#: src/bin/ui/evisum_ui_process_list.c:119
 msgid "Process ID"
 msgstr "ID du processus"
 
-#: src/bin/ui/ui_process_list.c:136 src/bin/ui/ui_process_list.c:1538
-#: src/bin/ui/ui_process_view.c:1693
+#: src/bin/ui/evisum_ui_process_list.c:120
+msgid "THR"
+msgstr "THR"
+
+#: src/bin/ui/evisum_ui_process_list.c:120
 msgid "Threads"
 msgstr "Threads"
 
-#: src/bin/ui/ui_process_list.c:138
+#: src/bin/ui/evisum_ui_process_list.c:121
 msgid "CPU #"
-msgstr "CPU n°"
+msgstr "CPU #"
 
-#: src/bin/ui/ui_process_list.c:140
+#: src/bin/ui/evisum_ui_process_list.c:122
+msgid "PRI"
+msgstr "PRI"
+
+#: src/bin/ui/evisum_ui_process_list.c:122
 msgid "Priority"
 msgstr "Priorité"
 
-#: src/bin/ui/ui_process_list.c:142
+#: src/bin/ui/evisum_ui_process_list.c:123
+msgid "NI"
+msgstr "NI"
+
+#: src/bin/ui/evisum_ui_process_list.c:123
 msgid "Nice"
 msgstr "Politesse"
 
-#: src/bin/ui/ui_process_list.c:144
+#: src/bin/ui/evisum_ui_process_list.c:124
+msgid "FD"
+msgstr "FD"
+
+#: src/bin/ui/evisum_ui_process_list.c:124
 msgid "Open Files"
 msgstr "Fichiers ouverts"
 
-#: src/bin/ui/ui_process_list.c:146
+#: src/bin/ui/evisum_ui_process_list.c:125
+msgid "SIZE"
+msgstr "SIZE"
+
+#: src/bin/ui/evisum_ui_process_list.c:125
 msgid "Memory Size"
 msgstr "Taille en mémoire"
 
-#: src/bin/ui/ui_process_list.c:148
+#: src/bin/ui/evisum_ui_process_list.c:126
+msgid "VIRT"
+msgstr "VIRT"
+
+#: src/bin/ui/evisum_ui_process_list.c:126
 msgid "Memory Virtual"
 msgstr "Mémoire virtuelle"
 
-#: src/bin/ui/ui_process_list.c:150
+#: src/bin/ui/evisum_ui_process_list.c:127
+msgid "RES"
+msgstr "RES"
+
+#: src/bin/ui/evisum_ui_process_list.c:127
 msgid "Memory Reserved"
 msgstr "Mémoire réservée"
 
-#: src/bin/ui/ui_process_list.c:152
+#: src/bin/ui/evisum_ui_process_list.c:128
+msgid "SHR"
+msgstr "SHR"
+
+#: src/bin/ui/evisum_ui_process_list.c:128
 msgid "Memory Shared"
 msgstr "Mémoire partagée"
 
-#: src/bin/ui/ui_process_list.c:154
+#: src/bin/ui/evisum_ui_process_list.c:129
+msgid "S"
+msgstr "S"
+
+#: src/bin/ui/evisum_ui_process_list.c:129
 msgid "State"
 msgstr "État"
 
-#: src/bin/ui/ui_process_list.c:156
+#: src/bin/ui/evisum_ui_process_list.c:130
+msgid "TIME+"
+msgstr "TIME+"
+
+#: src/bin/ui/evisum_ui_process_list.c:130
 msgid "Time"
 msgstr "Temps"
 
-#: src/bin/ui/ui_process_list.c:158
+#: src/bin/ui/evisum_ui_process_list.c:131
+msgid "CPU%"
+msgstr "CPU%"
+
+#: src/bin/ui/evisum_ui_process_list.c:131
 msgid "CPU Usage"
 msgstr "Utilisation du CPU"
 
-#: src/bin/ui/ui_process_list.c:171
-msgid "command"
-msgstr "command"
+#: src/bin/ui/evisum_ui_process_list.c:132
+msgid "RX/s"
+msgstr "RX/s"
 
-#: src/bin/ui/ui_process_list.c:173
-msgid "user"
-msgstr "user"
+#: src/bin/ui/evisum_ui_process_list.c:132
+msgid "Network In"
+msgstr "Réseau entrant"
 
-#: src/bin/ui/ui_process_list.c:175
-msgid "pid"
-msgstr "pid"
+#: src/bin/ui/evisum_ui_process_list.c:133
+msgid "TX/s"
+msgstr "TX/s"
 
-#: src/bin/ui/ui_process_list.c:177
-msgid "thr"
-msgstr "thr"
+#: src/bin/ui/evisum_ui_process_list.c:133
+msgid "Network Out"
+msgstr "Réseau sortant"
 
-#: src/bin/ui/ui_process_list.c:179
-msgid "cpu"
-msgstr "cpu"
+#: src/bin/ui/evisum_ui_process_list.c:134
+msgid "R/s"
+msgstr "R/s"
 
-#: src/bin/ui/ui_process_list.c:181
-msgid "pri"
-msgstr "pri"
+#: src/bin/ui/evisum_ui_process_list.c:134
+msgid "Disk Read"
+msgstr "Écriture disque"
 
-#: src/bin/ui/ui_process_list.c:183
-msgid "nice"
-msgstr "nice"
+#: src/bin/ui/evisum_ui_process_list.c:135
+msgid "W/s"
+msgstr "W/s"
 
-#: src/bin/ui/ui_process_list.c:185
-msgid "files"
-msgstr "files"
+#: src/bin/ui/evisum_ui_process_list.c:135
+msgid "Disk Write"
+msgstr "Lecture disque"
 
-#: src/bin/ui/ui_process_list.c:187
-msgid "size"
-msgstr "size"
+#: src/bin/ui/evisum_ui_process_list.c:609
+#: src/bin/ui/evisum_ui_process_list.c:610
+#: src/bin/ui/evisum_ui_process_list.c:1689
+#: src/bin/ui/evisum_ui_process_view.c:444
+#: src/bin/ui/evisum_ui_process_view.c:445
+#: src/bin/ui/evisum_ui_process_view.c:446
+#: src/bin/ui/evisum_ui_process_view.c:447
+#: src/bin/ui/evisum_ui_process_view.c:571
+msgid "-"
+msgstr "-"
 
-#: src/bin/ui/ui_process_list.c:189
-msgid "virt"
-msgstr "virt"
-
-#: src/bin/ui/ui_process_list.c:191
-msgid "res"
-msgstr "res"
-
-#: src/bin/ui/ui_process_list.c:193
-msgid "shr"
-msgstr "shr"
-
-#: src/bin/ui/ui_process_list.c:195 src/bin/ui/ui_process_view.c:1464
-msgid "state"
-msgstr "state"
-
-#: src/bin/ui/ui_process_list.c:197
-msgid "time"
-msgstr "time"
-
-#: src/bin/ui/ui_process_list.c:199 src/bin/ui/ui_process_view.c:1485
-msgid "cpu %"
-msgstr "cpu %"
-
-#: src/bin/ui/ui_process_list.c:989
+#: src/bin/ui/evisum_ui_process_list.c:691
 #, c-format
-msgid "%i processes: "
-msgstr "%i processus"
+msgid "Process history: %s"
+msgstr "Historique du processus : %s"
 
-#: src/bin/ui/ui_process_list.c:991
+#: src/bin/ui/evisum_ui_process_list.c:692
 #, c-format
-msgid "%i running, "
-msgstr "%i en cours, "
+msgid "Process history: %s (no snapshot)"
+msgstr "Historique du processus : %s (pas d'instantané)"
 
-#: src/bin/ui/ui_process_list.c:993
+#: src/bin/ui/evisum_ui_process_list.c:777
+msgid "Loading snapshot"
+msgstr "Chargement de l'instantané"
+
+#: src/bin/ui/evisum_ui_process_list.c:1233
 #, c-format
-msgid "%i sleeping, "
-msgstr "%i en sommeil, "
+msgid "%1.2f %%"
+msgstr "%1.2f %%"
 
-#: src/bin/ui/ui_process_list.c:995
-#, c-format
-msgid "%i stopped, "
-msgstr "%i arrêtés, "
+#: src/bin/ui/evisum_ui_process_list.c:1268
+msgid "Live"
+msgstr "Direct"
 
-#: src/bin/ui/ui_process_list.c:997
-#, c-format
-msgid "%i idle, "
-msgstr "%i inactifs, "
-
-#: src/bin/ui/ui_process_list.c:999
-#, c-format
-msgid "%i dead, "
-msgstr "%i morts, "
-
-#: src/bin/ui/ui_process_list.c:1001
-#, c-format
-msgid "%i dsleep, "
-msgstr "%i ininterruptibles, "
-
-#: src/bin/ui/ui_process_list.c:1003
-#, c-format
-msgid "%i zombie, "
-msgstr "%i zombies, "
-
-#: src/bin/ui/ui_process_list.c:1483
+#: src/bin/ui/evisum_ui_process_list.c:1629
 msgid "Debug"
 msgstr "Déboguer"
 
-#: src/bin/ui/ui_process_list.c:1534
+#: src/bin/ui/evisum_ui_process_list.c:1663
 msgid "General"
 msgstr "Général"
 
-#: src/bin/ui/ui_process_list.c:1536 src/bin/ui/ui_process_view.c:1682
+#: src/bin/ui/evisum_ui_process_list.c:1665
+#: src/bin/ui/evisum_ui_process_view.c:950
 msgid "Children"
 msgstr "Enfants"
 
-#: src/bin/ui/ui_process_list.c:1540 src/bin/ui/ui_process_view.c:1704
+#: src/bin/ui/evisum_ui_process_list.c:1667
+#: src/bin/ui/evisum_ui_process_view.c:961
 msgid "Manual"
 msgstr "Manuel"
 
-#: src/bin/ui/ui_process_list.c:1572
+#: src/bin/ui/evisum_ui_process_list.c:1695
 msgid "Start"
 msgstr "Démarrer"
 
-#: src/bin/ui/ui_process_list.c:1576
+#: src/bin/ui/evisum_ui_process_list.c:1699
 msgid "Stop"
 msgstr "Arrêter"
 
-#: src/bin/ui/ui_process_list.c:1584
+#: src/bin/ui/evisum_ui_process_list.c:1703
+msgid "Kill"
+msgstr "Tuer"
+
+#: src/bin/ui/evisum_ui_process_list.c:1707
 msgid "Info"
 msgstr "Info"
 
-#: src/bin/ui/ui_process_list.c:1589
+#: src/bin/ui/evisum_ui_process_list.c:1711
 msgid "Cancel"
 msgstr "Annuler"
 
-#: src/bin/ui/ui_process_list.c:1747
+#: src/bin/ui/evisum_ui_process_list.c:1844
 msgid "Menu"
 msgstr "Menu"
 
-#: src/bin/ui/ui_process_list.c:2089
+#: src/bin/ui/evisum_ui_process_list.c:1981
 msgid "Search"
 msgstr "Recherche"
 
-#: src/bin/ui/ui_process_list.c:2421
-msgid "Process Explorer"
-msgstr "Activité des processus"
+#: src/bin/ui/evisum_ui_process_list.c:2336
+msgid "Evisum"
+msgstr "Evisum"
 
-#: src/bin/ui/ui_process_view.c:688
-#, c-format
-msgid "<b>CPU: %.0f%%<br>Size: %s<br>Reserved: %s<br>Virtual: %s</>"
-msgstr "<b>CPU : %.0f%%<br>Taille : %s<br>Reservée : %s<br>Virtuelle : %s</>"
-
-#: src/bin/ui/ui_process_view.c:865
+#: src/bin/ui/evisum_ui_process_view.c:314
 #, c-format
 msgid "No documentation found for %s."
 msgstr "Pas de documentation disponible pour %s."
 
-#: src/bin/ui/ui_process_view.c:1006
+#: src/bin/ui/evisum_ui_process_view.c:362
+msgid "stopped"
+msgstr "arrêté"
+
+#: src/bin/ui/evisum_ui_process_view.c:454
 #, c-format
 msgid "%s (%d) - Not running"
-msgstr "%s (%d) - Pas en exécution"
+msgstr "%s (%d) - Pas en cours d'exécution"
 
-#: src/bin/ui/ui_process_view.c:1177
+#: src/bin/ui/evisum_ui_process_view.c:649
 msgid "Command:"
 msgstr "Commande :"
 
-#: src/bin/ui/ui_process_view.c:1186
+#: src/bin/ui/evisum_ui_process_view.c:658
 msgid "Command line:"
 msgstr "Ligne de commande :"
 
-#: src/bin/ui/ui_process_view.c:1191
-msgid "PID:"
-msgstr "PID :"
-
-#: src/bin/ui/ui_process_view.c:1196
-msgid "Username:"
-msgstr "Nom d'utilisateur :"
-
-#: src/bin/ui/ui_process_view.c:1201
-msgid "UID:"
-msgstr "UID :"
-
-#: src/bin/ui/ui_process_view.c:1206
-msgid "PPID:"
-msgstr "PPID :"
-
-#: src/bin/ui/ui_process_view.c:1212
-msgid "WQ #:"
-msgstr "WQ n° :"
-
-#: src/bin/ui/ui_process_view.c:1214
-msgid "CPU #:"
-msgstr "CPU n° :"
-
-#: src/bin/ui/ui_process_view.c:1220
-msgid "Threads:"
-msgstr "Threads :"
-
-#: src/bin/ui/ui_process_view.c:1225
-msgid "Open Files:"
-msgstr "Fichiers ouverts :"
-
-#: src/bin/ui/ui_process_view.c:1230
+#: src/bin/ui/evisum_ui_process_view.c:663
 msgid " Memory :"
 msgstr " Mémoire :"
 
-#: src/bin/ui/ui_process_view.c:1235
+#: src/bin/ui/evisum_ui_process_view.c:668
 msgid " Shared memory:"
 msgstr " Mémoire partagée :"
 
-#: src/bin/ui/ui_process_view.c:1240
+#: src/bin/ui/evisum_ui_process_view.c:673
 msgid " Resident memory:"
 msgstr " Mémoire résidente :"
 
-#: src/bin/ui/ui_process_view.c:1245
+#: src/bin/ui/evisum_ui_process_view.c:678
 msgid " Virtual memory:"
 msgstr " Mémoire virtuelle :"
 
-#: src/bin/ui/ui_process_view.c:1250
-msgid " Start time:"
-msgstr " Heure de début :"
-
-#: src/bin/ui/ui_process_view.c:1255
-msgid " Run time:"
-msgstr " Durée :"
-
-#: src/bin/ui/ui_process_view.c:1260
-msgid "Nice:"
-msgstr "Nice :"
-
-#: src/bin/ui/ui_process_view.c:1265
-msgid "Priority:"
-msgstr "Priorité :"
-
-#: src/bin/ui/ui_process_view.c:1270
-msgid "State:"
-msgstr "État :"
-
-#: src/bin/ui/ui_process_view.c:1275
+#: src/bin/ui/evisum_ui_process_view.c:683
 msgid "CPU %:"
 msgstr "CPU % :"
 
-#: src/bin/ui/ui_process_view.c:1299
-msgid "stop"
-msgstr "arrêter"
+#: src/bin/ui/evisum_ui_process_view.c:688
+msgid "PID:"
+msgstr "PID :"
 
-#: src/bin/ui/ui_process_view.c:1305
+#: src/bin/ui/evisum_ui_process_view.c:693
+msgid "Username:"
+msgstr "Nom d'utilisateur :"
+
+#: src/bin/ui/evisum_ui_process_view.c:698
+msgid "UID:"
+msgstr "UID :"
+
+#: src/bin/ui/evisum_ui_process_view.c:706
+msgid "PPID:"
+msgstr "PPID :"
+
+#: src/bin/ui/evisum_ui_process_view.c:715
+msgid "WQ #:"
+msgstr "WQ #:"
+
+#: src/bin/ui/evisum_ui_process_view.c:717
+msgid "CPU #:"
+msgstr "CPU #:"
+
+#: src/bin/ui/evisum_ui_process_view.c:723
+msgid "Threads:"
+msgstr "Threads :"
+
+#: src/bin/ui/evisum_ui_process_view.c:728
+msgid "Open Files:"
+msgstr "Fichiers ouverts :"
+
+#: src/bin/ui/evisum_ui_process_view.c:734
+msgid " Disk Read:"
+msgstr " Écriture disque :"
+
+#: src/bin/ui/evisum_ui_process_view.c:739
+msgid " Disk Write:"
+msgstr " Lecture disque :"
+
+#: src/bin/ui/evisum_ui_process_view.c:744
+msgid " Network In:"
+msgstr " Réseau entrant :"
+
+#: src/bin/ui/evisum_ui_process_view.c:749
+msgid " Network Out:"
+msgstr " Réseau sortant :"
+
+#: src/bin/ui/evisum_ui_process_view.c:755
+msgid " Start time:"
+msgstr " Heure de début :"
+
+#: src/bin/ui/evisum_ui_process_view.c:760
+msgid " Run time:"
+msgstr " Durée :"
+
+#: src/bin/ui/evisum_ui_process_view.c:765
+msgid "Nice:"
+msgstr "Politesse :"
+
+#: src/bin/ui/evisum_ui_process_view.c:770
+msgid "Priority:"
+msgstr "Priorité :"
+
+#: src/bin/ui/evisum_ui_process_view.c:775
+msgid "State:"
+msgstr "État :"
+
+#: src/bin/ui/evisum_ui_process_view.c:804
 msgid "start"
 msgstr "démarrer"
 
-#: src/bin/ui/ui_process_view.c:1311
+#: src/bin/ui/evisum_ui_process_view.c:809
 msgid "kill"
 msgstr "tuer"
 
-#: src/bin/ui/ui_process_view.c:1446
-msgid "id"
-msgstr "id"
-
-#: src/bin/ui/ui_process_view.c:1455
-msgid "name"
-msgstr "nom"
-
-#: src/bin/ui/ui_process_view.c:1473
-msgid "cpu id"
-msgstr "id cpu"
-
-#: src/bin/ui/ui_process_view.c:1671
+#: src/bin/ui/evisum_ui_process_view.c:939
 msgid "Process"
 msgstr "Processus"
 
-#: src/bin/ui/ui_process_view.c:1814
+#: src/bin/ui/evisum_ui_process_view.c:1071
 msgid "Unknown"
 msgstr "Inconnu"
 
-#: src/bin/ui/ui_sensors.c:292
-msgid "Power"
-msgstr "Alimentation"
+#: src/bin/ui/evisum_ui_sensors.c:107
+msgid "Sensor"
+msgstr "Capteur"
 
-#: src/bin/ui/ui_sensors.c:347
-msgid "Select..."
-msgstr "Choisir..."
+#: src/bin/ui/evisum_ui_sensors.c:208
+#, c-format
+msgid "%1.1f°C"
+msgstr "%1.1f°C"
 
-#: src/bin/ui/ui_sensors.c:358
-msgid "Thermal"
-msgstr "Zone thermique"
-
-#: src/bin/ui/ui_util.c:109
+#: src/bin/ui/evisum_ui_util_text.c:15
 msgid "B"
 msgstr "o"
 
-#: src/bin/ui/ui_util.c:109
+#: src/bin/ui/evisum_ui_util_text.c:15
 msgid "KiB"
 msgstr "Kio"
 
-#: src/bin/ui/ui_util.c:109
+#: src/bin/ui/evisum_ui_util_text.c:15
 msgid "MiB"
 msgstr "Mio"
 
-#: src/bin/ui/ui_util.c:109
+#: src/bin/ui/evisum_ui_util_text.c:15
 msgid "GiB"
 msgstr "Gio"
 
-#: src/bin/ui/ui_util.c:110
+#: src/bin/ui/evisum_ui_util_text.c:15
 msgid "TiB"
 msgstr "Tio"
 
-#: src/bin/ui/ui_util.c:110
+#: src/bin/ui/evisum_ui_util_text.c:15
 msgid "PiB"
 msgstr "Pio"
 
-#: src/bin/ui/ui_util.c:110
+#: src/bin/ui/evisum_ui_util_text.c:15
 msgid "EiB"
 msgstr "Eio"
 
-#: src/bin/ui/ui_util.c:110
+#: src/bin/ui/evisum_ui_util_text.c:15
 msgid "ZiB"
 msgstr "Zio"
 
-#: src/bin/ui/ui_util.c:512
-msgid "Close"
-msgstr "Fermer"
-
-#: src/bin/ui/visuals/cpu_default.c:463
+#: src/bin/ui/visuals/cpu_bars.c:207 src/bin/ui/visuals/cpu_basic.c:241
+#: src/bin/ui/visuals/cpu_default.c:453
 msgid "Legend"
 msgstr "Légende"
 
-#: src/bin/ui/visuals/cpu_default.c:553
+#: src/bin/ui/visuals/cpu_bars.c:243 src/bin/ui/visuals/cpu_basic.c:277
+#: src/bin/ui/visuals/cpu_default.c:522
+msgid "Description"
+msgstr "Description"
+
+#: src/bin/ui/visuals/cpu_bars.c:251
+msgid "<align=left>This view shows CPU usage only.</align>"
+msgstr "<align=left>Cette vue affiche uniquement l'utilisation du CPU.</align>"
+
+#: src/bin/ui/visuals/cpu_basic.c:285
+msgid ""
+"<align=left>Size shows activity level (frequency when available, otherwise "
+"load). Color and the 0%-100% legend show CPU usage percentage.</align>"
+msgstr ""
+"<align=left>La taille indique le niveau d'activité (la fréquence lorsque "
+"disponible, sinon la charge). La couleur et la plage de 0 % à 100 % "
+"indiquent le pourcentage d'utilisation du CPU.</align>"
+
+#: src/bin/ui/visuals/cpu_default.c:531
+msgid ""
+"<align=left>This view shows CPU activity over time. It can also show "
+"frequency and temperature when available.</align>"
+msgstr ""
+"<align=left>Cette vue indique l'activité du processeur au fil du temps. Elle "
+"peut également afficher la fréquence et la température, lorsque ces "
+"informations sont disponibles.</align>"
+
+#: src/bin/ui/visuals/cpu_default.c:557
 msgid "Overlay CPU frequency?"
 msgstr "Fréquence CPU en surimpression ?"
 
-#: src/bin/ui/visuals/cpu_default.c:562
+#: src/bin/ui/visuals/cpu_default.c:566
 msgid "Overlay CPU temperatures?"
 msgstr "Température CPU en surimpression ?"
 
-#: src/bin/ui/visuals/cpu_default.c:571
+#: src/bin/ui/visuals/cpu_default.c:576
 msgid "Confused?"
 msgstr "Clarification ?"
+
+#~ msgid "sleeping"
+#~ msgstr "dormant"
+
+#, c-format
+#~ msgid "%1.0f secs"
+#~ msgstr "%1.0f secondes"
+
+#~ msgid "Poll delay"
+#~ msgstr "Intervalle d'actualisation"
+
+#~ msgid "Display scroll bar?"
+#~ msgstr "Montrer la barre de défilement ?"
+
+#~ msgid "device"
+#~ msgstr "périphérique"
+
+#~ msgid "type"
+#~ msgstr "type"
+
+#~ msgid "total"
+#~ msgstr "total"
+
+#~ msgid "used"
+#~ msgstr "utilisé"
+
+#~ msgid "free"
+#~ msgstr "libre"
+
+#~ msgid "<hilight>Total In/Out</>"
+#~ msgstr "<hilight>Total E/S</>"
+
+#~ msgid "<hilight>Peak In/Out</>"
+#~ msgstr "<hilight>Pic d'E/S</>"
+
+#~ msgid "<hilight>In/Out</>"
+#~ msgstr "<hilight>E/S</>"
+
+#~ msgid "command"
+#~ msgstr "command"
+
+#~ msgid "user"
+#~ msgstr "user"
+
+#~ msgid "pid"
+#~ msgstr "pid"
+
+#~ msgid "thr"
+#~ msgstr "thr"
+
+#~ msgid "cpu"
+#~ msgstr "cpu"
+
+#~ msgid "pri"
+#~ msgstr "pri"
+
+#~ msgid "nice"
+#~ msgstr "nice"
+
+#~ msgid "files"
+#~ msgstr "files"
+
+#~ msgid "size"
+#~ msgstr "size"
+
+#~ msgid "virt"
+#~ msgstr "virt"
+
+#~ msgid "res"
+#~ msgstr "res"
+
+#~ msgid "shr"
+#~ msgstr "shr"
+
+#~ msgid "state"
+#~ msgstr "state"
+
+#~ msgid "time"
+#~ msgstr "time"
+
+#~ msgid "cpu %"
+#~ msgstr "cpu %"
+
+#, c-format
+#~ msgid "%i processes: "
+#~ msgstr "%i processus"
+
+#, c-format
+#~ msgid "%i running, "
+#~ msgstr "%i en cours, "
+
+#, c-format
+#~ msgid "%i sleeping, "
+#~ msgstr "%i en sommeil, "
+
+#, c-format
+#~ msgid "%i stopped, "
+#~ msgstr "%i arrêtés, "
+
+#, c-format
+#~ msgid "%i idle, "
+#~ msgstr "%i inactifs, "
+
+#, c-format
+#~ msgid "%i dead, "
+#~ msgstr "%i morts, "
+
+#, c-format
+#~ msgid "%i dsleep, "
+#~ msgstr "%i ininterruptibles, "
+
+#, c-format
+#~ msgid "%i zombie, "
+#~ msgstr "%i zombies, "
+
+#~ msgid "Process Explorer"
+#~ msgstr "Activité des processus"
+
+#, c-format
+#~ msgid "<b>CPU: %.0f%%<br>Size: %s<br>Reserved: %s<br>Virtual: %s</>"
+#~ msgstr ""
+#~ "<b>CPU : %.0f%%<br>Taille : %s<br>Reservée : %s<br>Virtuelle : %s</>"
+
+#~ msgid "id"
+#~ msgstr "id"
+
+#~ msgid "name"
+#~ msgstr "nom"
+
+#~ msgid "cpu id"
+#~ msgstr "id cpu"
+
+#~ msgid "Power"
+#~ msgstr "Alimentation"
+
+#~ msgid "Select..."
+#~ msgstr "Choisir..."
+
+#~ msgid "Thermal"
+#~ msgstr "Zone thermique"
+
+#~ msgid "Close"
+#~ msgstr "Fermer"
 
 #~ msgid "K"
 #~ msgstr "Kio"
@@ -678,23 +888,14 @@ msgstr "Clarification ?"
 #~ msgid "Increase"
 #~ msgstr "Augmenter"
 
-#~ msgid "Kill"
-#~ msgstr "Tuer"
-
 #~ msgid "Misc"
 #~ msgstr "Divers"
 
 #~ msgid "Name"
 #~ msgstr "Nom"
 
-#~ msgid "Network Outgoing"
-#~ msgstr "Réseau sortant"
-
 #~ msgid "Okay!"
 #~ msgstr "Okay !"
-
-#~ msgid "PID"
-#~ msgstr "PID"
 
 #~ msgid "Properties"
 #~ msgstr "Propriétés"
