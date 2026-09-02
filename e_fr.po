@@ -18,8 +18,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: enlightenment\n"
 "Report-Msgid-Bugs-To: enlightenment-devel@lists.sourceforge.net\n"
-"POT-Creation-Date: 2026-07-21 20:49+0200\n"
-"PO-Revision-Date: 2026-07-22 07:40+0200\n"
+"POT-Creation-Date: 2026-09-02 15:32+0200\n"
+"PO-Revision-Date: 2026-09-02 18:30+0200\n"
 "Last-Translator: Philippe Jean Guillaumie <similar@orange.fr>\n"
 "Language-Team: French\n"
 "Language: fr\n"
@@ -42,7 +42,7 @@ msgstr "À propos de Enlightenment"
 #: src/modules/conf_bindings/e_int_config_swipebindings.c:919
 #: src/modules/conf/e_conf.c:159 src/modules/everything/evry_plug_windows.c:370
 #: src/modules/fileman/e_fwin.c:2795
-#: src/modules/networkmanager/e_mod_main.c:567 src/modules/vkbd/e_kbd_cfg.c:188
+#: src/modules/networkmanager/e_mod_main.c:566 src/modules/vkbd/e_kbd_cfg.c:188
 msgid "Close"
 msgstr "Fermer"
 
@@ -63,7 +63,7 @@ msgid ""
 msgstr ""
 "<title>Copyright &copy; 2000-2026, par l'équipe de développement de "
 "Enlightenment</><ps/><ps/>Nous espérons que vous aurez autant de plaisir à "
-"utiliser ce logiciel que nous en avons eu à l'écrire.<ps/><ps/>Pour nous "
+"utiliser ce logiciel que nous en avons eu à le concevoir.<ps/><ps/>Pour nous "
 "contacter, visitez :<ps/><hilight>https://www.enlightenment.org</><ps/><ps/>"
 
 #: src/bin/e_about.c:68
@@ -93,15 +93,15 @@ msgstr "Tuer"
 #: src/bin/e_actions.c:414 src/bin/e_actions.c:2317 src/bin/e_actions.c:2392
 #: src/bin/e_actions.c:2452 src/bin/e_actions.c:2509 src/bin/e_actions.c:2571
 #: src/bin/e_actions.c:2675 src/bin/e_confirm_dialog.c:53 src/bin/e_fm.c:10692
-#: src/bin/e_fm.c:11045 src/modules/bluez5/e_mod_popup.c:521
-#: src/modules/bluez5/e_mod_popup.c:522
+#: src/bin/e_fm.c:11045 src/modules/bluez5/e_mod_popup.c:525
+#: src/modules/bluez5/e_mod_popup.c:526
 #: src/modules/quickaccess/e_mod_quickaccess.c:1308
 msgid "No"
 msgstr "Non"
 
 #: src/bin/e_actions.c:2197
 msgid "Action Params Syntax Error"
-msgstr "Erreur de syntaxe des paramètres d'action"
+msgstr "Erreur de syntaxe dans les paramètres d'action"
 
 #: src/bin/e_actions.c:2312 src/bin/e_actions.c:4039 src/bin/e_int_menus.c:280
 msgid "Exit"
@@ -114,7 +114,7 @@ msgstr "Voulez-vous vraiment quitter Enlightenment ?"
 #: src/bin/e_actions.c:2315 src/bin/e_actions.c:2390 src/bin/e_actions.c:2450
 #: src/bin/e_actions.c:2507 src/bin/e_actions.c:2569 src/bin/e_actions.c:2673
 #: src/bin/e_confirm_dialog.c:52 src/bin/e_fm.c:10695
-#: src/modules/bluez5/e_mod_popup.c:521 src/modules/bluez5/e_mod_popup.c:522
+#: src/modules/bluez5/e_mod_popup.c:525 src/modules/bluez5/e_mod_popup.c:526
 #: src/modules/quickaccess/e_mod_quickaccess.c:1308
 msgid "Yes"
 msgstr "Oui"
@@ -934,7 +934,7 @@ msgstr "Choisir"
 #: src/bin/e_desktop_editor.c:973 src/bin/e_entry_dialog.c:128
 #: src/bin/e_fm.c:10199 src/bin/e_fm_prop.c:770
 #: src/bin/e_import_config_dialog.c:361 src/bin/e_import_dialog.c:196
-#: src/modules/bluez5/e_mod_popup.c:616
+#: src/modules/bluez5/e_mod_popup.c:620
 #: src/modules/conf_bindings/e_int_config_signalbindings.c:624
 #: src/modules/conf_bindings/e_int_config_swipebindings.c:678
 #: src/modules/conf_intl/e_int_config_imc_import.c:123
@@ -943,7 +943,7 @@ msgstr "Choisir"
 #: src/modules/fileman/e_int_config_mime_edit.c:314
 #: src/modules/networkmanager/agent.c:325
 #: src/modules/networkmanager/agent.c:440
-#: src/modules/networkmanager/e_mod_main.c:821
+#: src/modules/networkmanager/e_mod_main.c:813
 #: src/modules/networkmanager/e_networkmanager_vpn_username.c:223
 #: src/modules/polkit/auth_ui.c:185
 #: src/modules/quickaccess/e_mod_quickaccess.c:334
@@ -974,7 +974,7 @@ msgstr "Définir l'opacité de la fenêtre actuelle"
 msgid "Toggle focused client's redirect state"
 msgstr "(Dés)Activer l'état de redirection du client focalisé"
 
-#: src/bin/e_comp.c:1481 src/modules/bluez5/e_mod_popup.c:459
+#: src/bin/e_comp.c:1481
 msgid "Visible"
 msgstr "Visible"
 
@@ -996,11 +996,11 @@ msgstr "Cachée"
 msgid "Title"
 msgstr "Titre"
 
-#: src/bin/e_comp_x.c:714
+#: src/bin/e_comp_x.c:716
 msgid "Compositor Warning"
 msgstr "Avertissement du compositeur"
 
-#: src/bin/e_comp_x.c:715
+#: src/bin/e_comp_x.c:717
 msgid ""
 "Your display driver does not support OpenGL, GLSL<ps/>shaders or no OpenGL "
 "engines were compiled or installed<ps/>for Evas or Ecore-Evas. Falling back "
@@ -1013,11 +1013,11 @@ msgstr ""
 "OpenGL 2.0 (ou OpenGL ES 2.0)<ps/>pour tirer profit de la composition avec "
 "OpenGL."
 
-#: src/bin/e_comp_x.c:5991
+#: src/bin/e_comp_x.c:6034
 msgid "Lock Failed"
 msgstr "Échec du verrouillage"
 
-#: src/bin/e_comp_x.c:5992
+#: src/bin/e_comp_x.c:6035
 msgid ""
 "Locking the desktop failed because some application<ps/>has grabbed either "
 "the keyboard or the mouse or both<ps/>and their grab is unable to be broken."
@@ -1026,12 +1026,12 @@ msgstr ""
 "soit le clavier ou la souris, soit les deux,<ps/>et cette réservation n'a pu "
 "être annulée."
 
-#: src/bin/e_comp_x.c:6010
+#: src/bin/e_comp_x.c:6053
 msgid "Another compositor is already running on your display server."
 msgstr ""
 "Un autre compositeur est déjà fonctionnel sur votre serveur d'affichage."
 
-#: src/bin/e_comp_x.c:6035
+#: src/bin/e_comp_x.c:6078
 msgid ""
 "Your display server does not support the compositor overlay window.\n"
 "This is needed for Enlightenment to function."
@@ -1040,7 +1040,7 @@ msgstr ""
 "window.\n"
 "Cette fonction est essentielle au bon fonctionnement de E."
 
-#: src/bin/e_comp_x.c:6191
+#: src/bin/e_comp_x.c:6234
 msgid ""
 "Your display server does not support XComposite, or Ecore-X was built "
 "without XComposite support. Note that for composite support you will also "
@@ -1050,7 +1050,7 @@ msgstr ""
 "sans le support de XComposite. Notez que vous avez également besoin de "
 "XRender et XFixes dans X11 et Ecore pour la prise en charge du composite."
 
-#: src/bin/e_comp_x.c:6200
+#: src/bin/e_comp_x.c:6243
 msgid ""
 "Your display server does not support XDamage or Ecore was built without "
 "XDamage support."
@@ -1058,7 +1058,7 @@ msgstr ""
 "Votre serveur d'affichage ne supporte pas XDamage, ou Ecore est compilé sans "
 "le support de XDamage."
 
-#: src/bin/e_comp_x.c:6306
+#: src/bin/e_comp_x.c:6349
 msgid "Enlightenment cannot initialize the XSettings system.\n"
 msgstr "Enlightenment ne parvient pas à initialiser le système XSettings.\n"
 
@@ -1161,7 +1161,7 @@ msgstr "Non signé."
 
 #: src/bin/e_config.c:243
 msgid "Feature not implemented."
-msgstr "Pas encore implémenté."
+msgstr "Fonctionnalité non implémentée."
 
 #: src/bin/e_config.c:246
 msgid "PRNG was not seeded."
@@ -1249,7 +1249,7 @@ msgstr "Appliquer"
 #: src/modules/connman/e_mod_main.c:693
 #: src/modules/convertible/e_mod_main.c:325 src/modules/gadman/e_mod_main.c:23
 #: src/modules/mixer/e_mod_main.c:1217
-#: src/modules/networkmanager/e_mod_main.c:3150
+#: src/modules/networkmanager/e_mod_main.c:3128
 #: src/modules/notification/e_mod_main.c:65
 msgid "Extensions"
 msgstr "Extensions"
@@ -2146,7 +2146,7 @@ msgstr "Erreur lors de l'importation de l'image"
 msgid ""
 "Enlightenment was unable to import the picture<ps/>due to conversion errors."
 msgstr ""
-"Enlightenment n'a pu importer l'image<ps/>pour cause d'erreurs de conversion."
+"Enlightenment n'a pu importer l'image<ps/>en raison d'erreurs de conversion."
 
 #: src/bin/e_import_config_dialog.c:175 src/bin/e_import_config_dialog.c:185
 #: src/bin/e_import_dialog.c:73 src/bin/e_import_dialog.c:83
@@ -2156,7 +2156,8 @@ msgstr "Erreur lors de l'importation"
 #: src/bin/e_import_config_dialog.c:176 src/bin/e_import_dialog.c:74
 msgid "Enlightenment was unable to import the image<ps/>due to a copy error."
 msgstr ""
-"Enlightenment n'a pu importer cette image<ps/>à cause d'une erreur de copie."
+"Enlightenment n'a pu importer cette image<ps/>en raison d'une erreur de "
+"copie."
 
 #: src/bin/e_import_config_dialog.c:186 src/bin/e_import_dialog.c:84
 msgid ""
@@ -2770,8 +2771,8 @@ msgstr "Demande de position"
 #: src/modules/ibar/e_mod_main.c:1643 src/modules/ibox/e_mod_main.c:365
 #: src/modules/ibox/e_mod_main.c:857 src/modules/mixer/e_mod_main.c:1081
 #: src/modules/music-control/ui.c:359
-#: src/modules/networkmanager/e_mod_main.c:2139
-#: src/modules/networkmanager/e_mod_main.c:2993
+#: src/modules/networkmanager/e_mod_main.c:2117
+#: src/modules/networkmanager/e_mod_main.c:2971
 #: src/modules/packagekit/e_mod_main.c:47 src/modules/pager/e_mod_main.c:1026
 #: src/modules/tasks/e_mod_main.c:995 src/modules/temperature/e_mod_main.c:231
 #: src/modules/tiling/e_mod_tiling.c:2169 src/modules/wizard/page_150.c:31
@@ -3178,8 +3179,8 @@ msgstr "Utilitaire"
 #: src/bin/e_widget_filepreview.c:738 src/modules/battery/e_mod_main.c:344
 #: src/modules/battery/e_mod_main.c:357 src/modules/battery/e_mod_main.c:360
 #: src/modules/battery/e_mod_main.c:369 src/modules/battery/e_mod_main.c:378
-#: src/modules/bluez5/e_mod_popup.c:510 src/modules/bluez5/e_mod_popup.c:511
-#: src/modules/bluez5/e_mod_util.c:261
+#: src/modules/bluez5/e_mod_popup.c:514 src/modules/bluez5/e_mod_popup.c:515
+#: src/modules/bluez5/e_mod_util.c:269
 #: src/modules/conf_bindings/e_int_config_acpibindings.c:429
 #: src/modules/conf_bindings/e_int_config_edgebindings.c:1185
 #: src/modules/conf_bindings/e_int_config_keybindings.c:983
@@ -3677,7 +3678,7 @@ msgid ""
 msgstr ""
 "Enlightenment a détecté que ecore_evas ne prend pas en charge le\n"
 "rendu Wayland SHM dans Evas. Vérifiez vos installations de Evas\n"
-"et Ecore , et qu'elles supportent le moteur de rendu Wayland SHM."
+"et Ecore, et qu'elles supportent le moteur de rendu Wayland SHM."
 
 #: src/bin/e_main.c:537
 msgid ""
@@ -3697,7 +3698,7 @@ msgid ""
 msgstr ""
 "Enlightenment a détecté que ecore_evas ne prend pas en charge le rendu\n"
 "logiciel en mémoire dans Evas. Vérifiez vos installations de Evas et\n"
-"Ecore et qu'elles supportent le moteur de rendu logiciel en mémoire."
+"Ecore, et qu'elles supportent le moteur de rendu logiciel en mémoire."
 
 #: src/bin/e_main.c:560
 msgid "Enlightenment cannot initialize E_Intl!\n"
@@ -3731,11 +3732,11 @@ msgid "Enlightenment cannot set up its config system.\n"
 msgstr ""
 "Enlightenment ne parvient pas à initialiser son système de configuration.\n"
 
-#: src/bin/e_main.c:646
+#: src/bin/e_main.c:648
 msgid "Enlightenment cannot set up its environment.\n"
 msgstr "Enlightenment ne parvient pas à initialiser son environnement.\n"
 
-#: src/bin/e_main.c:665
+#: src/bin/e_main.c:667
 msgid ""
 "Enlightenment cannot set up paths for finding files.\n"
 "Perhaps you are out of memory?"
@@ -3744,15 +3745,15 @@ msgstr ""
 "fichiers.\n"
 "Êtes-vous à court de mémoire ?"
 
-#: src/bin/e_main.c:732
+#: src/bin/e_main.c:734
 msgid "Enlightenment cannot set up its font system.\n"
 msgstr "Enlightenment ne parvient pas à initialiser son système de polices.\n"
 
-#: src/bin/e_main.c:745
+#: src/bin/e_main.c:747
 msgid "Enlightenment cannot set up its theme system.\n"
 msgstr "Enlightenment ne parvient pas à initialiser son système de thèmes.\n"
 
-#: src/bin/e_main.c:761
+#: src/bin/e_main.c:763
 msgid ""
 "Enlightenment cannot create a dbus session connection.\n"
 "At best this will break many things, at worst it will hard lock your "
@@ -3764,7 +3765,7 @@ msgstr ""
 "votre machine ne répondra plus du tout. Si vous êtes\n"
 "conscient des risques, exportez E_NO_DBUS_SESSION=1"
 
-#: src/bin/e_main.c:774
+#: src/bin/e_main.c:776
 msgid ""
 "Enlightenment cannot initialize the FDO desktop system.\n"
 "Perhaps you lack permissions on ~/.cache/efreet or are\n"
@@ -3774,27 +3775,27 @@ msgstr ""
 "Peut-être vous manque-t-il certaines permissions sur ~/.cache/efreet\n"
 "ou bien le système est à court de mémoire ou d'espace disque ?"
 
-#: src/bin/e_main.c:785
+#: src/bin/e_main.c:787
 msgid "Enlightenment cannot set up its intl system.\n"
 msgstr ""
 "Enlightenment ne parvient pas à initialiser son système "
 "d'internationalisation.\n"
 
-#: src/bin/e_main.c:800
+#: src/bin/e_main.c:802
 msgid "Enlightenment cannot set up its actions system.\n"
 msgstr "Enlightenment ne parvient pas à initialiser son système d'actions.\n"
 
-#: src/bin/e_main.c:816
+#: src/bin/e_main.c:818
 msgid "Enlightenment cannot initialize the Privilege System access system.\n"
 msgstr ""
 "Enlightenment ne parvient pas à initialiser son système d'accès système "
 "privilégié.\n"
 
-#: src/bin/e_main.c:825
+#: src/bin/e_main.c:827
 msgid "Enlightenment cannot set up its powersave modes.\n"
 msgstr "Enlightenment ne peut initialiser ses modes d'économie d'énergie.\n"
 
-#: src/bin/e_main.c:838
+#: src/bin/e_main.c:840
 msgid ""
 "Enlightenment set up window management for all the screens on your system\n"
 "failed. Perhaps another window manager is running?\n"
@@ -3802,129 +3803,129 @@ msgstr ""
 "Enlightenment ne peut être initialisé en tant que gestionnaire de fenêtres.\n"
 "Un autre gestionnaire de fenêtres est-il déjà lancé ?\n"
 
-#: src/bin/e_main.c:848
+#: src/bin/e_main.c:850
 msgid "Enlightenment cannot set up its pointer system.\n"
 msgstr ""
 "Enlightenment ne parvient pas à initialiser son système de pointeurs.\n"
 
-#: src/bin/e_main.c:858
+#: src/bin/e_main.c:860
 msgid "Enlightenment cannot set up its scale system.\n"
 msgstr ""
 "Enlightenment ne parvient pas à initialiser son système de mise à "
 "l'échelle.\n"
 
-#: src/bin/e_main.c:867
+#: src/bin/e_main.c:869
 msgid "Enlightenment cannot set up its init screen.\n"
 msgstr ""
 "Enlightenment ne parvient pas à configurer son écran d'initialisation.\n"
 
-#: src/bin/e_main.c:902
+#: src/bin/e_main.c:904
 msgid "Enlightenment cannot configure the backlight.\n"
 msgstr "Enlightenment ne parvient pas à configurer le rétroéclairage.\n"
 
-#: src/bin/e_main.c:910
+#: src/bin/e_main.c:912
 msgid "Enlightenment cannot configure the DPMS settings.\n"
 msgstr "Enlightenment ne parvient pas à configurer les paramètres de DPMS.\n"
 
-#: src/bin/e_main.c:919
+#: src/bin/e_main.c:921
 msgid "Enlightenment cannot set up its desk locking system.\n"
 msgstr ""
 "Enlightenment ne parvient pas à initialiser son système de verrouillage de "
 "bureau.\n"
 
-#: src/bin/e_main.c:939
+#: src/bin/e_main.c:941
 msgid "Enlightenment cannot initialize the System Command system.\n"
 msgstr ""
 "Enlightenment ne parvient pas à initialiser le système System Command.\n"
 
-#: src/bin/e_main.c:948
+#: src/bin/e_main.c:950
 msgid "Enlightenment cannot set up its exec system.\n"
 msgstr "Enlightenment ne parvient pas à initialiser son système d'exécution.\n"
 
-#: src/bin/e_main.c:960
+#: src/bin/e_main.c:962
 msgid "Enlightenment cannot initialize the File manager.\n"
 msgstr ""
 "Enlightenment ne parvient pas à initialiser son gestionnaire de fichiers.\n"
 
-#: src/bin/e_main.c:969
+#: src/bin/e_main.c:971
 msgid "Enlightenment cannot set up its msg system.\n"
 msgstr "Enlightenment ne parvient pas à initialiser son système de messages.\n"
 
-#: src/bin/e_main.c:978
+#: src/bin/e_main.c:980
 msgid "Enlightenment cannot set up its grab input handling system.\n"
 msgstr ""
 "Enlightenment ne parvient pas à initialiser son système de périphériques "
 "d'entrée.\n"
 
-#: src/bin/e_main.c:987 src/bin/e_main.c:1129
+#: src/bin/e_main.c:989 src/bin/e_main.c:1131
 msgid "Enlightenment cannot set up its module system.\n"
 msgstr "Enlightenment ne parvient pas à initialiser son système de modules.\n"
 
-#: src/bin/e_main.c:996
+#: src/bin/e_main.c:998
 msgid "Enlightenment cannot setup remember settings.\n"
 msgstr ""
 "Enlightenment ne parvient pas à configurer les paramètres de mémorisation.\n"
 
-#: src/bin/e_main.c:1005
+#: src/bin/e_main.c:1007
 msgid "Enlightenment cannot set up its gadget control system.\n"
 msgstr ""
 "Enlightenment ne parvient pas à initialiser son système de contrôle de "
 "gadgets.\n"
 
-#: src/bin/e_main.c:1014
+#: src/bin/e_main.c:1016
 msgid "Enlightenment cannot set up its toolbars.\n"
 msgstr "Enlightenment ne parvient pas à initialiser ses barres d'outils.\n"
 
-#: src/bin/e_main.c:1023
+#: src/bin/e_main.c:1025
 msgid "Enlightenment cannot set up its desktop background system.\n"
 msgstr ""
 "Enlightenment ne parvient pas à initialiser son système de fond d'écran.\n"
 
-#: src/bin/e_main.c:1032
+#: src/bin/e_main.c:1034
 msgid "Enlightenment cannot configure the mouse settings.\n"
 msgstr "Enlightenment ne parvient pas à configurer les paramètres de souris.\n"
 
-#: src/bin/e_main.c:1040
+#: src/bin/e_main.c:1042
 msgid "Enlightenment cannot set up its bindings system.\n"
 msgstr ""
 "Enlightenment ne parvient pas à initialiser son système de raccourcis.\n"
 
-#: src/bin/e_main.c:1049
+#: src/bin/e_main.c:1051
 msgid "Enlightenment cannot initialize the Thumbnailing system.\n"
 msgstr ""
 "Enlightenment ne parvient pas à initialiser son système de vignettes.\n"
 
-#: src/bin/e_main.c:1058
+#: src/bin/e_main.c:1060
 msgid "Enlightenment cannot initialize the Icon Cache system.\n"
 msgstr ""
 "Enlightenment ne parvient pas à initialiser le système de cache d'icônes.\n"
 
-#: src/bin/e_main.c:1067
+#: src/bin/e_main.c:1069
 msgid "Enlightenment cannot initialize the Update system.\n"
 msgstr ""
 "Enlightenment ne parvient pas à initialiser son système d'actualisation.\n"
 
-#: src/bin/e_main.c:1076
+#: src/bin/e_main.c:1078
 msgid "Enlightenment cannot initialize its desktop environment.\n"
 msgstr ""
 "Enlightenment ne parvient pas à initialiser son environnement de bureau.\n"
 
-#: src/bin/e_main.c:1085
+#: src/bin/e_main.c:1087
 msgid "Enlightenment cannot set up its order file system.\n"
 msgstr ""
 "Enlightenment ne parvient pas à initialiser son système de classement de "
 "fichiers.\n"
 
-#: src/bin/e_main.c:1137 src/modules/wizard/e_wizard.c:264
+#: src/bin/e_main.c:1139 src/modules/wizard/e_wizard.c:264
 msgid "Welcome to Enlightenment"
 msgstr "Bienvenue dans Enlightenment"
 
-#: src/bin/e_main.c:1285
+#: src/bin/e_main.c:1287
 #, c-format
 msgid "Version: %s\n"
 msgstr "Version : %s\n"
 
-#: src/bin/e_main.c:1294
+#: src/bin/e_main.c:1296
 #, c-format
 msgid ""
 "Options:\n"
@@ -3982,7 +3983,7 @@ msgstr ""
 "pour vous.\n"
 "  -version\n"
 
-#: src/bin/e_main.c:1348
+#: src/bin/e_main.c:1350
 msgid ""
 "You are executing enlightenment directly. This is\n"
 "bad. Please do not execute the \"enlightenment\"\n"
@@ -3998,31 +3999,31 @@ msgstr ""
 "des chemins, et de la gestion de tout autre service\n"
 "nécessaire avant le lancement de Enlightenment.\n"
 
-#: src/bin/e_main.c:1616
+#: src/bin/e_main.c:1618
 msgid "Enlightenment cannot create a compositor.\n"
 msgstr "Enlightenment est incapable de créer un compositeur.\n"
 
-#: src/bin/e_main.c:1629
+#: src/bin/e_main.c:1631
 msgid "Enlightenment cannot set up its dnd system.\n"
 msgstr ""
 "Enlightenment ne parvient pas à initialiser son système de glisser-déposer.\n"
 
-#: src/bin/e_main.c:1790
+#: src/bin/e_main.c:1792
 #, c-format
 msgid ""
 "Enlightenment crashed early on start and has<ps/>been restarted. There was "
 "an error loading the<ps/>module named: %s. This module has been disabled<ps/"
 ">and will not be loaded."
 msgstr ""
-"Enlightenment a planté en phase d'initialisation et<ps/> a été relancé. Le "
+"Enlightenment a planté en phase d'initialisation et<ps/>a été relancé. Le "
 "module %s qui est à l'origine de<ps/>l'erreur a été désactivé. Il ne sera "
 "pas rechargé."
 
-#: src/bin/e_main.c:1795 src/bin/e_main.c:1811
+#: src/bin/e_main.c:1797 src/bin/e_main.c:1813
 msgid "Enlightenment crashed early on start and has been restarted"
 msgstr "Enlightenment a planté en phase d'initialisation et a été relancé"
 
-#: src/bin/e_main.c:1796
+#: src/bin/e_main.c:1798
 #, c-format
 msgid ""
 "Enlightenment crashed early on start and has been restarted.<ps/>There was "
@@ -4033,7 +4034,7 @@ msgstr ""
 "module nommé %s est à l'origine de l'erreur.<ps/><ps/> Ce module a été "
 "désactivé et ne sera pas rechargé."
 
-#: src/bin/e_main.c:1804
+#: src/bin/e_main.c:1806
 msgid ""
 "Enlightenment crashed early on start and has<ps/>been restarted. All modules "
 "have been disabled<ps/>and will not be loaded to help remove any problem<ps/"
@@ -4046,7 +4047,7 @@ msgstr ""
 "dialogue de configuration des modules vous permettra<ps/>de recharger vos "
 "modules.\n"
 
-#: src/bin/e_main.c:1812
+#: src/bin/e_main.c:1814
 msgid ""
 "Enlightenment crashed early on start and has been restarted.<ps/>All modules "
 "have been disabled and will not be loaded to help<ps/>remove any problem "
@@ -4386,9 +4387,8 @@ msgid ""
 "Enlightenment cannot successfully start<br>the enlightenment_system "
 "service<br>because your user has no passwd file entry."
 msgstr ""
-"Enlightenment ne parvient pas à lancer<br>le service "
-"enlightenment_system<br>parce que votre utilisateur n'a pas de fichier "
-"passwd."
+"Enlightenment ne parvient pas à lancer le service<br>enlightenment_system "
+"parce que votre utilisateur<br>ne figure pas dans le fichier passwd."
 
 #: src/bin/e_system.c:46
 msgid ""
@@ -4650,7 +4650,7 @@ msgid ""
 "set."
 msgstr ""
 "Échec de la création du dossier : %s.<ps/>Vérifiez que les permissions sont "
-"correctes."
+"correctement définies."
 
 #: src/bin/e_utils.c:720
 #, c-format
@@ -4988,12 +4988,12 @@ msgstr "Surveillance de la batterie"
 
 #: src/modules/bluez5/bz_agent.c:115 src/modules/bluez5/bz_agent.c:131
 #: src/modules/bluez5/bz_agent.c:285
-#: src/modules/networkmanager/e_mod_main.c:480
-#: src/modules/networkmanager/e_mod_main.c:492
-#: src/modules/networkmanager/e_mod_main.c:1507
-#: src/modules/networkmanager/e_mod_main.c:1848
-#: src/modules/networkmanager/e_mod_main.c:2333
-#: src/modules/networkmanager/e_mod_main.c:2339
+#: src/modules/networkmanager/e_mod_main.c:495
+#: src/modules/networkmanager/e_mod_main.c:507
+#: src/modules/networkmanager/e_mod_main.c:1502
+#: src/modules/networkmanager/e_mod_main.c:1843
+#: src/modules/networkmanager/e_mod_main.c:2311
+#: src/modules/networkmanager/e_mod_main.c:2317
 #: src/modules/networkmanager/e_networkmanager.c:2189
 #: src/modules/networkmanager/e_networkmanager.c:2192
 msgid "Bluetooth"
@@ -5068,36 +5068,24 @@ msgstr "Périphériques"
 msgid "Unknown Address"
 msgstr "Adresse inconnue"
 
-#: src/modules/bluez5/e_mod_popup.c:453
-msgid "Power"
-msgstr "Alimentation"
-
-#: src/modules/bluez5/e_mod_popup.c:453
+#: src/modules/bluez5/e_mod_popup.c:454
 msgid "Enable power for this adapter"
 msgstr "Activer l'alimentation pour cet adaptateur"
 
-#: src/modules/bluez5/e_mod_popup.c:459
+#: src/modules/bluez5/e_mod_popup.c:461
 msgid "Make this adapter visible to other devices"
 msgstr "Rendre cet adaptateur visible aux autres appareils"
 
-#: src/modules/bluez5/e_mod_popup.c:465
-msgid "Scan"
-msgstr "Recherche"
-
-#: src/modules/bluez5/e_mod_popup.c:465
+#: src/modules/bluez5/e_mod_popup.c:468
 msgid "Scan for other devices"
 msgstr "Rechercher d'autres appareils"
 
-#: src/modules/bluez5/e_mod_popup.c:471
-msgid "Pairable"
-msgstr "Appairable"
-
-#: src/modules/bluez5/e_mod_popup.c:471
+#: src/modules/bluez5/e_mod_popup.c:475
 msgid "Allow this adapter to have other devices request to pair with it"
 msgstr ""
 "Autoriser les demandes d'appairage d'autres appareils pour cet adaptateur"
 
-#: src/modules/bluez5/e_mod_popup.c:504
+#: src/modules/bluez5/e_mod_popup.c:508
 #, c-format
 msgid ""
 "Address: %s (%s)<br>Services: %s%s%s%s%s%s%s%s%s<br>Trusted: %s<br>Blocked: "
@@ -5106,80 +5094,80 @@ msgstr ""
 "Adresse : %s (%s)<br>Services : %s%s%s%s%s%s%s%s%s<br>De confiance : "
 "%s<br>Bloqué : %s<br>"
 
-#: src/modules/bluez5/e_mod_popup.c:512
+#: src/modules/bluez5/e_mod_popup.c:516
 msgid "Limited-Discoverable "
 msgstr "Découverte limitée "
 
-#: src/modules/bluez5/e_mod_popup.c:513
+#: src/modules/bluez5/e_mod_popup.c:517
 msgid "Positioning "
 msgstr "Localisation "
 
-#: src/modules/bluez5/e_mod_popup.c:514
+#: src/modules/bluez5/e_mod_popup.c:518
 msgid "Networking "
 msgstr "Réseau "
 
-#: src/modules/bluez5/e_mod_popup.c:515
+#: src/modules/bluez5/e_mod_popup.c:519
 msgid "Rendering "
 msgstr "Rendu "
 
-#: src/modules/bluez5/e_mod_popup.c:516
+#: src/modules/bluez5/e_mod_popup.c:520
 msgid "Capture "
 msgstr "Capture "
 
-#: src/modules/bluez5/e_mod_popup.c:517
+#: src/modules/bluez5/e_mod_popup.c:521
 msgid "OBEX "
 msgstr "OBEX "
 
-#: src/modules/bluez5/e_mod_popup.c:518
+#: src/modules/bluez5/e_mod_popup.c:522
 msgid "Audio "
 msgstr "Audio "
 
-#: src/modules/bluez5/e_mod_popup.c:519
+#: src/modules/bluez5/e_mod_popup.c:523
 msgid "Telephony "
 msgstr "Téléphonie "
 
-#: src/modules/bluez5/e_mod_popup.c:520
+#: src/modules/bluez5/e_mod_popup.c:524
 msgid "Information "
 msgstr "Information "
 
-#: src/modules/bluez5/e_mod_popup.c:545
+#: src/modules/bluez5/e_mod_popup.c:549
 msgid "Stop this from being an unlock device"
 msgstr "Oublier le déverrouillage du périphérique"
 
-#: src/modules/bluez5/e_mod_popup.c:552
+#: src/modules/bluez5/e_mod_popup.c:556
 msgid "Make this auto unlock when detected (and lock when not)"
 msgstr "Déverrouillage auto. à la détection (sinon verrouillage)"
 
-#: src/modules/bluez5/e_mod_popup.c:562
+#: src/modules/bluez5/e_mod_popup.c:566
 msgid "Disconnect this device"
 msgstr "Déconnecter cet appareil"
 
-#: src/modules/bluez5/e_mod_popup.c:569
+#: src/modules/bluez5/e_mod_popup.c:573
 msgid "Connect this device"
 msgstr "Connecter cet appareil"
 
-#: src/modules/bluez5/e_mod_popup.c:579
+#: src/modules/bluez5/e_mod_popup.c:583
 msgid "Distrust this device"
 msgstr "Ne pas faire confiance à cet appareil"
 
-#: src/modules/bluez5/e_mod_popup.c:586
+#: src/modules/bluez5/e_mod_popup.c:590
 msgid "Trust this device"
 msgstr "Faire confiance à cet appareil"
 
-#: src/modules/bluez5/e_mod_popup.c:598 src/modules/bluez5/e_mod_popup.c:659
-#: src/modules/bluez5/e_mod_popup.c:681
+#: src/modules/bluez5/e_mod_popup.c:602 src/modules/bluez5/e_mod_popup.c:663
+#: src/modules/bluez5/e_mod_popup.c:685
 msgid "Pair with this device"
 msgstr "Associer cet appareil"
 
-#: src/modules/bluez5/e_mod_popup.c:608
+#: src/modules/bluez5/e_mod_popup.c:612
 msgid "Unpair with this device"
 msgstr "Dissocier cet appareil"
 
-#: src/modules/bluez5/e_mod_popup.c:667 src/modules/bluez5/e_mod_popup.c:688
+#: src/modules/bluez5/e_mod_popup.c:671 src/modules/bluez5/e_mod_popup.c:692
 msgid "Reject pairing"
 msgstr "Refuser l'association"
 
-#: src/modules/bluez5/e_mod_popup.c:720
+#: src/modules/bluez5/e_mod_popup.c:724
 msgid "Options for device like connect, pair etc."
 msgstr "Options de l'appareil telles que la connexion, l'association, etc."
 
@@ -5439,7 +5427,7 @@ msgstr "Créer un lanceur d'application"
 
 #: src/modules/conf_applications/e_mod_main.c:62
 msgid "Launcher Other"
-msgstr "Lanceur autres"
+msgstr "Autre lanceur"
 
 #: src/modules/conf_bindings/e_int_config_acpibindings.c:71
 msgid "ACPI Bindings Settings"
@@ -5928,7 +5916,7 @@ msgstr "Molette supplémentaire (%d) vers le bas"
 #: src/modules/conf_bindings/e_int_config_signalbindings.c:561
 #: src/modules/conf_bindings/e_int_config_signalbindings.c:571
 msgid "Signal Binding Error"
-msgstr "Erreur : Raccourci de signal"
+msgstr "Erreur du raccourci de signal"
 
 #: src/modules/conf_bindings/e_int_config_signalbindings.c:561
 msgid "Signal and Source must NOT be blank!"
@@ -6891,7 +6879,7 @@ msgstr "Paramètres des performances"
 
 #: src/modules/conf_performance/e_int_config_performance.c:74
 msgid "Application priority"
-msgstr "Priorité des applications"
+msgstr "Priorité de l'application"
 
 #: src/modules/conf_performance/e_int_config_powermanagement.c:43
 msgid "Power Management Settings"
@@ -9015,7 +9003,7 @@ msgstr "Fond"
 
 #: src/modules/gadman/e_mod_config.c:22
 msgid "Overlay (Action Toggle)"
-msgstr "Surimpression (action d'activation)"
+msgstr "Surimpression (avec action d'activation)"
 
 #: src/modules/gadman/e_mod_config.c:79 src/modules/gadman/e_mod_config.c:156
 #: src/modules/gadman/e_mod_main.c:162
@@ -9159,7 +9147,7 @@ msgstr "Description de l'icône"
 
 #: src/modules/ibar/e_mod_config.c:128
 msgid "Show icon label"
-msgstr "Afficher les étiquettes des icônes"
+msgstr "Afficher l'étiquette des icônes"
 
 #: src/modules/ibar/e_mod_config.c:149
 msgid "Lock icon move"
@@ -9504,29 +9492,28 @@ msgid "%1.1f sec"
 msgstr "%1.1f s"
 
 #: src/modules/networkmanager/e_mod_main.c:15
-#| msgid "Network Management"
 msgid "NetworkManager"
 msgstr "NetworkManager"
 
-#: src/modules/networkmanager/e_mod_main.c:420
-#: src/modules/networkmanager/e_mod_main.c:1434
-#: src/modules/networkmanager/e_mod_main.c:1451
-#: src/modules/networkmanager/e_mod_main.c:1716
-#: src/modules/networkmanager/e_mod_main.c:2316
+#: src/modules/networkmanager/e_mod_main.c:451
+#: src/modules/networkmanager/e_mod_main.c:1429
+#: src/modules/networkmanager/e_mod_main.c:1446
+#: src/modules/networkmanager/e_mod_main.c:1711
+#: src/modules/networkmanager/e_mod_main.c:2294
 #: src/modules/networkmanager/e_networkmanager.c:2197
 #: src/modules/networkmanager/e_networkmanager.c:2200
 msgid "Wired"
 msgstr "Filaire"
 
-#: src/modules/networkmanager/e_mod_main.c:549
+#: src/modules/networkmanager/e_mod_main.c:548
 msgid "VPN import failed"
 msgstr "Échec de l'Importation"
 
-#: src/modules/networkmanager/e_mod_main.c:566
+#: src/modules/networkmanager/e_mod_main.c:565
 msgid "Unknown error"
 msgstr "Erreur inconnue"
 
-#: src/modules/networkmanager/e_mod_main.c:586
+#: src/modules/networkmanager/e_mod_main.c:585
 msgid ""
 "Could not detect VPN type from file extension. Use a .conf (WireGuard) "
 "or .ovpn (OpenVPN) file."
@@ -9534,94 +9521,94 @@ msgstr ""
 "Impossible de détecter le type de VPN à partir de l'extension du fichier. "
 "Utilisez un fichier .conf (WireGuard) ou .ovpn (OpenVPN)."
 
-#: src/modules/networkmanager/e_mod_main.c:608
+#: src/modules/networkmanager/e_mod_main.c:607
 msgid "Import VPN Configuration"
 msgstr "Importer la configuration du VPN"
 
-#: src/modules/networkmanager/e_mod_main.c:630
-#: src/modules/networkmanager/e_mod_main.c:672
+#: src/modules/networkmanager/e_mod_main.c:629
+#: src/modules/networkmanager/e_mod_main.c:667
 #: src/modules/networkmanager/e_networkmanager_vpn_username.c:226
 msgid "VPN"
 msgstr "VPN"
 
-#: src/modules/networkmanager/e_mod_main.c:653
+#: src/modules/networkmanager/e_mod_main.c:648
 msgid ""
 "nmcli not installed — install NetworkManager CLI tools to import VPN configs."
 msgstr ""
 "nmcli n'est pas installé — installez les utilitaires CLI de NetworkManager "
 "pour importer les configurations VPN."
 
-#: src/modules/networkmanager/e_mod_main.c:815
+#: src/modules/networkmanager/e_mod_main.c:807
 msgid "Forget VPN"
 msgstr "Oublier le VPN"
 
-#: src/modules/networkmanager/e_mod_main.c:817
+#: src/modules/networkmanager/e_mod_main.c:809
 #, c-format
 msgid "Delete the VPN connection \"%s\"?  This cannot be undone."
 msgstr "Supprimer la connexion VPN « %s » ?  Cette action est irréversible."
 
-#: src/modules/networkmanager/e_mod_main.c:820
-#: src/modules/networkmanager/e_mod_main.c:879
+#: src/modules/networkmanager/e_mod_main.c:812
+#: src/modules/networkmanager/e_mod_main.c:871
 msgid "Forget"
 msgstr "Oublier"
 
-#: src/modules/networkmanager/e_mod_main.c:870
+#: src/modules/networkmanager/e_mod_main.c:862
 msgid "Connect automatically"
 msgstr "Connexion automatique"
 
-#: src/modules/networkmanager/e_mod_main.c:918
+#: src/modules/networkmanager/e_mod_main.c:910
 msgid "Wireless"
 msgstr "Sans fil"
 
-#: src/modules/networkmanager/e_mod_main.c:2523
+#: src/modules/networkmanager/e_mod_main.c:2501
 msgid "Unknown reason."
 msgstr "Raison inconnue."
 
-#: src/modules/networkmanager/e_mod_main.c:2524
+#: src/modules/networkmanager/e_mod_main.c:2502
 msgid "Disconnected by user."
 msgstr "Déconnecté par l'utilisateur."
 
-#: src/modules/networkmanager/e_mod_main.c:2525
+#: src/modules/networkmanager/e_mod_main.c:2503
 msgid "Device disconnected."
 msgstr "Périphérique déconnecté."
 
-#: src/modules/networkmanager/e_mod_main.c:2526
+#: src/modules/networkmanager/e_mod_main.c:2504
 msgid "Service stopped."
 msgstr "Service arrêté."
 
-#: src/modules/networkmanager/e_mod_main.c:2527
+#: src/modules/networkmanager/e_mod_main.c:2505
 msgid "IP configuration is invalid."
 msgstr "La configuration IP est invalide."
 
-#: src/modules/networkmanager/e_mod_main.c:2528
+#: src/modules/networkmanager/e_mod_main.c:2506
 msgid "Connection attempt timed out."
 msgstr "La tentative de connexion a expiré."
 
-#: src/modules/networkmanager/e_mod_main.c:2529
+#: src/modules/networkmanager/e_mod_main.c:2507
 msgid "Service start timeout."
 msgstr "La tentative de lancement du service a expiré."
 
-#: src/modules/networkmanager/e_mod_main.c:2530
+#: src/modules/networkmanager/e_mod_main.c:2508
 msgid "Service failed to start."
 msgstr "Échec du lancement du service."
 
-#: src/modules/networkmanager/e_mod_main.c:2531
+#: src/modules/networkmanager/e_mod_main.c:2509
 msgid "No valid VPN secrets."
 msgstr "Aucun secret VPN valide."
 
-#: src/modules/networkmanager/e_mod_main.c:2532
+#: src/modules/networkmanager/e_mod_main.c:2510
 msgid "Invalid VPN secrets."
 msgstr "Secrets VPN invalides."
 
-#: src/modules/networkmanager/e_mod_main.c:2533
+#: src/modules/networkmanager/e_mod_main.c:2511
 msgid "Connection removed."
 msgstr "Connexion supprimée."
 
-#: src/modules/networkmanager/e_mod_main.c:2534
+#: src/modules/networkmanager/e_mod_main.c:2512
 msgid "Connection failed."
 msgstr "Échec de la connexion."
 
-#: src/modules/networkmanager/e_mod_main.c:2555
+#: src/modules/networkmanager/e_mod_main.c:2533
 msgid "VPN connection failed"
 msgstr "Échec de la connexion VPN."
 
@@ -9953,27 +9940,27 @@ msgstr "Afficher le pop-up de la miniature des bureaux"
 
 #: src/modules/pager/e_mod_main.c:2136
 msgid "Popup Desk Right"
-msgstr "Bureau à droite du pop-up"
+msgstr "Pop-up à droite du bureau"
 
 #: src/modules/pager/e_mod_main.c:2138
 msgid "Popup Desk Left"
-msgstr "Bureau à gauche du pop-up"
+msgstr "Pop-up à gauche du bureau"
 
 #: src/modules/pager/e_mod_main.c:2140
 msgid "Popup Desk Up"
-msgstr "Bureau au-dessus du pop-up"
+msgstr "Pop-up en haut du bureau"
 
 #: src/modules/pager/e_mod_main.c:2142
 msgid "Popup Desk Down"
-msgstr "Bureau en dessous du pop-up"
+msgstr "Pop-up en bas du bureau"
 
 #: src/modules/pager/e_mod_main.c:2144
 msgid "Popup Desk Next"
-msgstr "Bureau suivant"
+msgstr "Pop-up au bureau suivant"
 
 #: src/modules/pager/e_mod_main.c:2146
 msgid "Popup Desk Previous"
-msgstr "Bureau précédent"
+msgstr "Pop-up au bureau précédent"
 
 #: src/modules/pants/e_mod_main.c:286
 msgid "Pants"
@@ -11176,6 +11163,15 @@ msgstr "Impossible d'établir une connexion avec une socket X11."
 #: src/modules/xwayland/e_mod_main.c:347
 msgid "Cannot launch XWayland from X11 display."
 msgstr "Impossible de lancer XWayland depuis l'affichage X11."
+
+#~ msgid "Power"
+#~ msgstr "Alimentation"
+
+#~ msgid "Scan"
+#~ msgstr "Recherche"
+
+#~ msgid "Pairable"
+#~ msgstr "Appairable"
 
 #, c-format
 #~ msgid "Enlightenment cannot initialize Wayland client connection.\n"
