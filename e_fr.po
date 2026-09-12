@@ -18,8 +18,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: enlightenment\n"
 "Report-Msgid-Bugs-To: enlightenment-devel@lists.sourceforge.net\n"
-"POT-Creation-Date: 2026-09-02 15:32+0200\n"
-"PO-Revision-Date: 2026-09-02 18:30+0200\n"
+"POT-Creation-Date: 2026-09-12 16:16+0200\n"
+"PO-Revision-Date: 2026-09-12 16:25+0200\n"
 "Last-Translator: Philippe Jean Guillaumie <similar@orange.fr>\n"
 "Language-Team: French\n"
 "Language: fr\n"
@@ -2427,7 +2427,7 @@ msgstr "Verrous"
 
 #: src/bin/e_int_client_menu.c:844
 #: src/modules/conf_dialogs/e_int_config_dialogs.c:128
-#: src/modules/mixer/e_mod_config.c:446
+#: src/modules/mixer/e_mod_config.c:453
 msgid "Remember"
 msgstr "Mémoriser"
 
@@ -2862,7 +2862,7 @@ msgstr "Taille, position et verrous"
 
 #: src/bin/e_int_client_remember.c:663 src/bin/e_int_client_remember.c:801
 #: src/modules/conf_bindings/e_int_config_acpibindings.c:397
-#: src/modules/mixer/backend.c:1421
+#: src/modules/mixer/backend.c:1426
 msgid "Volume"
 msgstr "Volume"
 
@@ -3407,7 +3407,7 @@ msgstr ""
 "configuration du système<ps/>de saisie est correcte et que l'exécutable "
 "est<ps/>dans votre PATH.<ps/>"
 
-#: src/bin/e_int_menus.c:144 src/modules/mixer/backend.c:1353
+#: src/bin/e_int_menus.c:144 src/modules/mixer/backend.c:1358
 #: src/modules/syscon/e_int_config_syscon.c:153
 msgid "Main"
 msgstr "Principal"
@@ -5545,7 +5545,7 @@ msgid "Vaio"
 msgstr "Vaio"
 
 #: src/modules/conf_bindings/e_int_config_acpibindings.c:395
-#: src/modules/mixer/backend.c:1142 src/modules/mixer/backend.c:1375
+#: src/modules/mixer/backend.c:1147 src/modules/mixer/backend.c:1380
 #: src/modules/mixer/e_mod_main.c:775 src/modules/mixer/e_mod_main.c:951
 msgid "Mute"
 msgstr "Muet"
@@ -7006,7 +7006,7 @@ msgid "Hotplug Policy (%s)"
 msgstr "Gestion du branchement à chaud [%s]"
 
 #: src/modules/conf_randr/e_int_config_randr2.c:924
-#: src/modules/mixer/emixer.c:1954
+#: src/modules/mixer/emixer.c:1961
 msgid "Outputs"
 msgstr "Sorties"
 
@@ -9311,7 +9311,7 @@ msgstr ""
 msgid "New volume"
 msgstr "Nouveau volume"
 
-#: src/modules/mixer/backend.c:139 src/modules/mixer/emixer.c:1936
+#: src/modules/mixer/backend.c:139 src/modules/mixer/emixer.c:1943
 #: src/modules/mixer/e_mod_main.c:969 src/modules/mixer/e_mod_main.c:1219
 msgid "Mixer"
 msgstr "Mélangeur"
@@ -9368,31 +9368,35 @@ msgstr "Collecteur source suivant"
 msgid "Previous Sink Source"
 msgstr "Collecteur source précédent"
 
-#: src/modules/mixer/emixer.c:1952
+#: src/modules/mixer/emixer.c:1959
 msgid "Playback"
 msgstr "Lecture"
 
-#: src/modules/mixer/emixer.c:1956
+#: src/modules/mixer/emixer.c:1963
 msgid "Inputs"
 msgstr "Entrées"
 
-#: src/modules/mixer/emixer.c:1958
+#: src/modules/mixer/emixer.c:1965
 msgid "Cards"
 msgstr "Cartes"
 
-#: src/modules/mixer/e_mod_config.c:440
+#: src/modules/mixer/e_mod_config.c:447
 msgid "Notify on volume change"
 msgstr "Notifier tout changement de volume"
 
-#: src/modules/mixer/e_mod_config.c:443
+#: src/modules/mixer/e_mod_config.c:450
 msgid "Mute on lock"
 msgstr "Rendre muet au verrouillage"
 
-#: src/modules/mixer/e_mod_config.c:449
+#: src/modules/mixer/e_mod_config.c:456
 msgid "Backend to use:"
 msgstr "Moteur à utiliser :"
 
-#: src/modules/mixer/e_mod_config.c:501
+#: src/modules/mixer/e_mod_config.c:474
+msgid "Start the selected sound server if needed"
+msgstr "Lancer le serveur de son sélectionné si nécessaire"
+
+#: src/modules/mixer/e_mod_config.c:519
 msgid "Emix Configuration"
 msgstr "Configuration du mélangeur (Mixer)"
 
