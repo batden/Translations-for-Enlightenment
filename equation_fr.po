@@ -1,0 +1,263 @@
+# French translation for Equation.
+# Copyright (C) 2026 Alastair "netstar" Poole
+# This file is distributed under the same license as the evisum package.
+# Alastair Poole <netstar@netstar.im>, 2026.
+# similar <similar@orange.fr>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: equation\n"
+"Report-Msgid-Bugs-To: enlightenment-devel@lists.sourceforge.net\n"
+"POT-Creation-Date: 2026-11-16 13:20+0000\n"
+"PO-Revision-Date: 2026-11-20 16:59+0100\n"
+"Last-Translator: Philippe Jean Guillaumie <similar@orange.fr>\n"
+"Language-Team: French\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 3.10\n"
+
+#: src/engine/equation_engine.c:36
+#, c-format
+msgid "%s at column %zu"
+msgstr "%s à la colonne %zu"
+
+#: src/engine/equation_engine.c:64 src/engine/equation_engine.c:225
+msgid "Expression is too deeply nested"
+msgstr "L'expression est trop imbriquée"
+
+#: src/engine/equation_engine.c:84
+msgid "Bitwise NOT requires programmer mode"
+msgstr "L'opérateur NOT bit à bit nécessite le mode programmeur"
+
+#: src/engine/equation_engine.c:89 src/engine/equation_engine.c:156
+msgid "Expected closing parenthesis"
+msgstr "Parenthèse fermante attendue"
+
+#: src/engine/equation_engine.c:115
+msgid "Integer literal exceeds 64 bits"
+msgstr "Le littéral entier dépasse 64 bits"
+
+#: src/engine/equation_engine.c:121
+msgid "Expected integer digits"
+msgstr "Chiffres entiers attendus"
+
+#: src/engine/equation_engine.c:128
+msgid "Invalid number"
+msgstr "Nombre invalide"
+
+#: src/engine/equation_engine.c:140
+msgid "Unknown number or function"
+msgstr "Nombre ou fonction inconnu(e)"
+
+#: src/engine/equation_engine.c:151
+msgid "Expected function argument in parentheses"
+msgstr "Argument de fonction entre parenthèses attendu"
+
+#: src/engine/equation_engine.c:186
+msgid "Unknown function"
+msgstr "Fonction inconnue"
+
+#: src/engine/equation_engine.c:192 src/engine/equation_engine.c:302
+#: src/engine/equation_engine.c:325
+msgid "Result is outside the real finite number range"
+msgstr "Le résultat se situe en dehors de l'intervalle fini des nombres réels"
+
+#: src/engine/equation_engine.c:249 src/engine/equation_engine.c:289
+msgid "Division by zero"
+msgstr "Division par zéro"
+
+#: src/engine/equation_engine.c:266
+msgid "Shift count must be between 0 and 63"
+msgstr "Le décalage de bits doit être compris entre 0 et 63"
+
+#: src/engine/equation_engine.c:299
+msgid "Bitwise operators require programmer mode"
+msgstr "Les opérateurs NOT bit à bit nécessitent le mode programmeur"
+
+#: src/engine/equation_engine.c:314
+msgid "Expression is missing or too long"
+msgstr "L'expression est manquante ou trop longue"
+
+#: src/engine/equation_engine.c:323
+msgid "Unexpected input"
+msgstr "Entrée inattendue"
+
+#: src/engine/equation_engine.c:342 src/engine/equation_engine.c:344
+msgid "Requires an integer within 64 bits"
+msgstr "Nécessite un entier de 64 bits maximum"
+
+#: src/fe-efl/equation_ui.c:86 src/fe-efl/equation_ui.c:88
+#: src/fe-efl/equation_ui.c:333
+msgid "About Equation"
+msgstr "À propos de Equation"
+
+#: src/fe-efl/equation_ui.c:98
+msgid ""
+"Scientific and programmer calculator\n"
+"Decimal, hexadecimal and binary results\n"
+"\n"
+"Built with Elementary / EFL\n"
+"\n"
+"(c) enlightenment development team\n"
+"GNU General Public License, version 2"
+msgstr ""
+"Calculatrice scientifique et de programmation\n"
+"Résultats en décimal, hexadécimal et binaire\n"
+"\n"
+"Développée avec Elementary / EFL\n"
+"\n"
+"© Équipe de développement de Enlightenment\n"
+"Licence publique générale GNU, version 2"
+
+#: src/fe-efl/equation_ui.c:103 src/fe-efl/equation_ui.c:339
+#: src/fe-efl/equation_window.c:165
+msgid "Close"
+msgstr "Fermer"
+
+#: src/fe-efl/equation_ui.c:141
+msgid "Applied, but preferences could not be saved."
+msgstr "Application effectuée, mais les préférences n'ont pu être enregistrées."
+
+#: src/fe-efl/equation_ui.c:180
+msgid "COPIED TO CLIPBOARD"
+msgstr "COPIÉ DANS LE PRESSE-PAPIERS"
+
+#: src/fe-efl/equation_ui.c:181
+msgid "PROGRAMMER / UNSIGNED 64"
+msgstr "PROGRAMMEUR / NON SIGNÉ 64"
+
+#: src/fe-efl/equation_ui.c:182
+msgid "SCIENTIFIC / DEGREES"
+msgstr "SCIENTIFIQUE / DEGRÉS"
+
+#: src/fe-efl/equation_ui.c:183
+msgid "SCIENTIFIC / RADIANS"
+msgstr "SCIENTIFIQUE / RADIANS"
+
+#: src/fe-efl/equation_ui.c:194 src/fe-efl/equation_ui.c:590
+#: src/fe-efl/equation_ui.c:591
+msgid "Copy result"
+msgstr "Résultat de la copie"
+
+#: src/fe-efl/equation_ui.c:214
+msgid "Copied"
+msgstr "Copié"
+
+#: src/fe-efl/equation_ui.c:214
+msgid "Clipboard unavailable"
+msgstr "Presse-papiers non disponible"
+
+#: src/fe-efl/equation_ui.c:222
+msgid "DECIMAL / RESULT"
+msgstr "DÉCIMAL / RÉSULTAT"
+
+#: src/fe-efl/equation_ui.c:223
+msgid "HEX / 16"
+msgstr "HEX / 16"
+
+#: src/fe-efl/equation_ui.c:223
+msgid "BIN / 02"
+msgstr "BIN / 02"
+
+#: src/fe-efl/equation_ui.c:301
+msgid "<b>Appearance</b>"
+msgstr "<b>Apparence</b>"
+
+#: src/fe-efl/equation_ui.c:311
+msgid "Ambient animations"
+msgstr "Animations d'ambiance"
+
+#: src/fe-efl/equation_ui.c:327
+msgid "Preferences could not be saved."
+msgstr "Les préférences n'ont pu être enregistrées."
+
+#: src/fe-efl/equation_ui.c:335
+msgid "Quit"
+msgstr "Quitter"
+
+#: src/fe-efl/equation_ui.c:469
+msgid "Clear"
+msgstr "Effacer"
+
+#: src/fe-efl/equation_ui.c:470
+msgid "Back"
+msgstr "Retour"
+
+#: src/fe-efl/equation_ui.c:548
+msgid "Scientific"
+msgstr "Scientifique"
+
+#: src/fe-efl/equation_ui.c:554
+msgid "Programmer"
+msgstr "Programmeur"
+
+#: src/fe-efl/equation_ui.c:564
+msgid "Degrees"
+msgstr "Degrés"
+
+#: src/fe-efl/equation_ui.c:565
+msgid "Unchecked: angles in radians"
+msgstr "Décoché : angles en radians"
+
+#: src/fe-efl/equation_ui.c:573
+msgid "Enter an expression, then press Enter"
+msgstr "Saisissez une expression, puis appuyez sur Entrée"
+
+#: src/fe-efl/equation_ui.c:614
+msgid "Hexadecimal result"
+msgstr "Résultat hexadécimal"
+
+#: src/fe-efl/equation_ui.c:614
+msgid "Binary result"
+msgstr "Résultat binaire"
+
+#: src/fe-efl/equation_window.c:158
+msgid "Application menu"
+msgstr "Menu de l'application"
+
+#: src/fe-efl/equation_window.c:162
+msgid "Minimize"
+msgstr "Minimiser"
+
+#: src/fe-efl/equation_window.c:163
+msgid "Maximize or restore"
+msgstr "Maximiser ou restaurer"
+
+#: src/fe-efl/equation_theme.c:13
+msgid "Observatory"
+msgstr "Observatoire"
+
+#: src/fe-efl/equation_theme.c:13
+msgid "Midnight instruments / cyan starlight"
+msgstr "Instruments de nuit / lumière des étoiles"
+
+#: src/fe-efl/equation_theme.c:14
+msgid "Atelier"
+msgstr "Atelier"
+
+#: src/fe-efl/equation_theme.c:14
+msgid "Warm paper / a study in numbers"
+msgstr "Teinte chaude / étude sur des chiffres"
+
+#: src/fe-efl/equation_theme.c:15
+msgid "Crazy Lab"
+msgstr "Savant fou"
+
+#: src/fe-efl/equation_theme.c:15
+msgid "Glass cathodes / high voltage arithmetic"
+msgstr "Cathodes en verre / haute tension"
+
+#: data/equation_calculator.desktop:3
+msgid "Equation"
+msgstr "Equation"
+
+#: data/equation_calculator.desktop:4
+msgid "Scientific and programmer calculator"
+msgstr "Calculatrice scientifique et de programmation"
+
+#: data/equation_calculator.desktop:9
+msgid "calculator;scientific;programmer;hexadecimal;binary;"
+msgstr "calculatrice;scientifique;programmation;hexadécimal;binaire;"
