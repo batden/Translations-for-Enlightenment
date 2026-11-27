@@ -1,0 +1,240 @@
+# French translation for Elements.
+# Copyright (C) 2026 Alastair "netstar" Poole
+# This file is distributed under the same license as the elements package.
+# Alastair Poole <netstar@netstar.im>, 2026.
+# similar <similar@orange.fr>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: elements\n"
+"Report-Msgid-Bugs-To: enlightenment-devel@lists.sourceforge.net\n"
+"POT-Creation-Date: 2026-11-26 12:01+0000\n"
+"PO-Revision-Date: 2026-11-27 17:18+0100\n"
+"Last-Translator: Philippe Jean Guillaumie <similar@orange.fr>\n"
+"Language-Team: French\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 3.10\n"
+
+#: data/elements.desktop:3
+msgid "Elements"
+msgstr "Elements"
+
+#: data/elements.desktop:4
+msgid "Weather Forecast"
+msgstr "Prévisions météo"
+
+#: data/elements.desktop:5
+msgid "View weather conditions and forecasts"
+msgstr "Consulter les conditions et prévisions météorologiques"
+
+#: data/elements.desktop:10
+msgid "Weather;Forecast;Temperature;Barometer;"
+msgstr "Météo;Prévisions;Température;Baromètre;"
+
+#: src/lib/elements_about.c:58
+msgid "About Elements"
+msgstr "À propos de Elements"
+
+#: src/lib/elements_about.c:93
+#, c-format
+msgid "Version %s"
+msgstr "Version %s"
+
+#: src/lib/elements_about.c:95
+msgid "Desktop weather for anywhere"
+msgstr "La météo de partout sur votre bureau"
+
+#: src/lib/elements_about.c:102
+msgid "Forecasts from MET Norway via Enlightenment"
+msgstr "Prévisions de MET Norway via Enlightenment"
+
+#: src/lib/elements_request.c:59
+msgid "Could not read the weather response."
+msgstr "Impossible de lire la réponse du service météo."
+
+#: src/lib/elements_request.c:78
+msgid "The weather service returned no usable forecast."
+msgstr "Le service météo n’a retourné aucune prévision exploitable."
+
+#: src/lib/elements_request.c:83
+#, c-format
+msgid "The weather service returned HTTP %d."
+msgstr "Le service météo a renvoyé HTTP %d."
+
+#: src/lib/elements_request.c:85
+#, c-format
+msgid "Could not reach the weather service."
+msgstr "Impossible de joindre le service météo."
+
+#: src/lib/elements_settings.c:245 src/lib/elements_ui.c:729
+msgid "Settings"
+msgstr "Paramètres"
+
+#: src/lib/elements_settings.c:252
+msgid "Theme"
+msgstr "Thème"
+
+#: src/lib/elements_settings.c:259
+msgid "Temperature"
+msgstr "Température"
+
+#: src/lib/elements_settings.c:261
+msgid "Celsius (°C)"
+msgstr "Celsius (°C)"
+
+#: src/lib/elements_settings.c:262
+msgid "Fahrenheit (°F)"
+msgstr "Fahrenheit (°F)"
+
+#: src/lib/elements_settings.c:267
+msgid "Animate current weather"
+msgstr "Animer les conditions actuelles"
+
+#: src/lib/elements_settings.c:279
+msgid "About"
+msgstr "À propos"
+
+#: src/lib/elements_settings.c:284
+msgid "Done"
+msgstr "Terminé"
+
+#: src/lib/elements_theme.c:152
+msgid "Default"
+msgstr "Par défaut"
+
+#: src/lib/elements_theme.c:153
+msgid "Midnight"
+msgstr "Minuit"
+
+#: src/lib/elements_theme.c:154
+msgid "Brushed Aluminium"
+msgstr "Aluminium brossé"
+
+#: src/lib/elements_theme.c:155
+msgid "Graphite"
+msgstr "Graphite"
+
+#: src/lib/elements_ui.c:72
+msgid "City, region, country, or coordinates"
+msgstr "Ville, région, pays ou coordonnées"
+
+#: src/lib/elements_ui.c:76
+msgid "Conditions unavailable"
+msgstr "Conditions indisponibles"
+
+#: src/lib/elements_ui.c:77
+msgid "Sunny"
+msgstr "Ensoleillé"
+
+#: src/lib/elements_ui.c:78
+msgid "Partly cloudy"
+msgstr "Partiellement nuageux"
+
+#: src/lib/elements_ui.c:79
+msgid "Cloudy"
+msgstr "Nuageux"
+
+#: src/lib/elements_ui.c:80
+msgid "Fog"
+msgstr "Brouillard"
+
+#: src/lib/elements_ui.c:81
+msgid "Rain"
+msgstr "Pluie"
+
+#: src/lib/elements_ui.c:82
+msgid "Sleet"
+msgstr "Grésil"
+
+#: src/lib/elements_ui.c:83
+msgid "Snow"
+msgstr "Neige"
+
+#: src/lib/elements_ui.c:84
+msgid "Thunderstorms"
+msgstr "Orages"
+
+#: src/lib/elements_ui.c:90
+msgid "Clear night"
+msgstr "Nuit claire"
+
+#: src/lib/elements_ui.c:230
+#, c-format
+msgid "Low %s  ·  High %s"
+msgstr "Mini %s  ·  Maxi %s"
+
+#: src/lib/elements_ui.c:247
+msgid "Based on the available forecast samples for today"
+msgstr "D’après les valeurs de prévision disponibles pour aujourd’hui"
+
+#: src/lib/elements_ui.c:296
+msgid "Forecast at %H:%M %Z"
+msgstr "Prévisions à %H:%M %Z"
+
+#: src/lib/elements_ui.c:322
+#, c-format
+msgid "Humidity  %s     ·     Wind  %s     ·     Pressure  %s"
+msgstr "Humidité  %s     ·     Vent  %s     ·     Pression  %s"
+
+#: src/lib/elements_ui.c:329
+msgid "No hourly forecast available"
+msgstr "Aucune prévision horaire disponible"
+
+#: src/lib/elements_ui.c:334
+msgid "No outlook available"
+msgstr "Aucune prévision disponible"
+
+#: src/lib/elements_ui.c:414
+msgid "Could not save this location."
+msgstr "Impossible d’enregistrer ce lieu."
+
+#: src/lib/elements_ui.c:429
+msgid "Could not start the weather request."
+msgstr "Impossible de lancer la requête météo."
+
+#: src/lib/elements_ui.c:552
+msgid "No matching places"
+msgstr "Aucun lieu correspondant"
+
+#: src/lib/elements_ui.c:679
+msgid "Could not load this theme"
+msgstr "Impossible de charger ce thème"
+
+#: src/lib/elements_ui.c:685
+msgid "Could not save the settings"
+msgstr "Impossible d’enregistrer les paramètres"
+
+#: src/lib/elements_ui.c:742
+msgid "Find place"
+msgstr "Rechercher un lieu"
+
+#: src/lib/elements_ui.c:744
+msgid "Refresh forecast"
+msgstr "Actualiser les prévisions"
+
+#: src/lib/elements_ui.c:779
+msgid "Next 24 hours"
+msgstr "Les 24 prochaines heures"
+
+#: src/lib/elements_ui.c:782
+msgid "Daily outlook"
+msgstr "Prévisions par jour"
+
+#: src/lib/elements_window.c:117
+msgid "Minimize"
+msgstr "Minimiser"
+
+#: src/lib/elements_window.c:118
+msgid "Maximize or restore"
+msgstr "Maximiser ou restaurer"
+
+#: src/lib/elements_window.c:119
+msgid "Close"
+msgstr "Fermer"
+
+#~ msgid "Fetching forecast…"
+#~ msgstr "Chargement des prévisions…"
